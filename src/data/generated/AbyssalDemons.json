@@ -1,0 +1,1619 @@
+{
+  "id": "AbyssalDemons",
+  "name": "Abyssal Demons",
+  "sourceFile": "AbyssalDemons.cat",
+  "units": [
+    {
+      "id": "abyssalVipers",
+      "name": "Abyssal Vipers",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "f8d6874f05e35ac4ea5c00bdd9087fb9",
+        "name": "Abyssal Vipers",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 14,
+        "pointsPerModel": 12
+      },
+      "stats": {
+        "skill": "5",
+        "power": "4",
+        "defense": "3",
+        "attacks": "2",
+        "wounds": "1",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfTrickery",
+          "name": "Gift Of Trickery",
+          "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "db84b773b8952e64382f10552b242e88",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "516f61498d93b8748a45c89b39ecdd8b",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "0ba720e7d062be04da464e681ba0c4c4",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "2ac55631fa9eb3a429f302456e0e32d3",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "b09b35767ffe87b4eb60649a3af0a4cd",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "61ca31f5f0ee75944a6fa6c13f09ccf0",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "7db498f0f9f1486419a4972af4cddc89",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "devilSpawnDemons",
+      "name": "Devilspawn",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "21ca20d41bdc89f428f08dc98846d070",
+        "name": "Devilspawn",
+        "defaultCount": 6,
+        "minCount": 5,
+        "maxCount": 14,
+        "pointsPerModel": 13
+      },
+      "stats": {
+        "skill": "4",
+        "power": "4",
+        "defense": "4",
+        "attacks": "2",
+        "wounds": "1",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "greatweapon",
+          "name": "Greatweapon",
+          "text": "+1 Power. Charge Bonus: +1 Power."
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfWar",
+          "name": "Gift Of War",
+          "text": "Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat)."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "bd0b9bbe56eeb764cb082ce5bacd6516",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "54a9b642897d2b243959b7446b1ecd27",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "8909258e387bbb9429301b3e02ce110a",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "9ab2d252da102c34d8bb104fa6872732",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "075b84d2e0b1c8e4985e9737029ade06",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "868f0be5262fab04cbe9e23a5c689a62",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "057c3468debecdc4f8169259491796e1",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "plagueWalkers",
+      "name": "Plague Walkers",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "160a50c643866bf4c9327a425f4533c4",
+        "name": "Plague Walkers",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 20,
+        "pointsPerModel": 9
+      },
+      "stats": {
+        "skill": "2",
+        "power": "3",
+        "defense": "4",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfDecay",
+          "name": "Gift Of Decay",
+          "text": "Favoured by Decay. +1 Wounds. -1 Move Speed."
+        },
+        {
+          "id": "plague",
+          "name": "Plague",
+          "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "2a7b90eae2378b440968386947558ed4",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "ea0687ff7b46d41499ba283264c939ad",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "5b53b2b90cbff214d8b1eb3cbe72f501",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "be86f8e0a77e44e438abb8e74a227341",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "78dce17b6c529874398e8dbbeb7a279c",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "b66142ca865c5224dbe9b4043a68a3e3",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "de45fccd2aa978c418254554845b7cfb",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "plaguelings",
+      "name": "Plaguelings",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "b7bfe283fd326d041a7c705bb747ba2e",
+        "name": "Plaguelings",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 3,
+        "pointsPerModel": 27
+      },
+      "stats": {
+        "skill": "2",
+        "power": "2",
+        "defense": "3",
+        "attacks": "5",
+        "wounds": "5",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "40x40",
+        "modelType": "Swarm"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfDecay",
+          "name": "Gift Of Decay",
+          "text": "Favoured by Decay. +1 Wounds. -1 Move Speed."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "fireDevils",
+      "name": "Fire Devils",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "e8727f5507c8ba5488e37562691ee05a",
+        "name": "Fire Devils",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 5,
+        "pointsPerModel": 15
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "2",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "demonFlamer",
+          "name": "Flamer",
+          "text": "Range 12. D3 Power 4."
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "phaseOut",
+          "name": "Phase Out",
+          "text": "Activate for +4 Movement and Flying for one turn."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "26830b9f706e9ff4ca1996ec3e420bd5",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "147328bf0bb186c4a9742677491aaabc",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "fff2c453f95ed8044915ddab9a77b7dd",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "03b842a29b8844643a4c0d6bd0353bd7",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "5ee199c4ab178b5489c4bdf747fa4509",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "7d14bc215019df24f9c93b6891660268",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "c1b802e141dbf994d82de39873ab0792",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "plagueFlies",
+      "name": "Plague Flies",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "979cc271f6a8d76468837b24546ebd2c",
+        "name": "Plague Flies",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 3,
+        "pointsPerModel": 22
+      },
+      "stats": {
+        "skill": "2",
+        "power": "3",
+        "defense": "3",
+        "attacks": "2",
+        "wounds": "3",
+        "discipline": "10",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        },
+        {
+          "id": "giftOfDecay",
+          "name": "Gift Of Decay",
+          "text": "Favoured by Decay. +1 Wounds. -1 Move Speed."
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "abyssalReapers",
+      "name": "Abyssal Reapers",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "c69453438ea0cba488bb08878af25f03",
+        "name": "Abyssal Reapers",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 26
+      },
+      "stats": {
+        "skill": "5",
+        "power": "4",
+        "defense": "3",
+        "attacks": "3",
+        "wounds": "2",
+        "discipline": "10",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "giftOfTrickery",
+          "name": "Gift Of Trickery",
+          "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "ea1e5cd440ff0fc4d88579e1c73aa91e",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "89dde7cb986753847ace48978623aff1",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "63c984e02cae0f147a4950b3f9126cc7",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "f51980b0ef7be634ba31218230fed4a7",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "8c3608f9df05e1c419a61c919ccb8aec",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "5884b7310a77eb647a8f8d41da6d5624",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "dea8520f429c7d246bd76f9e93ff662d",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "demonicHounds",
+      "name": "Demonic Hounds",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "74d6c3e3ba3b171488c0e4de757b0b49",
+        "name": "Demonic Hounds",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 8
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "12",
+        "baseSize": "20x40",
+        "modelType": "Hounds"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "hellRiders",
+      "name": "Hell Riders",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "b40568cafebb5014cbafa5ca27ef31c7",
+        "name": "Hell Riders",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 28
+      },
+      "stats": {
+        "skill": "4",
+        "power": "4",
+        "defense": "4",
+        "attacks": "3",
+        "wounds": "2",
+        "discipline": "10",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "greatweapon",
+          "name": "Greatweapon",
+          "text": "+1 Power. Charge Bonus: +1 Power."
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfWar",
+          "name": "Gift Of War",
+          "text": "Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat)."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "a0d39bdd91cd3064097629ead42e3e8a",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "e419a6c7e688b0141bde0f77a16f14a3",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "b4951f6b89e0fe341802dc14e1a1c757",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "8458231507dd3f9409415d77d24a9133",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "9fc9a17c7ffd5c349ae6439a2f25fddb",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "b73993001f7ba4c45acd67e8a740dad4",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "47a52350cfcaeaa41b6f572364e0724b",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "plagueHulk",
+      "name": "Plague Hulk",
+      "categories": [
+        "Abyssal Terrors"
+      ],
+      "model": {
+        "id": "c0c1095866e9ef14da279d750d346376",
+        "name": "Plague Hulk",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 110
+      },
+      "stats": {
+        "skill": "3",
+        "power": "5",
+        "defense": "5",
+        "attacks": "5",
+        "wounds": "8",
+        "discipline": "10",
+        "movement": "12",
+        "baseSize": "50x50",
+        "modelType": "LargeMonster"
+      },
+      "rules": [
+        {
+          "id": "greatweapon",
+          "name": "Greatweapon",
+          "text": "+1 Power. Charge Bonus: +1 Power."
+        },
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfDecay",
+          "name": "Gift Of Decay",
+          "text": "Favoured by Decay. +1 Wounds. -1 Move Speed."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "a20864db1d9a70c4788b39a1a4162ee0",
+          "name": "Spells",
+          "min": 1,
+          "max": 0,
+          "defaultOptionId": "plague",
+          "options": [
+            {
+              "id": "0138cfc0e050ed544a8750efe40de9a6",
+              "name": "Plague",
+              "targetId": "plague",
+              "rule": {
+                "id": "plague",
+                "name": "Plague",
+                "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
+              }
+            },
+            {
+              "id": "9986a25e169fd9d41985e89e502f061d",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "fe62a3a16a2597c4b9b2a523e617db8d",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "archDevilDemons",
+      "name": "Archdevil",
+      "categories": [
+        "Abyssal Terrors"
+      ],
+      "model": {
+        "id": "50dbeb5f1ef0bc046ba26571decebf25",
+        "name": "Archdevil",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 150
+      },
+      "stats": {
+        "skill": "5",
+        "power": "5",
+        "defense": "5",
+        "attacks": "6",
+        "wounds": "6",
+        "discipline": "10",
+        "movement": "12",
+        "baseSize": "50x50",
+        "modelType": "LargeMonster"
+      },
+      "rules": [
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "giftOfWar",
+          "name": "Gift Of War",
+          "text": "Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat)."
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "77892400266ce9f4ba99dc6445f86752",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "greatweapon",
+          "options": [
+            {
+              "id": "1044c6e7410e9324dbc3fdcf6190a188",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "0fbc94a90740a0541b5906af09788ec8",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "abyssalPrince",
+      "name": "Abyssal Prince",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "01e20d55c070c2a42b07c31d95602cf7",
+        "name": "Abyssal Prince",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 150
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "c564ca22404adf64fb1cc1eb203aaeeb",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "shadowBolt",
+          "options": [
+            {
+              "id": "86d744353fd47014599549a34c13410c",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "bb8564fc11ab260419cef4a2f8966230",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "7b0d8403eb6e2fa44a33ea50ef913414",
+              "name": "Frost Ward",
+              "targetId": "frostWard",
+              "rule": {
+                "id": "frostWard",
+                "name": "Frost Ward",
+                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
+              }
+            },
+            {
+              "id": "8a77d6cf68d6ce849a8e4ad475b769b1",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            },
+            {
+              "id": "4566cae424a6b044cb9b701757d6b36f",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            },
+            {
+              "id": "3c465560f5378484e9bc179c2b96100d",
+              "name": "Plague",
+              "targetId": "plague",
+              "rule": {
+                "id": "plague",
+                "name": "Plague",
+                "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
+              }
+            },
+            {
+              "id": "83b1b0542b81b8042920eb67e7cb0974",
+              "name": "Blood Frenzy",
+              "targetId": "bloodFrenzy",
+              "rule": {
+                "id": "bloodFrenzy",
+                "name": "Blood Frenzy",
+                "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "087825effb5b47d458516b55afc6ee43",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "0729faa05bef22f4f9e02ac2e1f318fd",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "974556efe035d814a89ae2d80259c5d2",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "4f22bf415bc56ee47ac4cdcf3865a0e9",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "57c1f35b48071bb4fbf838c895aa5e72",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "4db391894b889b140912d8d6f72f448d",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "ad2a90378f9826147a28f6cee103eb63",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "01ab27e0fde17a7428dd6afb3f89014f",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "4afdd0ca96bfde64884ed804a239a5e9",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "09c9481b5d4cf184ba58e2ced2e594eb",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "97b7fd20064918245b512603f5ace9de",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "fb438da80eb4b194583c9489a585e41b",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "bf1b49ac3bf9065479746d7234e8c385",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        },
+        {
+          "id": "d784f6ef6e8692344866f4b05abcba33",
+          "name": "Ranged Attack",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "lordOfDecay",
+          "options": [
+            {
+              "id": "3fc2500578d69a6489ee1870d14d5c0b",
+              "name": "Lord of Decay",
+              "targetId": "lordOfDecay",
+              "rule": {
+                "id": "lordOfDecay",
+                "name": "Lord of Decay",
+                "text": "Once per battle, all friendly units with Gift of Decay re-roll failed damage saves."
+              }
+            },
+            {
+              "id": "b11f58d37880efa4cab246518cf0a8c9",
+              "name": "Lord of Trickery",
+              "targetId": "lordOfTrickery",
+              "rule": {
+                "id": "lordOfTrickery",
+                "name": "Lord of Trickery",
+                "text": "Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn."
+              }
+            },
+            {
+              "id": "7c447261571006c42b69511ba5cefb53",
+              "name": "Lord Of War",
+              "targetId": "lordOfWar",
+              "rule": {
+                "id": "lordOfWar",
+                "name": "Lord Of War",
+                "text": "Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused)."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Abyssal Prince has incomplete statline"
+      ]
+    },
+    {
+      "id": "abyssalHerald",
+      "name": "Abyssal Herald",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "88a0ed12ca445db4b977fdaf6002d75e",
+        "name": "Abyssal Herald",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "demonic",
+          "name": "Demonic",
+          "text": "Never fails Discipline tests, loses D3 wounds on lost combat."
+        },
+        {
+          "id": "abyssalArmor",
+          "name": "Abyssal Armor",
+          "text": "+1 to Damage Saves"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "535b621ae54489e44b4e269798fdefb7",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "167be7fbdde1a924a90eef3caa9a8f73",
+              "name": "Devil Spawn",
+              "targetId": "devilSpawnDemons",
+              "rule": {
+                "id": "devilSpawnDemons",
+                "name": "Devil Spawn"
+              }
+            },
+            {
+              "id": "94b44237d62ec634a94884e59f06b1dd",
+              "name": "Plague Walkers",
+              "targetId": "plagueWalkers",
+              "rule": {
+                "id": "plagueWalkers",
+                "name": "Plague Walkers"
+              }
+            },
+            {
+              "id": "3af90609dda40c444a6b33e161d47972",
+              "name": "Abyssal Reapers",
+              "targetId": "abyssalReapers",
+              "rule": {
+                "id": "abyssalReapers",
+                "name": "Abyssal Reapers"
+              }
+            },
+            {
+              "id": "c5ff65b46b76e4b41a29dea5070a867a",
+              "name": "Plague Flies",
+              "targetId": "plagueFlies",
+              "rule": {
+                "id": "plagueFlies",
+                "name": "Plague Flies"
+              }
+            },
+            {
+              "id": "ebccdfc4e6d4ff148867ad1598ce95a4",
+              "name": "Hell Riders",
+              "targetId": "hellRiders",
+              "rule": {
+                "id": "hellRiders",
+                "name": "Hell Riders"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2a5b8e4f7c1562d49bcf5baa7159d089",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "17633fd59c9901448870fe8fc887557c",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "089216a2fda67814abd166e21e3d5297",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "points": 5,
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "82b34a0b1fef56e4b9c0510c18e3bff2",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "points": 5,
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            }
+          ]
+        },
+        {
+          "id": "38410c6053dde08448997b0fb4268b74",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "f9753bfe101d38049a6a7afce6860724",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "93569b87d5d526942b5d7953195be161",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "6d2743fee468f2a46acf7a8d314ba3f9",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "3de6da9dd6a20ae4ba98cd3a9cc2b6c6",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "4ed57645556b671498f0a6a01276e47f",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "02dde6c71b5d238408e1e94989d49871",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "0077620255c24f04cb5cd87295906642",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "671b45aa929f1fa458162a80fefc2f17",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "1e88ffee741e4814594c5521bb1ae5e1",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "f0ee19302b345d545ac967f0c3491041",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "30ff57d46f09de94cb7cc571b9b4a52d",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "8366829e035b8324dbcaeb5c0415e7ec",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        },
+        {
+          "id": "d5ac4ea6b3ff0694ca7a7b5a80d924f4",
+          "name": "Ranged Attack",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "lordOfDecay",
+          "options": [
+            {
+              "id": "848e1019869211140984b197c36941e8",
+              "name": "Lord of Decay",
+              "targetId": "lordOfDecay",
+              "rule": {
+                "id": "lordOfDecay",
+                "name": "Lord of Decay",
+                "text": "Once per battle, all friendly units with Gift of Decay re-roll failed damage saves."
+              }
+            },
+            {
+              "id": "3b084b67644c858489e72dc783be062d",
+              "name": "Lord of Trickery",
+              "targetId": "lordOfTrickery",
+              "rule": {
+                "id": "lordOfTrickery",
+                "name": "Lord of Trickery",
+                "text": "Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn."
+              }
+            },
+            {
+              "id": "b96f5f13828f00443a87ac4a473d8013",
+              "name": "Lord Of War",
+              "targetId": "lordOfWar",
+              "rule": {
+                "id": "lordOfWar",
+                "name": "Lord Of War",
+                "text": "Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused)."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Abyssal Herald has incomplete statline"
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,2108 @@
+{
+  "id": "ElvenConclaves",
+  "name": "Elven Conclaves",
+  "sourceFile": "ElvenConclaves.cat",
+  "units": [
+    {
+      "id": "elfSpears",
+      "name": "Elf Spears",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "a6662fb911b0a9849943de545eb5e9d5",
+        "name": "Elf Spears",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 20,
+        "pointsPerModel": 8
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "spearshield",
+          "name": "Spear and Shield",
+          "text": "+1 Defense. Extra Rank supporting attacks when not charging."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "1088239664a86fa448f9ac9faaa9a9c4",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "c8241ec9fa7d200458a37dcae0fba34e",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "24f127457d8ead242aecede17c45d8a8",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "50d292a15fb3aa44f9b9f5e979076d4a",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "8c2083a6bbb5ef742babe953552f9852",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "1ade100519f2ec944b3faf17f49e23cd",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "48df003199adbc84c9ad0796ae511d94",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "cityGuard",
+      "name": "Elf City Guard",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "1f6d99f2fa74a2f4cb92bd03d82f33c1",
+        "name": "Elf City Guard",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 14,
+        "pointsPerModel": 11
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "spearshield",
+          "name": "Spear and Shield",
+          "text": "+1 Defense. Extra Rank supporting attacks when not charging."
+        },
+        {
+          "id": "longbow",
+          "name": "Longbows",
+          "text": "Range: 30. Power 3."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "5153e5ea29817be4f846654bd917470e",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "749c782b5dbe5d34381dfa0b56cda441",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "626919890286c534386ecf55ec81e328",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "e94378162a1e1164abb30ee905cdb5d4",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "fe35eada830d801439bf2636a08ab715",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "62e42a851521ac348820062da483cec4",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "d41753385c1ae464fae1e17d684c373f",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "weaponMasters",
+      "name": "Weapon Masters",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "0e14c3c61dc4a5d44a78109858c17fed",
+        "name": "Weapon Masters",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 17,
+        "pointsPerModel": 11
+      },
+      "stats": {
+        "skill": "5",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "9",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "heavyArmor",
+          "name": "Heavy Armor",
+          "text": "-1 Movement. +1 Defense"
+        },
+        {
+          "id": "elvenMastery",
+          "name": "Elven Mastery",
+          "text": "Re-roll missed Attack Rolls."
+        },
+        {
+          "id": "bodyguard",
+          "name": "Bodyguard",
+          "text": "If a Commander is part of this unit it re-rolls failed Discipline tests."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "c2279a612dfda8a49a008b42dac4d2a1",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "greatweapon",
+          "options": [
+            {
+              "id": "0b39a6edc95a10e45ab5acd462fe393e",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "f9fe4cf42475feb4a8743957cc4d1367",
+              "name": "Halberd",
+              "targetId": "halberd",
+              "rule": {
+                "id": "halberd",
+                "name": "Halberd",
+                "text": "Damage Saves against this weapon are never better than 4+."
+              }
+            }
+          ]
+        },
+        {
+          "id": "aaee3e530c177cf4cabcc77e35ff7fb0",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "e54397f08d20dd94c8e3364f64b51c69",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "e9e106b64724bfc4885f969d1936b2bc",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "58c26e3b3c5aaac41949889ca61b0b89",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "41b2bda2f1e20ad45a4244c5a3f3dcf2",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "5e442f0cd4ab40d4a9d4bd87200c4298",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "7a261c9c9b10c5844aa28a8ca6f76858",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "elfArchers",
+      "name": "Elf Archers",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "3980636fba9781442a5be9f3cb4f4aaa",
+        "name": "Elf Archers",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 14,
+        "pointsPerModel": 10
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "longbow",
+          "name": "Longbows",
+          "text": "Range: 30. Power 3."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "fdeaa41cb39eeee43801ac9b63d30824",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "bdcc1c0237b6b114b9e7315c25e68064",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "bf5bd7658953f8a4f9c63fb3244054b1",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "49b81c48ba228b04ab21a67fb4705fdf",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "9febf02131487404ebb21f2bc5ccb7dc",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "5a0cddf5bf09e8b4dbce35b3fdb23098",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "1d1563e575da8de46b4d6edbfb159638",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "elfWatchers",
+      "name": "Elf Watchers",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "b8e145a22dff1314eb86a6978e8f6386",
+        "name": "Elf Watchers",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 14,
+        "pointsPerModel": 13
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "9",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "2CCW",
+          "name": "Two Hand Weapons",
+          "text": "+1 Attack"
+        },
+        {
+          "id": "longbow",
+          "name": "Longbows",
+          "text": "Range: 30. Power 3."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "text": "Ignore movement penalties from Difficult Terrain"
+        },
+        {
+          "id": "ambusher",
+          "name": "Ambusher",
+          "text": "Unit can be deployed anywhere on its owners side of the table."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "9122f3d6ccc74714ebc67a480497d3ca",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "1649e3ef8ff82e14fac85d5174f44274",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "f67f4955f2638d04aa69cce1174f2023",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "a7480007bb544ad408e2147c19ca1918",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "42213ddeabb7e2144866768d3f804f1b",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "0c049c30674566d4ca5fa3dee3360aa5",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "7847cb1b425d1df4e91ffb93584f4b7d",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "elfBoltThrower",
+      "name": "Elf Bolt Thrower",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "769292515927efa4f8de1097587f4bd2",
+        "name": "Elf Bolt Thrower",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 60
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "4",
+        "attacks": "2",
+        "wounds": "5",
+        "discipline": "8",
+        "movement": "0",
+        "baseSize": "50x50",
+        "modelType": "WarMachine"
+      },
+      "rules": [
+        {
+          "id": "boltThrower",
+          "name": "Bolt Thrower",
+          "text": "Range 48. 3x Power 6."
+        },
+        {
+          "id": "lethalShots",
+          "name": "Lethal Shots",
+          "text": "This units ranged attack deals 2x wounds against multiwound targets."
+        },
+        {
+          "id": "protectedCrew",
+          "name": "Crewed Weapon",
+          "text": "Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge."
+        },
+        {
+          "id": "reposition",
+          "name": "Reposition",
+          "text": "+6 Movement this turn."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "elfLancers",
+      "name": "Elf Lancers",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "8d1a5210c492a274eae1cf1fc4b27878",
+        "name": "Elf Lancers",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 21
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "2",
+        "wounds": "2",
+        "discipline": "8",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "lanceShield",
+          "name": "Lance and Shield",
+          "text": "+1 Defense. Charge Bonus: +2 Power"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "heavyArmor",
+          "name": "Heavy Armor",
+          "text": "-1 Movement. +1 Defense"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "3e6f0bcee1d1a50438523b74b82d7b90",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "e3896acacf1662c49acd98f62d7aba6c",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "b8d74135b071cff4dae0beafa91f5d17",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "65ff826acecd7204687dbc37bd035ec0",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "d475318443e5b47468f4f1ca7728d1a5",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "14af72cfee0cded4ebfef70387631365",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "a56b8833e3012f5438e4d0d820c66923",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "elfReavers",
+      "name": "Elf Reavers",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "92a03f2cd43d36b4aad17b1ba7710d2e",
+        "name": "Elf Reavers",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 17
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "2",
+        "wounds": "2",
+        "discipline": "8",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "ccw",
+          "name": "Hand Weapon",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "shortbow",
+          "name": "Shortbows",
+          "text": "Range: 20. Power 3."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "5cb09c3bafd59a144983d7cf8353fa04",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "8d04baadcc4548547b7cb882d84cde0a",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "3c72e569128899a43b06fc88c3478174",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "c6cf63e6f370b3749ad3044f96c6c20d",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "5954d78a020826a4188ae52c47a54649",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "0789bf99d0a597e49b1ddcf233771dd0",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "e4fd184b8e0be5c4ebf021f074eef60f",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "elfChariot",
+      "name": "Elf Chariot",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "33710acd9fbe47b4693ea727cddc4328",
+        "name": "Elf Chariot",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "5",
+        "attacks": "3",
+        "wounds": "5",
+        "discipline": "8",
+        "movement": "16",
+        "baseSize": "50x100",
+        "modelType": "Chariot"
+      },
+      "rules": [
+        {
+          "id": "ccw",
+          "name": "Hand Weapon",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "chariotBows",
+          "name": "Bows",
+          "text": "Range: 20. 2x Power 3."
+        },
+        {
+          "id": "crushingCharge",
+          "name": "Crushing Charge",
+          "text": "Charge Bonus: +2 Power +2 Attacks"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "giantEagle",
+      "name": "Giant Eagle",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "40e59a53eeb3be04881ca74a1ad38182",
+        "name": "Giant Eagle",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {
+        "skill": "4",
+        "power": "4",
+        "defense": "4",
+        "attacks": "3",
+        "wounds": "4",
+        "discipline": "9",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "dragonKnights",
+      "name": "Dragon Knights",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "94076cf247979aa4a99113e1bff9f726",
+        "name": "Dragon Knights",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 4,
+        "pointsPerModel": 25
+      },
+      "stats": {
+        "skill": "5",
+        "power": "4",
+        "defense": "3",
+        "attacks": "2",
+        "wounds": "2",
+        "discipline": "9",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "heavyArmor",
+          "name": "Heavy Armor",
+          "text": "-1 Movement. +1 Defense"
+        },
+        {
+          "id": "elvenMastery",
+          "name": "Elven Mastery",
+          "text": "Re-roll missed Attack Rolls."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "7d1c7cb4328e60d4c914ad3b47c1477e",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "c963c18ddc3d3334eaf7c5e3e61398ad",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "bdd4fa14a3bda4a46967eefed6650641",
+              "name": "Lance and Shield",
+              "targetId": "lanceShield",
+              "points": 2,
+              "rule": {
+                "id": "lanceShield",
+                "name": "Lance and Shield",
+                "text": "+1 Defense. Charge Bonus: +2 Power"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fb6b03eb129755f4fb24623cabcaa591",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "e80ff17e8f5077245863be4857d679f3",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "56868926e16858942ae135eca952c664",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "17502b9602fb9e944b3d2f320b487404",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "27676b59656aad2418b0bb06af32f97e",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "a99c2f86d8805ec4585207d9948441fe",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "e0451cec1d4847946a20dd9929f6d6e5",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ancientDragon",
+      "name": "Ancient Dragon",
+      "categories": [
+        "Mounts"
+      ],
+      "model": {
+        "id": "6f7c25f37aeed89409c4b0693af98d3e",
+        "name": "Ancient Dragon",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 150
+      },
+      "stats": {
+        "skill": "5",
+        "power": "6",
+        "defense": "5",
+        "attacks": "5",
+        "wounds": "7",
+        "discipline": "9",
+        "movement": "12",
+        "baseSize": "50x50",
+        "modelType": "LargeMonster"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fireBreath",
+          "name": "Fire Breath",
+          "text": "Range 12. 2D3 Power 5."
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "gryphonElf",
+      "name": "Gryphon",
+      "categories": [
+        "Mounts"
+      ],
+      "model": {
+        "id": "7664050b02d6a15449784f338e6a14a5",
+        "name": "Gryphon",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {
+        "skill": "4",
+        "power": "5",
+        "defense": "5",
+        "attacks": "3",
+        "wounds": "5",
+        "discipline": "8",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "elfNoble",
+      "name": "Elf Noble",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "8e370a1253e9cff41a9fb27bea349378",
+        "name": "Elf Noble",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 50
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "elvenMastery",
+          "name": "Elven Mastery",
+          "text": "Re-roll missed Attack Rolls."
+        },
+        {
+          "id": "rallyingCry",
+          "name": "Rallying Cry",
+          "text": "Rally a fleeing unit. One use per battle."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "32193537f6335f54d9ef84ad6b2c75b7",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "198c4ea7519ffb141b246c3415ea60c5",
+              "name": "Elf Spears",
+              "targetId": "elfSpears",
+              "rule": {
+                "id": "elfSpears",
+                "name": "Elf Spears"
+              }
+            },
+            {
+              "id": "2118c2f1e44e6c84090ab06bccf7eaa0",
+              "name": "Elf Lancers",
+              "targetId": "elfLancers",
+              "rule": {
+                "id": "elfLancers",
+                "name": "Elf Lancers"
+              }
+            },
+            {
+              "id": "bc53153e02524d54c86b3dfb2dca647f",
+              "name": "Elf Reavers",
+              "targetId": "elfReavers",
+              "rule": {
+                "id": "elfReavers",
+                "name": "Elf Reavers"
+              }
+            },
+            {
+              "id": "dcb261254cca48f449132dea427f3566",
+              "name": "Elf Chariot",
+              "targetId": "elfChariot",
+              "rule": {
+                "id": "elfChariot",
+                "name": "Elf Chariot"
+              }
+            },
+            {
+              "id": "1ba6726d1f4b4854d8adb4633b53ac6f",
+              "name": "Gryphon",
+              "targetId": "gryphonElf",
+              "rule": {
+                "id": "gryphonElf",
+                "name": "Gryphon"
+              }
+            },
+            {
+              "id": "7e5eb1c09bf28774ebf1ef875a2bd0f0",
+              "name": "Ancient Dragon",
+              "targetId": "ancientDragon",
+              "rule": {
+                "id": "ancientDragon",
+                "name": "Ancient Dragon"
+              }
+            }
+          ]
+        },
+        {
+          "id": "16ad68a183a1daa4f9a8b0ba177af304",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "6c64e8e25aff5714d876ee4e1bad731f",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "d4a88c6aa0c22ef48940023130abe25f",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "points": 5,
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "2b74964f5d54cbf44ade2a778131b5ff",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "points": 5,
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4c17546df028318478a9b38a231e162a",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "aaa31c5bfa6b8cd4db836440419fe3ba",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "04f1464e6269fdc449faf992739dc3b7",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "54aa005372471ef46814e1216629ec76",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "fc258c4ca64b4e848a7e822200765924",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "035ef76a0a8d09e41aed1b0c31fd8834",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "0e4d147091802dd47b6690881c029313",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "4f17c7e8fc7429443a247c00fb9266f3",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "6f92f6b3143ebb043809711ce0a88c9a",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "eb0824a55630cfa429cd86b855490f21",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "356203d38eb8097409946496b1fa0474",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "33a7008c0c541724293d956de30cb1f2",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "3e21b3b3d38c5384491fec7eb01fc8d1",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Elf Noble has incomplete statline"
+      ]
+    },
+    {
+      "id": "elfMage",
+      "name": "Elf Mage",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "3eb9400f4901f5640b2f0af443455031",
+        "name": "Elf Mage",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 60
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "1d0d41657eacd854d877b9dfa0885d33",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "55d69031458dfeb46ba1bc03e374fa71",
+              "name": "Elf Archers",
+              "targetId": "elfArchers",
+              "rule": {
+                "id": "elfArchers",
+                "name": "Elf Archers"
+              }
+            },
+            {
+              "id": "d8c3d38a0a694be40a87d1af5cba5939",
+              "name": "Elf City Guard",
+              "targetId": "cityGuard",
+              "rule": {
+                "id": "cityGuard",
+                "name": "Elf City Guard"
+              }
+            },
+            {
+              "id": "3ad6c7739b660ee4db8cb0c049b673aa",
+              "name": "Weapon Masters",
+              "targetId": "weaponMasters",
+              "rule": {
+                "id": "weaponMasters",
+                "name": "Weapon Masters"
+              }
+            },
+            {
+              "id": "ae3210ecd68c09845bb34a32ee707a66",
+              "name": "Elf Chariot",
+              "targetId": "elfChariot",
+              "rule": {
+                "id": "elfChariot",
+                "name": "Elf Chariot"
+              }
+            },
+            {
+              "id": "42dd9ef5af2339e44aa95d7766a35f2d",
+              "name": "Elf Reavers",
+              "targetId": "elfReavers",
+              "rule": {
+                "id": "elfReavers",
+                "name": "Elf Reavers"
+              }
+            },
+            {
+              "id": "91768decba315124cb1e06833ae34c5d",
+              "name": "Gryphon",
+              "targetId": "gryphonElf",
+              "rule": {
+                "id": "gryphonElf",
+                "name": "Gryphon"
+              }
+            },
+            {
+              "id": "8ec4c127f73b62c4e8d36eeda3e710ce",
+              "name": "Ancient Dragon",
+              "targetId": "ancientDragon",
+              "rule": {
+                "id": "ancientDragon",
+                "name": "Ancient Dragon"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e6d84c32e24d1149a6d96c29782299e",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "428819f3e4799654a92374b9e3265ee3",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "221ea63bbfea9a846aac3fd3474e709d",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "827d5211c19526b4f986d0edf7a605c4",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "52622eeaa4599d249adc1a08b561d8b0",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "9751829f5e04f3d41b43c0c55fabc817",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "54d7ef3c1cf2bc3499188448c5cd3d40",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "0c0d4120c6c2e6943bda1e62d3617760",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "divineFavour",
+          "options": [
+            {
+              "id": "cdbef34e28d1547469ebe0e6db78c5d7",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "a5ed0387125103545ae2c4b22cdb63bd",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "e7996a0653b44784d8922a9d5c2e930d",
+              "name": "Fireball",
+              "targetId": "fireball",
+              "rule": {
+                "id": "fireball",
+                "name": "Fireball",
+                "text": "D6 Power 5 hits. Range 30."
+              }
+            },
+            {
+              "id": "dc225f167c907d94297ed56c06d27bbf",
+              "name": "Radiant Shield",
+              "targetId": "radiantShield",
+              "rule": {
+                "id": "radiantShield",
+                "name": "Radiant Shield",
+                "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "2addbcec4868d55459aefbb98debf450",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "6404c4e507b751b4a8500d4990905ae9",
+              "name": "Frost Ward",
+              "targetId": "frostWard",
+              "rule": {
+                "id": "frostWard",
+                "name": "Frost Ward",
+                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
+              }
+            },
+            {
+              "id": "118e6149bd9e2fc43a6b9dec97332f86",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
+              "rule": {
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Elf Mage has incomplete statline"
+      ]
+    },
+    {
+      "id": "elfSpellsword",
+      "name": "Elf Spellsword",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "c8dff95a3e1db6446af5087a3e18255f",
+        "name": "Elf Spellsword",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 50
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "elvenMastery",
+          "name": "Elven Mastery",
+          "text": "Re-roll missed Attack Rolls."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "d8661499fa2613f4c9a84d0339ff4666",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "3777b8318619e3641b7f8f56b9950edf",
+              "name": "Weapon Masters",
+              "targetId": "weaponMasters",
+              "rule": {
+                "id": "weaponMasters",
+                "name": "Weapon Masters"
+              }
+            },
+            {
+              "id": "fa9a009187f885b40b6d058af02102a2",
+              "name": "Elf Spears",
+              "targetId": "elfSpears",
+              "rule": {
+                "id": "elfSpears",
+                "name": "Elf Spears"
+              }
+            },
+            {
+              "id": "2c851b2af48404543a3767ca66e8420e",
+              "name": "Elf Lancers",
+              "targetId": "elfLancers",
+              "rule": {
+                "id": "elfLancers",
+                "name": "Elf Lancers"
+              }
+            },
+            {
+              "id": "443c8ac56d3d98f4b9c3bc48e4b9f589",
+              "name": "Elf Reavers",
+              "targetId": "elfReavers",
+              "rule": {
+                "id": "elfReavers",
+                "name": "Elf Reavers"
+              }
+            },
+            {
+              "id": "f899301ab4ed5db4e882ffa6f164c0f7",
+              "name": "Elf Chariot",
+              "targetId": "elfChariot",
+              "rule": {
+                "id": "elfChariot",
+                "name": "Elf Chariot"
+              }
+            },
+            {
+              "id": "22c59a9ff6596ee4bb201b3c094cb1d4",
+              "name": "Gryphon",
+              "targetId": "gryphonElf",
+              "rule": {
+                "id": "gryphonElf",
+                "name": "Gryphon"
+              }
+            },
+            {
+              "id": "52a6e2e0b92b8c7448b1f746ca48e576",
+              "name": "Ancient Dragon",
+              "targetId": "ancientDragon",
+              "rule": {
+                "id": "ancientDragon",
+                "name": "Ancient Dragon"
+              }
+            }
+          ]
+        },
+        {
+          "id": "06c4b7af7bca09d4d93fd6e8986bd965",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "1f5d7bb79b51e1e43b096daef06b4a53",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "94af88e530fedef4c8db37cdcd7dcbbd",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "points": 5,
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "8c6c11d8b36cacd49989517bb7a1859f",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "points": 5,
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            }
+          ]
+        },
+        {
+          "id": "11d776162858fbc4aa0d3f748682212f",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "92419ac69543fc54694e63e2c1e294a3",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "d304850862d4a614c9e8543daaf090b8",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "e2bf4178874407b43907de01da3d9d92",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "d400f00e586bb9245b237731df3892ed",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "0a12d18fa81bc3c4ca87c4fe57ec6816",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "cb1417773aa5aa148ab53731718a747c",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "097eb182fb0e2c14caff3f8a31553719",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "384a59f90693e58409c4371ea7800a7e",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "26a65b6566a838c4b977c9d47006213b",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "e12626c9904c6cd478acde45c7fc6825",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "2307299b47bf42b4e95ba78e259b84f6",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "405dcac8191e14a4fb774191b93d54a5",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        },
+        {
+          "id": "748a63b472e026a46ba7ef2b5b4174c4",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "fieryBlades",
+          "options": [
+            {
+              "id": "0f715cce7d950254aa5b02a62d66cee3",
+              "name": "Fiery Blades",
+              "targetId": "fieryBlades",
+              "rule": {
+                "id": "fieryBlades",
+                "name": "Fiery Blades",
+                "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
+              }
+            },
+            {
+              "id": "a998ab11c27f39345bb18e6380f6610f",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "cc51507c09a3ca945ac4f1426b501d97",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Elf Spellsword has incomplete statline"
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1398 @@
+{
+  "id": "RatkinClans",
+  "name": "Ratkin Clans",
+  "sourceFile": "RatkinClans.cat",
+  "units": [
+    {
+      "id": "ratkinLegionaries",
+      "name": "Ratkin Legionaries",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "d5d27f34b9a83504d9ce9e43c9e53b4f",
+        "name": "Ratkin Legionaries",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 20,
+        "pointsPerModel": 8
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "7",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "halberd",
+          "name": "Halberd",
+          "text": "Damage Saves against this weapon are never better than 4+."
+        },
+        {
+          "id": "heavyArmor",
+          "name": "Heavy Armor",
+          "text": "-1 Movement. +1 Defense"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "423e4930e5a349a4d9372b4ce265dc52",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "eaa2422dced163a45b8b0577c0bc9ebc",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "bdc3b8dd5c545b242ab5411400437ed9",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "f80cf3aa7f07c954bbc1d16b5e1cd397",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "d3782d1d01805984b8eae79fba2ae9f5",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "4c268afee6c11c040a4f3d3ee3432096",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "4c7ef51dfa45abd4c9aacf794d22ee47",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ratkinConscripts",
+      "name": "Ratkin Conscripts",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "57d4b68f58b759444aabf85ec66c41e2",
+        "name": "Ratkin Conscripts",
+        "defaultCount": 15,
+        "minCount": 14,
+        "maxCount": 24,
+        "pointsPerModel": 5
+      },
+      "stats": {
+        "skill": "3",
+        "power": "3",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "dcbab6d53a6ceec49b717eebf4867c03",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "spearshield",
+          "options": [
+            {
+              "id": "61a56be1b4d1473428028c1e20584fc3",
+              "name": "Spear and Shield",
+              "targetId": "spearshield",
+              "rule": {
+                "id": "spearshield",
+                "name": "Spear and Shield",
+                "text": "+1 Defense. Extra Rank supporting attacks when not charging."
+              }
+            },
+            {
+              "id": "68dacb0b1bad2ac46ab88919d2e74b84",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7868e042f803bf34b8dac2de805dc4b2",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "08f75016863292348bc8a4f77b795339",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "1bdd443b4082a8943a33fa742ad5d662",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "1a7036e6bf05cfb46a4381bdf8b80b94",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "eeb871070ef438a43a29e22910996a7b",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "0a41146b93fc91d4980fb586e5d050ba",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "ba4bb551185691447bbec72878d09170",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ratkinSkulkers",
+      "name": "Ratkin Skulkers",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "3ff281ba26253064396e7673bb82be92",
+        "name": "Ratkin Skulkers",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 20,
+        "pointsPerModel": 7
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "2CCW",
+          "name": "Two Hand Weapons",
+          "text": "+1 Attack"
+        },
+        {
+          "id": "throwingStars",
+          "name": "Throwing Stars",
+          "text": "Range: 8. Power 2."
+        },
+        {
+          "id": "ambusher",
+          "name": "Ambusher",
+          "text": "Unit can be deployed anywhere on its owners side of the table."
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "text": "Ignore movement penalties from Difficult Terrain"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratkinLongrifles",
+      "name": "Ratkin Longrifles",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "cf21fd3c7d1df854da9680a4ac3a0f00",
+        "name": "Ratkin Longrifles",
+        "defaultCount": 2,
+        "minCount": 1,
+        "maxCount": 3,
+        "pointsPerModel": 20
+      },
+      "stats": {
+        "skill": "4",
+        "power": "3",
+        "defense": "3",
+        "attacks": "1",
+        "wounds": "2",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "25x50",
+        "modelType": "WeaponTeam"
+      },
+      "rules": [
+        {
+          "id": "ratkinLongrifle",
+          "name": "Longrifle",
+          "text": "Range 48. Power 5."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "lethalShots",
+          "name": "Lethal Shots",
+          "text": "This units ranged attack deals 2x wounds against multiwound targets."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratkinSlingers",
+      "name": "Ratkin Slingers",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "167c8e824805b88479c7b5a48898a87a",
+        "name": "Ratkin Slingers",
+        "defaultCount": 15,
+        "minCount": 14,
+        "maxCount": 19,
+        "pointsPerModel": 5
+      },
+      "stats": {
+        "skill": "3",
+        "power": "3",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "sling",
+          "name": "Sling",
+          "text": "Range: 20. Power 2."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "ed2e6446400ce2c41be5348cb0032fc5",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "361ea51f07b722849b5fee7e735779cc",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "60a015b823a14e245902d99b6112b295",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "11bec397c72946f439c3d4c15ba3ce07",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "2b949e5ae9cfb3546816dd75cef8e24a",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "d1818ba000354694b9715ed72139778c",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "1ec34f5c7d25e68448fd194c23b91521",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ratkinFlamers",
+      "name": "Ratkin Flamers",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "a7cb1daeafb5aa442b9d594b6eb51271",
+        "name": "Ratkin Flamers",
+        "defaultCount": 2,
+        "minCount": 1,
+        "maxCount": 3,
+        "pointsPerModel": 20
+      },
+      "stats": {
+        "skill": "3",
+        "power": "3",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "2",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "25x50",
+        "modelType": "WeaponTeam"
+      },
+      "rules": [
+        {
+          "id": "flamer",
+          "name": "Flamer",
+          "text": "Range 12. D3 Power 5."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratkinMonstrosity",
+      "name": "Ratkin Monstrosity",
+      "categories": [
+        "Vermin"
+      ],
+      "model": {
+        "id": "fb13bfc46e46c9c4fbefeda153e2d456",
+        "name": "Ratkin Monstrosity",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 100
+      },
+      "stats": {
+        "skill": "3",
+        "power": "6",
+        "defense": "6",
+        "attacks": "6",
+        "wounds": "6",
+        "discipline": "6",
+        "movement": "12",
+        "baseSize": "50x100",
+        "modelType": "LargeMonsterLongBase"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        },
+        {
+          "id": "frenzy",
+          "name": "Frenzy",
+          "text": "Re-roll missed Attack Rolls in the first round of combat."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratkinBrutes",
+      "name": "Ratkin Alphas",
+      "categories": [
+        "Vermin"
+      ],
+      "model": {
+        "id": "6e755304b12a4a9439267dfdedcd5b33",
+        "name": "Ratkin Alphas",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 3,
+        "pointsPerModel": 28
+      },
+      "stats": {
+        "skill": "3",
+        "power": "5",
+        "defense": "4",
+        "attacks": "3",
+        "wounds": "3",
+        "discipline": "5",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratSwarms",
+      "name": "Rat Swarms",
+      "categories": [
+        "Vermin"
+      ],
+      "model": {
+        "id": "40439b20d9a0baf408514560b64b2f57",
+        "name": "Rat Swarms",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 3,
+        "pointsPerModel": 26
+      },
+      "stats": {
+        "skill": "2",
+        "power": "1",
+        "defense": "1",
+        "attacks": "5",
+        "wounds": "5",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "40x40",
+        "modelType": "Swarm"
+      },
+      "rules": [
+        {
+          "id": "claws",
+          "name": "Claws",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        },
+        {
+          "id": "frenzy",
+          "name": "Frenzy",
+          "text": "Re-roll missed Attack Rolls in the first round of combat."
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "text": "Ignore movement penalties from Difficult Terrain"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "doomBell",
+      "name": "Doom Bell",
+      "categories": [
+        "Mounts"
+      ],
+      "model": {
+        "id": "bc3dcb95168aa104c9f39a8db74be7fa",
+        "name": "Doom Bell",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {
+        "skill": "3",
+        "power": "3",
+        "defense": "5",
+        "attacks": "2",
+        "wounds": "8",
+        "discipline": "6",
+        "movement": "12",
+        "baseSize": "50x100",
+        "modelType": "WarWagon"
+      },
+      "rules": [
+        {
+          "id": "doomBellAbility",
+          "name": "Doom Bell",
+          "text": "All your units have Frenzy (reroll failed Attack Rolls) this turn. Activate once per battle."
+        },
+        {
+          "id": "crushingCharge",
+          "name": "Crushing Charge",
+          "text": "Charge Bonus: +2 Power +2 Attacks"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "ratkinWarlock",
+      "name": "Ratkin Warlock",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "63fc21444f029ca43bcc9adfd3a6a70a",
+        "name": "Ratkin Warlock",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 60
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "ccw",
+          "name": "Hand Weapon",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "605a8ba2f80a9eb429c28db965902633",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "53404545363424740b936d65e7a30f1c",
+              "name": "Ratkin Slingers",
+              "targetId": "ratkinSlingers",
+              "rule": {
+                "id": "ratkinSlingers",
+                "name": "Ratkin Slingers"
+              }
+            },
+            {
+              "id": "bdacd92fc92d9164d820bfac5c88c2b4",
+              "name": "Ratkin Conscripts",
+              "targetId": "ratkinConscripts",
+              "rule": {
+                "id": "ratkinConscripts",
+                "name": "Ratkin Conscripts"
+              }
+            },
+            {
+              "id": "bd76092957891774f9e121d167d8d696",
+              "name": "Ratkin Legionaries",
+              "targetId": "ratkinLegionaries",
+              "rule": {
+                "id": "ratkinLegionaries",
+                "name": "Ratkin Legionaries"
+              }
+            },
+            {
+              "id": "6566c239df95a5c42add617453694f8d",
+              "name": "Doom Bell",
+              "targetId": "doomBell",
+              "rule": {
+                "id": "doomBell",
+                "name": "Doom Bell"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e2ee20c161dff7c47a66f7c1de5de63c",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "3e098f4c580dc764fb9a62af232a8346",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "537d7c77efe94364cb1ff740f7f01bcd",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "9fe99adbc1d898e40b655cabf2b02623",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "a6096379539b55f4cb90b40ec90b6fe8",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "ef4e96b2272b883468663ea466e13334",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "e013d239e01ca0847857b47942eb8213",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "2f4d6d1c472b3f940abdcafc8ce3caf7",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "hexOfRuin",
+          "options": [
+            {
+              "id": "c0946d67360387a4f83d752d6a5328a3",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            },
+            {
+              "id": "c7a0996da124d9d43abf2d513050a0e4",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "c5e70d6938998a24497327ed8f4083cf",
+              "name": "Thousand Mouths",
+              "targetId": "thousandMouths",
+              "rule": {
+                "id": "thousandMouths",
+                "name": "Thousand Mouths",
+                "text": "3D6 Power 1 hits. Range 18."
+              }
+            },
+            {
+              "id": "a117545134a8e654ca94be16ba711754",
+              "name": "Primal Fury",
+              "targetId": "primalFury",
+              "rule": {
+                "id": "primalFury",
+                "name": "Primal Fury",
+                "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+              }
+            },
+            {
+              "id": "a90af3aa2975bf442bf367557f76bc89",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            },
+            {
+              "id": "5a7e6aba3843167448a54d44019e34f9",
+              "name": "Plague",
+              "targetId": "plague",
+              "rule": {
+                "id": "plague",
+                "name": "Plague",
+                "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
+              }
+            },
+            {
+              "id": "fc92fbb6de8c9294e80175ea9c3a20d8",
+              "name": "Blood Frenzy",
+              "targetId": "bloodFrenzy",
+              "rule": {
+                "id": "bloodFrenzy",
+                "name": "Blood Frenzy",
+                "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Ratkin Warlock has incomplete statline"
+      ]
+    },
+    {
+      "id": "ratkinChieftain",
+      "name": "Ratkin Chieftain",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "2bf16acff6ef523479279eb7358b22a6",
+        "name": "Ratkin Chieftain",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 50
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "cruelMotivation",
+          "name": "Cruel Motivation",
+          "text": "Retinue gets +2 Movement Speed and re-rolls missed Attack Rolls for one Turn. It loses one model."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "545c849719cdc6545b4cd12fbf4fa468",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "ddaf6614f97c5324fa2af9e0d8af9552",
+              "name": "Ratkin Conscripts",
+              "targetId": "ratkinConscripts",
+              "rule": {
+                "id": "ratkinConscripts",
+                "name": "Ratkin Conscripts"
+              }
+            },
+            {
+              "id": "ae9f821bbe615a746b6d6ac670accc26",
+              "name": "Ratkin Legionaires",
+              "targetId": "ratkinLegionaries",
+              "rule": {
+                "id": "ratkinLegionaries",
+                "name": "Ratkin Legionaires"
+              }
+            }
+          ]
+        },
+        {
+          "id": "45dc7dc6426349c4e84266de7bd05fc5",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "20cb21fefa6e56946b20edb7a8c34d84",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "455c51333e48dd244831bb2a9e9d440a",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "points": 5,
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            },
+            {
+              "id": "8b4a7f789e34671489837b388e66deaf",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "points": 5,
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            }
+          ]
+        },
+        {
+          "id": "cfb5b93c69da6244c8f287d81deabb06",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "37428ac7846937f408bf48397a037ab7",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "a8c339a07c82fdc42b75a55e5a8f2553",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "332723069388ba1458a5f99131d60ecc",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "592a4d26af5d5ba4f8187576a7ed3e8e",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "0791267e8a1c2c8409b6b6925889aea5",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "a29fd1faeb5c34646a290d2e2df1dd39",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "96b3d0084d788654bb3be36f3687e342",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "3dcf6aab9fe0839419d767092fc84d7b",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "6aba014b8b10d0545b7ca15ec5ab3bab",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "bbbe5a7ae8fe1554a8e3fc34e7f2c545",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "0752c997e2d2547428057e9b6df23ad8",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "724030d3c16cfa14bbd1d45b411ff8c5",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Ratkin Chieftain has incomplete statline"
+      ]
+    },
+    {
+      "id": "ratkinInfiltrator",
+      "name": "Ratkin Infiltrator",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "99bdf897de137bb40b8bb8ef81bd8aa2",
+        "name": "Ratkin Infiltrator",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 50
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "2CCW",
+          "name": "Two Hand Weapons",
+          "text": "+1 Attack"
+        },
+        {
+          "id": "deadlyStrike",
+          "name": "Deadly Strike",
+          "text": "Activate once per battle. Melee attacks deal 2x wounds against multiwound targets for one turn."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "poisonedAttacks",
+          "name": "Poisoned Attacks",
+          "text": "Enemies re-roll 6s on Damage Saves."
+        },
+        {
+          "id": "hidden",
+          "name": "Hidden",
+          "text": "Commander is hidden from your opponent until engaged in combat or damaged."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "e6e0bfeff0f9b6f43ba189d66644c562",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "c298e0fea0cc54145a8e2411935170dc",
+              "name": "Ratkin Skulkers",
+              "targetId": "ratkinSkulkers",
+              "rule": {
+                "id": "ratkinSkulkers",
+                "name": "Ratkin Skulkers"
+              }
+            },
+            {
+              "id": "0d1ae27f8adbd5748bda5b6a1152d146",
+              "name": "Ratkin Slingers",
+              "targetId": "ratkinSlingers",
+              "rule": {
+                "id": "ratkinSlingers",
+                "name": "Ratkin Slingers"
+              }
+            },
+            {
+              "id": "839a0412dfc30ec46986f478c1d4917a",
+              "name": "Ratkin Conscripts",
+              "targetId": "ratkinConscripts",
+              "rule": {
+                "id": "ratkinConscripts",
+                "name": "Ratkin Conscripts"
+              }
+            },
+            {
+              "id": "bbdd17cbf524c6a4db02e1d3100fc818",
+              "name": "Ratkin Legionaries",
+              "targetId": "ratkinLegionaries",
+              "rule": {
+                "id": "ratkinLegionaries",
+                "name": "Ratkin Legionaries"
+              }
+            }
+          ]
+        },
+        {
+          "id": "0ff8e5220704d844ebd002314a8048f0",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "1f913d28132ad564fbfec3dd5064feb1",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "30e0fe26f8c4b934682a49fa9c6bf808",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "4274973a03873af4595435b2075b5843",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "4240177fc40abfe469bb6882ffa1a927",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "8d4c73eb6273af840bb2af1b0deb8470",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "6d3d9fcf50200014f80ce41193bb7ded",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "1af40c569d26a5b45a6c566ee4fb9d3d",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "64c9be115f052aa40beed764d4ca39c0",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "bf4ecd524358b5143b01e6b9e77831b8",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "a6ea5aea1145f5249a9a5f17a155f177",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "e8fe29658d74a894c8c620d3b6f18091",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "4952b0ec87de4a04094e3586dd8e7ad7",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Ratkin Infiltrator has incomplete statline"
+      ]
+    }
+  ],
+  "warnings": []
+}

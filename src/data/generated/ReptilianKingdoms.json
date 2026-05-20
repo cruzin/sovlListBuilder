@@ -1,0 +1,1693 @@
+{
+  "id": "ReptilianKingdoms",
+  "name": "Reptilian Kingdoms",
+  "sourceFile": "ReptilianKingdoms.cat",
+  "units": [
+    {
+      "id": "saurianWarriors",
+      "name": "Saurian Warriors",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "3e4273964be893848b2c7af4c644414e",
+        "name": "Saurian Warriors",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 17,
+        "pointsPerModel": 9
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "4",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "ccwshield",
+          "name": "Hand Weapon and Shield",
+          "text": "+1 Defense. Charge Bonus: +1 Power"
+        },
+        {
+          "id": "bodyguard",
+          "name": "Bodyguard",
+          "text": "If a Commander is part of this unit it re-rolls failed Discipline tests."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "5cc75e8a30d72774b82355cff3f0f127",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "b1d6da4e89e5c1d489f99f93ed69ddf5",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "1afd59d6edd2eaa47843c00cf6429926",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "45ca6ef3a1e172f489024143706e9324",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "21d9323ca10f2a341897be0e0a295554",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "4c007f53f29999b48bb7851a082d7c91",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "640279afce8501c40bf0300d9ae5de76",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "crocoliskBruisers",
+      "name": "Crocolisk Bruisers",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "306d2e6dd2d0d854a8a4d59240b15971",
+        "name": "Crocolisk Bruisers",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 5,
+        "pointsPerModel": 30
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "4",
+        "attacks": "3",
+        "wounds": "3",
+        "discipline": "8",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "greatweapon",
+          "name": "Greatweapon",
+          "text": "+1 Power. Charge Bonus: +1 Power."
+        },
+        {
+          "id": "scalySkin",
+          "name": "Scaly Skin",
+          "text": "-1 Movement. +1 Defense"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "newtBraves",
+      "name": "Newt Braves",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "433ecc57ba38ffd45a5ba3541b0f3937",
+        "name": "Newt Braves",
+        "defaultCount": 15,
+        "minCount": 14,
+        "maxCount": 23,
+        "pointsPerModel": 4
+      },
+      "stats": {
+        "skill": "3",
+        "power": "2",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "ccwshield",
+          "name": "Hand Weapon and Shield",
+          "text": "+1 Defense. Charge Bonus: +1 Power"
+        },
+        {
+          "id": "javelinsLight",
+          "name": "Javelins",
+          "text": "Range: 12. Power 2."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "4812fe1247842f14dba9866c9eedce5c",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "9a6708f58b29dcb4f9d4ed99dc3d845a",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "b136886560c044649aaede58cfbef298",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "62312886d301c224d9f0da171db314f3",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "dfd7a5e78b3399e48b88e1eb279d14a8",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "de4841529ec2de247b8d0023378f3d2c",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "d176d6c14b85cb448be9f47fa0a32353",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "saurianSpear",
+      "name": "Saurian Spear",
+      "categories": [
+        "Battle Line"
+      ],
+      "model": {
+        "id": "d92891b38daac58429d804d294d177a8",
+        "name": "Saurian Spear",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 17,
+        "pointsPerModel": 9
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "4",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "8",
+        "movement": "8",
+        "baseSize": "25x25",
+        "modelType": "InfantryLarge"
+      },
+      "rules": [
+        {
+          "id": "spearshield",
+          "name": "Spear and Shield",
+          "text": "+1 Defense. Extra Rank supporting attacks when not charging."
+        },
+        {
+          "id": "bodyguard",
+          "name": "Bodyguard",
+          "text": "If a Commander is part of this unit it re-rolls failed Discipline tests."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "62a63a83c05a627449488a00d78a8d2b",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "c52ae3aa89ba7744e883266e283bf44b",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "10ce84c864c50884597ab702ef8a8acc",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "56dcc3246f29c624c862014ccd49a768",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "bd9c2578c9b484c4c95c801a7e6ea36a",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "6cf11f62c28dc2b4497ef41a0999d846",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "5cc87321f90460148bf54b3b1f2a1796",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "raptorRiders",
+      "name": "Raptor Riders",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "882278b374081f648a2466dd0647d1a8",
+        "name": "Raptor Riders",
+        "defaultCount": 5,
+        "minCount": 4,
+        "maxCount": 9,
+        "pointsPerModel": 21
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "4",
+        "attacks": "2",
+        "wounds": "2",
+        "discipline": "8",
+        "movement": "16",
+        "baseSize": "25x50",
+        "modelType": "Cavalry"
+      },
+      "rules": [
+        {
+          "id": "ccwshield",
+          "name": "Hand Weapon and Shield",
+          "text": "+1 Defense. Charge Bonus: +1 Power"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "c4635d61d5745704798b054a6fe046ec",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "5da24b29e9a648540b1b521eae0925d0",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "26e1721b67cdefc48b0ddf9a19d251b2",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "d366e6daf753b2a49ab30bc4d647844a",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "e5b0fb1f55e5341428271b312d94fd48",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "e7572d7bc9d1807478357451120782e6",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "4b753cd5af75f6a48b29b4e26ee06b9b",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "pterodactylRiders",
+      "name": "Pterodactyl Riders",
+      "categories": [
+        "Fast Attack"
+      ],
+      "model": {
+        "id": "0e78ed1c5f41c07418b9f2ed3d449e7d",
+        "name": "Pterodactyl Riders",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 3,
+        "pointsPerModel": 25
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "3",
+        "attacks": "3",
+        "wounds": "2",
+        "discipline": "7",
+        "movement": "12",
+        "baseSize": "40x40",
+        "modelType": "MonstrousInfantry"
+      },
+      "rules": [
+        {
+          "id": "ccw",
+          "name": "Hand Weapon",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "shortbow",
+          "name": "Shortbows",
+          "text": "Range: 20. Power 3."
+        },
+        {
+          "id": "flying",
+          "name": "Flying",
+          "text": "Fly Speed 20. Ignore Terrain."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "27fb888be524577428b5f1c4d9adc62f",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "279491138cfda1444900ad341ebd21d6",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "46bc63df865ab2e4dac91fc6595e54db",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "36c28b3f44b80ec4f8ceef89fbb369c0",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "e72e06a49d0ff2a47bf1c7139a7dfd66",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "cd5ab10b72c9bf243a3a06a17e1cc192",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "fa103b2376d4cf94db57f2b7242eb805",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "newtSkirmishers",
+      "name": "Newt Skirmishers",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "c5ba64ea341707047b556001b674da80",
+        "name": "Newt Skirmishers",
+        "defaultCount": 10,
+        "minCount": 9,
+        "maxCount": 19,
+        "pointsPerModel": 6
+      },
+      "stats": {
+        "skill": "3",
+        "power": "2",
+        "defense": "2",
+        "attacks": "1",
+        "wounds": "1",
+        "discipline": "6",
+        "movement": "8",
+        "baseSize": "20x20",
+        "modelType": "Infantry"
+      },
+      "rules": [
+        {
+          "id": "shortbow",
+          "name": "Shortbows",
+          "text": "Range: 20. Power 3."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "text": "Ignore movement penalties from Difficult Terrain"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "b7a9382a1290561479809ccb9d096fa2",
+          "name": "Banners",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "bb70388955de79846aee308eff2db0cb",
+              "name": "Banner of Swiftness",
+              "targetId": "bannerOfSwiftness",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfSwiftness",
+                "name": "Banner of Swiftness",
+                "text": "+1 Movement"
+              }
+            },
+            {
+              "id": "3e175b7f070e63b4f9e01fc19b99c679",
+              "name": "Banner of Fury",
+              "targetId": "bannerOfFury",
+              "points": 20,
+              "rule": {
+                "id": "bannerOfFury",
+                "name": "Banner of Fury",
+                "text": "Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "8751c9c8655805a409dae40a467a4e8d",
+              "name": "Banner of Valor",
+              "targetId": "bannerOfValor",
+              "points": 15,
+              "rule": {
+                "id": "bannerOfValor",
+                "name": "Banner of Valor",
+                "text": "Reroll failed Discipline Tests"
+              }
+            },
+            {
+              "id": "7a2c2dab42ef1464a9fa391f021a8d17",
+              "name": "Banner of Mist",
+              "targetId": "bannerOfMist",
+              "points": 25,
+              "rule": {
+                "id": "bannerOfMist",
+                "name": "Banner of Mist",
+                "text": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it)."
+              }
+            },
+            {
+              "id": "9aa460e8dbcc885438d76496a543521a",
+              "name": "War Banner",
+              "targetId": "warBanner",
+              "points": 25,
+              "rule": {
+                "id": "warBanner",
+                "name": "War Banner",
+                "text": "+1 Combat Score"
+              }
+            },
+            {
+              "id": "7e5a94d2b9566004e847f25492480dd6",
+              "name": "Cursed Standard",
+              "targetId": "cursedStandard",
+              "points": 40,
+              "rule": {
+                "id": "cursedStandard",
+                "name": "Cursed Standard",
+                "text": "Unit has +1 Attack this turn. Activate once per battle."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "firelizard",
+      "name": "Firelizard",
+      "categories": [
+        "Ranged Support"
+      ],
+      "model": {
+        "id": "657c694b3dd1fe64fac2ac1996b12575",
+        "name": "Firelizard",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 65
+      },
+      "stats": {
+        "skill": "3",
+        "power": "4",
+        "defense": "4",
+        "attacks": "4",
+        "wounds": "5",
+        "discipline": "7",
+        "movement": "12",
+        "baseSize": "50x50",
+        "modelType": "LargeMonster"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fireBreath",
+          "name": "Fire Breath",
+          "text": "Range 12. 2D3 Power 5."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "triceratops",
+      "name": "Triceratops",
+      "categories": [
+        "Jungle Beasts"
+      ],
+      "model": {
+        "id": "5e974d224bede0a4c9edd1ab1930b74b",
+        "name": "Triceratops",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 110
+      },
+      "stats": {
+        "skill": "3",
+        "power": "5",
+        "defense": "7",
+        "attacks": "4",
+        "wounds": "8",
+        "discipline": "9",
+        "movement": "12",
+        "baseSize": "50x100",
+        "modelType": "LargeMonsterLongBase"
+      },
+      "rules": [
+        {
+          "id": "horns",
+          "name": "Horns",
+          "text": "Charge Bonus: +1 Power, +1 Attack"
+        },
+        {
+          "id": "triceratopsShortbows",
+          "name": "Newt Shortbows",
+          "text": "Range: 20. 4x Power 3."
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "jungleSwarm",
+      "name": "Jungle Swarm",
+      "categories": [
+        "Jungle Beasts"
+      ],
+      "model": {
+        "id": "24ee92037c9d3e54db573fe5b2b90a38",
+        "name": "Jungle Swarm",
+        "defaultCount": 3,
+        "minCount": 2,
+        "maxCount": 2,
+        "pointsPerModel": 28
+      },
+      "stats": {
+        "skill": "2",
+        "power": "2",
+        "defense": "2",
+        "attacks": "5",
+        "wounds": "5",
+        "discipline": "10",
+        "movement": "8",
+        "baseSize": "40x40",
+        "modelType": "Swarm"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "poisonedAttacks",
+          "name": "Poisoned Attacks",
+          "text": "Enemies re-roll 6s on Damage Saves."
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "dreadmaw",
+      "name": "Dreadmaw",
+      "categories": [
+        "Jungle Beasts"
+      ],
+      "model": {
+        "id": "9ca143deb29696b498b3f00d90ad09c1",
+        "name": "Dreadmaw",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 200
+      },
+      "stats": {
+        "skill": "4",
+        "power": "7",
+        "defense": "6",
+        "attacks": "8",
+        "wounds": "12",
+        "discipline": "10",
+        "movement": "12",
+        "baseSize": "100x150",
+        "modelType": "Gargantuan"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        },
+        {
+          "id": "roar",
+          "name": "Roar!",
+          "text": "All enemy units have -2 Discipline for one turn. Can only be  activated when damaged."
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "tyrannosaur",
+      "name": "Tyrannosaur",
+      "categories": [
+        "Mounts"
+      ],
+      "model": {
+        "id": "47e06f1c04a174f4f9254af4361ef916",
+        "name": "Tyrannosaur",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 65
+      },
+      "stats": {
+        "skill": "4",
+        "power": "6",
+        "defense": "5",
+        "attacks": "6",
+        "wounds": "6",
+        "discipline": "7",
+        "movement": "12",
+        "baseSize": "50x100",
+        "modelType": "LargeMonsterLongBase"
+      },
+      "rules": [
+        {
+          "id": "fangs",
+          "name": "Fangs",
+          "text": "Charge Bonus: +1 Power"
+        },
+        {
+          "id": "fearless",
+          "name": "Fearless",
+          "text": "Ignores all penalties to Discipline tests."
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "text": "+1 Movement"
+        }
+      ],
+      "optionGroups": [],
+      "warnings": []
+    },
+    {
+      "id": "newtPriest",
+      "name": "Newt Priest",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "573a0e380c0375b429a1d25129a34d0d",
+        "name": "Newt Priest",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 55
+      },
+      "stats": {},
+      "rules": [],
+      "optionGroups": [
+        {
+          "id": "b9c6731126557794abc124f119c12a3a",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "c2be335d16f98b242887a6199be49136",
+              "name": "Newt Braves",
+              "targetId": "newtBraves",
+              "rule": {
+                "id": "newtBraves",
+                "name": "Newt Braves"
+              }
+            },
+            {
+              "id": "9b823cea7444f654bb6427e550810414",
+              "name": "Newt Skirmishers",
+              "targetId": "newtSkirmishers",
+              "rule": {
+                "id": "newtSkirmishers",
+                "name": "Newt Skirmishers"
+              }
+            },
+            {
+              "id": "834ae94741ae9804096a460ae9d114b8",
+              "name": "Pterodactyl Riders",
+              "targetId": "pterodactylRiders",
+              "rule": {
+                "id": "pterodactylRiders",
+                "name": "Pterodactyl Riders"
+              }
+            },
+            {
+              "id": "947362e411fb5304c86ae6e0c9d9ef0e",
+              "name": "Triceratops",
+              "targetId": "triceratops",
+              "rule": {
+                "id": "triceratops",
+                "name": "Triceratops"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0514cd3f5ab5954792f84c313126be3",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "divineFavour",
+          "options": [
+            {
+              "id": "b2fdba606eef12845b31e62d550ff226",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "a7b01acc2a77042469e3a32f883e6c7d",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "9c57adfcff78c664091f70e02471b294",
+              "name": "Radiant Shield",
+              "targetId": "radiantShield",
+              "rule": {
+                "id": "radiantShield",
+                "name": "Radiant Shield",
+                "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "2561d13936c774f479c87d36e42ff1d8",
+              "name": "Primal Fury",
+              "targetId": "primalFury",
+              "rule": {
+                "id": "primalFury",
+                "name": "Primal Fury",
+                "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+              }
+            },
+            {
+              "id": "dbdfdc9463831524e8d9b3803389196f",
+              "name": "Fireball",
+              "targetId": "fireball",
+              "rule": {
+                "id": "fireball",
+                "name": "Fireball",
+                "text": "D6 Power 5 hits. Range 30."
+              }
+            },
+            {
+              "id": "20c1b0e3d7cc57247afd10978cfa03a7",
+              "name": "Wildform",
+              "targetId": "wildform",
+              "rule": {
+                "id": "wildform",
+                "name": "Wildform",
+                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "8dde6fbefe3dde94bbbf29a81a1b6a63",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "c88dcebd16685834ba1745b53faa2a82",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "fe571bc16548eff438f65a59cd151953",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "34d1de82034b2894184c64753d330246",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "4b5c4031fd5297a41b1c419ce0f57496",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "17583fbf5bbdc4247838a94028333d67",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "925fafb48450be146b04b9b9fecafdc1",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Newt Priest has incomplete statline"
+      ]
+    },
+    {
+      "id": "saurianWarlord",
+      "name": "Saurian Warlord",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "9bae1a310bb21244dbda9b2d0f33f42a",
+        "name": "Saurian Warlord",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 50
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "warcry",
+          "name": "Warcry",
+          "text": "All your units have +1 Power for one turn."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "8699e46f904890541844594031286f4f",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "de8acb0770c0ae843a864e13b7cb9f91",
+              "name": "Saurian Warriors",
+              "targetId": "saurianWarriors",
+              "rule": {
+                "id": "saurianWarriors",
+                "name": "Saurian Warriors"
+              }
+            },
+            {
+              "id": "9eff0f820cd31e6458953715a85dba63",
+              "name": "Saurian Spear",
+              "targetId": "saurianSpear",
+              "rule": {
+                "id": "saurianSpear",
+                "name": "Saurian Spear"
+              }
+            },
+            {
+              "id": "5c7598f01ad616b4d917099a7972328b",
+              "name": "Raptor Riders",
+              "targetId": "raptorRiders",
+              "rule": {
+                "id": "raptorRiders",
+                "name": "Raptor Riders"
+              }
+            },
+            {
+              "id": "cef439911b8c0f446ab336e25e2b9016",
+              "name": "Tyrannosaur",
+              "targetId": "tyrannosaur",
+              "rule": {
+                "id": "tyrannosaur",
+                "name": "Tyrannosaur"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4af21f0eda91c604db786e228ce33888",
+          "name": "Weapon Set",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "ccwshield",
+          "options": [
+            {
+              "id": "e77066595ae61da44b8a65727516ee40",
+              "name": "Hand Weapon and Shield",
+              "targetId": "ccwshield",
+              "rule": {
+                "id": "ccwshield",
+                "name": "Hand Weapon and Shield",
+                "text": "+1 Defense. Charge Bonus: +1 Power"
+              }
+            },
+            {
+              "id": "360535d95aae7374199b5f7b7033fe53",
+              "name": "Greatweapon",
+              "targetId": "greatweapon",
+              "points": 5,
+              "rule": {
+                "id": "greatweapon",
+                "name": "Greatweapon",
+                "text": "+1 Power. Charge Bonus: +1 Power."
+              }
+            },
+            {
+              "id": "48ddf46fd8c641441ae7ee667dab6732",
+              "name": "Two Hand Weapons",
+              "targetId": "2CCW",
+              "points": 5,
+              "rule": {
+                "id": "2CCW",
+                "name": "Two Hand Weapons",
+                "text": "+1 Attack"
+              }
+            }
+          ]
+        },
+        {
+          "id": "9baef7006662bee44b82d79cf7032f7c",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "acdb9157b5e8c784cb0ee8987513f0e1",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "430082075dd090142948bb91071b9a78",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "2547cf806c73bc540a82f1fc254858f1",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "abed2ba5c3233dc46a739dfda3a3efee",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "9b82acc6d3c90844d99467c9ed797a49",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "a473c5d1d0b934045b747e89b7d763f5",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "98c11accb7892d042955c2fbf9999445",
+          "name": "Magic Weapons",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "fca08bee8ffaeb6499d7ac97683353b0",
+              "name": "Cruelty",
+              "targetId": "cruelty",
+              "points": 20,
+              "rule": {
+                "id": "cruelty",
+                "name": "Cruelty",
+                "text": "Opponent re-rolls successful damage saves."
+              }
+            },
+            {
+              "id": "dc966d34ebda07f4d96b3501611de409",
+              "name": "Flametongue",
+              "targetId": "flametounge",
+              "points": 15,
+              "rule": {
+                "id": "flametounge",
+                "name": "Flametongue",
+                "text": "+1 Power."
+              }
+            },
+            {
+              "id": "cd5f38f2385d2834c9271a303fd810b3",
+              "name": "Relentless",
+              "targetId": "relentless",
+              "points": 15,
+              "rule": {
+                "id": "relentless",
+                "name": "Relentless",
+                "text": "+1 Attack."
+              }
+            },
+            {
+              "id": "9396f1a5700717146b795b852e462b66",
+              "name": "Heart Seeker",
+              "targetId": "heartSeeker",
+              "points": 10,
+              "rule": {
+                "id": "heartSeeker",
+                "name": "Heart Seeker",
+                "text": "+1 to Hit rolls."
+              }
+            },
+            {
+              "id": "01097790ab8a84e47b8c5935f8fcc3ed",
+              "name": "True Strike",
+              "targetId": "trueStrike",
+              "points": 10,
+              "rule": {
+                "id": "trueStrike",
+                "name": "True Strike",
+                "text": "Reroll missed attacks."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Saurian Warlord has incomplete statline"
+      ]
+    },
+    {
+      "id": "ancientToad",
+      "name": "Ancient Toad",
+      "categories": [
+        "Commanders"
+      ],
+      "model": {
+        "id": "f8e9f944f7cdfb94bb5831ca49822d6a",
+        "name": "Ancient Toad",
+        "defaultCount": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "pointsPerModel": 70
+      },
+      "stats": {},
+      "rules": [
+        {
+          "id": "ancientKnowledge",
+          "name": "Ancient Knowledge",
+          "text": "Restore all used spell charges."
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "ffac0018beace7441969b82178f89032",
+          "name": "Retinue",
+          "min": 1,
+          "max": 1,
+          "options": [
+            {
+              "id": "1a8a833e3370781488fe3b83f64bdc8b",
+              "name": "Saurian Warriors",
+              "targetId": "saurianWarriors",
+              "rule": {
+                "id": "saurianWarriors",
+                "name": "Saurian Warriors"
+              }
+            },
+            {
+              "id": "39c122a9b8ed90a499c65dcc431aa06d",
+              "name": "Saurian Spear",
+              "targetId": "saurianSpear",
+              "rule": {
+                "id": "saurianSpear",
+                "name": "Saurian Spear"
+              }
+            },
+            {
+              "id": "87fc159e5c98038478e9ba3ae56ba1da",
+              "name": "Triceratops",
+              "targetId": "triceratops",
+              "rule": {
+                "id": "triceratops",
+                "name": "Triceratops"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4aff9f80935af6e4e94663c606221238",
+          "name": "Spells",
+          "min": 1,
+          "max": 2,
+          "defaultOptionId": "radiantShield",
+          "options": [
+            {
+              "id": "0646837ef0265c24a944fa348b33dd14",
+              "name": "Radiant Shield",
+              "targetId": "radiantShield",
+              "rule": {
+                "id": "radiantShield",
+                "name": "Radiant Shield",
+                "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "a1879f60b6f758d4ca37fd19c9afaf84",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "5fdca1b256869614f918c99efdee91b4",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "1debc938706ebd946b2f8bb3fea1c479",
+              "name": "Primal Fury",
+              "targetId": "primalFury",
+              "rule": {
+                "id": "primalFury",
+                "name": "Primal Fury",
+                "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+              }
+            },
+            {
+              "id": "91da990f229ece743b4f823caaca80e3",
+              "name": "Fireball",
+              "targetId": "fireball",
+              "rule": {
+                "id": "fireball",
+                "name": "Fireball",
+                "text": "D6 Power 5 hits. Range 30."
+              }
+            },
+            {
+              "id": "c13716ae779203a43a8bc7977eef1162",
+              "name": "Frost Ward",
+              "targetId": "frostWard",
+              "rule": {
+                "id": "frostWard",
+                "name": "Frost Ward",
+                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
+              }
+            },
+            {
+              "id": "37458859ae8003648af3343c8843df37",
+              "name": "Fiery Blades",
+              "targetId": "fieryBlades",
+              "rule": {
+                "id": "fieryBlades",
+                "name": "Fiery Blades",
+                "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
+              }
+            },
+            {
+              "id": "d50bc1b7caf673c4ba7b3e8f76890979",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
+              "rule": {
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+              }
+            },
+            {
+              "id": "a8d360e58fdfef6438d36e1c0c435b4b",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            },
+            {
+              "id": "d03bcda006d2d074c85e4040a5013c97",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "0cd05f4bb997c6b4db61379af99ad729",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            },
+            {
+              "id": "af5e7b76536a0d245bc6b199352f4acb",
+              "name": "Wildform",
+              "targetId": "wildform",
+              "rule": {
+                "id": "wildform",
+                "name": "Wildform",
+                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "8c25295a6197bc64cbedc53fff62d07e",
+          "name": "Magic Items",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "819a5d28793932e4c98a43a4bbbf88bc",
+              "name": "Vitality",
+              "targetId": "vitality",
+              "points": 15,
+              "rule": {
+                "id": "vitality",
+                "name": "Vitality",
+                "text": "+1 Defense. +1 Wounds"
+              }
+            },
+            {
+              "id": "8c7d8d2b24a5e2a4eb8d86b2de1414bc",
+              "name": "Unyielding",
+              "targetId": "unyielding",
+              "points": 10,
+              "rule": {
+                "id": "unyielding",
+                "name": "Unyielding",
+                "text": "Reroll failed damage saves."
+              }
+            },
+            {
+              "id": "2587d030722b73f4c8ecbea54d1169e5",
+              "name": "Command",
+              "targetId": "command",
+              "points": 10,
+              "rule": {
+                "id": "command",
+                "name": "Command",
+                "text": "+1 Discipline"
+              }
+            },
+            {
+              "id": "f30c542138163b045b63fa33d8acbeb2",
+              "name": "Prowess",
+              "targetId": "prowess",
+              "points": 10,
+              "rule": {
+                "id": "prowess",
+                "name": "Prowess",
+                "text": "+2 Skill"
+              }
+            },
+            {
+              "id": "80090e55af099eb4ba54eb6a458ead55",
+              "name": "Unnatural Power",
+              "targetId": "unaturalPower",
+              "points": 20,
+              "rule": {
+                "id": "unaturalPower",
+                "name": "Unnatural Power",
+                "text": "+1 Power. +1 Defense"
+              }
+            },
+            {
+              "id": "5f17ce286fa3bcf48a76fb8e1153b462",
+              "name": "Potion of Power",
+              "targetId": "potionOfPower",
+              "points": 25,
+              "rule": {
+                "id": "potionOfPower",
+                "name": "Potion of Power",
+                "text": "One use, +2 Power and + 1 Attack until end of turn."
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Ancient Toad has incomplete statline"
+      ]
+    }
+  ],
+  "warnings": []
+}

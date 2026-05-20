@@ -1,16 +1,24 @@
-# React + Vite
+# SOVL List Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Static React app for building SOVL army lists. The frontend data is generated from the BattleScribe-style catalogue at https://github.com/Perwahl/SOVLDataCatalogue.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `npm run generate:data` fetches or updates the SOVL data catalogue and writes normalized JSON to `src/data/generated`.
+- `npm run dev` starts the Vite dev server.
+- `npm run build` regenerates data and builds the static site.
+- `npm run preview` previews the built site locally.
 
-## React Compiler
+## Data Generation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The generator keeps catalogue parsing out of the React UI:
 
-## Expanding the ESLint configuration
+- `scripts/fetchDataCatalogue.ts` clones or updates `Perwahl/SOVLDataCatalogue`.
+- `scripts/parseCatalogue.ts` parses `.cat` faction catalogues and `SOVL.gst`.
+- `scripts/generateData.ts` writes `catalogue.json` and one JSON file per faction.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Generated files are committed so the static app can load them without a backend.
+
+## GitHub Pages
+
+Vite is configured with `base: '/sovlListBuilder/'` for GitHub Pages. The workflow in `.github/workflows/deploy.yml` runs `npm ci`, `npm run build`, and deploys `dist` to the `gh-pages` branch.
