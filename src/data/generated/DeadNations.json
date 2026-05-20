@@ -2,12 +2,172 @@
   "id": "DeadNations",
   "name": "Dead Nations",
   "sourceFile": "DeadNations.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abominations",
+          "name": "Abominations",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abominations",
+          "name": "Abominations",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abominations",
+          "name": "Abominations",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abominations",
+          "name": "Abominations",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "skeletons",
       "factionId": "DeadNations",
       "name": "Skeleton Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -136,6 +296,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "775d5c46403c26147bfa6cb31c2748bb",
@@ -187,6 +350,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "36432a372911ded48b4115f73c5e8bd5",
@@ -342,6 +509,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "9909c37c0a95d454585c845e83a87c87",
@@ -468,6 +638,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "e20c203792f81034cb7a5ef37adc5557",
@@ -527,6 +701,9 @@
       "factionId": "DeadNations",
       "name": "Skeleton Bowmen",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -655,6 +832,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Hounds",
       "model": {
         "id": "753504db8c1f81a4883b10910845c48f",
@@ -699,6 +879,9 @@
       "factionId": "DeadNations",
       "name": "Skeleton Knights",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -857,6 +1040,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "261a9c210dd26ef439d02d39377f17e1",
@@ -1013,6 +1200,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "76bfa99908f6e4043b4b4aae318f9b59",
@@ -1064,6 +1254,10 @@
       "categories": [
         "Abominations"
       ],
+      "categoryIds": [
+        "Abominations"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "a1bcd5daa970be047bc763124de6579a",
@@ -1113,6 +1307,9 @@
       "factionId": "DeadNations",
       "name": "Bone Dragon",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Large Monster",
@@ -1174,6 +1371,9 @@
       "factionId": "DeadNations",
       "name": "Wight Lord",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1471,6 +1671,9 @@
       "factionId": "DeadNations",
       "name": "Vampire Knight",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1827,6 +2030,9 @@
       "factionId": "DeadNations",
       "name": "Necromancer",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

@@ -2,12 +2,189 @@
   "id": "EmpiresOfMen",
   "name": "Empires of Men",
   "sourceFile": "EmpiresOfMen.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Imperial Armory",
+          "name": "Imperial Armory",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "modelOverrides": [
+        {
+          "unitId": "imperialSword",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "imperialHalberd",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "imperialSpear",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Imperial Armory",
+          "name": "Imperial Armory",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Imperial Armory",
+          "name": "Imperial Armory",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Imperial Armory",
+          "name": "Imperial Armory",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "imperialSword",
       "factionId": "EmpiresOfMen",
       "name": "Imperial Sword",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -131,6 +308,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "1e958850305b3dd4295b2b37d2219d10",
@@ -287,6 +468,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "d5d18a9947ccdf44683a5171bd68bbd4",
@@ -408,6 +592,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "7bd2b9d82eaa292458215b29239a0571",
@@ -527,6 +714,9 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Knights",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -696,6 +886,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "3000571c45f9a8c42b649d1bf48c8d1b",
@@ -822,6 +1016,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "6f3458d0fc1652340bf85820b8e41f41",
@@ -941,6 +1138,9 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Crossbowmen",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -1064,6 +1264,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "6c739571eabf2b4489b721448500f9d5",
@@ -1185,6 +1388,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "aa53f7bd2c72acb44a48cffe36cb10a1",
@@ -1246,6 +1453,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "103af0f3fa925d147ac24b29c5407b13",
@@ -1302,6 +1513,10 @@
       "categories": [
         "Imperial Armory"
       ],
+      "categoryIds": [
+        "Imperial Armory"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Wagon",
       "model": {
         "id": "549b90ca81505344dafb6ac7812b0d88",
@@ -1368,6 +1583,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "0f3bd089c4019264698b7b0596ee3514",
@@ -1417,6 +1635,9 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Dragon",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Large Monster",
@@ -1473,6 +1694,9 @@
       "factionId": "EmpiresOfMen",
       "name": "Captain",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1750,6 +1974,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "2e6918f47864b57408fa50cb9b102b43",
@@ -2014,6 +2241,9 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Wizard",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

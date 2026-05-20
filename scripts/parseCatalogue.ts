@@ -17,6 +17,13 @@ const POINTS_TYPE_ID = '268a-a403-0d9c-50ac'
 
 type SharedIndex = Map<string, CatalogueRule>
 
+const ARMY_SIZE_PRESETS = [
+  { id: 'border-patrol', name: 'Border Patrol', pointLimit: 650 },
+  { id: 'warband', name: 'Warband', pointLimit: 500 },
+  { id: 'battalion', name: 'Battalion', pointLimit: 1000 },
+  { id: 'legion', name: 'Legion', pointLimit: 1500 },
+]
+
 export async function parseCatalogueDirectory(
   catalogueDir: string,
   sourceRevision?: string,
@@ -91,6 +98,7 @@ async function parseFactionFile(
   const warnings: string[] = []
   const units: CatalogueUnit[] = []
   const selectionEntries = firstChild(xml, 'selectionEntries')
+  const catalogueForces = parseForces(xml)
 
   for (const entry of childrenNamed(selectionEntries, 'selectionEntry')) {
     if (entry.attributes.type !== 'unit') {
@@ -116,6 +124,7 @@ async function parseFactionFile(
     id: xml.attributes.id ?? sourceFile.replace(/\.cat$/i, ''),
     name: xml.attributes.name ?? sourceFile.replace(/\.cat$/i, ''),
     sourceFile,
+    forces: buildForceFormats(catalogueForces, xml.attributes.name ?? sourceFile.replace(/\.cat$/i, ''), units),
     units,
     warnings,
   }
@@ -169,6 +178,8 @@ function parseUnit(
     factionId,
     name: unitName,
     categories: extractCategories(entry),
+    categoryIds: extractCategoryIds(entry),
+    maxSelections: extractTopLevelMaxSelections(entry) ?? asset?.maxCount,
     rulesUnitType: asset?.unitType,
     model,
     stats,
@@ -193,6 +204,19 @@ function extractCategories(entry: XmlNode): string[] {
     .filter((category): category is string => Boolean(category))
 }
 
+function extractCategoryIds(entry: XmlNode): string[] {
+  return childrenNamed(firstChild(entry, 'categoryLinks'), 'categoryLink')
+    .map((link) => link.attributes.targetId ?? link.attributes.name)
+    .filter((category): category is string => Boolean(category))
+}
+
+function extractTopLevelMaxSelections(entry: XmlNode): number | undefined {
+  return childrenNamed(firstChild(entry, 'constraints'), 'constraint')
+    .filter((constraint) => constraint.attributes.type === 'max')
+    .map((constraint) => parseNumber(constraint.attributes.value))
+    .find((value): value is number => value !== undefined)
+}
+
 function extractModel(modelEntry: XmlNode): UnitModel {
   const constraints = childrenNamed(firstChild(modelEntry, 'constraints'), 'constraint')
   const minConstraint = constraints.find((constraint) => constraint.attributes.type === 'min')
@@ -206,6 +230,113 @@ function extractModel(modelEntry: XmlNode): UnitModel {
     maxCount: parseNumber(maxConstraint?.attributes.value),
     pointsPerModel: extractPoints(modelEntry),
   }
+}
+
+function parseForces(xml: XmlNode): CatalogueFaction['forces'] {
+  return childrenNamed(firstChild(xml, 'forceEntries'), 'forceEntry').map((force) => {
+    const categoryLimits = childrenNamed(firstChild(force, 'categoryLinks'), 'categoryLink').map((categoryLink) => {
+      const constraints = childrenNamed(firstChild(categoryLink, 'constraints'), 'constraint')
+      return {
+        id: categoryLink.attributes.targetId ?? categoryLink.attributes.name ?? categoryLink.attributes.id ?? 'unknown',
+        name: categoryLink.attributes.name ?? categoryLink.attributes.targetId ?? 'Unknown section',
+        min: constraints
+          .filter((constraint) => constraint.attributes.type === 'min')
+          .map((constraint) => parseNumber(constraint.attributes.value))
+          .find((value): value is number => value !== undefined),
+        max: constraints
+          .filter((constraint) => constraint.attributes.type === 'max')
+          .map((constraint) => parseNumber(constraint.attributes.value))
+          .find((value): value is number => value !== undefined),
+      }
+    })
+
+    const pointLimit = childrenNamed(firstChild(force, 'constraints'), 'constraint')
+      .filter((constraint) => constraint.attributes.type === 'max')
+      .filter((constraint) => constraint.attributes.field === `limit::${POINTS_TYPE_ID}`)
+      .map((constraint) => parseNumber(constraint.attributes.value))
+      .find((value): value is number => value !== undefined)
+
+    return {
+      id: force.attributes.id ?? force.attributes.name ?? 'unknown-force',
+      name: force.attributes.name ?? 'Army Size',
+      pointLimit,
+      categoryLimits,
+      source: 'catalogue',
+    }
+  })
+}
+
+function buildForceFormats(
+  catalogueForces: CatalogueFaction['forces'],
+  factionName: string,
+  units: CatalogueUnit[],
+): CatalogueFaction['forces'] {
+  const fallbackLimits = catalogueForces[0]?.categoryLimits ?? []
+  const byName = new Map(catalogueForces.map((force) => [force.name.toLowerCase(), force]))
+
+  return ARMY_SIZE_PRESETS.map((preset) => {
+    const catalogueForce = byName.get(preset.name.toLowerCase())
+    const borderPatrolOverrides =
+      preset.id === 'border-patrol' ? getBorderPatrolModelOverrides(factionName, units) : undefined
+    return {
+      id: preset.id,
+      name: preset.name,
+      pointLimit: preset.pointLimit,
+      categoryLimits: catalogueForce?.categoryLimits ?? fallbackLimits,
+      modelOverrides: borderPatrolOverrides && borderPatrolOverrides.length > 0 ? borderPatrolOverrides : undefined,
+      source: catalogueForce ? 'catalogue' : 'derived',
+      derivedFrom: catalogueForce ? undefined : catalogueForces[0]?.name,
+    }
+  })
+}
+
+function getBorderPatrolModelOverrides(factionName: string, units: CatalogueUnit[]): NonNullable<CatalogueFaction['forces'][number]['modelOverrides']> {
+  const overridesByFaction: Record<string, Record<string, number>> = {
+    'Abyssal Legions': {
+      'Northmen Axe': 15,
+    },
+    'Darkborn Elves': {
+      'Darkborn Spears': 12,
+    },
+    'Dwarf Holds': {
+      'Dwarf Warriors': 15,
+      'Dwarf Miners': 12,
+    },
+    'Elven Conclaves': {
+      'Elf Spears': 12,
+    },
+    'Empires of Men': {
+      'Imperial Sword': 15,
+      'Imperial Spear': 15,
+      'Imperial Halberd': 15,
+    },
+    'Goatmen Raiders': {
+      'Goatmen Warriors': 12,
+      'Mongrel Pack': 15,
+      'Mongrel Spear': 15,
+    },
+    'Greenskin Tribes': {
+      'Goblin Mob': 18,
+      'Goblin Spear Mob': 18,
+    },
+    'Knights of Avalon': {
+      'Sword Militia': 15,
+      'Spear Militia': 15,
+      'Halberd Militia': 15,
+      'Peasant Mob': 18,
+    },
+    'Ratkin Clans': {
+      'Ratkin Conscripts': 15,
+    },
+  }
+  const overrides = overridesByFaction[factionName] ?? {}
+
+  return units
+    .map((unit) => {
+      const count = overrides[unit.name]
+      return count ? { unitId: unit.id, minCount: count, defaultCount: count } : undefined
+    })
+    .filter((override): override is NonNullable<typeof override> => Boolean(override))
 }
 
 function extractStats(modelEntry: XmlNode): UnitStats {

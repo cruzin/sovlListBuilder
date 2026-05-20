@@ -47,6 +47,8 @@ export type CatalogueUnit = {
   factionId: string
   name: string
   categories: string[]
+  categoryIds: string[]
+  maxSelections?: number
   rulesUnitType?: string
   model?: UnitModel
   stats: UnitStats
@@ -64,10 +66,34 @@ export type CatalogueUnit = {
   warnings: string[]
 }
 
+export type ForceCategoryLimit = {
+  id: string
+  name: string
+  min?: number
+  max?: number
+}
+
+export type ForceModelOverride = {
+  unitId: string
+  minCount?: number
+  defaultCount?: number
+}
+
+export type ForceFormat = {
+  id: string
+  name: string
+  pointLimit?: number
+  categoryLimits: ForceCategoryLimit[]
+  modelOverrides?: ForceModelOverride[]
+  source?: 'catalogue' | 'derived'
+  derivedFrom?: string
+}
+
 export type CatalogueFaction = {
   id: string
   name: string
   sourceFile: string
+  forces: ForceFormat[]
   units: CatalogueUnit[]
   warnings: string[]
 }
@@ -92,4 +118,5 @@ export type RulesUnitAsset = {
   imageUrl?: string
   sourceIconUrl?: string
   sourceImageUrl?: string
+  maxCount?: number
 }

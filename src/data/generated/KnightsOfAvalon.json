@@ -2,12 +2,194 @@
   "id": "KnightsOfAvalon",
   "name": "Knights of Avalon",
   "sourceFile": "KnightsOfAvalon.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "modelOverrides": [
+        {
+          "unitId": "swordMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "peasants",
+          "minCount": 18,
+          "defaultCount": 18
+        },
+        {
+          "unitId": "halberdMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "spearMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "swordMilitia",
       "factionId": "KnightsOfAvalon",
       "name": "Sword Militia",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -131,6 +313,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "4a4fc8ee246bbfd47ab1aa0279a2e6f6",
@@ -250,6 +435,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Halberd Militia",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -373,6 +561,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "b0ed9754856f3364b92aeca169589dff",
@@ -492,6 +683,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Knight Aspirants",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry Lance",
@@ -625,6 +819,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "5dae96a5826f1ec4ab699340b2e5c781",
@@ -679,6 +876,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Sworn Knights",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry Lance",
@@ -817,6 +1017,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Hounds",
       "model": {
         "id": "9fb1e4b7238dad142b90250cec48973c",
@@ -861,6 +1065,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Hunters",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -924,6 +1131,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "509246b91b65e99409e5b7b6329f5c20",
@@ -978,6 +1189,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Longbowmen",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -1101,6 +1315,10 @@
       "categories": [
         "Elites"
       ],
+      "categoryIds": [
+        "Elites"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Cavalry Lance",
       "model": {
         "id": "a3c61632e19373b488fe178a04ef8499",
@@ -1242,6 +1460,10 @@
       "categories": [
         "Elites"
       ],
+      "categoryIds": [
+        "Elites"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "8e1b69c1ef919244a9fe7d1d783b3714",
@@ -1373,6 +1595,10 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "57d83861106e64a40a7eded6eb881cc8",
@@ -1424,6 +1650,10 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "c8e67a1f57740624ca32038397fd6bf6",
@@ -1473,6 +1703,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Unicorn",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Monstrous Infantry",
@@ -1529,6 +1762,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Maiden",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1772,6 +2008,9 @@
       "factionId": "KnightsOfAvalon",
       "name": "Paladin",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry Large",

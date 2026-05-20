@@ -2,6 +2,146 @@
   "id": "RatkinClans",
   "name": "Ratkin Clans",
   "sourceFile": "RatkinClans.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Vermin",
+          "name": "Vermin",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "modelOverrides": [
+        {
+          "unitId": "ratkinConscripts",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Vermin",
+          "name": "Vermin",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Vermin",
+          "name": "Vermin",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Vermin",
+          "name": "Vermin",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "ratkinLegionaries",
@@ -10,6 +150,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "d5d27f34b9a83504d9ce9e43c9e53b4f",
@@ -139,6 +283,9 @@
       "factionId": "RatkinClans",
       "name": "Ratkin Conscripts",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -291,6 +438,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "3ff281ba26253064396e7673bb82be92",
@@ -357,6 +508,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Weapon Team",
       "model": {
         "id": "cf21fd3c7d1df854da9680a4ac3a0f00",
@@ -413,6 +567,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "167c8e824805b88479c7b5a48898a87a",
@@ -539,6 +697,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Weapon Team",
       "model": {
         "id": "a7cb1daeafb5aa442b9d594b6eb51271",
@@ -590,6 +751,10 @@
       "categories": [
         "Vermin"
       ],
+      "categoryIds": [
+        "Vermin"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "fb13bfc46e46c9c4fbefeda153e2d456",
@@ -651,6 +816,10 @@
       "categories": [
         "Vermin"
       ],
+      "categoryIds": [
+        "Vermin"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "6e755304b12a4a9439267dfdedcd5b33",
@@ -702,6 +871,10 @@
       "categories": [
         "Vermin"
       ],
+      "categoryIds": [
+        "Vermin"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Swarm",
       "model": {
         "id": "40439b20d9a0baf408514560b64b2f57",
@@ -763,6 +936,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "War Wagon",
       "model": {
         "id": "bc3dcb95168aa104c9f39a8db74be7fa",
@@ -812,6 +988,9 @@
       "factionId": "RatkinClans",
       "name": "Ratkin Warlock",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1053,6 +1232,9 @@
       "factionId": "RatkinClans",
       "name": "Ratkin Chieftain",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1301,6 +1483,9 @@
       "factionId": "RatkinClans",
       "name": "Ratkin Infiltrator",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

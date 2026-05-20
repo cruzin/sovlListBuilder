@@ -2,12 +2,184 @@
   "id": "GreenskinTribes",
   "name": "Greenskin Tribes",
   "sourceFile": "GreenskinTribes.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Big Stuff",
+          "name": "Big Stuff",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "modelOverrides": [
+        {
+          "unitId": "goblinMob",
+          "minCount": 18,
+          "defaultCount": 18
+        },
+        {
+          "unitId": "goblinSpears",
+          "minCount": 18,
+          "defaultCount": 18
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Big Stuff",
+          "name": "Big Stuff",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Big Stuff",
+          "name": "Big Stuff",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Big Stuff",
+          "name": "Big Stuff",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "orcWarriors",
       "factionId": "GreenskinTribes",
       "name": "Orc Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -155,6 +327,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "f7a41128561d8894eafce40cfa9c99d8",
@@ -286,6 +462,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "5e86a1e26b3e7bb448206fb7c45a06de",
@@ -405,6 +584,9 @@
       "factionId": "GreenskinTribes",
       "name": "Goblin Spear Mob",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -528,6 +710,9 @@
       "categories": [
         "Raiders"
       ],
+      "categoryIds": [
+        "Raiders"
+      ],
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "3da2044fb4a01dd46ab99c82fb3484b5",
@@ -647,6 +832,9 @@
       "factionId": "GreenskinTribes",
       "name": "Goblin Wolf Riders",
       "categories": [
+        "Raiders"
+      ],
+      "categoryIds": [
         "Raiders"
       ],
       "rulesUnitType": "Cavalry",
@@ -780,6 +968,10 @@
       "categories": [
         "Raiders"
       ],
+      "categoryIds": [
+        "Raiders"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Chariot",
       "model": {
         "id": "9eb94775c0abb6e4fa9dccd37f0f621f",
@@ -829,6 +1021,9 @@
       "factionId": "GreenskinTribes",
       "name": "Goblin Shortbows",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -952,6 +1147,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "ef6f33f52fc610f47ac7e1dfbffe2734",
@@ -1013,6 +1212,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "War Machine",
       "model": {
         "id": "d51b3ca10fd904b479cee2a6883395d3",
@@ -1069,6 +1271,10 @@
       "categories": [
         "Big Stuff"
       ],
+      "categoryIds": [
+        "Big Stuff"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "4060023864d94c44ba9eef0258e42436",
@@ -1120,6 +1326,10 @@
       "categories": [
         "Big Stuff"
       ],
+      "categoryIds": [
+        "Big Stuff"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "0c11b0eb8f10fd8468e09be89708ea77",
@@ -1171,6 +1381,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "c6b8731c843a6dd4b86b5ea44840c0f2",
@@ -1220,6 +1433,9 @@
       "factionId": "GreenskinTribes",
       "name": "Giant Spider",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Large Monster Long Base",
@@ -1286,6 +1502,9 @@
       "factionId": "GreenskinTribes",
       "name": "War Chief",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry Large",
@@ -1558,6 +1777,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "d6eeddff69eb93e42a8bbc9366a216e7",
@@ -1794,6 +2016,9 @@
       "factionId": "GreenskinTribes",
       "name": "Goblin King",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry Large",

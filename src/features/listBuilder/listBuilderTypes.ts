@@ -14,6 +14,7 @@ export type ArmyListItem = {
 
 export type SavedArmyList = {
   factionId: string
+  forceId?: string
   items: ArmyListItem[]
   savedAt: string
 }

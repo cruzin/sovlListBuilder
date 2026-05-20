@@ -1,12 +1,17 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import catalogue from '../../data/generated/catalogue.json'
-import type { CatalogueFaction, CatalogueUnit } from '../../types/catalogue'
+import type { CatalogueFaction, CatalogueUnit, ForceFormat } from '../../types/catalogue'
 import type { ArmyListItem } from './listBuilderTypes'
 import { useLocalArmyList } from './useLocalArmyList'
 import {
   clampModelCount,
   exportArmyList,
   formatPoints,
+  getAddUnitBlockReason,
+  getArmyLimitWarnings,
+  getCategoryUsage,
+  getEffectiveModel,
+  getForceById,
   getListItemCost,
   getUnitById,
   listTotal,
@@ -19,8 +24,10 @@ const factions = catalogue.factions as CatalogueFaction[]
 
 export function ListBuilder() {
   const defaultFactionId = factions[0]?.id ?? ''
-  const { factionId, setFactionId, items, setItems, save, clear, lastSavedAt } = useLocalArmyList(defaultFactionId)
+  const { factionId, setFactionId, forceId, setForceId, items, setItems, save, clear, lastSavedAt } =
+    useLocalArmyList(defaultFactionId)
   const faction = factions.find((item) => item.id === factionId) ?? factions[0]
+  const force = getForceById(faction, forceId)
   const [selectedUnitId, setSelectedUnitId] = useState(faction?.units[0]?.id ?? '')
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
@@ -46,6 +53,31 @@ export function ListBuilder() {
     )
   }, [category, faction, query])
   const total = listTotal(faction, items)
+  const limitWarnings = getArmyLimitWarnings(faction, items, force)
+  const categoryUsage = getCategoryUsage(faction, items, force)
+
+  useEffect(() => {
+    if (!faction || !force) {
+      return
+    }
+
+    setItems((current) => {
+      let changed = false
+      const nextItems = current.map((item) => {
+        const unit = getUnitById(faction, item.unitId)
+        if (!unit) {
+          return item
+        }
+        const count = clampModelCount(unit, item.count, force)
+        if (count === item.count) {
+          return item
+        }
+        changed = true
+        return { ...item, count }
+      })
+      return changed ? nextItems : current
+    })
+  }, [faction, force, setItems])
 
   function handleFactionChange(nextFactionId: string) {
     const nextFaction = factions.find((item) => item.id === nextFactionId)
@@ -57,7 +89,7 @@ export function ListBuilder() {
   }
 
   function addUnit(unit: CatalogueUnit) {
-    setItems((current) => [...current, makeListItem(unit)])
+    setItems((current) => [...current, makeListItem(unit, force)])
   }
 
   function updateItem(nextItem: ArmyListItem) {
@@ -68,7 +100,7 @@ export function ListBuilder() {
     if (!faction) {
       return
     }
-    await navigator.clipboard.writeText(exportArmyList(faction, items))
+    await navigator.clipboard.writeText(exportArmyList(faction, items, force))
     setCopyState('copied')
     window.setTimeout(() => setCopyState('idle'), 1600)
   }
@@ -102,6 +134,14 @@ export function ListBuilder() {
             <h2>Unit Browser</h2>
           </div>
           <div className="toolbar">
+            <select aria-label="Army size" onChange={(event) => setForceId(event.target.value)} value={force?.id ?? ''}>
+              {faction?.forces.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.name}
+                  {item.pointLimit ? ` (${item.pointLimit} pts)` : ''}
+                </option>
+              ))}
+            </select>
             <input
               aria-label="Search units"
               onChange={(event) => setQuery(event.target.value)}
@@ -139,7 +179,13 @@ export function ListBuilder() {
           </section>
 
           {selectedUnit && (
-            <UnitDetails key={selectedUnit.id} unit={selectedUnit} onAdd={() => addUnit(selectedUnit)} />
+            <UnitDetails
+              blockReason={getAddUnitBlockReason(faction, items, force, selectedUnit)}
+              force={force}
+              key={selectedUnit.id}
+              unit={selectedUnit}
+              onAdd={() => addUnit(selectedUnit)}
+            />
           )}
         </div>
       </section>
@@ -149,9 +195,39 @@ export function ListBuilder() {
           <div>
             <p className="eyebrow">Current List</p>
             <h2>{formatPoints(total)}</h2>
+            {force?.pointLimit !== undefined && (
+              <p className={total > force.pointLimit ? 'limit-note over' : 'limit-note'}>
+                {force.name} limit: {formatPoints(force.pointLimit)}
+              </p>
+            )}
           </div>
           <span>{items.length} units</span>
         </div>
+
+        {force && (
+          <div className="limit-summary" aria-label={`${force.name} limits`}>
+            {force.categoryLimits.map((limit) => {
+              const current = categoryUsage.get(limit.id) ?? 0
+              const isOver = limit.max !== undefined && current > limit.max
+              const isUnder = limit.min !== undefined && current < limit.min
+              return (
+                <span className={isOver || isUnder ? 'limit-chip warning' : 'limit-chip'} key={limit.id}>
+                  {limit.name}: {current}
+                  {limit.max !== undefined ? `/${limit.max}` : ''}
+                  {limit.min !== undefined && limit.min > 0 ? ` min ${limit.min}` : ''}
+                </span>
+              )
+            })}
+          </div>
+        )}
+
+        {limitWarnings.length > 0 && (
+          <div className="limit-warnings" role="status">
+            {limitWarnings.slice(0, 4).map((warning) => (
+              <p key={warning}>{warning}</p>
+            ))}
+          </div>
+        )}
 
         <div className="army-actions">
           <button onClick={save} type="button">
@@ -179,6 +255,7 @@ export function ListBuilder() {
                 key={item.id}
                 onChange={updateItem}
                 onRemove={() => setItems((current) => current.filter((candidate) => candidate.id !== item.id))}
+                force={force}
                 unit={unit}
               />
             )
@@ -189,7 +266,18 @@ export function ListBuilder() {
   )
 }
 
-function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }) {
+function UnitDetails({
+  blockReason,
+  force,
+  unit,
+  onAdd,
+}: {
+  blockReason?: string
+  force?: ForceFormat
+  unit: CatalogueUnit
+  onAdd: () => void
+}) {
+  const effectiveModel = getEffectiveModel(unit, force)
   const statEntries = [
     ['Move', unit.stats.movement],
     ['Skill', unit.stats.skill],
@@ -211,7 +299,7 @@ function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }
             <p className="eyebrow">{unit.rulesUnitType ?? unit.categories.join(', ')}</p>
             <h3>{unit.name}</h3>
           </div>
-          <button onClick={onAdd} type="button">
+          <button disabled={Boolean(blockReason)} onClick={onAdd} title={blockReason} type="button">
             Add
           </button>
         </div>
@@ -224,10 +312,13 @@ function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }
           ))}
         </div>
         <div className="detail-meta">
-          <span>{unit.model?.defaultCount ?? 1} models default</span>
+          <span>{effectiveModel?.defaultCount ?? 1} models default</span>
           <span>{formatPoints(unit.model?.pointsPerModel ?? 0)} per model</span>
+          {effectiveModel?.minCount !== undefined && <span>Min {effectiveModel.minCount}</span>}
+          {unit.maxSelections !== undefined && <span>Max {unit.maxSelections}</span>}
           {unit.stats.baseSize && <span>{unit.stats.baseSize} base</span>}
         </div>
+        {blockReason && <p className="add-note">{blockReason}</p>}
         {unit.rules.length > 0 && (
           <div className="rules-list">
             {unit.rules.slice(0, 5).map((rule) => (
@@ -244,11 +335,13 @@ function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }
 }
 
 function ArmyListCard({
+  force,
   item,
   onChange,
   onRemove,
   unit,
 }: {
+  force?: ForceFormat
   item: ArmyListItem
   onChange: (item: ArmyListItem) => void
   onRemove: () => void
@@ -273,8 +366,8 @@ function ArmyListCard({
         <span>Models</span>
         <input
           max={unit.model?.maxCount ?? 99}
-          min={unit.model?.minCount ?? 1}
-          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value)) })}
+          min={getEffectiveModel(unit, force)?.minCount ?? 1}
+          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value), force) })}
           type="number"
           value={item.count}
         />

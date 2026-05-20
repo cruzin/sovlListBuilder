@@ -2,12 +2,172 @@
   "id": "ReptilianKingdoms",
   "name": "Reptilian Kingdoms",
   "sourceFile": "ReptilianKingdoms.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Jungle Beasts",
+          "name": "Jungle Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Jungle Beasts",
+          "name": "Jungle Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Jungle Beasts",
+          "name": "Jungle Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Jungle Beasts",
+          "name": "Jungle Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "saurianWarriors",
       "factionId": "ReptilianKingdoms",
       "name": "Saurian Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -136,6 +296,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "306d2e6dd2d0d854a8a4d59240b15971",
@@ -185,6 +349,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Newt Braves",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -318,6 +485,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "d92891b38daac58429d804d294d177a8",
@@ -444,6 +614,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "882278b374081f648a2466dd0647d1a8",
@@ -565,6 +738,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "0e78ed1c5f41c07418b9f2ed3d449e7d",
@@ -694,6 +871,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Newt Skirmishers",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -827,6 +1007,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "657c694b3dd1fe64fac2ac1996b12575",
@@ -878,6 +1062,10 @@
       "categories": [
         "Jungle Beasts"
       ],
+      "categoryIds": [
+        "Jungle Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "5e974d224bede0a4c9edd1ab1930b74b",
@@ -934,6 +1122,10 @@
       "categories": [
         "Jungle Beasts"
       ],
+      "categoryIds": [
+        "Jungle Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Swarm",
       "model": {
         "id": "24ee92037c9d3e54db573fe5b2b90a38",
@@ -988,6 +1180,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Dreadmaw",
       "categories": [
+        "Jungle Beasts"
+      ],
+      "categoryIds": [
         "Jungle Beasts"
       ],
       "rulesUnitType": "Gargantuan",
@@ -1046,6 +1241,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "47e06f1c04a174f4f9254af4361ef916",
@@ -1100,6 +1298,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Newt Priest",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1320,6 +1521,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Saurian Warlord",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry Large",
@@ -1581,6 +1785,9 @@
       "factionId": "ReptilianKingdoms",
       "name": "Ancient Toad",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

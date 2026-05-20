@@ -87,6 +87,7 @@ function extractUnitsFromFactionPage(html: string, faction: FactionPageLink): Ru
     const unitName = stripTags(cardHtml.match(/<div\s+class=["']unit-name["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] ?? fileStem)
     const unitType = stripTags(cardHtml.match(/<span\s+class=["']tooltiptext["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] ?? '')
     const imageSrc = cardHtml.match(/<img\b[^>]*src=["']([^"']*images\/[^"']+\.png)["'][^>]*>/i)?.[1]
+    const maxCount = parseNumber(stripTags(cardHtml).match(/Max Count:\s*:?\s*(\d+)/i)?.[1])
 
     units.push({
       factionName: faction.name,
@@ -96,10 +97,19 @@ function extractUnitsFromFactionPage(html: string, faction: FactionPageLink): Ru
       rulesPageUrl: faction.url,
       iconUrl: new URL(iconSrc, faction.url).href,
       imageUrl: imageSrc ? new URL(imageSrc, faction.url).href : fallbackImageUrl(faction.url, factionSlug, fileStem),
+      maxCount,
     })
   }
 
   return units
+}
+
+function parseNumber(value: string | undefined): number | undefined {
+  if (!value) {
+    return undefined
+  }
+  const parsed = Number(value)
+  return Number.isFinite(parsed) ? parsed : undefined
 }
 
 function fallbackImageUrl(pageUrl: string, factionSlug: string, unitFileStem: string): string {
