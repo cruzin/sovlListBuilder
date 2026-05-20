@@ -2,12 +2,172 @@
   "id": "DwarfHolds",
   "name": "Dwarf Holds",
   "sourceFile": "DwarfHolds.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Machines of War",
+          "name": "Machines of War",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Machines of War",
+          "name": "Machines of War",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Machines of War",
+          "name": "Machines of War",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Elites",
+          "name": "Elites",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Machines of War",
+          "name": "Machines of War",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "dwarfWarriors",
       "factionId": "DwarfHolds",
       "name": "Dwarf Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -86,6 +246,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "0d4d8beb19d4a5b4f9ee725bad13e1e7",
@@ -241,6 +405,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "c4ae76bf0e712294284da688f4b9b412",
@@ -377,6 +545,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "cf0b7c4ab99e1fe41abad77b57f7603d",
@@ -501,6 +672,9 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Handguns",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry",
@@ -629,6 +803,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "6b7df6e45bfd3cc4dae79e1863003c8f",
@@ -789,6 +967,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "d63aafd70d6b8e44bb53c9cd4f440c57",
@@ -850,6 +1032,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "424cab936b1f4bb41a11d25d99ec0a5e",
@@ -911,6 +1097,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "ce91d4e76d4b8084586a12aaa40fc4f2",
@@ -965,6 +1155,9 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Berserkers",
       "categories": [
+        "Elites"
+      ],
+      "categoryIds": [
         "Elites"
       ],
       "rulesUnitType": "Infantry",
@@ -1096,6 +1289,9 @@
       "factionId": "DwarfHolds",
       "name": "Deep Guard",
       "categories": [
+        "Elites"
+      ],
+      "categoryIds": [
         "Elites"
       ],
       "rulesUnitType": "Infantry",
@@ -1258,6 +1454,10 @@
       "categories": [
         "Machines of War"
       ],
+      "categoryIds": [
+        "Machines of War"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "44b7328fe7ec9864ab988dea6ef677c7",
@@ -1314,6 +1514,10 @@
       "categories": [
         "Machines of War"
       ],
+      "categoryIds": [
+        "Machines of War"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "3759da4f47f7de04283eb268a621fdf9",
@@ -1368,6 +1572,9 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Foreman",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1614,6 +1821,9 @@
       "factionId": "DwarfHolds",
       "name": "Ranger Captain",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1875,6 +2085,9 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Engineer",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

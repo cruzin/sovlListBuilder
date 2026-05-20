@@ -2,12 +2,172 @@
   "id": "AbyssalDemons",
   "name": "Abyssal Demons",
   "sourceFile": "AbyssalDemons.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abyssal Terrors",
+          "name": "Abyssal Terrors",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abyssal Terrors",
+          "name": "Abyssal Terrors",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abyssal Terrors",
+          "name": "Abyssal Terrors",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Abyssal Terrors",
+          "name": "Abyssal Terrors",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "abyssalVipers",
       "factionId": "AbyssalDemons",
       "name": "Abyssal Vipers",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -141,6 +301,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "21ca20d41bdc89f428f08dc98846d070",
@@ -270,6 +433,9 @@
       "factionId": "AbyssalDemons",
       "name": "Plague Walkers",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -408,6 +574,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Swarm",
       "model": {
         "id": "b7bfe283fd326d041a7c705bb747ba2e",
@@ -462,6 +632,9 @@
       "factionId": "AbyssalDemons",
       "name": "Fire Devils",
       "categories": [
+        "Ranged Support"
+      ],
+      "categoryIds": [
         "Ranged Support"
       ],
       "rulesUnitType": "Infantry Large",
@@ -595,6 +768,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "979cc271f6a8d76468837b24546ebd2c",
@@ -654,6 +830,9 @@
       "factionId": "AbyssalDemons",
       "name": "Abyssal Reapers",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -787,6 +966,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Hounds",
       "model": {
         "id": "74d6c3e3ba3b171488c0e4de757b0b49",
@@ -836,6 +1019,9 @@
       "factionId": "AbyssalDemons",
       "name": "Hell Riders",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -969,6 +1155,10 @@
       "categories": [
         "Abyssal Terrors"
       ],
+      "categoryIds": [
+        "Abyssal Terrors"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "c0c1095866e9ef14da279d750d346376",
@@ -1065,6 +1255,10 @@
       "categories": [
         "Abyssal Terrors"
       ],
+      "categoryIds": [
+        "Abyssal Terrors"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "50dbeb5f1ef0bc046ba26571decebf25",
@@ -1149,6 +1343,9 @@
       "factionId": "AbyssalDemons",
       "name": "Abyssal Prince",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Large Monster",
@@ -1448,6 +1645,9 @@
       "factionId": "AbyssalDemons",
       "name": "Abyssal Herald",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

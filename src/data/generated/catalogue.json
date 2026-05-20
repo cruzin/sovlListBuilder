@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T21:17:27.071Z",
+  "generatedAt": "2026-05-20T21:36:21.749Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -9,12 +9,172 @@
       "id": "AbyssalDemons",
       "name": "Abyssal Demons",
       "sourceFile": "AbyssalDemons.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abyssal Terrors",
+              "name": "Abyssal Terrors",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abyssal Terrors",
+              "name": "Abyssal Terrors",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abyssal Terrors",
+              "name": "Abyssal Terrors",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abyssal Terrors",
+              "name": "Abyssal Terrors",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "abyssalVipers",
           "factionId": "AbyssalDemons",
           "name": "Abyssal Vipers",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -148,6 +308,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "21ca20d41bdc89f428f08dc98846d070",
@@ -277,6 +440,9 @@
           "factionId": "AbyssalDemons",
           "name": "Plague Walkers",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -415,6 +581,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Swarm",
           "model": {
             "id": "b7bfe283fd326d041a7c705bb747ba2e",
@@ -469,6 +639,9 @@
           "factionId": "AbyssalDemons",
           "name": "Fire Devils",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry Large",
@@ -602,6 +775,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "979cc271f6a8d76468837b24546ebd2c",
@@ -661,6 +837,9 @@
           "factionId": "AbyssalDemons",
           "name": "Abyssal Reapers",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -794,6 +973,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Hounds",
           "model": {
             "id": "74d6c3e3ba3b171488c0e4de757b0b49",
@@ -843,6 +1026,9 @@
           "factionId": "AbyssalDemons",
           "name": "Hell Riders",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -976,6 +1162,10 @@
           "categories": [
             "Abyssal Terrors"
           ],
+          "categoryIds": [
+            "Abyssal Terrors"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "c0c1095866e9ef14da279d750d346376",
@@ -1072,6 +1262,10 @@
           "categories": [
             "Abyssal Terrors"
           ],
+          "categoryIds": [
+            "Abyssal Terrors"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "50dbeb5f1ef0bc046ba26571decebf25",
@@ -1156,6 +1350,9 @@
           "factionId": "AbyssalDemons",
           "name": "Abyssal Prince",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Large Monster",
@@ -1455,6 +1652,9 @@
           "factionId": "AbyssalDemons",
           "name": "Abyssal Herald",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -1771,12 +1971,172 @@
       "id": "AbyssalLegions",
       "name": "Abyssal Legions",
       "sourceFile": "AbyssalLegions.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Demonic Allies",
+              "name": "Demonic Allies",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "War Beasts",
+              "name": "War Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Demonic Allies",
+              "name": "Demonic Allies",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "War Beasts",
+              "name": "War Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Demonic Allies",
+              "name": "Demonic Allies",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "War Beasts",
+              "name": "War Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Demonic Allies",
+              "name": "Demonic Allies",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "War Beasts",
+              "name": "War Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "northmenAxe",
           "factionId": "AbyssalLegions",
           "name": "Northmen Axe",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -1922,6 +2282,9 @@
           "factionId": "AbyssalLegions",
           "name": "Abyssal Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -2096,6 +2459,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "524736cee680c9040b98f487b28ff16c",
@@ -2170,6 +2537,9 @@
           "factionId": "AbyssalLegions",
           "name": "Northmen Horse",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -2296,6 +2666,9 @@
           "factionId": "AbyssalLegions",
           "name": "Abyssal Knights",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -2449,6 +2822,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Hounds",
           "model": {
             "id": "68a973325e3b5b248b6b72714d661f39",
@@ -2495,6 +2872,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "897475da0f9a1e64f8a6e615e7507435",
@@ -2551,6 +2932,10 @@
           "categories": [
             "Demonic Allies"
           ],
+          "categoryIds": [
+            "Demonic Allies"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "502f8a02255d0534eaaac1340fb51ce5",
@@ -2635,6 +3020,9 @@
           "factionId": "AbyssalLegions",
           "name": "Devilspawn",
           "categories": [
+            "Demonic Allies"
+          ],
+          "categoryIds": [
             "Demonic Allies"
           ],
           "rulesUnitType": "Infantry Large",
@@ -2768,6 +3156,10 @@
           "categories": [
             "War Beasts"
           ],
+          "categoryIds": [
+            "War Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster Long Base",
           "model": {
             "id": "56d040919bbf33d48bc7902fe570d3ec",
@@ -2822,6 +3214,9 @@
           "factionId": "AbyssalLegions",
           "name": "Abyssal Dragon",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster",
@@ -2880,6 +3275,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "8597f4ebf8907834580abc2e68db877c",
@@ -2929,6 +3327,9 @@
           "factionId": "AbyssalLegions",
           "name": "Abyssal Champion",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -3215,6 +3616,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "550ed927165cf2e4d9dc420947b01c05",
@@ -3488,6 +3892,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "9a553fa8a12c7e249953be5b27932b5f",
@@ -3754,12 +4161,172 @@
       "id": "DarkbornElves",
       "name": "Darkborn Elves",
       "sourceFile": "DarkbornElves.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Tamed Beasts",
+              "name": "Tamed Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Tamed Beasts",
+              "name": "Tamed Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Tamed Beasts",
+              "name": "Tamed Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Tamed Beasts",
+              "name": "Tamed Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "darkbornSpears",
           "factionId": "DarkbornElves",
           "name": "Darkborn Spears",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -3888,6 +4455,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "0b24ae1dd969db94faedf74aca0d4d91",
@@ -4048,6 +4619,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "eeb3a64e00407834c96711e7c651fda2",
@@ -4184,6 +4759,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "87c6cf3ff3e1ff04a8f9cb10e9a80b56",
@@ -4310,6 +4888,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "3e68db09a5e92704390739c48b3a67e4",
@@ -4451,6 +5033,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "5a53f9b8685687d43b41c3f1de81aba3",
@@ -4510,6 +5096,9 @@
           "factionId": "DarkbornElves",
           "name": "Raptor Knights",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -4663,6 +5252,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "39c6b989d3aadca49b6b0ca27e7497c8",
@@ -4794,6 +5386,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "e843b9a44956ac749930b65c7e013d2b",
@@ -4855,6 +5451,10 @@
           "categories": [
             "Tamed Beasts"
           ],
+          "categoryIds": [
+            "Tamed Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster Long Base",
           "model": {
             "id": "26f1c4f17bf337344a94611dd005a096",
@@ -4911,6 +5511,9 @@
           "categories": [
             "Tamed Beasts"
           ],
+          "categoryIds": [
+            "Tamed Beasts"
+          ],
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "bd129822fdb48e74abc972a5a789f1c1",
@@ -4960,6 +5563,9 @@
           "factionId": "DarkbornElves",
           "name": "Black Dragon",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster",
@@ -5018,6 +5624,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "b680a3b779266a941a09c126034d4dc9",
@@ -5067,6 +5676,9 @@
           "factionId": "DarkbornElves",
           "name": "Darkborn Noble",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -5353,6 +5965,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "7eff7aebccbb17542aa8f5986c6f099a",
@@ -5625,6 +6240,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "5e47888c5330ee146a35cd8bc77c31ee",
@@ -5883,12 +6501,172 @@
       "id": "DeadNations",
       "name": "Dead Nations",
       "sourceFile": "DeadNations.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abominations",
+              "name": "Abominations",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abominations",
+              "name": "Abominations",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abominations",
+              "name": "Abominations",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Abominations",
+              "name": "Abominations",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "skeletons",
           "factionId": "DeadNations",
           "name": "Skeleton Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -6017,6 +6795,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "775d5c46403c26147bfa6cb31c2748bb",
@@ -6068,6 +6849,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "36432a372911ded48b4115f73c5e8bd5",
@@ -6223,6 +7008,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "9909c37c0a95d454585c845e83a87c87",
@@ -6349,6 +7137,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "e20c203792f81034cb7a5ef37adc5557",
@@ -6408,6 +7200,9 @@
           "factionId": "DeadNations",
           "name": "Skeleton Bowmen",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -6536,6 +7331,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Hounds",
           "model": {
             "id": "753504db8c1f81a4883b10910845c48f",
@@ -6580,6 +7378,9 @@
           "factionId": "DeadNations",
           "name": "Skeleton Knights",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -6738,6 +7539,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "261a9c210dd26ef439d02d39377f17e1",
@@ -6894,6 +7699,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "76bfa99908f6e4043b4b4aae318f9b59",
@@ -6945,6 +7753,10 @@
           "categories": [
             "Abominations"
           ],
+          "categoryIds": [
+            "Abominations"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "a1bcd5daa970be047bc763124de6579a",
@@ -6994,6 +7806,9 @@
           "factionId": "DeadNations",
           "name": "Bone Dragon",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster",
@@ -7055,6 +7870,9 @@
           "factionId": "DeadNations",
           "name": "Wight Lord",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -7352,6 +8170,9 @@
           "factionId": "DeadNations",
           "name": "Vampire Knight",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -7710,6 +8531,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "edcd26b8b1b47e44da27eb40fe31c25d",
@@ -7965,12 +8789,172 @@
       "id": "DeepwoodGuardians",
       "name": "Deepwood Guardians",
       "sourceFile": "DeepwoodGuardians.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Forest Guardians",
+              "name": "Forest Guardians",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Forest Guardians",
+              "name": "Forest Guardians",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Forest Guardians",
+              "name": "Forest Guardians",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Forest Guardians",
+              "name": "Forest Guardians",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "deepwoodGuard",
           "factionId": "DeepwoodGuardians",
           "name": "Deepwood Guard",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -8099,6 +9083,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "a9ea47bfb9750234c80504b55df0689d",
@@ -8230,6 +9218,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "727eb5d17a3003046804411d9a3dc589",
@@ -8366,6 +9358,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "2ae08aa8fbe4f8141ae5705ce79c0a04",
@@ -8497,6 +9492,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "0960ed933d3043244a56b32e2c78d099",
@@ -8641,6 +9640,9 @@
           "factionId": "DeepwoodGuardians",
           "name": "Deepwood Riders",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -8799,6 +9801,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "55c25689da25fa740abb8578fd4ce708",
@@ -8860,6 +9866,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "2802e1d7e3e899e4cb652f4c516f300c",
@@ -8909,6 +9919,9 @@
           "factionId": "DeepwoodGuardians",
           "name": "Stag Riders",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -9037,6 +10050,10 @@
           "categories": [
             "Forest Guardians"
           ],
+          "categoryIds": [
+            "Forest Guardians"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "a4bfb19e325dbc3448b5f0dfb6fb2c05",
@@ -9091,6 +10108,9 @@
           "factionId": "DeepwoodGuardians",
           "name": "Forest Dragon",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster",
@@ -9149,6 +10169,10 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "16aaaedd88ba76343b5a577e7825c51a",
@@ -9198,6 +10222,9 @@
           "factionId": "DeepwoodGuardians",
           "name": "Deepwood Noble",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -9494,6 +10521,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "de811b5d80a4ce441b55c39dd4a66398",
@@ -9748,6 +10778,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "1b4495d615f3db04e97c68c5cefbb5c3",
@@ -9939,12 +10972,172 @@
       "id": "DwarfHolds",
       "name": "Dwarf Holds",
       "sourceFile": "DwarfHolds.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Machines of War",
+              "name": "Machines of War",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Machines of War",
+              "name": "Machines of War",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Machines of War",
+              "name": "Machines of War",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Machines of War",
+              "name": "Machines of War",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "dwarfWarriors",
           "factionId": "DwarfHolds",
           "name": "Dwarf Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -10023,6 +11216,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "0d4d8beb19d4a5b4f9ee725bad13e1e7",
@@ -10178,6 +11375,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "c4ae76bf0e712294284da688f4b9b412",
@@ -10314,6 +11515,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "cf0b7c4ab99e1fe41abad77b57f7603d",
@@ -10438,6 +11642,9 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Handguns",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -10566,6 +11773,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "6b7df6e45bfd3cc4dae79e1863003c8f",
@@ -10726,6 +11937,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "d63aafd70d6b8e44bb53c9cd4f440c57",
@@ -10787,6 +12002,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "424cab936b1f4bb41a11d25d99ec0a5e",
@@ -10848,6 +12067,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "ce91d4e76d4b8084586a12aaa40fc4f2",
@@ -10902,6 +12125,9 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Berserkers",
           "categories": [
+            "Elites"
+          ],
+          "categoryIds": [
             "Elites"
           ],
           "rulesUnitType": "Infantry",
@@ -11033,6 +12259,9 @@
           "factionId": "DwarfHolds",
           "name": "Deep Guard",
           "categories": [
+            "Elites"
+          ],
+          "categoryIds": [
             "Elites"
           ],
           "rulesUnitType": "Infantry",
@@ -11195,6 +12424,10 @@
           "categories": [
             "Machines of War"
           ],
+          "categoryIds": [
+            "Machines of War"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "44b7328fe7ec9864ab988dea6ef677c7",
@@ -11251,6 +12484,10 @@
           "categories": [
             "Machines of War"
           ],
+          "categoryIds": [
+            "Machines of War"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "3759da4f47f7de04283eb268a621fdf9",
@@ -11305,6 +12542,9 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Foreman",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -11551,6 +12791,9 @@
           "factionId": "DwarfHolds",
           "name": "Ranger Captain",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -11814,6 +13057,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "9dfc61246d7b39145ad451e3a720c47e",
@@ -12065,12 +13311,148 @@
       "id": "ElvenConclaves",
       "name": "Elven Conclaves",
       "sourceFile": "ElvenConclaves.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "elfSpears",
           "factionId": "ElvenConclaves",
           "name": "Elf Spears",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -12199,6 +13581,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "1f6d99f2fa74a2f4cb92bd03d82f33c1",
@@ -12330,6 +13716,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "0e14c3c61dc4a5d44a78109858c17fed",
@@ -12495,6 +13885,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "3980636fba9781442a5be9f3cb4f4aaa",
@@ -12621,6 +14014,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "b8e145a22dff1314eb86a6978e8f6386",
@@ -12762,6 +14159,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "769292515927efa4f8de1097587f4bd2",
@@ -12821,6 +14222,9 @@
           "factionId": "ElvenConclaves",
           "name": "Elf Lancers",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -12954,6 +14358,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "92a03f2cd43d36b4aad17b1ba7710d2e",
@@ -13085,6 +14492,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "33710acd9fbe47b4693ea727cddc4328",
@@ -13146,6 +14557,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "40e59a53eeb3be04881ca74a1ad38182",
@@ -13197,6 +14612,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "94076cf247979aa4a99113e1bff9f726",
@@ -13358,6 +14777,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "6f7c25f37aeed89409c4b0693af98d3e",
@@ -13414,6 +14836,10 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "7664050b02d6a15449784f338e6a14a5",
@@ -13463,6 +14889,9 @@
           "factionId": "ElvenConclaves",
           "name": "Elf Noble",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -13754,6 +15183,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "3eb9400f4901f5640b2f0af443455031",
@@ -14015,6 +15447,9 @@
           "factionId": "ElvenConclaves",
           "name": "Elf Spellsword",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -14349,12 +15784,172 @@
       "id": "EmpiresOfMen",
       "name": "Empires of Men",
       "sourceFile": "EmpiresOfMen.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Imperial Armory",
+              "name": "Imperial Armory",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Imperial Armory",
+              "name": "Imperial Armory",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Imperial Armory",
+              "name": "Imperial Armory",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Imperial Armory",
+              "name": "Imperial Armory",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "imperialSword",
           "factionId": "EmpiresOfMen",
           "name": "Imperial Sword",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -14478,6 +16073,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "1e958850305b3dd4295b2b37d2219d10",
@@ -14634,6 +16233,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "d5d18a9947ccdf44683a5171bd68bbd4",
@@ -14755,6 +16357,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "7bd2b9d82eaa292458215b29239a0571",
@@ -14874,6 +16479,9 @@
           "factionId": "EmpiresOfMen",
           "name": "Imperial Knights",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry",
@@ -15043,6 +16651,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "3000571c45f9a8c42b649d1bf48c8d1b",
@@ -15169,6 +16781,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "6f3458d0fc1652340bf85820b8e41f41",
@@ -15288,6 +16903,9 @@
           "factionId": "EmpiresOfMen",
           "name": "Imperial Crossbowmen",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -15411,6 +17029,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "6c739571eabf2b4489b721448500f9d5",
@@ -15532,6 +17153,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "aa53f7bd2c72acb44a48cffe36cb10a1",
@@ -15593,6 +17218,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "103af0f3fa925d147ac24b29c5407b13",
@@ -15649,6 +17278,10 @@
           "categories": [
             "Imperial Armory"
           ],
+          "categoryIds": [
+            "Imperial Armory"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Wagon",
           "model": {
             "id": "549b90ca81505344dafb6ac7812b0d88",
@@ -15715,6 +17348,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "0f3bd089c4019264698b7b0596ee3514",
@@ -15764,6 +17400,9 @@
           "factionId": "EmpiresOfMen",
           "name": "Imperial Dragon",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster",
@@ -15820,6 +17459,9 @@
           "factionId": "EmpiresOfMen",
           "name": "Captain",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -16097,6 +17739,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "2e6918f47864b57408fa50cb9b102b43",
@@ -16363,6 +18008,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "b499d309c6d8b7346af0857f0390b12d",
@@ -16601,12 +18249,148 @@
       "id": "GoatmenRaiders",
       "name": "Goatmen Raiders",
       "sourceFile": "GoatmenRaiders.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Wild Beasts",
+              "name": "Wild Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Wild Beasts",
+              "name": "Wild Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Wild Beasts",
+              "name": "Wild Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Wild Beasts",
+              "name": "Wild Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "ibexWarriors",
           "factionId": "GoatmenRaiders",
           "name": "Ibex Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -16738,6 +18522,9 @@
           "factionId": "GoatmenRaiders",
           "name": "Goatmen Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -16885,6 +18672,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "33c3f1913dfabb9408ecfc6f67c9bc48",
@@ -16939,6 +18729,9 @@
           "factionId": "GoatmenRaiders",
           "name": "Mongrel Spear",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -16997,6 +18790,10 @@
           "categories": [
             "Raiders"
           ],
+          "categoryIds": [
+            "Raiders"
+          ],
+          "maxSelections": 3,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "6d7f9be1e9c704844bc685a7069509c9",
@@ -17053,6 +18850,10 @@
           "categories": [
             "Raiders"
           ],
+          "categoryIds": [
+            "Raiders"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Hounds",
           "model": {
             "id": "be542fae069b22c4fbccb0d0df449213",
@@ -17097,6 +18898,9 @@
           "factionId": "GoatmenRaiders",
           "name": "Mongrel Skirmishers",
           "categories": [
+            "Raiders"
+          ],
+          "categoryIds": [
             "Raiders"
           ],
           "rulesUnitType": "Infantry",
@@ -17153,6 +18957,9 @@
           "factionId": "GoatmenRaiders",
           "name": "Centaurs",
           "categories": [
+            "Raiders"
+          ],
+          "categoryIds": [
             "Raiders"
           ],
           "rulesUnitType": "Cavalry",
@@ -17329,6 +19136,10 @@
           "categories": [
             "Wild Beasts"
           ],
+          "categoryIds": [
+            "Wild Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "9e4971f659c0c634a9f6f978107cd456",
@@ -17405,6 +19216,9 @@
           "categories": [
             "Wild Beasts"
           ],
+          "categoryIds": [
+            "Wild Beasts"
+          ],
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "b3d25ae6a49084c46a2b8e33d6f11815",
@@ -17456,6 +19270,10 @@
           "categories": [
             "Wild Beasts"
           ],
+          "categoryIds": [
+            "Wild Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "8cb87e3be6fd3df44a01e0148b6d4202",
@@ -17510,6 +19328,9 @@
           "factionId": "GoatmenRaiders",
           "name": "Goatman Shaman",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -17766,6 +19587,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "bf7defd133131614ea4971e53b7f1fb3",
@@ -18013,6 +19837,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "845263b13cb206c46a4239896499b3b5",
@@ -18242,12 +20069,172 @@
       "id": "GreenskinTribes",
       "name": "Greenskin Tribes",
       "sourceFile": "GreenskinTribes.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Big Stuff",
+              "name": "Big Stuff",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Big Stuff",
+              "name": "Big Stuff",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Big Stuff",
+              "name": "Big Stuff",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Raiders",
+              "name": "Raiders",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Big Stuff",
+              "name": "Big Stuff",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "orcWarriors",
           "factionId": "GreenskinTribes",
           "name": "Orc Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -18395,6 +20382,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "f7a41128561d8894eafce40cfa9c99d8",
@@ -18526,6 +20517,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "5e86a1e26b3e7bb448206fb7c45a06de",
@@ -18645,6 +20639,9 @@
           "factionId": "GreenskinTribes",
           "name": "Goblin Spear Mob",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -18768,6 +20765,9 @@
           "categories": [
             "Raiders"
           ],
+          "categoryIds": [
+            "Raiders"
+          ],
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "3da2044fb4a01dd46ab99c82fb3484b5",
@@ -18887,6 +20887,9 @@
           "factionId": "GreenskinTribes",
           "name": "Goblin Wolf Riders",
           "categories": [
+            "Raiders"
+          ],
+          "categoryIds": [
             "Raiders"
           ],
           "rulesUnitType": "Cavalry",
@@ -19020,6 +21023,10 @@
           "categories": [
             "Raiders"
           ],
+          "categoryIds": [
+            "Raiders"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Chariot",
           "model": {
             "id": "9eb94775c0abb6e4fa9dccd37f0f621f",
@@ -19069,6 +21076,9 @@
           "factionId": "GreenskinTribes",
           "name": "Goblin Shortbows",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -19192,6 +21202,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "ef6f33f52fc610f47ac7e1dfbffe2734",
@@ -19253,6 +21267,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "War Machine",
           "model": {
             "id": "d51b3ca10fd904b479cee2a6883395d3",
@@ -19309,6 +21326,10 @@
           "categories": [
             "Big Stuff"
           ],
+          "categoryIds": [
+            "Big Stuff"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "4060023864d94c44ba9eef0258e42436",
@@ -19360,6 +21381,10 @@
           "categories": [
             "Big Stuff"
           ],
+          "categoryIds": [
+            "Big Stuff"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "0c11b0eb8f10fd8468e09be89708ea77",
@@ -19411,6 +21436,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "c6b8731c843a6dd4b86b5ea44840c0f2",
@@ -19460,6 +21488,9 @@
           "factionId": "GreenskinTribes",
           "name": "Giant Spider",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Large Monster Long Base",
@@ -19526,6 +21557,9 @@
           "factionId": "GreenskinTribes",
           "name": "War Chief",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry Large",
@@ -19798,6 +21832,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "d6eeddff69eb93e42a8bbc9366a216e7",
@@ -20034,6 +22071,9 @@
           "factionId": "GreenskinTribes",
           "name": "Goblin King",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry Large",
@@ -20315,12 +22355,172 @@
       "id": "KnightsOfAvalon",
       "name": "Knights of Avalon",
       "sourceFile": "KnightsOfAvalon.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 2
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Elites",
+              "name": "Elites",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "swordMilitia",
           "factionId": "KnightsOfAvalon",
           "name": "Sword Militia",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -20444,6 +22644,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "4a4fc8ee246bbfd47ab1aa0279a2e6f6",
@@ -20563,6 +22766,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Halberd Militia",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -20686,6 +22892,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "b0ed9754856f3364b92aeca169589dff",
@@ -20805,6 +23014,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Knight Aspirants",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry Lance",
@@ -20938,6 +23150,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "5dae96a5826f1ec4ab699340b2e5c781",
@@ -20992,6 +23207,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Sworn Knights",
           "categories": [
+            "Fast Attack"
+          ],
+          "categoryIds": [
             "Fast Attack"
           ],
           "rulesUnitType": "Cavalry Lance",
@@ -21130,6 +23348,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Hounds",
           "model": {
             "id": "9fb1e4b7238dad142b90250cec48973c",
@@ -21174,6 +23396,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Hunters",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -21237,6 +23462,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "War Machine",
           "model": {
             "id": "509246b91b65e99409e5b7b6329f5c20",
@@ -21291,6 +23520,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Longbowmen",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -21414,6 +23646,10 @@
           "categories": [
             "Elites"
           ],
+          "categoryIds": [
+            "Elites"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Cavalry Lance",
           "model": {
             "id": "a3c61632e19373b488fe178a04ef8499",
@@ -21555,6 +23791,10 @@
           "categories": [
             "Elites"
           ],
+          "categoryIds": [
+            "Elites"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "8e1b69c1ef919244a9fe7d1d783b3714",
@@ -21686,6 +23926,10 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "57d83861106e64a40a7eded6eb881cc8",
@@ -21737,6 +23981,10 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "c8e67a1f57740624ca32038397fd6bf6",
@@ -21786,6 +24034,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Unicorn",
           "categories": [
+            "Mounts"
+          ],
+          "categoryIds": [
             "Mounts"
           ],
           "rulesUnitType": "Monstrous Infantry",
@@ -21842,6 +24093,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Maiden",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -22085,6 +24339,9 @@
           "factionId": "KnightsOfAvalon",
           "name": "Paladin",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry Large",
@@ -22401,6 +24658,139 @@
       "id": "RatkinClans",
       "name": "Ratkin Clans",
       "sourceFile": "RatkinClans.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Vermin",
+              "name": "Vermin",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Vermin",
+              "name": "Vermin",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Vermin",
+              "name": "Vermin",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Vermin",
+              "name": "Vermin",
+              "min": 0,
+              "max": 2
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "ratkinLegionaries",
@@ -22409,6 +24799,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "d5d27f34b9a83504d9ce9e43c9e53b4f",
@@ -22538,6 +24932,9 @@
           "factionId": "RatkinClans",
           "name": "Ratkin Conscripts",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -22690,6 +25087,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "3ff281ba26253064396e7673bb82be92",
@@ -22756,6 +25157,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Weapon Team",
           "model": {
             "id": "cf21fd3c7d1df854da9680a4ac3a0f00",
@@ -22812,6 +25216,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 2,
           "rulesUnitType": "Infantry",
           "model": {
             "id": "167c8e824805b88479c7b5a48898a87a",
@@ -22938,6 +25346,9 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
           "rulesUnitType": "Weapon Team",
           "model": {
             "id": "a7cb1daeafb5aa442b9d594b6eb51271",
@@ -22989,6 +25400,10 @@
           "categories": [
             "Vermin"
           ],
+          "categoryIds": [
+            "Vermin"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster Long Base",
           "model": {
             "id": "fb13bfc46e46c9c4fbefeda153e2d456",
@@ -23050,6 +25465,10 @@
           "categories": [
             "Vermin"
           ],
+          "categoryIds": [
+            "Vermin"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "6e755304b12a4a9439267dfdedcd5b33",
@@ -23101,6 +25520,10 @@
           "categories": [
             "Vermin"
           ],
+          "categoryIds": [
+            "Vermin"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Swarm",
           "model": {
             "id": "40439b20d9a0baf408514560b64b2f57",
@@ -23162,6 +25585,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "War Wagon",
           "model": {
             "id": "bc3dcb95168aa104c9f39a8db74be7fa",
@@ -23211,6 +25637,9 @@
           "factionId": "RatkinClans",
           "name": "Ratkin Warlock",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -23452,6 +25881,9 @@
           "factionId": "RatkinClans",
           "name": "Ratkin Chieftain",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -23702,6 +26134,9 @@
           "categories": [
             "Commanders"
           ],
+          "categoryIds": [
+            "Commanders"
+          ],
           "rulesUnitType": "Infantry",
           "model": {
             "id": "99bdf897de137bb40b8bb8ef81bd8aa2",
@@ -23942,12 +26377,172 @@
       "id": "ReptilianKingdoms",
       "name": "Reptilian Kingdoms",
       "sourceFile": "ReptilianKingdoms.cat",
+      "forces": [
+        {
+          "id": "border-patrol",
+          "name": "Border Patrol",
+          "pointLimit": 650,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Jungle Beasts",
+              "name": "Jungle Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "warband",
+          "name": "Warband",
+          "pointLimit": 500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Jungle Beasts",
+              "name": "Jungle Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "catalogue"
+        },
+        {
+          "id": "battalion",
+          "name": "Battalion",
+          "pointLimit": 1000,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Jungle Beasts",
+              "name": "Jungle Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        },
+        {
+          "id": "legion",
+          "name": "Legion",
+          "pointLimit": 1500,
+          "categoryLimits": [
+            {
+              "id": "Commanders",
+              "name": "Commanders",
+              "min": 1,
+              "max": 1
+            },
+            {
+              "id": "Battle Line",
+              "name": "Battle Line",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "id": "Fast Attack",
+              "name": "Fast Attack",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Ranged Support",
+              "name": "Ranged Support",
+              "min": 0,
+              "max": 1
+            },
+            {
+              "id": "Jungle Beasts",
+              "name": "Jungle Beasts",
+              "min": 0,
+              "max": 1
+            }
+          ],
+          "source": "derived",
+          "derivedFrom": "Warband"
+        }
+      ],
       "units": [
         {
           "id": "saurianWarriors",
           "factionId": "ReptilianKingdoms",
           "name": "Saurian Warriors",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry Large",
@@ -24076,6 +26671,10 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "306d2e6dd2d0d854a8a4d59240b15971",
@@ -24125,6 +26724,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Newt Braves",
           "categories": [
+            "Battle Line"
+          ],
+          "categoryIds": [
             "Battle Line"
           ],
           "rulesUnitType": "Infantry",
@@ -24258,6 +26860,9 @@
           "categories": [
             "Battle Line"
           ],
+          "categoryIds": [
+            "Battle Line"
+          ],
           "rulesUnitType": "Infantry Large",
           "model": {
             "id": "d92891b38daac58429d804d294d177a8",
@@ -24384,6 +26989,9 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
           "rulesUnitType": "Cavalry",
           "model": {
             "id": "882278b374081f648a2466dd0647d1a8",
@@ -24505,6 +27113,10 @@
           "categories": [
             "Fast Attack"
           ],
+          "categoryIds": [
+            "Fast Attack"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Monstrous Infantry",
           "model": {
             "id": "0e78ed1c5f41c07418b9f2ed3d449e7d",
@@ -24634,6 +27246,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Newt Skirmishers",
           "categories": [
+            "Ranged Support"
+          ],
+          "categoryIds": [
             "Ranged Support"
           ],
           "rulesUnitType": "Infantry",
@@ -24767,6 +27382,10 @@
           "categories": [
             "Ranged Support"
           ],
+          "categoryIds": [
+            "Ranged Support"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster",
           "model": {
             "id": "657c694b3dd1fe64fac2ac1996b12575",
@@ -24818,6 +27437,10 @@
           "categories": [
             "Jungle Beasts"
           ],
+          "categoryIds": [
+            "Jungle Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Large Monster Long Base",
           "model": {
             "id": "5e974d224bede0a4c9edd1ab1930b74b",
@@ -24874,6 +27497,10 @@
           "categories": [
             "Jungle Beasts"
           ],
+          "categoryIds": [
+            "Jungle Beasts"
+          ],
+          "maxSelections": 1,
           "rulesUnitType": "Swarm",
           "model": {
             "id": "24ee92037c9d3e54db573fe5b2b90a38",
@@ -24928,6 +27555,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Dreadmaw",
           "categories": [
+            "Jungle Beasts"
+          ],
+          "categoryIds": [
             "Jungle Beasts"
           ],
           "rulesUnitType": "Gargantuan",
@@ -24986,6 +27616,9 @@
           "categories": [
             "Mounts"
           ],
+          "categoryIds": [
+            "Mounts"
+          ],
           "rulesUnitType": "Large Monster Long Base",
           "model": {
             "id": "47e06f1c04a174f4f9254af4361ef916",
@@ -25040,6 +27673,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Newt Priest",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",
@@ -25260,6 +27896,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Saurian Warlord",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry Large",
@@ -25521,6 +28160,9 @@
           "factionId": "ReptilianKingdoms",
           "name": "Ancient Toad",
           "categories": [
+            "Commanders"
+          ],
+          "categoryIds": [
             "Commanders"
           ],
           "rulesUnitType": "Infantry",

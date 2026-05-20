@@ -2,12 +2,148 @@
   "id": "ElvenConclaves",
   "name": "Elven Conclaves",
   "sourceFile": "ElvenConclaves.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "elfSpears",
       "factionId": "ElvenConclaves",
       "name": "Elf Spears",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -136,6 +272,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "1f6d99f2fa74a2f4cb92bd03d82f33c1",
@@ -267,6 +407,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "0e14c3c61dc4a5d44a78109858c17fed",
@@ -432,6 +576,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "3980636fba9781442a5be9f3cb4f4aaa",
@@ -558,6 +705,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "b8e145a22dff1314eb86a6978e8f6386",
@@ -699,6 +850,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "769292515927efa4f8de1097587f4bd2",
@@ -758,6 +913,9 @@
       "factionId": "ElvenConclaves",
       "name": "Elf Lancers",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -891,6 +1049,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "92a03f2cd43d36b4aad17b1ba7710d2e",
@@ -1022,6 +1183,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Chariot",
       "model": {
         "id": "33710acd9fbe47b4693ea727cddc4328",
@@ -1083,6 +1248,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "40e59a53eeb3be04881ca74a1ad38182",
@@ -1134,6 +1303,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "94076cf247979aa4a99113e1bff9f726",
@@ -1295,6 +1468,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "6f7c25f37aeed89409c4b0693af98d3e",
@@ -1351,6 +1527,10 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "7664050b02d6a15449784f338e6a14a5",
@@ -1400,6 +1580,9 @@
       "factionId": "ElvenConclaves",
       "name": "Elf Noble",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1691,6 +1874,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "3eb9400f4901f5640b2f0af443455031",
@@ -1952,6 +2138,9 @@
       "factionId": "ElvenConclaves",
       "name": "Elf Spellsword",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

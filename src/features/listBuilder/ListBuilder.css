@@ -112,7 +112,7 @@ button {
 
 .toolbar {
   display: grid;
-  grid-template-columns: 260px 180px;
+  grid-template-columns: 180px 260px 180px;
   gap: 10px;
 }
 
@@ -235,6 +235,11 @@ button {
   color: #fff;
 }
 
+.unit-title-row button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
@@ -261,6 +266,19 @@ button {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 18px;
+}
+
+.add-note,
+.limit-warnings {
+  border: 1px solid #d6a04f;
+  border-radius: 6px;
+  background: #fff6e6;
+  color: #6b3c0f;
+}
+
+.add-note {
+  margin: 0 0 18px;
+  padding: 9px 10px;
 }
 
 .detail-meta span {
@@ -297,6 +315,17 @@ button {
   margin-bottom: 14px;
 }
 
+.limit-note {
+  color: #66706b;
+  font-size: 13px;
+  margin: 4px 0 0;
+}
+
+.limit-note.over {
+  color: #9f2d20;
+  font-weight: 700;
+}
+
 .army-header > span {
   border-radius: 999px;
   background: #f1ede5;
@@ -308,6 +337,38 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+}
+
+.limit-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.limit-chip {
+  border-radius: 999px;
+  background: #f1ede5;
+  color: #4f5954;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.limit-chip.warning {
+  background: #fff6e6;
+  color: #8c4c12;
+}
+
+.limit-warnings {
+  display: grid;
+  gap: 5px;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+.limit-warnings p {
+  margin: 0;
+  font-size: 13px;
 }
 
 .army-actions button:disabled {

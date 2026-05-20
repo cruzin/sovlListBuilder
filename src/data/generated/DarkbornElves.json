@@ -2,12 +2,172 @@
   "id": "DarkbornElves",
   "name": "Darkborn Elves",
   "sourceFile": "DarkbornElves.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Tamed Beasts",
+          "name": "Tamed Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Tamed Beasts",
+          "name": "Tamed Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Tamed Beasts",
+          "name": "Tamed Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Ranged Support",
+          "name": "Ranged Support",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Tamed Beasts",
+          "name": "Tamed Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "darkbornSpears",
       "factionId": "DarkbornElves",
       "name": "Darkborn Spears",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -136,6 +296,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "0b24ae1dd969db94faedf74aca0d4d91",
@@ -296,6 +460,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "eeb3a64e00407834c96711e7c651fda2",
@@ -432,6 +600,9 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "87c6cf3ff3e1ff04a8f9cb10e9a80b56",
@@ -558,6 +729,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Infantry",
       "model": {
         "id": "3e68db09a5e92704390739c48b3a67e4",
@@ -699,6 +874,10 @@
       "categories": [
         "Ranged Support"
       ],
+      "categoryIds": [
+        "Ranged Support"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "War Machine",
       "model": {
         "id": "5a53f9b8685687d43b41c3f1de81aba3",
@@ -758,6 +937,9 @@
       "factionId": "DarkbornElves",
       "name": "Raptor Knights",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -911,6 +1093,9 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
       "rulesUnitType": "Cavalry",
       "model": {
         "id": "39c6b989d3aadca49b6b0ca27e7497c8",
@@ -1042,6 +1227,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Chariot",
       "model": {
         "id": "e843b9a44956ac749930b65c7e013d2b",
@@ -1103,6 +1292,10 @@
       "categories": [
         "Tamed Beasts"
       ],
+      "categoryIds": [
+        "Tamed Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "26f1c4f17bf337344a94611dd005a096",
@@ -1159,6 +1352,9 @@
       "categories": [
         "Tamed Beasts"
       ],
+      "categoryIds": [
+        "Tamed Beasts"
+      ],
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "bd129822fdb48e74abc972a5a789f1c1",
@@ -1208,6 +1404,9 @@
       "factionId": "DarkbornElves",
       "name": "Black Dragon",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Large Monster",
@@ -1266,6 +1465,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "b680a3b779266a941a09c126034d4dc9",
@@ -1315,6 +1517,9 @@
       "factionId": "DarkbornElves",
       "name": "Darkborn Noble",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1601,6 +1806,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "7eff7aebccbb17542aa8f5986c6f099a",
@@ -1871,6 +2079,9 @@
       "factionId": "DarkbornElves",
       "name": "Darkborn Assassin",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

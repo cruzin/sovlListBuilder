@@ -5,6 +5,7 @@ const STORAGE_KEY = 'sovl-list-builder:army-list'
 
 export function useLocalArmyList(defaultFactionId: string) {
   const [factionId, setFactionId] = useState(defaultFactionId)
+  const [forceId, setForceId] = useState('border-patrol')
   const [items, setItems] = useState<ArmyListItem[]>([])
   const [lastSavedAt, setLastSavedAt] = useState<string | null>(null)
 
@@ -19,6 +20,9 @@ export function useLocalArmyList(defaultFactionId: string) {
       if (saved.factionId) {
         setFactionId(saved.factionId)
       }
+      if (saved.forceId) {
+        setForceId(saved.forceId)
+      }
       if (Array.isArray(saved.items)) {
         setItems(saved.items)
       }
@@ -30,10 +34,10 @@ export function useLocalArmyList(defaultFactionId: string) {
 
   const save = useCallback(() => {
     const savedAt = new Date().toISOString()
-    const payload: SavedArmyList = { factionId, items, savedAt }
+    const payload: SavedArmyList = { factionId, forceId, items, savedAt }
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload))
     setLastSavedAt(savedAt)
-  }, [factionId, items])
+  }, [factionId, forceId, items])
 
   const clear = useCallback(() => {
     localStorage.removeItem(STORAGE_KEY)
@@ -44,6 +48,8 @@ export function useLocalArmyList(defaultFactionId: string) {
   return {
     factionId,
     setFactionId,
+    forceId,
+    setForceId,
     items,
     setItems,
     save,

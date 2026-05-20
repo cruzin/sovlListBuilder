@@ -2,12 +2,172 @@
   "id": "AbyssalLegions",
   "name": "Abyssal Legions",
   "sourceFile": "AbyssalLegions.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Demonic Allies",
+          "name": "Demonic Allies",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "War Beasts",
+          "name": "War Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Demonic Allies",
+          "name": "Demonic Allies",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "War Beasts",
+          "name": "War Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Demonic Allies",
+          "name": "Demonic Allies",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "War Beasts",
+          "name": "War Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Fast Attack",
+          "name": "Fast Attack",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Demonic Allies",
+          "name": "Demonic Allies",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "id": "War Beasts",
+          "name": "War Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "northmenAxe",
       "factionId": "AbyssalLegions",
       "name": "Northmen Axe",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -153,6 +313,9 @@
       "factionId": "AbyssalLegions",
       "name": "Abyssal Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -327,6 +490,10 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "524736cee680c9040b98f487b28ff16c",
@@ -401,6 +568,9 @@
       "factionId": "AbyssalLegions",
       "name": "Northmen Horse",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -527,6 +697,9 @@
       "factionId": "AbyssalLegions",
       "name": "Abyssal Knights",
       "categories": [
+        "Fast Attack"
+      ],
+      "categoryIds": [
         "Fast Attack"
       ],
       "rulesUnitType": "Cavalry",
@@ -680,6 +853,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Hounds",
       "model": {
         "id": "68a973325e3b5b248b6b72714d661f39",
@@ -726,6 +903,10 @@
       "categories": [
         "Fast Attack"
       ],
+      "categoryIds": [
+        "Fast Attack"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Chariot",
       "model": {
         "id": "897475da0f9a1e64f8a6e615e7507435",
@@ -782,6 +963,10 @@
       "categories": [
         "Demonic Allies"
       ],
+      "categoryIds": [
+        "Demonic Allies"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "502f8a02255d0534eaaac1340fb51ce5",
@@ -866,6 +1051,9 @@
       "factionId": "AbyssalLegions",
       "name": "Devilspawn",
       "categories": [
+        "Demonic Allies"
+      ],
+      "categoryIds": [
         "Demonic Allies"
       ],
       "rulesUnitType": "Infantry Large",
@@ -999,6 +1187,10 @@
       "categories": [
         "War Beasts"
       ],
+      "categoryIds": [
+        "War Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "56d040919bbf33d48bc7902fe570d3ec",
@@ -1053,6 +1245,9 @@
       "factionId": "AbyssalLegions",
       "name": "Abyssal Dragon",
       "categories": [
+        "Mounts"
+      ],
+      "categoryIds": [
         "Mounts"
       ],
       "rulesUnitType": "Large Monster",
@@ -1111,6 +1306,9 @@
       "categories": [
         "Mounts"
       ],
+      "categoryIds": [
+        "Mounts"
+      ],
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "8597f4ebf8907834580abc2e68db877c",
@@ -1160,6 +1358,9 @@
       "factionId": "AbyssalLegions",
       "name": "Abyssal Champion",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1446,6 +1647,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "550ed927165cf2e4d9dc420947b01c05",
@@ -1717,6 +1921,9 @@
       "factionId": "AbyssalLegions",
       "name": "Northmen Packleader",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",

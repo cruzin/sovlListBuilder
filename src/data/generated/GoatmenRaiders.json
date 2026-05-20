@@ -2,12 +2,148 @@
   "id": "GoatmenRaiders",
   "name": "Goatmen Raiders",
   "sourceFile": "GoatmenRaiders.cat",
+  "forces": [
+    {
+      "id": "border-patrol",
+      "name": "Border Patrol",
+      "pointLimit": 650,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Wild Beasts",
+          "name": "Wild Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "warband",
+      "name": "Warband",
+      "pointLimit": 500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Wild Beasts",
+          "name": "Wild Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "catalogue"
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "pointLimit": 1000,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Wild Beasts",
+          "name": "Wild Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "pointLimit": 1500,
+      "categoryLimits": [
+        {
+          "id": "Commanders",
+          "name": "Commanders",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "Battle Line",
+          "name": "Battle Line",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "id": "Raiders",
+          "name": "Raiders",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "id": "Wild Beasts",
+          "name": "Wild Beasts",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "source": "derived",
+      "derivedFrom": "Warband"
+    }
+  ],
   "units": [
     {
       "id": "ibexWarriors",
       "factionId": "GoatmenRaiders",
       "name": "Ibex Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -139,6 +275,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Goatmen Warriors",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry Large",
@@ -286,6 +425,9 @@
       "categories": [
         "Battle Line"
       ],
+      "categoryIds": [
+        "Battle Line"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "33c3f1913dfabb9408ecfc6f67c9bc48",
@@ -340,6 +482,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Mongrel Spear",
       "categories": [
+        "Battle Line"
+      ],
+      "categoryIds": [
         "Battle Line"
       ],
       "rulesUnitType": "Infantry",
@@ -398,6 +543,10 @@
       "categories": [
         "Raiders"
       ],
+      "categoryIds": [
+        "Raiders"
+      ],
+      "maxSelections": 3,
       "rulesUnitType": "Chariot",
       "model": {
         "id": "6d7f9be1e9c704844bc685a7069509c9",
@@ -454,6 +603,10 @@
       "categories": [
         "Raiders"
       ],
+      "categoryIds": [
+        "Raiders"
+      ],
+      "maxSelections": 2,
       "rulesUnitType": "Hounds",
       "model": {
         "id": "be542fae069b22c4fbccb0d0df449213",
@@ -498,6 +651,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Mongrel Skirmishers",
       "categories": [
+        "Raiders"
+      ],
+      "categoryIds": [
         "Raiders"
       ],
       "rulesUnitType": "Infantry",
@@ -554,6 +710,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Centaurs",
       "categories": [
+        "Raiders"
+      ],
+      "categoryIds": [
         "Raiders"
       ],
       "rulesUnitType": "Cavalry",
@@ -730,6 +889,10 @@
       "categories": [
         "Wild Beasts"
       ],
+      "categoryIds": [
+        "Wild Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "9e4971f659c0c634a9f6f978107cd456",
@@ -806,6 +969,9 @@
       "categories": [
         "Wild Beasts"
       ],
+      "categoryIds": [
+        "Wild Beasts"
+      ],
       "rulesUnitType": "Infantry Large",
       "model": {
         "id": "b3d25ae6a49084c46a2b8e33d6f11815",
@@ -857,6 +1023,10 @@
       "categories": [
         "Wild Beasts"
       ],
+      "categoryIds": [
+        "Wild Beasts"
+      ],
+      "maxSelections": 1,
       "rulesUnitType": "Large Monster",
       "model": {
         "id": "8cb87e3be6fd3df44a01e0148b6d4202",
@@ -911,6 +1081,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Goatman Shaman",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Infantry",
@@ -1167,6 +1340,9 @@
       "categories": [
         "Commanders"
       ],
+      "categoryIds": [
+        "Commanders"
+      ],
       "rulesUnitType": "Infantry",
       "model": {
         "id": "bf7defd133131614ea4971e53b7f1fb3",
@@ -1412,6 +1588,9 @@
       "factionId": "GoatmenRaiders",
       "name": "Minotaur Lord",
       "categories": [
+        "Commanders"
+      ],
+      "categoryIds": [
         "Commanders"
       ],
       "rulesUnitType": "Monstrous Infantry",
