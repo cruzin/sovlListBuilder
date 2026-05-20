@@ -118,8 +118,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianWarriors.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianWarriors.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "saurianWarriors",
@@ -169,8 +169,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/CrocoliskBruisers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/CrocoliskBruisers.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/CrocoliskBruisers.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/CrocoliskBruisers.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "crocoliskBruisers",
@@ -300,8 +300,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtBraves.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtBraves.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtBraves.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtBraves.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "newtBraves",
@@ -426,8 +426,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianSpear.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianSpear.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianSpear.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianSpear.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "saurianSpear",
@@ -547,8 +547,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/RaptorRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/RaptorRiders.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/RaptorRiders.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/RaptorRiders.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "raptorRiders",
@@ -678,8 +678,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/PterodactylRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/PterodactylRiders.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/PterodactylRiders.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/PterodactylRiders.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "pterodactylRiders",
@@ -809,8 +809,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtSkirmishers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtSkirmishers.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtSkirmishers.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtSkirmishers.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "newtSkirmishers",
@@ -860,8 +860,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Firelizard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Firelizard.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Firelizard.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Firelizard.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "firelizard",
@@ -916,8 +916,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Triceratops.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Triceratops.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Triceratops.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Triceratops.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "triceratops",
@@ -972,8 +972,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/JungleSwarm.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/JungleSwarm.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/JungleSwarm.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/JungleSwarm.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "jungleSwarm",
@@ -1028,8 +1028,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Dreadmaw.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Dreadmaw.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Dreadmaw.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Dreadmaw.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "dreadmaw",
@@ -1084,8 +1084,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Tyrannosaur.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Tyrannosaur.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Tyrannosaur.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Tyrannosaur.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "tyrannosaur",
@@ -1302,8 +1302,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtPriest.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtPriest.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtPriest.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtPriest.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "newtPriest",
@@ -1563,8 +1563,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianWarlord.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianWarlord.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianWarlord.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianWarlord.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "saurianWarlord",
@@ -1840,8 +1840,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/AncientToad.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/AncientToad.png",
+      "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/AncientToad.png",
+      "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/AncientToad.png",
       "rawSource": {
         "catalogueFile": "ReptilianKingdoms.cat",
         "catalogueId": "ancientToad",

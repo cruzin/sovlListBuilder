@@ -16,9 +16,10 @@ The generator keeps catalogue parsing out of the React UI:
 - `scripts/fetchDataCatalogue.ts` clones or updates `Perwahl/SOVLDataCatalogue`.
 - `scripts/parseCatalogue.ts` parses `.cat` faction catalogues and `SOVL.gst`.
 - `scripts/scrapeRulesSite.ts` scrapes faction source pages for unit icons, larger images, and rules-page unit types.
+- `scripts/downloadRulesAssets.ts` downloads scraped unit icons and images into `public/generated/unit-assets`.
 - `scripts/generateData.ts` writes `catalogue.json` and one JSON file per faction.
 
-Generated files are committed so the static app can load them without a backend.
+Generated JSON and unit image files are committed so the static app can load them without a backend.
 
 ## GitHub Pages
 

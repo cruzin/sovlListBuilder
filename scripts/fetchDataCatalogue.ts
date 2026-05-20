@@ -6,16 +6,18 @@ import { promisify } from 'node:util'
 import { fileURLToPath } from 'node:url'
 
 const execFileAsync = promisify(execFile)
-const REPOSITORY_URL = 'https://github.com/Perwahl/SOVLDataCatalogue.git'
+const DEFAULT_REPOSITORY_URL = 'https://github.com/Perwahl/SOVLDataCatalogue.git'
 
 export async function ensureDataCatalogue(cacheDir = path.join('.cache', 'SOVLDataCatalogue')): Promise<string> {
+  const repositoryUrl = process.env.SOVL_CATALOGUE_REPOSITORY_URL ?? DEFAULT_REPOSITORY_URL
+
   if (existsSync(path.join(cacheDir, '.git'))) {
     await execFileAsync('git', ['-C', cacheDir, 'pull', '--ff-only'])
     return cacheDir
   }
 
   await mkdir(path.dirname(cacheDir), { recursive: true })
-  await execFileAsync('git', ['clone', '--depth', '1', REPOSITORY_URL, cacheDir])
+  await execFileAsync('git', ['clone', '--depth', '1', repositoryUrl, cacheDir])
   return cacheDir
 }
 

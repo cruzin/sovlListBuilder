@@ -180,8 +180,8 @@ function parseUnit(
       catalogueFile: sourceFile,
       catalogueId: entry.attributes.id,
       rulesPageUrl: asset?.rulesPageUrl,
-      iconUrl: asset?.iconUrl,
-      imageUrl: asset?.imageUrl,
+      iconUrl: asset?.sourceIconUrl ?? asset?.iconUrl,
+      imageUrl: asset?.sourceImageUrl ?? asset?.imageUrl,
     },
     warnings,
   }

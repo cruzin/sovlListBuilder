@@ -90,4 +90,6 @@ export type RulesUnitAsset = {
   rulesPageUrl: string
   iconUrl?: string
   imageUrl?: string
+  sourceIconUrl?: string
+  sourceImageUrl?: string
 }

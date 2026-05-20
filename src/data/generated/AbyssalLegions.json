@@ -137,8 +137,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenAxe.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenAxe.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenAxe.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenAxe.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "northmenAxe",
@@ -309,8 +309,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalWarriors.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalWarriors.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalWarriors",
@@ -385,8 +385,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/DragonSpawn.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/DragonSpawn.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/DragonSpawn.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/DragonSpawn.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "dragonSpawn",
@@ -511,8 +511,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenHorse.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenHorse.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenHorse.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenHorse.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "northmenHorse",
@@ -662,8 +662,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalKnights.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalKnights.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalKnights.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalKnights",
@@ -708,8 +708,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalHounds.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalHounds.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalHounds.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalHounds.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalHounds",
@@ -764,8 +764,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChariot.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalChariot.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalChariot.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalChariot",
@@ -850,8 +850,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Archdevil.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Archdevil.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Archdevil.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/Archdevil.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "archDevil",
@@ -981,8 +981,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Devilspawn.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Devilspawn.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Devilspawn.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/Devilspawn.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "devilSpawn",
@@ -1037,8 +1037,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/WarMammoth.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/WarMammoth.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/WarMammoth.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/WarMammoth.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "mammoth",
@@ -1093,8 +1093,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalDragon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalDragon.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalDragon.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalDragon.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalDragon",
@@ -1144,8 +1144,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Manticore.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Manticore.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Manticore.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/Manticore.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "manticore",
@@ -1426,8 +1426,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChampion.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChampion.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalChampion.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalChampion.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalChampion",
@@ -1699,8 +1699,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalSorcerer.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalSorcerer.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalSorcerer.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalSorcerer.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "abyssalSorcerer",
@@ -1965,8 +1965,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenPackleader.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenPackleader.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenPackleader.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenPackleader.png",
       "rawSource": {
         "catalogueFile": "AbyssalLegions.cat",
         "catalogueId": "northmenPackleader",

@@ -11,6 +11,7 @@ import {
   getUnitById,
   listTotal,
   makeListItem,
+  publicAssetUrl,
 } from './listBuilderUtils'
 import './ListBuilder.css'
 
@@ -127,7 +128,7 @@ export function ListBuilder() {
                 onClick={() => setSelectedUnitId(unit.id)}
                 type="button"
               >
-                <img alt="" src={unit.iconUrl} />
+                <img alt="" src={publicAssetUrl(unit.iconUrl)} />
                 <span>
                   <strong>{unit.name}</strong>
                   <small>{unit.rulesUnitType ?? unit.categories.join(', ')}</small>
@@ -202,7 +203,7 @@ function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }
   return (
     <article className="unit-detail">
       <div className="unit-art">
-        <img alt="" src={unit.imageUrl} />
+        <img alt="" src={publicAssetUrl(unit.imageUrl)} />
       </div>
       <div className="unit-detail-body">
         <div className="unit-title-row">
@@ -258,7 +259,7 @@ function ArmyListCard({
   return (
     <article className="army-card">
       <div className="army-card-heading">
-        <img alt="" src={unit.iconUrl} />
+        <img alt="" src={publicAssetUrl(unit.iconUrl)} />
         <div>
           <strong>{unit.name}</strong>
           <small>{formatPoints(cost)}</small>
