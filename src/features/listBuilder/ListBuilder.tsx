@@ -1,0 +1,311 @@
+import { useMemo, useState } from 'react'
+import catalogue from '../../data/generated/catalogue.json'
+import type { CatalogueFaction, CatalogueUnit } from '../../types/catalogue'
+import type { ArmyListItem } from './listBuilderTypes'
+import { useLocalArmyList } from './useLocalArmyList'
+import {
+  clampModelCount,
+  exportArmyList,
+  formatPoints,
+  getListItemCost,
+  getUnitById,
+  listTotal,
+  makeListItem,
+} from './listBuilderUtils'
+import './ListBuilder.css'
+
+const factions = catalogue.factions as CatalogueFaction[]
+
+export function ListBuilder() {
+  const defaultFactionId = factions[0]?.id ?? ''
+  const { factionId, setFactionId, items, setItems, save, clear, lastSavedAt } = useLocalArmyList(defaultFactionId)
+  const faction = factions.find((item) => item.id === factionId) ?? factions[0]
+  const [selectedUnitId, setSelectedUnitId] = useState(faction?.units[0]?.id ?? '')
+  const [query, setQuery] = useState('')
+  const [category, setCategory] = useState('All')
+  const [copyState, setCopyState] = useState<'idle' | 'copied'>('idle')
+
+  const selectedUnit = faction?.units.find((unit) => unit.id === selectedUnitId) ?? faction?.units[0]
+  const categories = useMemo(() => {
+    const values = new Set<string>()
+    faction?.units.forEach((unit) => unit.categories.forEach((item) => values.add(item)))
+    return ['All', ...Array.from(values).sort()]
+  }, [faction])
+  const filteredUnits = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase()
+    return (
+      faction?.units.filter((unit) => {
+        const matchesCategory = category === 'All' || unit.categories.includes(category)
+        const matchesQuery =
+          !normalizedQuery ||
+          unit.name.toLowerCase().includes(normalizedQuery) ||
+          unit.rulesUnitType?.toLowerCase().includes(normalizedQuery)
+        return matchesCategory && matchesQuery
+      }) ?? []
+    )
+  }, [category, faction, query])
+  const total = listTotal(faction, items)
+
+  function handleFactionChange(nextFactionId: string) {
+    const nextFaction = factions.find((item) => item.id === nextFactionId)
+    setFactionId(nextFactionId)
+    setItems([])
+    setSelectedUnitId(nextFaction?.units[0]?.id ?? '')
+    setCategory('All')
+    setQuery('')
+  }
+
+  function addUnit(unit: CatalogueUnit) {
+    setItems((current) => [...current, makeListItem(unit)])
+  }
+
+  function updateItem(nextItem: ArmyListItem) {
+    setItems((current) => current.map((item) => (item.id === nextItem.id ? nextItem : item)))
+  }
+
+  async function copyExport() {
+    if (!faction) {
+      return
+    }
+    await navigator.clipboard.writeText(exportArmyList(faction, items))
+    setCopyState('copied')
+    window.setTimeout(() => setCopyState('idle'), 1600)
+  }
+
+  return (
+    <main className="app-shell">
+      <aside className="faction-rail" aria-label="Factions">
+        <div className="brand-block">
+          <span className="eyebrow">SOVL</span>
+          <h1>List Builder</h1>
+        </div>
+        <div className="faction-list">
+          {factions.map((item) => (
+            <button
+              className={item.id === faction?.id ? 'faction-button active' : 'faction-button'}
+              key={item.id}
+              onClick={() => handleFactionChange(item.id)}
+              type="button"
+            >
+              <span>{item.name}</span>
+              <strong>{item.units.length}</strong>
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      <section className="unit-workspace">
+        <header className="workspace-header">
+          <div>
+            <p className="eyebrow">{faction?.name}</p>
+            <h2>Unit Browser</h2>
+          </div>
+          <div className="toolbar">
+            <input
+              aria-label="Search units"
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search units or types"
+              type="search"
+              value={query}
+            />
+            <select aria-label="Filter category" onChange={(event) => setCategory(event.target.value)} value={category}>
+              {categories.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </div>
+        </header>
+
+        <div className="content-grid">
+          <section className="unit-list" aria-label="Available units">
+            {filteredUnits.map((unit) => (
+              <button
+                className={unit.id === selectedUnit?.id ? 'unit-row selected' : 'unit-row'}
+                key={unit.id}
+                onClick={() => setSelectedUnitId(unit.id)}
+                type="button"
+              >
+                <img alt="" src={unit.iconUrl} />
+                <span>
+                  <strong>{unit.name}</strong>
+                  <small>{unit.rulesUnitType ?? unit.categories.join(', ')}</small>
+                </span>
+                <b>{formatPoints(unit.model?.pointsPerModel ?? 0)}</b>
+              </button>
+            ))}
+          </section>
+
+          {selectedUnit && (
+            <UnitDetails key={selectedUnit.id} unit={selectedUnit} onAdd={() => addUnit(selectedUnit)} />
+          )}
+        </div>
+      </section>
+
+      <aside className="army-panel" aria-label="Current army list">
+        <div className="army-header">
+          <div>
+            <p className="eyebrow">Current List</p>
+            <h2>{formatPoints(total)}</h2>
+          </div>
+          <span>{items.length} units</span>
+        </div>
+
+        <div className="army-actions">
+          <button onClick={save} type="button">
+            Save
+          </button>
+          <button onClick={clear} type="button">
+            Clear
+          </button>
+          <button disabled={items.length === 0} onClick={copyExport} type="button">
+            {copyState === 'copied' ? 'Copied' : 'Copy'}
+          </button>
+        </div>
+        {lastSavedAt && <p className="save-note">Saved {new Date(lastSavedAt).toLocaleString()}</p>}
+
+        <div className="army-items">
+          {items.length === 0 && <p className="empty-state">Add units from the browser to start a list.</p>}
+          {items.map((item) => {
+            const unit = getUnitById(faction, item.unitId)
+            if (!unit) {
+              return null
+            }
+            return (
+              <ArmyListCard
+                item={item}
+                key={item.id}
+                onChange={updateItem}
+                onRemove={() => setItems((current) => current.filter((candidate) => candidate.id !== item.id))}
+                unit={unit}
+              />
+            )
+          })}
+        </div>
+      </aside>
+    </main>
+  )
+}
+
+function UnitDetails({ unit, onAdd }: { unit: CatalogueUnit; onAdd: () => void }) {
+  const statEntries = [
+    ['Move', unit.stats.movement],
+    ['Skill', unit.stats.skill],
+    ['Power', unit.stats.power],
+    ['Defense', unit.stats.defense],
+    ['Attacks', unit.stats.attacks],
+    ['Wounds', unit.stats.wounds],
+    ['Discipline', unit.stats.discipline],
+  ].filter((entry): entry is [string, string] => Boolean(entry[1]))
+
+  return (
+    <article className="unit-detail">
+      <div className="unit-art">
+        <img alt="" src={unit.imageUrl} />
+      </div>
+      <div className="unit-detail-body">
+        <div className="unit-title-row">
+          <div>
+            <p className="eyebrow">{unit.rulesUnitType ?? unit.categories.join(', ')}</p>
+            <h3>{unit.name}</h3>
+          </div>
+          <button onClick={onAdd} type="button">
+            Add
+          </button>
+        </div>
+        <div className="stat-grid">
+          {statEntries.map(([label, value]) => (
+            <span key={label}>
+              <small>{label}</small>
+              <strong>{value}</strong>
+            </span>
+          ))}
+        </div>
+        <div className="detail-meta">
+          <span>{unit.model?.defaultCount ?? 1} models default</span>
+          <span>{formatPoints(unit.model?.pointsPerModel ?? 0)} per model</span>
+          {unit.stats.baseSize && <span>{unit.stats.baseSize} base</span>}
+        </div>
+        {unit.rules.length > 0 && (
+          <div className="rules-list">
+            {unit.rules.slice(0, 5).map((rule) => (
+              <p key={rule.id}>
+                <strong>{rule.name}</strong>
+                {rule.text && <span>{rule.text}</span>}
+              </p>
+            ))}
+          </div>
+        )}
+      </div>
+    </article>
+  )
+}
+
+function ArmyListCard({
+  item,
+  onChange,
+  onRemove,
+  unit,
+}: {
+  item: ArmyListItem
+  onChange: (item: ArmyListItem) => void
+  onRemove: () => void
+  unit: CatalogueUnit
+}) {
+  const cost = getListItemCost(unit, item)
+
+  return (
+    <article className="army-card">
+      <div className="army-card-heading">
+        <img alt="" src={unit.iconUrl} />
+        <div>
+          <strong>{unit.name}</strong>
+          <small>{formatPoints(cost)}</small>
+        </div>
+        <button aria-label={`Remove ${unit.name}`} onClick={onRemove} type="button">
+          X
+        </button>
+      </div>
+
+      <label className="count-control">
+        <span>Models</span>
+        <input
+          max={unit.model?.maxCount ?? 99}
+          min={unit.model?.minCount ?? 1}
+          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value)) })}
+          type="number"
+          value={item.count}
+        />
+      </label>
+
+      {unit.optionGroups.map((group) => (
+        <label className="option-control" key={group.id}>
+          <span>{group.name}</span>
+          <select
+            onChange={(event) => {
+              const selectedOptions = item.selectedOptions.filter((selected) => selected.groupId !== group.id)
+              if (event.target.value) {
+                selectedOptions.push({ groupId: group.id, optionId: event.target.value })
+              }
+              onChange({ ...item, selectedOptions })
+            }}
+            value={
+              item.selectedOptions.find((selected) => selected.groupId === group.id)?.optionId ??
+              (group.min && group.min > 0 ? group.options[0]?.id : '') ??
+              ''
+            }
+          >
+            {group.min === 0 && <option value="">None</option>}
+            {group.options.map((option) => (
+              <option key={option.id} value={option.id}>
+                {option.name}
+                {option.points ? ` (+${option.points})` : ''}
+              </option>
+            ))}
+          </select>
+        </label>
+      ))}
+    </article>
+  )
+}
