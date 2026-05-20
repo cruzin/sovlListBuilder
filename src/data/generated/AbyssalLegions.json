@@ -39,6 +39,13 @@
           "max": 1
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "northmenAxe",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

@@ -39,6 +39,28 @@
           "max": 1
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "swordMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "peasants",
+          "minCount": 18,
+          "defaultCount": 18
+        },
+        {
+          "unitId": "halberdMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "spearMilitia",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

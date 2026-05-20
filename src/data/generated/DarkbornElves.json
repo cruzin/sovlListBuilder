@@ -39,6 +39,13 @@
           "max": 1
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "darkbornSpears",
+          "minCount": 12,
+          "defaultCount": 12
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

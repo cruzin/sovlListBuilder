@@ -124,7 +124,7 @@ async function parseFactionFile(
     id: xml.attributes.id ?? sourceFile.replace(/\.cat$/i, ''),
     name: xml.attributes.name ?? sourceFile.replace(/\.cat$/i, ''),
     sourceFile,
-    forces: buildForceFormats(catalogueForces),
+    forces: buildForceFormats(catalogueForces, xml.attributes.name ?? sourceFile.replace(/\.cat$/i, ''), units),
     units,
     warnings,
   }
@@ -266,21 +266,77 @@ function parseForces(xml: XmlNode): CatalogueFaction['forces'] {
   })
 }
 
-function buildForceFormats(catalogueForces: CatalogueFaction['forces']): CatalogueFaction['forces'] {
+function buildForceFormats(
+  catalogueForces: CatalogueFaction['forces'],
+  factionName: string,
+  units: CatalogueUnit[],
+): CatalogueFaction['forces'] {
   const fallbackLimits = catalogueForces[0]?.categoryLimits ?? []
   const byName = new Map(catalogueForces.map((force) => [force.name.toLowerCase(), force]))
 
   return ARMY_SIZE_PRESETS.map((preset) => {
     const catalogueForce = byName.get(preset.name.toLowerCase())
+    const borderPatrolOverrides =
+      preset.id === 'border-patrol' ? getBorderPatrolModelOverrides(factionName, units) : undefined
     return {
       id: preset.id,
       name: preset.name,
       pointLimit: preset.pointLimit,
       categoryLimits: catalogueForce?.categoryLimits ?? fallbackLimits,
+      modelOverrides: borderPatrolOverrides && borderPatrolOverrides.length > 0 ? borderPatrolOverrides : undefined,
       source: catalogueForce ? 'catalogue' : 'derived',
       derivedFrom: catalogueForce ? undefined : catalogueForces[0]?.name,
     }
   })
+}
+
+function getBorderPatrolModelOverrides(factionName: string, units: CatalogueUnit[]): NonNullable<CatalogueFaction['forces'][number]['modelOverrides']> {
+  const overridesByFaction: Record<string, Record<string, number>> = {
+    'Abyssal Legions': {
+      'Northmen Axe': 15,
+    },
+    'Darkborn Elves': {
+      'Darkborn Spears': 12,
+    },
+    'Dwarf Holds': {
+      'Dwarf Warriors': 15,
+      'Dwarf Miners': 12,
+    },
+    'Elven Conclaves': {
+      'Elf Spears': 12,
+    },
+    'Empires of Men': {
+      'Imperial Sword': 15,
+      'Imperial Spear': 15,
+      'Imperial Halberd': 15,
+    },
+    'Goatmen Raiders': {
+      'Goatmen Warriors': 12,
+      'Mongrel Pack': 15,
+      'Mongrel Spear': 15,
+    },
+    'Greenskin Tribes': {
+      'Goblin Mob': 18,
+      'Goblin Spear Mob': 18,
+    },
+    'Knights of Avalon': {
+      'Sword Militia': 15,
+      'Spear Militia': 15,
+      'Halberd Militia': 15,
+      'Peasant Mob': 18,
+    },
+    'Ratkin Clans': {
+      'Ratkin Conscripts': 15,
+    },
+  }
+  const overrides = overridesByFaction[factionName] ?? {}
+
+  return units
+    .map((unit) => {
+      const count = overrides[unit.name]
+      return count ? { unitId: unit.id, minCount: count, defaultCount: count } : undefined
+    })
+    .filter((override): override is NonNullable<typeof override> => Boolean(override))
 }
 
 function extractStats(modelEntry: XmlNode): UnitStats {

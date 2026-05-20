@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T21:36:21.749Z",
+  "generatedAt": "2026-05-20T21:51:01.129Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -2006,6 +2006,13 @@
               "name": "War Beasts",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "northmenAxe",
+              "minCount": 15,
+              "defaultCount": 15
             }
           ],
           "source": "derived",
@@ -4196,6 +4203,13 @@
               "name": "Tamed Beasts",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "darkbornSpears",
+              "minCount": 12,
+              "defaultCount": 12
             }
           ],
           "source": "derived",
@@ -11009,6 +11023,18 @@
               "max": 1
             }
           ],
+          "modelOverrides": [
+            {
+              "unitId": "dwarfWarriors",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "dwarfMiners",
+              "minCount": 12,
+              "defaultCount": 12
+            }
+          ],
           "source": "derived",
           "derivedFrom": "Warband"
         },
@@ -13340,6 +13366,13 @@
               "name": "Fast Attack",
               "min": 0,
               "max": 2
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "elfSpears",
+              "minCount": 12,
+              "defaultCount": 12
             }
           ],
           "source": "derived",
@@ -15821,6 +15854,23 @@
               "max": 1
             }
           ],
+          "modelOverrides": [
+            {
+              "unitId": "imperialSword",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "imperialHalberd",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "imperialSpear",
+              "minCount": 15,
+              "defaultCount": 15
+            }
+          ],
           "source": "derived",
           "derivedFrom": "Warband"
         },
@@ -18280,6 +18330,23 @@
               "max": 1
             }
           ],
+          "modelOverrides": [
+            {
+              "unitId": "goatmenWarriors",
+              "minCount": 12,
+              "defaultCount": 12
+            },
+            {
+              "unitId": "mongrelPack",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "mongrelSpear",
+              "minCount": 15,
+              "defaultCount": 15
+            }
+          ],
           "source": "derived",
           "derivedFrom": "Warband"
         },
@@ -20104,6 +20171,18 @@
               "name": "Big Stuff",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "goblinMob",
+              "minCount": 18,
+              "defaultCount": 18
+            },
+            {
+              "unitId": "goblinSpears",
+              "minCount": 18,
+              "defaultCount": 18
             }
           ],
           "source": "derived",
@@ -22390,6 +22469,28 @@
               "name": "Elites",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "swordMilitia",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "peasants",
+              "minCount": 18,
+              "defaultCount": 18
+            },
+            {
+              "unitId": "halberdMilitia",
+              "minCount": 15,
+              "defaultCount": 15
+            },
+            {
+              "unitId": "spearMilitia",
+              "minCount": 15,
+              "defaultCount": 15
             }
           ],
           "source": "derived",
@@ -24687,6 +24788,13 @@
               "name": "Vermin",
               "min": 0,
               "max": 2
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "ratkinConscripts",
+              "minCount": 15,
+              "defaultCount": 15
             }
           ],
           "source": "derived",

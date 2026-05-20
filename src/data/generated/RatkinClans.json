@@ -33,6 +33,13 @@
           "max": 2
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "ratkinConscripts",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

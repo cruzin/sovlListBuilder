@@ -1,4 +1,4 @@
-import type { CatalogueFaction, CatalogueUnit, ForceFormat } from '../../types/catalogue'
+import type { CatalogueFaction, CatalogueUnit, ForceFormat, UnitModel } from '../../types/catalogue'
 import type { ArmyListItem, SelectedOption } from './listBuilderTypes'
 
 export function getUnitBaseCost(unit: CatalogueUnit, count = unit.model?.defaultCount ?? 1): number {
@@ -17,21 +17,36 @@ export function getListItemCost(unit: CatalogueUnit, item: ArmyListItem): number
   return getUnitBaseCost(unit, item.count) + getSelectedOptionCost(unit, item.selectedOptions)
 }
 
-export function getDefaultCount(unit: CatalogueUnit): number {
-  return unit.model?.defaultCount ?? unit.model?.minCount ?? 1
+export function getEffectiveModel(unit: CatalogueUnit, force?: ForceFormat): UnitModel | undefined {
+  if (!unit.model) {
+    return undefined
+  }
+
+  const override = force?.modelOverrides?.find((item) => item.unitId === unit.id)
+  return {
+    ...unit.model,
+    minCount: override?.minCount ?? unit.model.minCount,
+    defaultCount: override?.defaultCount ?? unit.model.defaultCount,
+  }
 }
 
-export function clampModelCount(unit: CatalogueUnit, value: number): number {
-  const min = unit.model?.minCount ?? 1
-  const max = unit.model?.maxCount ?? 99
+export function getDefaultCount(unit: CatalogueUnit, force?: ForceFormat): number {
+  const model = getEffectiveModel(unit, force)
+  return model?.defaultCount ?? model?.minCount ?? 1
+}
+
+export function clampModelCount(unit: CatalogueUnit, value: number, force?: ForceFormat): number {
+  const model = getEffectiveModel(unit, force)
+  const min = model?.minCount ?? 1
+  const max = model?.maxCount ?? 99
   return Math.min(max, Math.max(min, value))
 }
 
-export function makeListItem(unit: CatalogueUnit): ArmyListItem {
+export function makeListItem(unit: CatalogueUnit, force?: ForceFormat): ArmyListItem {
   return {
     id: `${unit.id}-${crypto.randomUUID()}`,
     unitId: unit.id,
-    count: getDefaultCount(unit),
+    count: getDefaultCount(unit, force),
     selectedOptions: getDefaultSelectedOptions(unit),
   }
 }
@@ -188,7 +203,7 @@ export function getAddUnitBlockReason(
   }
 
   const nextUnitCost =
-    getUnitBaseCost(unit, getDefaultCount(unit)) + getSelectedOptionCost(unit, getDefaultSelectedOptions(unit))
+    getUnitBaseCost(unit, getDefaultCount(unit, force)) + getSelectedOptionCost(unit, getDefaultSelectedOptions(unit))
   const nextTotal = listTotal(faction, items) + nextUnitCost
   if (force.pointLimit !== undefined && nextTotal > force.pointLimit) {
     return `Adding this would exceed ${force.name}'s ${formatPoints(force.pointLimit)} cap.`

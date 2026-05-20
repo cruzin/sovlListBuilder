@@ -73,11 +73,18 @@ export type ForceCategoryLimit = {
   max?: number
 }
 
+export type ForceModelOverride = {
+  unitId: string
+  minCount?: number
+  defaultCount?: number
+}
+
 export type ForceFormat = {
   id: string
   name: string
   pointLimit?: number
   categoryLimits: ForceCategoryLimit[]
+  modelOverrides?: ForceModelOverride[]
   source?: 'catalogue' | 'derived'
   derivedFrom?: string
 }

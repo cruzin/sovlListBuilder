@@ -39,6 +39,18 @@
           "max": 1
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "dwarfWarriors",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "dwarfMiners",
+          "minCount": 12,
+          "defaultCount": 12
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

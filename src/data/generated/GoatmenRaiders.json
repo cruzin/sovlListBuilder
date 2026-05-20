@@ -33,6 +33,23 @@
           "max": 1
         }
       ],
+      "modelOverrides": [
+        {
+          "unitId": "goatmenWarriors",
+          "minCount": 12,
+          "defaultCount": 12
+        },
+        {
+          "unitId": "mongrelPack",
+          "minCount": 15,
+          "defaultCount": 15
+        },
+        {
+          "unitId": "mongrelSpear",
+          "minCount": 15,
+          "defaultCount": 15
+        }
+      ],
       "source": "derived",
       "derivedFrom": "Warband"
     },

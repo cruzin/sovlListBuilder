@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import catalogue from '../../data/generated/catalogue.json'
-import type { CatalogueFaction, CatalogueUnit } from '../../types/catalogue'
+import type { CatalogueFaction, CatalogueUnit, ForceFormat } from '../../types/catalogue'
 import type { ArmyListItem } from './listBuilderTypes'
 import { useLocalArmyList } from './useLocalArmyList'
 import {
@@ -10,6 +10,7 @@ import {
   getAddUnitBlockReason,
   getArmyLimitWarnings,
   getCategoryUsage,
+  getEffectiveModel,
   getForceById,
   getListItemCost,
   getUnitById,
@@ -55,6 +56,29 @@ export function ListBuilder() {
   const limitWarnings = getArmyLimitWarnings(faction, items, force)
   const categoryUsage = getCategoryUsage(faction, items, force)
 
+  useEffect(() => {
+    if (!faction || !force) {
+      return
+    }
+
+    setItems((current) => {
+      let changed = false
+      const nextItems = current.map((item) => {
+        const unit = getUnitById(faction, item.unitId)
+        if (!unit) {
+          return item
+        }
+        const count = clampModelCount(unit, item.count, force)
+        if (count === item.count) {
+          return item
+        }
+        changed = true
+        return { ...item, count }
+      })
+      return changed ? nextItems : current
+    })
+  }, [faction, force, setItems])
+
   function handleFactionChange(nextFactionId: string) {
     const nextFaction = factions.find((item) => item.id === nextFactionId)
     setFactionId(nextFactionId)
@@ -65,7 +89,7 @@ export function ListBuilder() {
   }
 
   function addUnit(unit: CatalogueUnit) {
-    setItems((current) => [...current, makeListItem(unit)])
+    setItems((current) => [...current, makeListItem(unit, force)])
   }
 
   function updateItem(nextItem: ArmyListItem) {
@@ -157,6 +181,7 @@ export function ListBuilder() {
           {selectedUnit && (
             <UnitDetails
               blockReason={getAddUnitBlockReason(faction, items, force, selectedUnit)}
+              force={force}
               key={selectedUnit.id}
               unit={selectedUnit}
               onAdd={() => addUnit(selectedUnit)}
@@ -230,6 +255,7 @@ export function ListBuilder() {
                 key={item.id}
                 onChange={updateItem}
                 onRemove={() => setItems((current) => current.filter((candidate) => candidate.id !== item.id))}
+                force={force}
                 unit={unit}
               />
             )
@@ -242,13 +268,16 @@ export function ListBuilder() {
 
 function UnitDetails({
   blockReason,
+  force,
   unit,
   onAdd,
 }: {
   blockReason?: string
+  force?: ForceFormat
   unit: CatalogueUnit
   onAdd: () => void
 }) {
+  const effectiveModel = getEffectiveModel(unit, force)
   const statEntries = [
     ['Move', unit.stats.movement],
     ['Skill', unit.stats.skill],
@@ -283,8 +312,9 @@ function UnitDetails({
           ))}
         </div>
         <div className="detail-meta">
-          <span>{unit.model?.defaultCount ?? 1} models default</span>
+          <span>{effectiveModel?.defaultCount ?? 1} models default</span>
           <span>{formatPoints(unit.model?.pointsPerModel ?? 0)} per model</span>
+          {effectiveModel?.minCount !== undefined && <span>Min {effectiveModel.minCount}</span>}
           {unit.maxSelections !== undefined && <span>Max {unit.maxSelections}</span>}
           {unit.stats.baseSize && <span>{unit.stats.baseSize} base</span>}
         </div>
@@ -305,11 +335,13 @@ function UnitDetails({
 }
 
 function ArmyListCard({
+  force,
   item,
   onChange,
   onRemove,
   unit,
 }: {
+  force?: ForceFormat
   item: ArmyListItem
   onChange: (item: ArmyListItem) => void
   onRemove: () => void
@@ -334,8 +366,8 @@ function ArmyListCard({
         <span>Models</span>
         <input
           max={unit.model?.maxCount ?? 99}
-          min={unit.model?.minCount ?? 1}
-          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value)) })}
+          min={getEffectiveModel(unit, force)?.minCount ?? 1}
+          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value), force) })}
           type="number"
           value={item.count}
         />
