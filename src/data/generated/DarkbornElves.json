@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "darkbornSpears",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Spears",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "25553e12d6217f44cacbbfefee12be0c",
         "name": "Darkborn Spears",
@@ -116,14 +118,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornSpears.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornSpears.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornSpears",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornSpears.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornSpears.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornDreadguard",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Dreadguard",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "0b24ae1dd969db94faedf74aca0d4d91",
         "name": "Darkborn Dreadguard",
@@ -265,14 +278,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornDreadguard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornDreadguard.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornDreadguard",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornDreadguard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornDreadguard.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornWitches",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Witches",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "eeb3a64e00407834c96711e7c651fda2",
         "name": "Darkborn Witches",
@@ -390,14 +414,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornWitches.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornWitches.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornWitches",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornWitches.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornWitches.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornCrossbows",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Crossbows",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "87c6cf3ff3e1ff04a8f9cb10e9a80b56",
         "name": "Darkborn Crossbows",
@@ -505,14 +540,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornCrossbows.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornCrossbows.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornCrossbows",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornCrossbows.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornCrossbows.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornShadows",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Shadows",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "3e68db09a5e92704390739c48b3a67e4",
         "name": "Darkborn Shadows",
@@ -635,14 +681,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornShadows.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornShadows.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornShadows",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornShadows.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornShadows.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornBoltthrower",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Boltthrower",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "5a53f9b8685687d43b41c3f1de81aba3",
         "name": "Darkborn Boltthrower",
@@ -685,14 +742,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornBoltthrower.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornBoltthrower.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornBoltthrower",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornBoltthrower.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornBoltthrower.png"
+      },
       "warnings": []
     },
     {
       "id": "raptorKnights",
+      "factionId": "DarkbornElves",
       "name": "Raptor Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "649d25b18f46e484c9b1d5787435ccd7",
         "name": "Raptor Knights",
@@ -825,14 +893,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/RaptorKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/RaptorKnights.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "raptorKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/RaptorKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/RaptorKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornRiders",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Riders",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "39c6b989d3aadca49b6b0ca27e7497c8",
         "name": "Darkborn Riders",
@@ -945,14 +1024,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornRiders.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornRiders",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornChariot",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Chariot",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "e843b9a44956ac749930b65c7e013d2b",
         "name": "Darkborn Chariot",
@@ -995,14 +1085,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornChariot.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "hydra",
+      "factionId": "DarkbornElves",
       "name": "Hydra",
       "categories": [
         "Tamed Beasts"
       ],
+      "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "26f1c4f17bf337344a94611dd005a096",
         "name": "Hydra",
@@ -1040,14 +1141,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Hydra.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Hydra.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "hydra",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Hydra.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Hydra.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornHarpies",
+      "factionId": "DarkbornElves",
       "name": "Harpies",
       "categories": [
         "Tamed Beasts"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "bd129822fdb48e74abc972a5a789f1c1",
         "name": "Harpies",
@@ -1080,14 +1192,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Harpies.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Harpies.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornHarpies",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Harpies.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Harpies.png"
+      },
       "warnings": []
     },
     {
       "id": "blackDragon",
+      "factionId": "DarkbornElves",
       "name": "Black Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "ecd9071b4a1c6714d924868b0080a8d2",
         "name": "Black Dragon",
@@ -1125,14 +1248,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/BlackDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/BlackDragon.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "blackDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/BlackDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/BlackDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "darkPegasus",
+      "factionId": "DarkbornElves",
       "name": "Dark Pegasus",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "b680a3b779266a941a09c126034d4dc9",
         "name": "Dark Pegasus",
@@ -1165,14 +1299,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkPegasus.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkPegasus.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkPegasus",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkPegasus.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkPegasus.png"
+      },
       "warnings": []
     },
     {
       "id": "darkbornNoble",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Noble",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "ee2eed60bccab2a4f8e00f165c6cc68f",
         "name": "Darkborn Noble",
@@ -1436,16 +1581,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornNoble.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornNoble.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornNoble",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornNoble.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornNoble.png"
+      },
       "warnings": [
         "Darkborn Noble has incomplete statline"
       ]
     },
     {
       "id": "darkbornPriestess",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Priestess",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "7eff7aebccbb17542aa8f5986c6f099a",
         "name": "Darkborn Priestess",
@@ -1697,16 +1853,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornPriestess.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornPriestess.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornPriestess",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornPriestess.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornPriestess.png"
+      },
       "warnings": [
         "Darkborn Priestess has incomplete statline"
       ]
     },
     {
       "id": "darkbornAssassin",
+      "factionId": "DarkbornElves",
       "name": "Darkborn Assassin",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "5e47888c5330ee146a35cd8bc77c31ee",
         "name": "Darkborn Assassin",
@@ -1944,6 +2111,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornAssassin.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornAssassin.png",
+      "rawSource": {
+        "catalogueFile": "DarkbornElves.cat",
+        "catalogueId": "darkbornAssassin",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DarkbornElves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornAssassin.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornAssassin.png"
+      },
       "warnings": [
         "Darkborn Assassin has incomplete statline"
       ]

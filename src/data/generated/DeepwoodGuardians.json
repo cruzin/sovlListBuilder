@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "deepwoodGuard",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Guard",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "32cd7cb7bc0803e4280d2d55b99851a8",
         "name": "Deepwood Guard",
@@ -116,14 +118,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodGuard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodGuard.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodGuard",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodGuard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodGuard.png"
+      },
       "warnings": []
     },
     {
       "id": "dryads",
+      "factionId": "DeepwoodGuardians",
       "name": "Dryads",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "a9ea47bfb9750234c80504b55df0689d",
         "name": "Dryads",
@@ -236,14 +249,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Dryads.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Dryads.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "dryads",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Dryads.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Dryads.png"
+      },
       "warnings": []
     },
     {
       "id": "dancers",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Dancers",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "727eb5d17a3003046804411d9a3dc589",
         "name": "Deepwood Dancers",
@@ -361,14 +385,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDancers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDancers.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "dancers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDancers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDancers.png"
+      },
       "warnings": []
     },
     {
       "id": "deepwoodArchers",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Archers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "2ae08aa8fbe4f8141ae5705ce79c0a04",
         "name": "Deepwood Archers",
@@ -481,14 +516,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodArchers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodArchers.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodArchers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodArchers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodArchers.png"
+      },
       "warnings": []
     },
     {
       "id": "deepwoodRangers",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Rangers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "0960ed933d3043244a56b32e2c78d099",
         "name": "Deepwood Rangers",
@@ -616,14 +662,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRangers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRangers.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodRangers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRangers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRangers.png"
+      },
       "warnings": []
     },
     {
       "id": "deepwoodRiders",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Riders",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "dd1bcf34e51373e4d846584261c49ff9",
         "name": "Deepwood Riders",
@@ -761,14 +818,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRiders.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodRiders",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "deepwoodChariot",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Chariot",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "55c25689da25fa740abb8578fd4ce708",
         "name": "Deepwood Chariot",
@@ -811,14 +879,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodChariot.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "giantEagle",
+      "factionId": "DeepwoodGuardians",
       "name": "Giant Eagle",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "2802e1d7e3e899e4cb652f4c516f300c",
         "name": "Giant Eagle",
@@ -851,14 +930,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/GiantEagle.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/GiantEagle.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "giantEagle",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/GiantEagle.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/GiantEagle.png"
+      },
       "warnings": []
     },
     {
       "id": "stagRiders",
+      "factionId": "DeepwoodGuardians",
       "name": "Stag Riders",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "d96ac70c6d6d8d64eadcf0364e04d86f",
         "name": "Stag Riders",
@@ -966,14 +1056,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/StagRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/StagRiders.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "stagRiders",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/StagRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/StagRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "treant",
+      "factionId": "DeepwoodGuardians",
       "name": "Treant",
       "categories": [
         "Forest Guardians"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "a4bfb19e325dbc3448b5f0dfb6fb2c05",
         "name": "Treant",
@@ -1011,14 +1112,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Treant.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Treant.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "treant",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Treant.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Treant.png"
+      },
       "warnings": []
     },
     {
       "id": "forestDragon",
+      "factionId": "DeepwoodGuardians",
       "name": "Forest Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "f3dae7dce32de504ca76ea86cac615f5",
         "name": "Forest Dragon",
@@ -1056,14 +1168,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/ForestDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/ForestDragon.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "forestDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/ForestDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/ForestDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "gryphonElf",
+      "factionId": "DeepwoodGuardians",
       "name": "Gryphon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "16aaaedd88ba76343b5a577e7825c51a",
         "name": "Gryphon",
@@ -1096,14 +1219,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Gryphon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Gryphon.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "gryphonElf",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Gryphon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Gryphon.png"
+      },
       "warnings": []
     },
     {
       "id": "deepwoodLord",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Noble",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "454c2552d2a64f84bb2aa27354f6546a",
         "name": "Deepwood Noble",
@@ -1377,16 +1511,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodNoble.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodNoble.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodLord",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodNoble.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodNoble.png"
+      },
       "warnings": [
         "Deepwood Noble has incomplete statline"
       ]
     },
     {
       "id": "deepwoodDruid",
+      "factionId": "DeepwoodGuardians",
       "name": "Deepwood Druid",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "de811b5d80a4ce441b55c39dd4a66398",
         "name": "Deepwood Druid",
@@ -1620,16 +1765,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDruid.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDruid.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "deepwoodDruid",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDruid.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDruid.png"
+      },
       "warnings": [
         "Deepwood Druid has incomplete statline"
       ]
     },
     {
       "id": "treantElder",
+      "factionId": "DeepwoodGuardians",
       "name": "Treant Elder",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "1b4495d615f3db04e97c68c5cefbb5c3",
         "name": "Treant Elder",
@@ -1800,6 +1956,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/TreantElder.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/TreantElder.png",
+      "rawSource": {
+        "catalogueFile": "DeepwoodGuardians.cat",
+        "catalogueId": "treantElder",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeepwoodGuardians.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/TreantElder.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/TreantElder.png"
+      },
       "warnings": [
         "Treant Elder has incomplete statline"
       ]

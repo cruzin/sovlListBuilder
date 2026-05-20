@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "dwarfWarriors",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "639e2c2ec698ea34cb49d71c47d9e933",
         "name": "Dwarf Warriors",
@@ -66,14 +68,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfWarriors.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfWarriors",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfVeterans",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Veterans",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "0d4d8beb19d4a5b4f9ee725bad13e1e7",
         "name": "Dwarf Veterans",
@@ -210,14 +223,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfVeterans.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfVeterans.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfVeterans",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfVeterans.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfVeterans.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfMiners",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Miners",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "c4ae76bf0e712294284da688f4b9b412",
         "name": "Dwarf Miners",
@@ -335,14 +359,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfMiners.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfMiners.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfMiners",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfMiners.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfMiners.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfCrossbows",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Crossbows",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "cf0b7c4ab99e1fe41abad77b57f7603d",
         "name": "Dwarf Crossbows",
@@ -450,14 +485,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCrossbows.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCrossbows.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfCrossbows",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCrossbows.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCrossbows.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfHandguns",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Handguns",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "b38d7d19f7d179b40b0df79933bc8809",
         "name": "Dwarf Handguns",
@@ -565,14 +611,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfHandguns.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfHandguns.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfHandguns",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfHandguns.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfHandguns.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfRangers",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Rangers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "6b7df6e45bfd3cc4dae79e1863003c8f",
         "name": "Dwarf Rangers",
@@ -714,14 +771,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfRangers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfRangers.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfRangers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfRangers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfRangers.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfCannon",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Cannon",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "d63aafd70d6b8e44bb53c9cd4f440c57",
         "name": "Dwarf Cannon",
@@ -764,14 +832,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCannon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCannon.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfCannon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCannon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCannon.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfBoltThrower",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Bolt Thrower",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "424cab936b1f4bb41a11d25d99ec0a5e",
         "name": "Dwarf Bolt Thrower",
@@ -814,14 +893,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBoltThrower.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBoltThrower.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfBoltThrower",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBoltThrower.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBoltThrower.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfStonethrower",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Stonethrower",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "ce91d4e76d4b8084586a12aaa40fc4f2",
         "name": "Dwarf Stonethrower",
@@ -859,14 +949,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfStonethrower.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfStonethrower.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfStonethrower",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfStonethrower.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfStonethrower.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfBerserkers",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Berserkers",
       "categories": [
         "Elites"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "c7fafe2d836e9cb4585bfae89984ab33",
         "name": "Dwarf Berserkers",
@@ -979,14 +1080,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBerserkers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBerserkers.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfBerserkers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBerserkers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBerserkers.png"
+      },
       "warnings": []
     },
     {
       "id": "deepGuard",
+      "factionId": "DwarfHolds",
       "name": "Deep Guard",
       "categories": [
         "Elites"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "04baa3cfe22e36d40b466e37eb7afa4f",
         "name": "Deep Guard",
@@ -1128,14 +1240,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DeepGuard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DeepGuard.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "deepGuard",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DeepGuard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DeepGuard.png"
+      },
       "warnings": []
     },
     {
       "id": "infernoCannon",
+      "factionId": "DwarfHolds",
       "name": "Inferno Cannon",
       "categories": [
         "Machines of War"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "44b7328fe7ec9864ab988dea6ef677c7",
         "name": "Inferno Cannon",
@@ -1173,14 +1296,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/InfernoCannon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/InfernoCannon.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "infernoCannon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/InfernoCannon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/InfernoCannon.png"
+      },
       "warnings": []
     },
     {
       "id": "dwarfFlyingMachine",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Flying Machine",
       "categories": [
         "Machines of War"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "3759da4f47f7de04283eb268a621fdf9",
         "name": "Dwarf Flying Machine",
@@ -1218,14 +1352,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfFlyingMachine.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfFlyingMachine.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfFlyingMachine",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfFlyingMachine.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfFlyingMachine.png"
+      },
       "warnings": []
     },
     {
       "id": "foreman",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Foreman",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "cf9a4f3fd9d8e3e4fbeb415d2d728f35",
         "name": "Dwarf Foreman",
@@ -1451,16 +1596,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfForeman.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfForeman.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "foreman",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfForeman.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfForeman.png"
+      },
       "warnings": [
         "Dwarf Foreman has incomplete statline"
       ]
     },
     {
       "id": "rangerCaptain",
+      "factionId": "DwarfHolds",
       "name": "Ranger Captain",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "01af0ffea70b7034f805b1861d593825",
         "name": "Ranger Captain",
@@ -1701,16 +1857,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/RangerCaptain.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/RangerCaptain.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "rangerCaptain",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/RangerCaptain.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/RangerCaptain.png"
+      },
       "warnings": [
         "Ranger Captain has incomplete statline"
       ]
     },
     {
       "id": "dwarfEngineer",
+      "factionId": "DwarfHolds",
       "name": "Dwarf Engineer",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "9dfc61246d7b39145ad451e3a720c47e",
         "name": "Dwarf Engineer",
@@ -1941,6 +2108,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfEngineer.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfEngineer.png",
+      "rawSource": {
+        "catalogueFile": "DwarfHolds.cat",
+        "catalogueId": "dwarfEngineer",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DwarfHolds.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfEngineer.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfEngineer.png"
+      },
       "warnings": [
         "Dwarf Engineer has incomplete statline"
       ]

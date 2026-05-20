@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "ibexWarriors",
+      "factionId": "GoatmenRaiders",
       "name": "Ibex Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "d0706f3b2eae19a4aabf4871d9094638",
         "name": "Ibex Warriors",
@@ -121,14 +123,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/IbexWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/IbexWarriors.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "ibexWarriors",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/IbexWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/IbexWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "goatmenWarriors",
+      "factionId": "GoatmenRaiders",
       "name": "Goatmen Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "363c3bac56369ac4781167451f9fa50f",
         "name": "Goatmen Warriors",
@@ -255,14 +268,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmenWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmenWarriors.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "goatmenWarriors",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmenWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmenWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "mongrelPack",
+      "factionId": "GoatmenRaiders",
       "name": "Mongrel Pack",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "33c3f1913dfabb9408ecfc6f67c9bc48",
         "name": "Mongrel Pack",
@@ -300,14 +324,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelPack.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelPack.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "mongrelPack",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelPack.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelPack.png"
+      },
       "warnings": []
     },
     {
       "id": "mongrelSpear",
+      "factionId": "GoatmenRaiders",
       "name": "Mongrel Spear",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "5464935e78ac60040ab23dabde7de5cc",
         "name": "Mongrel Spear",
@@ -345,14 +380,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSpear.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSpear.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "mongrelSpear",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSpear.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSpear.png"
+      },
       "warnings": []
     },
     {
       "id": "raidingChariot",
+      "factionId": "GoatmenRaiders",
       "name": "Raiding Chariot",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "6d7f9be1e9c704844bc685a7069509c9",
         "name": "Raiding Chariot",
@@ -390,14 +436,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/RaidingChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/RaidingChariot.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "raidingChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/RaidingChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/RaidingChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "feralHounds",
+      "factionId": "GoatmenRaiders",
       "name": "Feral Hounds",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Hounds",
       "model": {
         "id": "be542fae069b22c4fbccb0d0df449213",
         "name": "Feral Hounds",
@@ -425,14 +482,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralHounds.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralHounds.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "feralHounds",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralHounds.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralHounds.png"
+      },
       "warnings": []
     },
     {
       "id": "mongrelSkirmishers",
+      "factionId": "GoatmenRaiders",
       "name": "Mongrel Skirmishers",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "0576f54d8e8f0a648826dcb493379926",
         "name": "Mongrel Skirmishers",
@@ -470,14 +538,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSkirmishers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSkirmishers.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "mongrelSkirmishers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSkirmishers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSkirmishers.png"
+      },
       "warnings": []
     },
     {
       "id": "centaurs",
+      "factionId": "GoatmenRaiders",
       "name": "Centaurs",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "82987af86c9a90349a1820d045d4f089",
         "name": "Centaurs",
@@ -633,14 +712,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Centaurs.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Centaurs.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "centaurs",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Centaurs.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Centaurs.png"
+      },
       "warnings": []
     },
     {
       "id": "minotaurs",
+      "factionId": "GoatmenRaiders",
       "name": "Minotaurs",
       "categories": [
         "Wild Beasts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "9e4971f659c0c634a9f6f978107cd456",
         "name": "Minotaurs",
@@ -698,14 +788,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Minotaurs.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Minotaurs.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "minotaurs",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Minotaurs.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Minotaurs.png"
+      },
       "warnings": []
     },
     {
       "id": "harpies",
+      "factionId": "GoatmenRaiders",
       "name": "Harpies",
       "categories": [
         "Wild Beasts"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "b3d25ae6a49084c46a2b8e33d6f11815",
         "name": "Harpies",
@@ -738,14 +839,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Harpies.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Harpies.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "harpies",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Harpies.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Harpies.png"
+      },
       "warnings": []
     },
     {
       "id": "feralGiant",
+      "factionId": "GoatmenRaiders",
       "name": "Feral Giant",
       "categories": [
         "Wild Beasts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "8cb87e3be6fd3df44a01e0148b6d4202",
         "name": "Feral Giant",
@@ -783,14 +895,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralGiant.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralGiant.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "feralGiant",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralGiant.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralGiant.png"
+      },
       "warnings": []
     },
     {
       "id": "goatmanShaman",
+      "factionId": "GoatmenRaiders",
       "name": "Goatman Shaman",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "a4d9983fb6f1a5443b1ff356fdac8326",
         "name": "Goatman Shaman",
@@ -1024,16 +1147,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanShaman.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanShaman.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "goatmanShaman",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanShaman.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanShaman.png"
+      },
       "warnings": [
         "Goatman Shaman has incomplete statline"
       ]
     },
     {
       "id": "goatmanLonghorn",
+      "factionId": "GoatmenRaiders",
       "name": "Goatman Longhorn",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "bf7defd133131614ea4971e53b7f1fb3",
         "name": "Goatman Longhorn",
@@ -1260,16 +1394,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanLonghorn.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanLonghorn.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "goatmanLonghorn",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanLonghorn.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanLonghorn.png"
+      },
       "warnings": [
         "Goatman Longhorn has incomplete statline"
       ]
     },
     {
       "id": "minotaurLord",
+      "factionId": "GoatmenRaiders",
       "name": "Minotaur Lord",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "845263b13cb206c46a4239896499b3b5",
         "name": "Minotaur Lord",
@@ -1478,6 +1623,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MinotaurLord.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MinotaurLord.png",
+      "rawSource": {
+        "catalogueFile": "GoatmenRaiders.cat",
+        "catalogueId": "minotaurLord",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GoatmenRaiders.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MinotaurLord.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MinotaurLord.png"
+      },
       "warnings": [
         "Minotaur Lord has incomplete statline"
       ]

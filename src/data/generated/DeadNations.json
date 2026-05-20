@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "skeletons",
+      "factionId": "DeadNations",
       "name": "Skeleton Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "f2afe606d20ea1f4d994a4ed8e0d6210",
         "name": "Skeleton Warriors",
@@ -116,14 +118,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonWarriors.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "skeletons",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "zombies",
+      "factionId": "DeadNations",
       "name": "Zombies",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "775d5c46403c26147bfa6cb31c2748bb",
         "name": "Zombies",
@@ -156,14 +169,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Zombies.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Zombies.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "zombies",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Zombies.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Zombies.png"
+      },
       "warnings": []
     },
     {
       "id": "wights",
+      "factionId": "DeadNations",
       "name": "Wight Guard",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "36432a372911ded48b4115f73c5e8bd5",
         "name": "Wight Guard",
@@ -300,14 +324,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightGuard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightGuard.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "wights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightGuard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightGuard.png"
+      },
       "warnings": []
     },
     {
       "id": "skeletonSpear",
+      "factionId": "DeadNations",
       "name": "Skeleton Spear",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "9909c37c0a95d454585c845e83a87c87",
         "name": "Skeleton Spear",
@@ -415,14 +450,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonSpear.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonSpear.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "skeletonSpear",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonSpear.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonSpear.png"
+      },
       "warnings": []
     },
     {
       "id": "unearthedCatapult",
+      "factionId": "DeadNations",
       "name": "Unearthed Catapult",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "e20c203792f81034cb7a5ef37adc5557",
         "name": "Unearthed Catapult",
@@ -465,14 +511,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/UnearthedCatapult.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/UnearthedCatapult.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "unearthedCatapult",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/UnearthedCatapult.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/UnearthedCatapult.png"
+      },
       "warnings": []
     },
     {
       "id": "skeletonBowmen",
+      "factionId": "DeadNations",
       "name": "Skeleton Bowmen",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "76af4afd56a883b4eb3de8f49ed9231e",
         "name": "Skeleton Bowmen",
@@ -580,14 +637,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonBowmen.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonBowmen.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "skeletonBowmen",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonBowmen.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonBowmen.png"
+      },
       "warnings": []
     },
     {
       "id": "wolves",
+      "factionId": "DeadNations",
       "name": "Dire Wolves",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Hounds",
       "model": {
         "id": "753504db8c1f81a4883b10910845c48f",
         "name": "Dire Wolves",
@@ -615,14 +683,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DireWolves.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DireWolves.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "wolves",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DireWolves.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DireWolves.png"
+      },
       "warnings": []
     },
     {
       "id": "skeletonKnights",
+      "factionId": "DeadNations",
       "name": "Skeleton Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "d268b41977ce3874799ba0ad3157f4fe",
         "name": "Skeleton Knights",
@@ -760,14 +839,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonKnights.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "skeletonKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "dreadKnights",
+      "factionId": "DeadNations",
       "name": "Dread Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "261a9c210dd26ef439d02d39377f17e1",
         "name": "Dread Knights",
@@ -905,14 +995,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DreadKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DreadKnights.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "dreadKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DreadKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DreadKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "bats",
+      "factionId": "DeadNations",
       "name": "Fell Bats",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "76bfa99908f6e4043b4b4aae318f9b59",
         "name": "Fell Bats",
@@ -945,14 +1046,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/FellBats.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/FellBats.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "bats",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/FellBats.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/FellBats.png"
+      },
       "warnings": []
     },
     {
       "id": "zombieGiant",
+      "factionId": "DeadNations",
       "name": "Zombie Giant",
       "categories": [
         "Abominations"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "a1bcd5daa970be047bc763124de6579a",
         "name": "Zombie Giant",
@@ -985,14 +1097,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/ZombieGiant.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/ZombieGiant.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "zombieGiant",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/ZombieGiant.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/ZombieGiant.png"
+      },
       "warnings": []
     },
     {
       "id": "boneDragon",
+      "factionId": "DeadNations",
       "name": "Bone Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "47e567cea72723040b1098df221d189d",
         "name": "Bone Dragon",
@@ -1035,14 +1158,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/BoneDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/BoneDragon.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "boneDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/BoneDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/BoneDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "wightLord",
+      "factionId": "DeadNations",
       "name": "Wight Lord",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "19f60d6d8fc808e499826c390face738",
         "name": "Wight Lord",
@@ -1319,16 +1453,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightLord.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightLord.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "wightLord",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightLord.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightLord.png"
+      },
       "warnings": [
         "Wight Lord has incomplete statline"
       ]
     },
     {
       "id": "vampireKnight",
+      "factionId": "DeadNations",
       "name": "Vampire Knight",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "b14a3c25a66362c4e98c11d250115c20",
         "name": "Vampire Knight",
@@ -1664,16 +1809,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/VampireKnight.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/VampireKnight.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "vampireKnight",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/VampireKnight.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/VampireKnight.png"
+      },
       "warnings": [
         "Vampire Knight has incomplete statline"
       ]
     },
     {
       "id": "necromancer",
+      "factionId": "DeadNations",
       "name": "Necromancer",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "edcd26b8b1b47e44da27eb40fe31c25d",
         "name": "Necromancer",
@@ -1908,6 +2064,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Necromancer.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Necromancer.png",
+      "rawSource": {
+        "catalogueFile": "DeadNations.cat",
+        "catalogueId": "necromancer",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/DeadNations.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Necromancer.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Necromancer.png"
+      },
       "warnings": [
         "Necromancer has incomplete statline"
       ]

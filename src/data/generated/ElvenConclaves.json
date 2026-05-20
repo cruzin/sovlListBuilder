@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "elfSpears",
+      "factionId": "ElvenConclaves",
       "name": "Elf Spears",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "a6662fb911b0a9849943de545eb5e9d5",
         "name": "Elf Spears",
@@ -116,14 +118,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpears.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpears.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfSpears",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpears.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpears.png"
+      },
       "warnings": []
     },
     {
       "id": "cityGuard",
+      "factionId": "ElvenConclaves",
       "name": "Elf City Guard",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "1f6d99f2fa74a2f4cb92bd03d82f33c1",
         "name": "Elf City Guard",
@@ -236,14 +249,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfCityGuard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfCityGuard.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "cityGuard",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfCityGuard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfCityGuard.png"
+      },
       "warnings": []
     },
     {
       "id": "weaponMasters",
+      "factionId": "ElvenConclaves",
       "name": "Weapon Masters",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "0e14c3c61dc4a5d44a78109858c17fed",
         "name": "Weapon Masters",
@@ -390,14 +414,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/WeaponMasters.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/WeaponMasters.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "weaponMasters",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/WeaponMasters.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/WeaponMasters.png"
+      },
       "warnings": []
     },
     {
       "id": "elfArchers",
+      "factionId": "ElvenConclaves",
       "name": "Elf Archers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "3980636fba9781442a5be9f3cb4f4aaa",
         "name": "Elf Archers",
@@ -505,14 +540,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfArchers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfArchers.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfArchers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfArchers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfArchers.png"
+      },
       "warnings": []
     },
     {
       "id": "elfWatchers",
+      "factionId": "ElvenConclaves",
       "name": "Elf Watchers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "b8e145a22dff1314eb86a6978e8f6386",
         "name": "Elf Watchers",
@@ -635,14 +681,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfWatchers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfWatchers.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfWatchers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfWatchers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfWatchers.png"
+      },
       "warnings": []
     },
     {
       "id": "elfBoltThrower",
+      "factionId": "ElvenConclaves",
       "name": "Elf Bolt Thrower",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "769292515927efa4f8de1097587f4bd2",
         "name": "Elf Bolt Thrower",
@@ -685,14 +742,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfBoltThrower.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfBoltThrower.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfBoltThrower",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfBoltThrower.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfBoltThrower.png"
+      },
       "warnings": []
     },
     {
       "id": "elfLancers",
+      "factionId": "ElvenConclaves",
       "name": "Elf Lancers",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "8d1a5210c492a274eae1cf1fc4b27878",
         "name": "Elf Lancers",
@@ -805,14 +873,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfLancers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfLancers.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfLancers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfLancers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfLancers.png"
+      },
       "warnings": []
     },
     {
       "id": "elfReavers",
+      "factionId": "ElvenConclaves",
       "name": "Elf Reavers",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "92a03f2cd43d36b4aad17b1ba7710d2e",
         "name": "Elf Reavers",
@@ -925,14 +1004,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfReavers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfReavers.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfReavers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfReavers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfReavers.png"
+      },
       "warnings": []
     },
     {
       "id": "elfChariot",
+      "factionId": "ElvenConclaves",
       "name": "Elf Chariot",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "33710acd9fbe47b4693ea727cddc4328",
         "name": "Elf Chariot",
@@ -975,14 +1065,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfChariot.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "giantEagle",
+      "factionId": "ElvenConclaves",
       "name": "Giant Eagle",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "40e59a53eeb3be04881ca74a1ad38182",
         "name": "Giant Eagle",
@@ -1015,14 +1116,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/GiantEagle.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/GiantEagle.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "giantEagle",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/GiantEagle.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/GiantEagle.png"
+      },
       "warnings": []
     },
     {
       "id": "dragonKnights",
+      "factionId": "ElvenConclaves",
       "name": "Dragon Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "94076cf247979aa4a99113e1bff9f726",
         "name": "Dragon Knights",
@@ -1165,14 +1277,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/DragonKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/DragonKnights.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "dragonKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/DragonKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/DragonKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "ancientDragon",
+      "factionId": "ElvenConclaves",
       "name": "Ancient Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "6f7c25f37aeed89409c4b0693af98d3e",
         "name": "Ancient Dragon",
@@ -1210,14 +1333,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/AncientDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/AncientDragon.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "ancientDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/AncientDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/AncientDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "gryphonElf",
+      "factionId": "ElvenConclaves",
       "name": "Gryphon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "7664050b02d6a15449784f338e6a14a5",
         "name": "Gryphon",
@@ -1250,14 +1384,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/Gryphon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/Gryphon.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "gryphonElf",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/Gryphon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/Gryphon.png"
+      },
       "warnings": []
     },
     {
       "id": "elfNoble",
+      "factionId": "ElvenConclaves",
       "name": "Elf Noble",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "8e370a1253e9cff41a9fb27bea349378",
         "name": "Elf Noble",
@@ -1526,16 +1671,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfNoble.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfNoble.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfNoble",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfNoble.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfNoble.png"
+      },
       "warnings": [
         "Elf Noble has incomplete statline"
       ]
     },
     {
       "id": "elfMage",
+      "factionId": "ElvenConclaves",
       "name": "Elf Mage",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "3eb9400f4901f5640b2f0af443455031",
         "name": "Elf Mage",
@@ -1778,16 +1934,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfMage.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfMage.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfMage",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfMage.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfMage.png"
+      },
       "warnings": [
         "Elf Mage has incomplete statline"
       ]
     },
     {
       "id": "elfSpellsword",
+      "factionId": "ElvenConclaves",
       "name": "Elf Spellsword",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "c8dff95a3e1db6446af5087a3e18255f",
         "name": "Elf Spellsword",
@@ -2099,6 +2266,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpellsword.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpellsword.png",
+      "rawSource": {
+        "catalogueFile": "ElvenConclaves.cat",
+        "catalogueId": "elfSpellsword",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/ElvenConclaves.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpellsword.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpellsword.png"
+      },
       "warnings": [
         "Elf Spellsword has incomplete statline"
       ]

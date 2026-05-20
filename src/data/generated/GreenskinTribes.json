@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "orcWarriors",
+      "factionId": "GreenskinTribes",
       "name": "Orc Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "d45be92860c68d9408618e397f7745f3",
         "name": "Orc Warriors",
@@ -135,14 +137,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcWarriors.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "orcWarriors",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "orcBrutes",
+      "factionId": "GreenskinTribes",
       "name": "Orc Brutes",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "f7a41128561d8894eafce40cfa9c99d8",
         "name": "Orc Brutes",
@@ -255,14 +268,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBrutes.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBrutes.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "orcBrutes",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBrutes.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBrutes.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinMob",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Mob",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "5e86a1e26b3e7bb448206fb7c45a06de",
         "name": "Goblin Mob",
@@ -365,14 +389,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinMob.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinMob.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinMob",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinMob.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinMob.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinSpears",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Spear Mob",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "37484b9bf1df1ec4c994e6dd56527fd6",
         "name": "Goblin Spear Mob",
@@ -475,14 +510,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinSpearMob.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinSpearMob.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinSpears",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinSpearMob.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinSpearMob.png"
+      },
       "warnings": []
     },
     {
       "id": "boarRiders",
+      "factionId": "GreenskinTribes",
       "name": "Boar Riders",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "3da2044fb4a01dd46ab99c82fb3484b5",
         "name": "Boar Riders",
@@ -585,14 +631,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/BoarRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/BoarRiders.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "boarRiders",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/BoarRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/BoarRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinWolf",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Wolf Riders",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "73dafe518ae36de4b89e1d12cc6402dc",
         "name": "Goblin Wolf Riders",
@@ -705,14 +762,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinWolfRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinWolfRiders.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinWolf",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinWolfRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinWolfRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "orcChariot",
+      "factionId": "GreenskinTribes",
       "name": "Orc Boar Chariot",
       "categories": [
         "Raiders"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "9eb94775c0abb6e4fa9dccd37f0f621f",
         "name": "Orc Boar Chariot",
@@ -745,14 +813,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBoarChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBoarChariot.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "orcChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBoarChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBoarChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinShortbows",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Shortbows",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "7c7e7b457789c4149b29d01c02081da1",
         "name": "Goblin Shortbows",
@@ -855,14 +934,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShortbows.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShortbows.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinShortbows",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShortbows.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShortbows.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinBoltThrowers",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Bolt Throwers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "ef6f33f52fc610f47ac7e1dfbffe2734",
         "name": "Goblin Bolt Throwers",
@@ -905,14 +995,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinBoltThrowers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinBoltThrowers.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinBoltThrowers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinBoltThrowers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinBoltThrowers.png"
+      },
       "warnings": []
     },
     {
       "id": "goblinStonethrower",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Stonethrower",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "d51b3ca10fd904b479cee2a6883395d3",
         "name": "Goblin Stonethrower",
@@ -950,14 +1051,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinStonethrower.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinStonethrower.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinStonethrower",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinStonethrower.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinStonethrower.png"
+      },
       "warnings": []
     },
     {
       "id": "trolls",
+      "factionId": "GreenskinTribes",
       "name": "Trolls",
       "categories": [
         "Big Stuff"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "4060023864d94c44ba9eef0258e42436",
         "name": "Trolls",
@@ -990,14 +1102,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Trolls.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Trolls.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "trolls",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Trolls.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Trolls.png"
+      },
       "warnings": []
     },
     {
       "id": "giant",
+      "factionId": "GreenskinTribes",
       "name": "Giant",
       "categories": [
         "Big Stuff"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "0c11b0eb8f10fd8468e09be89708ea77",
         "name": "Giant",
@@ -1030,14 +1153,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Giant.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Giant.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "giant",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Giant.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Giant.png"
+      },
       "warnings": []
     },
     {
       "id": "wyvern",
+      "factionId": "GreenskinTribes",
       "name": "Wyvern",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "c6b8731c843a6dd4b86b5ea44840c0f2",
         "name": "Wyvern",
@@ -1070,14 +1204,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Wyvern.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Wyvern.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "wyvern",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Wyvern.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Wyvern.png"
+      },
       "warnings": []
     },
     {
       "id": "giantSpider",
+      "factionId": "GreenskinTribes",
       "name": "Giant Spider",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "4c43cbe66ffa7ba49835c1f54d9e5dcf",
         "name": "Giant Spider",
@@ -1125,14 +1270,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GiantSpider.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GiantSpider.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "giantSpider",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GiantSpider.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GiantSpider.png"
+      },
       "warnings": []
     },
     {
       "id": "warchief",
+      "factionId": "GreenskinTribes",
       "name": "War Chief",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "5e0dc606fca00c646a788291d241ac21",
         "name": "War Chief",
@@ -1382,16 +1538,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/WarChief.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/WarChief.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "warchief",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/WarChief.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/WarChief.png"
+      },
       "warnings": [
         "War Chief has incomplete statline"
       ]
     },
     {
       "id": "goblinShaman",
+      "factionId": "GreenskinTribes",
       "name": "Goblin Shaman",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "d6eeddff69eb93e42a8bbc9366a216e7",
         "name": "Goblin Shaman",
@@ -1609,16 +1776,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShaman.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShaman.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinShaman",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShaman.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShaman.png"
+      },
       "warnings": [
         "Goblin Shaman has incomplete statline"
       ]
     },
     {
       "id": "goblinKing",
+      "factionId": "GreenskinTribes",
       "name": "Goblin King",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "98e6cd04e1a4a96439c19a86072041a5",
         "name": "Goblin King",
@@ -1877,6 +2055,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinKing.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinKing.png",
+      "rawSource": {
+        "catalogueFile": "GreenskinTribes.cat",
+        "catalogueId": "goblinKing",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/GreenskinTribes.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinKing.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinKing.png"
+      },
       "warnings": [
         "Goblin King has incomplete statline"
       ]

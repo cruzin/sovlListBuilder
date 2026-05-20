@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "ratkinLegionaries",
+      "factionId": "RatkinClans",
       "name": "Ratkin Legionaries",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "d5d27f34b9a83504d9ce9e43c9e53b4f",
         "name": "Ratkin Legionaries",
@@ -121,14 +123,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLegionaries.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLegionaries.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinLegionaries",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLegionaries.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLegionaries.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinConscripts",
+      "factionId": "RatkinClans",
       "name": "Ratkin Conscripts",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "57d4b68f58b759444aabf85ec66c41e2",
         "name": "Ratkin Conscripts",
@@ -260,14 +273,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinConscripts.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinConscripts.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinConscripts",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinConscripts.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinConscripts.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinSkulkers",
+      "factionId": "RatkinClans",
       "name": "Ratkin Skulkers",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "3ff281ba26253064396e7673bb82be92",
         "name": "Ratkin Skulkers",
@@ -315,14 +339,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSkulkers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSkulkers.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinSkulkers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSkulkers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSkulkers.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinLongrifles",
+      "factionId": "RatkinClans",
       "name": "Ratkin Longrifles",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Weapon Team",
       "model": {
         "id": "cf21fd3c7d1df854da9680a4ac3a0f00",
         "name": "Ratkin Longrifles",
@@ -360,14 +395,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLongrifles.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLongrifles.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinLongrifles",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLongrifles.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLongrifles.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinSlingers",
+      "factionId": "RatkinClans",
       "name": "Ratkin Slingers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "167c8e824805b88479c7b5a48898a87a",
         "name": "Ratkin Slingers",
@@ -475,14 +521,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSlingers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSlingers.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinSlingers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSlingers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSlingers.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinFlamers",
+      "factionId": "RatkinClans",
       "name": "Ratkin Flamers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Weapon Team",
       "model": {
         "id": "a7cb1daeafb5aa442b9d594b6eb51271",
         "name": "Ratkin Flamers",
@@ -515,14 +572,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinFlamers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinFlamers.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinFlamers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinFlamers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinFlamers.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinMonstrosity",
+      "factionId": "RatkinClans",
       "name": "Ratkin Monstrosity",
       "categories": [
         "Vermin"
       ],
+      "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "fb13bfc46e46c9c4fbefeda153e2d456",
         "name": "Ratkin Monstrosity",
@@ -565,14 +633,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinMonstrosity.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinMonstrosity.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinMonstrosity",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinMonstrosity.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinMonstrosity.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinBrutes",
+      "factionId": "RatkinClans",
       "name": "Ratkin Alphas",
       "categories": [
         "Vermin"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "6e755304b12a4a9439267dfdedcd5b33",
         "name": "Ratkin Alphas",
@@ -605,14 +684,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinAlphas.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinAlphas.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinBrutes",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinAlphas.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinAlphas.png"
+      },
       "warnings": []
     },
     {
       "id": "ratSwarms",
+      "factionId": "RatkinClans",
       "name": "Rat Swarms",
       "categories": [
         "Vermin"
       ],
+      "rulesUnitType": "Swarm",
       "model": {
         "id": "40439b20d9a0baf408514560b64b2f57",
         "name": "Rat Swarms",
@@ -655,14 +745,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatSwarms.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatSwarms.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratSwarms",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatSwarms.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatSwarms.png"
+      },
       "warnings": []
     },
     {
       "id": "doomBell",
+      "factionId": "RatkinClans",
       "name": "Doom Bell",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "War Wagon",
       "model": {
         "id": "bc3dcb95168aa104c9f39a8db74be7fa",
         "name": "Doom Bell",
@@ -695,14 +796,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/DoomBell.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/DoomBell.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "doomBell",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/DoomBell.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/DoomBell.png"
+      },
       "warnings": []
     },
     {
       "id": "ratkinWarlock",
+      "factionId": "RatkinClans",
       "name": "Ratkin Warlock",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "63fc21444f029ca43bcc9adfd3a6a70a",
         "name": "Ratkin Warlock",
@@ -923,16 +1035,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinWarlock.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinWarlock.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinWarlock",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinWarlock.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinWarlock.png"
+      },
       "warnings": [
         "Ratkin Warlock has incomplete statline"
       ]
     },
     {
       "id": "ratkinChieftain",
+      "factionId": "RatkinClans",
       "name": "Ratkin Chieftain",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "2bf16acff6ef523479279eb7358b22a6",
         "name": "Ratkin Chieftain",
@@ -1160,16 +1283,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinChieftain.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinChieftain.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinChieftain",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinChieftain.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinChieftain.png"
+      },
       "warnings": [
         "Ratkin Chieftain has incomplete statline"
       ]
     },
     {
       "id": "ratkinInfiltrator",
+      "factionId": "RatkinClans",
       "name": "Ratkin Infiltrator",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "99bdf897de137bb40b8bb8ef81bd8aa2",
         "name": "Ratkin Infiltrator",
@@ -1389,6 +1523,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinInfiltrator.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinInfiltrator.png",
+      "rawSource": {
+        "catalogueFile": "RatkinClans.cat",
+        "catalogueId": "ratkinInfiltrator",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/RatkinClans.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinInfiltrator.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinInfiltrator.png"
+      },
       "warnings": [
         "Ratkin Infiltrator has incomplete statline"
       ]

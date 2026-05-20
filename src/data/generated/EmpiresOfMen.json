@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "imperialSword",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Sword",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "db0573d2eb3a05141a20a3119084330a",
         "name": "Imperial Sword",
@@ -111,14 +113,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSword.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSword.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialSword",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSword.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSword.png"
+      },
       "warnings": []
     },
     {
       "id": "footKnights",
+      "factionId": "EmpiresOfMen",
       "name": "Foot Knights",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "1e958850305b3dd4295b2b37d2219d10",
         "name": "Foot Knights",
@@ -256,14 +269,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/FootKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/FootKnights.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "footKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/FootKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/FootKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialHalberd",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Halberd",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "d5d18a9947ccdf44683a5171bd68bbd4",
         "name": "Imperial Halberd",
@@ -366,14 +390,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHalberd.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHalberd.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialHalberd",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHalberd.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHalberd.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialSpear",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Spear",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "7bd2b9d82eaa292458215b29239a0571",
         "name": "Imperial Spear",
@@ -476,14 +511,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSpear.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSpear.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialSpear",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSpear.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSpear.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialKnights",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "435764439a3efb6448fc8309f8154ff9",
         "name": "Imperial Knights",
@@ -632,14 +678,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialKnights.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialLightCavalry",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Light Cavalry",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "3000571c45f9a8c42b649d1bf48c8d1b",
         "name": "Imperial Light Cavalry",
@@ -747,14 +804,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialLightCavalry.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialLightCavalry.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialLightCavalry",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialLightCavalry.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialLightCavalry.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialArchers",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Archers",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "6f3458d0fc1652340bf85820b8e41f41",
         "name": "Imperial Archers",
@@ -857,14 +925,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialArchers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialArchers.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialArchers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialArchers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialArchers.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialCrossbowmen",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Crossbowmen",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "d10104ba085607b41b93a66951f4309e",
         "name": "Imperial Crossbowmen",
@@ -967,14 +1046,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCrossbowmen.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCrossbowmen.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialCrossbowmen",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCrossbowmen.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCrossbowmen.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialHandguns",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Handguns",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "6c739571eabf2b4489b721448500f9d5",
         "name": "Imperial Handguns",
@@ -1077,14 +1167,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHandguns.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHandguns.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialHandguns",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHandguns.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHandguns.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialCannon",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Cannon",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "aa53f7bd2c72acb44a48cffe36cb10a1",
         "name": "Imperial Cannon",
@@ -1127,14 +1228,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCannon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCannon.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialCannon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCannon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCannon.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialMortar",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Mortar",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "War Machine",
       "model": {
         "id": "103af0f3fa925d147ac24b29c5407b13",
         "name": "Imperial Mortar",
@@ -1172,14 +1284,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialMortar.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialMortar.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialMortar",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialMortar.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialMortar.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialDreadnought",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Dreadnought",
       "categories": [
         "Imperial Armory"
       ],
+      "rulesUnitType": "War Wagon",
       "model": {
         "id": "549b90ca81505344dafb6ac7812b0d88",
         "name": "Imperial Dreadnought",
@@ -1227,14 +1350,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDreadnought.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDreadnought.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialDreadnought",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDreadnought.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDreadnought.png"
+      },
       "warnings": []
     },
     {
       "id": "gryphon",
+      "factionId": "EmpiresOfMen",
       "name": "Gryphon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "0f3bd089c4019264698b7b0596ee3514",
         "name": "Gryphon",
@@ -1267,14 +1401,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Gryphon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Gryphon.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "gryphon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Gryphon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Gryphon.png"
+      },
       "warnings": []
     },
     {
       "id": "imperialDragon",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "ed5aae305ed626e4cb9aa6c496484583",
         "name": "Imperial Dragon",
@@ -1312,14 +1457,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDragon.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "captain",
+      "factionId": "EmpiresOfMen",
       "name": "Captain",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "7b0370a4f2ee71743b0f2f4f81572b77",
         "name": "Captain",
@@ -1574,16 +1730,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Captain.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Captain.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "captain",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Captain.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Captain.png"
+      },
       "warnings": [
         "Captain has incomplete statline"
       ]
     },
     {
       "id": "knightCommander",
+      "factionId": "EmpiresOfMen",
       "name": "Knight Commander",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "2e6918f47864b57408fa50cb9b102b43",
         "name": "Knight Commander",
@@ -1829,16 +1996,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/KnightCommander.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/KnightCommander.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "knightCommander",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/KnightCommander.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/KnightCommander.png"
+      },
       "warnings": [
         "Knight Commander has incomplete statline"
       ]
     },
     {
       "id": "imperialWizard",
+      "factionId": "EmpiresOfMen",
       "name": "Imperial Wizard",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "b499d309c6d8b7346af0857f0390b12d",
         "name": "Imperial Wizard",
@@ -2056,6 +2234,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialWizard.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialWizard.png",
+      "rawSource": {
+        "catalogueFile": "EmpiresOfMen.cat",
+        "catalogueId": "imperialWizard",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/EmpiresofMen.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialWizard.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialWizard.png"
+      },
       "warnings": [
         "Imperial Wizard has incomplete statline"
       ]

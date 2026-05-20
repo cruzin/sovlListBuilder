@@ -5,10 +5,12 @@ import type {
   CatalogueRule,
   CatalogueUnit,
   GeneratedCatalogue,
+  RulesUnitAsset,
   UnitModel,
   UnitOptionGroup,
   UnitStats,
 } from '../src/types/catalogue.ts'
+import { unitAssetKey } from './text.ts'
 import { childrenNamed, firstChild, parseXml, type XmlNode } from './xml.ts'
 
 const POINTS_TYPE_ID = '268a-a403-0d9c-50ac'
@@ -18,6 +20,7 @@ type SharedIndex = Map<string, CatalogueRule>
 export async function parseCatalogueDirectory(
   catalogueDir: string,
   sourceRevision?: string,
+  unitAssets?: Map<string, RulesUnitAsset>,
 ): Promise<GeneratedCatalogue> {
   const sharedRules = await parseSharedRules(path.join(catalogueDir, 'SOVL.gst'))
   const factionFiles = [
@@ -40,7 +43,7 @@ export async function parseCatalogueDirectory(
 
   for (const fileName of factionFiles) {
     try {
-      factions.push(await parseFactionFile(path.join(catalogueDir, fileName), fileName, sharedRules))
+      factions.push(await parseFactionFile(path.join(catalogueDir, fileName), fileName, sharedRules, unitAssets))
     } catch (error) {
       warnings.push(`${fileName}: ${error instanceof Error ? error.message : String(error)}`)
     }
@@ -82,6 +85,7 @@ async function parseFactionFile(
   filePath: string,
   sourceFile: string,
   sharedRules: SharedIndex,
+  unitAssets?: Map<string, RulesUnitAsset>,
 ): Promise<CatalogueFaction> {
   const xml = parseXml(await readFile(filePath, 'utf8'))
   const warnings: string[] = []
@@ -92,7 +96,16 @@ async function parseFactionFile(
     if (entry.attributes.type !== 'unit') {
       continue
     }
-    units.push(parseUnit(entry, sharedRules))
+    units.push(
+      parseUnit(
+        entry,
+        sharedRules,
+        xml.attributes.id ?? sourceFile.replace(/\.cat$/i, ''),
+        xml.attributes.name ?? sourceFile.replace(/\.cat$/i, ''),
+        sourceFile,
+        unitAssets,
+      ),
+    )
   }
 
   if (units.length === 0) {
@@ -108,7 +121,14 @@ async function parseFactionFile(
   }
 }
 
-function parseUnit(entry: XmlNode, sharedRules: SharedIndex): CatalogueUnit {
+function parseUnit(
+  entry: XmlNode,
+  sharedRules: SharedIndex,
+  factionId: string,
+  factionName: string,
+  sourceFile: string,
+  unitAssets?: Map<string, RulesUnitAsset>,
+): CatalogueUnit {
   const warnings: string[] = []
   const modelEntry = childrenNamed(firstChild(entry, 'selectionEntries'), 'selectionEntry').find(
     (child) => child.attributes.type === 'model',
@@ -122,6 +142,8 @@ function parseUnit(entry: XmlNode, sharedRules: SharedIndex): CatalogueUnit {
   const optionGroups = childrenNamed(firstChild(entry, 'selectionEntryGroups'), 'selectionEntryGroup').map((group) =>
     parseOptionGroup(group, sharedRules),
   )
+  const unitName = entry.attributes.name ?? entry.attributes.id ?? 'Unknown unit'
+  const asset = unitAssets?.get(unitAssetKey(factionName, unitName))
 
   if (!entry.attributes.id) {
     warnings.push('Unit is missing id')
@@ -130,23 +152,37 @@ function parseUnit(entry: XmlNode, sharedRules: SharedIndex): CatalogueUnit {
     warnings.push(`${entry.attributes.id ?? 'Unknown unit'} is missing name`)
   }
   if (!modelEntry) {
-    warnings.push(`${entry.attributes.name ?? entry.attributes.id} has no nested model entry`)
+    warnings.push(`${unitName} has no nested model entry`)
   }
   if (modelEntry && model?.pointsPerModel === undefined) {
-    warnings.push(`${entry.attributes.name ?? entry.attributes.id} has no model point cost`)
+    warnings.push(`${unitName} has no model point cost`)
   }
   if (!stats.skill || !stats.power || !stats.defense) {
-    warnings.push(`${entry.attributes.name ?? entry.attributes.id} has incomplete statline`)
+    warnings.push(`${unitName} has incomplete statline`)
+  }
+  if (!asset) {
+    warnings.push(`${unitName} has no matching rules-site image`)
   }
 
   return {
     id: entry.attributes.id ?? entry.attributes.name ?? 'unknown-unit',
-    name: entry.attributes.name ?? entry.attributes.id ?? 'Unknown unit',
+    factionId,
+    name: unitName,
     categories: extractCategories(entry),
+    rulesUnitType: asset?.unitType,
     model,
     stats,
     rules: dedupeRules(rules),
     optionGroups,
+    iconUrl: asset?.iconUrl,
+    imageUrl: asset?.imageUrl,
+    rawSource: {
+      catalogueFile: sourceFile,
+      catalogueId: entry.attributes.id,
+      rulesPageUrl: asset?.rulesPageUrl,
+      iconUrl: asset?.iconUrl,
+      imageUrl: asset?.imageUrl,
+    },
     warnings,
   }
 }

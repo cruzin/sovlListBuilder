@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "abyssalVipers",
+      "factionId": "AbyssalDemons",
       "name": "Abyssal Vipers",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "f8d6874f05e35ac4ea5c00bdd9087fb9",
         "name": "Abyssal Vipers",
@@ -121,14 +123,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalVipers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalVipers.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "abyssalVipers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalVipers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalVipers.png"
+      },
       "warnings": []
     },
     {
       "id": "devilSpawnDemons",
+      "factionId": "AbyssalDemons",
       "name": "Devilspawn",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "21ca20d41bdc89f428f08dc98846d070",
         "name": "Devilspawn",
@@ -241,14 +254,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Devilspawn.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Devilspawn.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "devilSpawnDemons",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Devilspawn.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Devilspawn.png"
+      },
       "warnings": []
     },
     {
       "id": "plagueWalkers",
+      "factionId": "AbyssalDemons",
       "name": "Plague Walkers",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "160a50c643866bf4c9327a425f4533c4",
         "name": "Plague Walkers",
@@ -366,14 +390,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueWalkers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueWalkers.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "plagueWalkers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueWalkers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueWalkers.png"
+      },
       "warnings": []
     },
     {
       "id": "plaguelings",
+      "factionId": "AbyssalDemons",
       "name": "Plaguelings",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Swarm",
       "model": {
         "id": "b7bfe283fd326d041a7c705bb747ba2e",
         "name": "Plaguelings",
@@ -411,14 +446,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Plaguelings.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Plaguelings.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "plaguelings",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Plaguelings.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Plaguelings.png"
+      },
       "warnings": []
     },
     {
       "id": "fireDevils",
+      "factionId": "AbyssalDemons",
       "name": "Fire Devils",
       "categories": [
         "Ranged Support"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "e8727f5507c8ba5488e37562691ee05a",
         "name": "Fire Devils",
@@ -531,14 +577,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/FireDevils.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/FireDevils.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "fireDevils",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/FireDevils.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/FireDevils.png"
+      },
       "warnings": []
     },
     {
       "id": "plagueFlies",
+      "factionId": "AbyssalDemons",
       "name": "Plague Flies",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "979cc271f6a8d76468837b24546ebd2c",
         "name": "Plague Flies",
@@ -581,14 +638,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueFlies.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueFlies.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "plagueFlies",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueFlies.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueFlies.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalReapers",
+      "factionId": "AbyssalDemons",
       "name": "Abyssal Reapers",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "c69453438ea0cba488bb08878af25f03",
         "name": "Abyssal Reapers",
@@ -701,14 +769,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalReapers.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalReapers.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "abyssalReapers",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalReapers.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalReapers.png"
+      },
       "warnings": []
     },
     {
       "id": "demonicHounds",
+      "factionId": "AbyssalDemons",
       "name": "Demonic Hounds",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Hounds",
       "model": {
         "id": "74d6c3e3ba3b171488c0e4de757b0b49",
         "name": "Demonic Hounds",
@@ -741,14 +820,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/DemonicHounds.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/DemonicHounds.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "demonicHounds",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/DemonicHounds.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/DemonicHounds.png"
+      },
       "warnings": []
     },
     {
       "id": "hellRiders",
+      "factionId": "AbyssalDemons",
       "name": "Hell Riders",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "b40568cafebb5014cbafa5ca27ef31c7",
         "name": "Hell Riders",
@@ -861,14 +951,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/HellRiders.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/HellRiders.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "hellRiders",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/HellRiders.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/HellRiders.png"
+      },
       "warnings": []
     },
     {
       "id": "plagueHulk",
+      "factionId": "AbyssalDemons",
       "name": "Plague Hulk",
       "categories": [
         "Abyssal Terrors"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "c0c1095866e9ef14da279d750d346376",
         "name": "Plague Hulk",
@@ -946,14 +1047,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueHulk.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueHulk.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "plagueHulk",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueHulk.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueHulk.png"
+      },
       "warnings": []
     },
     {
       "id": "archDevilDemons",
+      "factionId": "AbyssalDemons",
       "name": "Archdevil",
       "categories": [
         "Abyssal Terrors"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "50dbeb5f1ef0bc046ba26571decebf25",
         "name": "Archdevil",
@@ -1021,14 +1133,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Archdevil.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Archdevil.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "archDevilDemons",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Archdevil.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Archdevil.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalPrince",
+      "factionId": "AbyssalDemons",
       "name": "Abyssal Prince",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "01e20d55c070c2a42b07c31d95602cf7",
         "name": "Abyssal Prince",
@@ -1307,16 +1430,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalPrince.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalPrince.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "abyssalPrince",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalPrince.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalPrince.png"
+      },
       "warnings": [
         "Abyssal Prince has incomplete statline"
       ]
     },
     {
       "id": "abyssalHerald",
+      "factionId": "AbyssalDemons",
       "name": "Abyssal Herald",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "88a0ed12ca445db4b977fdaf6002d75e",
         "name": "Abyssal Herald",
@@ -1610,6 +1744,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalHerald.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalHerald.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalDemons.cat",
+        "catalogueId": "abyssalHerald",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalDemons.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalHerald.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalHerald.png"
+      },
       "warnings": [
         "Abyssal Herald has incomplete statline"
       ]

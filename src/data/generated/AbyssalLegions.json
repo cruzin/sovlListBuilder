@@ -5,10 +5,12 @@
   "units": [
     {
       "id": "northmenAxe",
+      "factionId": "AbyssalLegions",
       "name": "Northmen Axe",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "a5bcddeba79644942827d7b9e31985f7",
         "name": "Northmen Axe",
@@ -135,14 +137,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenAxe.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenAxe.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "northmenAxe",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenAxe.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenAxe.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalWarriors",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Warriors",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "3333156aa75173449bb0d677a4672126",
         "name": "Abyssal Warriors",
@@ -296,14 +309,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalWarriors.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalWarriors.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalWarriors",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalWarriors.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalWarriors.png"
+      },
       "warnings": []
     },
     {
       "id": "dragonSpawn",
+      "factionId": "AbyssalLegions",
       "name": "Dragon Spawn",
       "categories": [
         "Battle Line"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "524736cee680c9040b98f487b28ff16c",
         "name": "Dragon Spawn",
@@ -361,14 +385,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/DragonSpawn.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/DragonSpawn.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "dragonSpawn",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/DragonSpawn.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/DragonSpawn.png"
+      },
       "warnings": []
     },
     {
       "id": "northmenHorse",
+      "factionId": "AbyssalLegions",
       "name": "Northmen Horse",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "1e10cafca2ab3604fb9fe9749682d434",
         "name": "Northmen Horse",
@@ -476,14 +511,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenHorse.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenHorse.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "northmenHorse",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenHorse.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenHorse.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalKnights",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Knights",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Cavalry",
       "model": {
         "id": "2f4a40a2fba71744e915cf9b20d33414",
         "name": "Abyssal Knights",
@@ -616,14 +662,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalKnights.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalKnights.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalKnights",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalKnights.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalKnights.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalHounds",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Hounds",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Hounds",
       "model": {
         "id": "68a973325e3b5b248b6b72714d661f39",
         "name": "Abyssal Hounds",
@@ -651,14 +708,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalHounds.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalHounds.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalHounds",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalHounds.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalHounds.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalChariot",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Chariot",
       "categories": [
         "Fast Attack"
       ],
+      "rulesUnitType": "Chariot",
       "model": {
         "id": "897475da0f9a1e64f8a6e615e7507435",
         "name": "Abyssal Chariot",
@@ -696,14 +764,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChariot.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChariot.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalChariot",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChariot.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChariot.png"
+      },
       "warnings": []
     },
     {
       "id": "archDevil",
+      "factionId": "AbyssalLegions",
       "name": "Archdevil",
       "categories": [
         "Demonic Allies"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "502f8a02255d0534eaaac1340fb51ce5",
         "name": "Archdevil",
@@ -771,14 +850,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Archdevil.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Archdevil.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "archDevil",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Archdevil.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Archdevil.png"
+      },
       "warnings": []
     },
     {
       "id": "devilSpawn",
+      "factionId": "AbyssalLegions",
       "name": "Devilspawn",
       "categories": [
         "Demonic Allies"
       ],
+      "rulesUnitType": "Infantry Large",
       "model": {
         "id": "f9176a72f183bd743ad4580722dc8a93",
         "name": "Devilspawn",
@@ -891,14 +981,25 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Devilspawn.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Devilspawn.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "devilSpawn",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Devilspawn.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Devilspawn.png"
+      },
       "warnings": []
     },
     {
       "id": "mammoth",
+      "factionId": "AbyssalLegions",
       "name": "War Mammoth",
       "categories": [
         "War Beasts"
       ],
+      "rulesUnitType": "Large Monster Long Base",
       "model": {
         "id": "56d040919bbf33d48bc7902fe570d3ec",
         "name": "War Mammoth",
@@ -936,14 +1037,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/WarMammoth.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/WarMammoth.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "mammoth",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/WarMammoth.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/WarMammoth.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalDragon",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Dragon",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Large Monster",
       "model": {
         "id": "60891d8ba13140d4b978013fdf17e3b3",
         "name": "Abyssal Dragon",
@@ -981,14 +1093,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalDragon.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalDragon.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalDragon",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalDragon.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalDragon.png"
+      },
       "warnings": []
     },
     {
       "id": "manticore",
+      "factionId": "AbyssalLegions",
       "name": "Manticore",
       "categories": [
         "Mounts"
       ],
+      "rulesUnitType": "Monstrous Infantry",
       "model": {
         "id": "8597f4ebf8907834580abc2e68db877c",
         "name": "Manticore",
@@ -1021,14 +1144,25 @@
         }
       ],
       "optionGroups": [],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Manticore.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Manticore.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "manticore",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Manticore.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Manticore.png"
+      },
       "warnings": []
     },
     {
       "id": "abyssalChampion",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Champion",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "a02143b7c58656340afcf26dc329d9b4",
         "name": "Abyssal Champion",
@@ -1292,16 +1426,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChampion.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChampion.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalChampion",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChampion.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChampion.png"
+      },
       "warnings": [
         "Abyssal Champion has incomplete statline"
       ]
     },
     {
       "id": "abyssalSorcerer",
+      "factionId": "AbyssalLegions",
       "name": "Abyssal Sorcerer",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "550ed927165cf2e4d9dc420947b01c05",
         "name": "Abyssal Sorcerer",
@@ -1554,16 +1699,27 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalSorcerer.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalSorcerer.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "abyssalSorcerer",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalSorcerer.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalSorcerer.png"
+      },
       "warnings": [
         "Abyssal Sorcerer has incomplete statline"
       ]
     },
     {
       "id": "northmenPackleader",
+      "factionId": "AbyssalLegions",
       "name": "Northmen Packleader",
       "categories": [
         "Commanders"
       ],
+      "rulesUnitType": "Infantry",
       "model": {
         "id": "9a553fa8a12c7e249953be5b27932b5f",
         "name": "Northmen Packleader",
@@ -1809,6 +1965,15 @@
           ]
         }
       ],
+      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenPackleader.png",
+      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenPackleader.png",
+      "rawSource": {
+        "catalogueFile": "AbyssalLegions.cat",
+        "catalogueId": "northmenPackleader",
+        "rulesPageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/AbyssalLegions.html",
+        "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenPackleader.png",
+        "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenPackleader.png"
+      },
       "warnings": [
         "Northmen Packleader has incomplete statline"
       ]

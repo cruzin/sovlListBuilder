@@ -44,12 +44,23 @@ export type UnitModel = {
 
 export type CatalogueUnit = {
   id: string
+  factionId: string
   name: string
   categories: string[]
+  rulesUnitType?: string
   model?: UnitModel
   stats: UnitStats
   rules: CatalogueRule[]
   optionGroups: UnitOptionGroup[]
+  iconUrl?: string
+  imageUrl?: string
+  rawSource?: {
+    catalogueFile?: string
+    catalogueId?: string
+    rulesPageUrl?: string
+    iconUrl?: string
+    imageUrl?: string
+  }
   warnings: string[]
 }
 
@@ -69,4 +80,14 @@ export type GeneratedCatalogue = {
   }
   factions: CatalogueFaction[]
   warnings: string[]
+}
+
+export type RulesUnitAsset = {
+  factionName: string
+  factionSlug: string
+  unitName: string
+  unitType?: string
+  rulesPageUrl: string
+  iconUrl?: string
+  imageUrl?: string
 }
