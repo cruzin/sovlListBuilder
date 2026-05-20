@@ -113,8 +113,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SwordMilitia.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SwordMilitia.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SwordMilitia.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SwordMilitia.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "swordMilitia",
@@ -234,8 +234,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/PeasantMob.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/PeasantMob.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/PeasantMob.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/PeasantMob.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "peasants",
@@ -355,8 +355,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/HalberdMilitia.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/HalberdMilitia.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/HalberdMilitia.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/HalberdMilitia.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "halberdMilitia",
@@ -476,8 +476,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SpearMilitia.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SpearMilitia.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SpearMilitia.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SpearMilitia.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "spearMilitia",
@@ -607,8 +607,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/KnightAspirants.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/KnightAspirants.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/KnightAspirants.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/KnightAspirants.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "knightAspirants",
@@ -663,8 +663,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/MountedHunters.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/MountedHunters.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/MountedHunters.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/MountedHunters.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "mountedHunters",
@@ -799,8 +799,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SwornKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SwornKnights.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SwornKnights.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SwornKnights.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "swornKnights",
@@ -845,8 +845,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/HuntingDogs.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/HuntingDogs.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/HuntingDogs.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/HuntingDogs.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "huntingDogs",
@@ -906,8 +906,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Hunters.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Hunters.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Hunters.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Hunters.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "hunters",
@@ -962,8 +962,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Trebuchet.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Trebuchet.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Trebuchet.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Trebuchet.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "trebuchet",
@@ -1083,8 +1083,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Longbowmen.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Longbowmen.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Longbowmen.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Longbowmen.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "longbowmen",
@@ -1224,8 +1224,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/KingsGuard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/KingsGuard.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/KingsGuard.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/KingsGuard.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "kingsGuard",
@@ -1355,8 +1355,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/PegasusKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/PegasusKnights.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/PegasusKnights.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/PegasusKnights.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "pegasusKnights",
@@ -1406,8 +1406,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Hippogryph.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Hippogryph.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Hippogryph.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Hippogryph.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "hippogryph",
@@ -1457,8 +1457,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Pegasus.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Pegasus.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Pegasus.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Pegasus.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "pegasus",
@@ -1513,8 +1513,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Unicorn.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Unicorn.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Unicorn.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Unicorn.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "unicorn",
@@ -1754,8 +1754,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Maiden.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Maiden.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Maiden.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Maiden.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "maiden",
@@ -2068,8 +2068,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Paladin.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Paladin.png",
+      "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Paladin.png",
+      "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Paladin.png",
       "rawSource": {
         "catalogueFile": "KnightsOfAvalon.cat",
         "catalogueId": "paladin",

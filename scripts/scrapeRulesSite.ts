@@ -3,8 +3,8 @@ import { stripTags, unitAssetKey } from './text.ts'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const RULES_BASE_URL = 'https://perwahl.github.io/SOVLRules/docs/FactionSource/'
-const INDEX_URL = new URL('FactionSource.html', RULES_BASE_URL).href
+export const RULES_BASE_URL = 'https://perwahl.github.io/SOVLRules/docs/FactionSource/'
+export const RULES_INDEX_URL = new URL('FactionSource.html', RULES_BASE_URL).href
 
 type FactionPageLink = {
   name: string
@@ -20,7 +20,7 @@ export type RulesAssetIndex = {
 
 export async function scrapeRulesSite(): Promise<RulesAssetIndex> {
   const warnings: string[] = []
-  const indexHtml = await fetchText(INDEX_URL)
+  const indexHtml = await fetchText(RULES_INDEX_URL)
   const factionLinks = extractFactionLinks(indexHtml)
   const units: RulesUnitAsset[] = []
 
@@ -56,7 +56,7 @@ function extractFactionLinks(html: string): FactionPageLink[] {
 
   const unique = new Map<string, FactionPageLink>()
   for (const link of links) {
-    const url = new URL(link.href, INDEX_URL).href
+    const url = new URL(link.href, RULES_INDEX_URL).href
     const slug = url.match(/\/([^/]+)\.html$/i)?.[1]
     if (!slug || unique.has(slug)) {
       continue

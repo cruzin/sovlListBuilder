@@ -123,8 +123,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalVipers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalVipers.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalVipers.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalVipers.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "abyssalVipers",
@@ -254,8 +254,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Devilspawn.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Devilspawn.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Devilspawn.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/Devilspawn.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "devilSpawnDemons",
@@ -390,8 +390,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueWalkers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueWalkers.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueWalkers.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueWalkers.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "plagueWalkers",
@@ -446,8 +446,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Plaguelings.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Plaguelings.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Plaguelings.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/Plaguelings.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "plaguelings",
@@ -577,8 +577,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/FireDevils.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/FireDevils.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/FireDevils.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/FireDevils.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "fireDevils",
@@ -638,8 +638,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueFlies.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueFlies.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueFlies.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueFlies.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "plagueFlies",
@@ -769,8 +769,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalReapers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalReapers.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalReapers.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalReapers.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "abyssalReapers",
@@ -820,8 +820,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/DemonicHounds.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/DemonicHounds.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/DemonicHounds.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/DemonicHounds.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "demonicHounds",
@@ -951,8 +951,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/HellRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/HellRiders.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/HellRiders.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/HellRiders.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "hellRiders",
@@ -1047,8 +1047,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueHulk.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueHulk.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueHulk.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueHulk.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "plagueHulk",
@@ -1133,8 +1133,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Archdevil.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Archdevil.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Archdevil.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/Archdevil.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "archDevilDemons",
@@ -1430,8 +1430,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalPrince.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalPrince.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalPrince.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalPrince.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "abyssalPrince",
@@ -1744,8 +1744,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalHerald.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalHerald.png",
+      "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalHerald.png",
+      "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalHerald.png",
       "rawSource": {
         "catalogueFile": "AbyssalDemons.cat",
         "catalogueId": "abyssalHerald",

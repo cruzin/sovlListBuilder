@@ -118,8 +118,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodGuard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodGuard.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodGuard.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodGuard.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodGuard",
@@ -249,8 +249,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Dryads.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Dryads.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Dryads.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Dryads.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "dryads",
@@ -385,8 +385,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDancers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDancers.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodDancers.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodDancers.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "dancers",
@@ -516,8 +516,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodArchers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodArchers.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodArchers.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodArchers.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodArchers",
@@ -662,8 +662,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRangers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRangers.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodRangers.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodRangers.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodRangers",
@@ -818,8 +818,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRiders.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodRiders.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodRiders.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodRiders",
@@ -879,8 +879,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodChariot.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodChariot.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodChariot.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodChariot",
@@ -930,8 +930,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/GiantEagle.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/GiantEagle.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/GiantEagle.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/GiantEagle.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "giantEagle",
@@ -1056,8 +1056,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/StagRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/StagRiders.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/StagRiders.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/StagRiders.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "stagRiders",
@@ -1112,8 +1112,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Treant.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Treant.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Treant.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Treant.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "treant",
@@ -1168,8 +1168,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/ForestDragon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/ForestDragon.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/ForestDragon.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/ForestDragon.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "forestDragon",
@@ -1219,8 +1219,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Gryphon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Gryphon.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Gryphon.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Gryphon.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "gryphonElf",
@@ -1511,8 +1511,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodNoble.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodNoble.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodNoble.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodNoble.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodLord",
@@ -1765,8 +1765,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDruid.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDruid.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodDruid.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodDruid.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "deepwoodDruid",
@@ -1956,8 +1956,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/TreantElder.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/TreantElder.png",
+      "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/TreantElder.png",
+      "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/TreantElder.png",
       "rawSource": {
         "catalogueFile": "DeepwoodGuardians.cat",
         "catalogueId": "treantElder",

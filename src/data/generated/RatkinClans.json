@@ -123,8 +123,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLegionaries.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLegionaries.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinLegionaries.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinLegionaries.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinLegionaries",
@@ -273,8 +273,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinConscripts.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinConscripts.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinConscripts.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinConscripts.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinConscripts",
@@ -339,8 +339,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSkulkers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSkulkers.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinSkulkers.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinSkulkers.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinSkulkers",
@@ -395,8 +395,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLongrifles.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLongrifles.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinLongrifles.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinLongrifles.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinLongrifles",
@@ -521,8 +521,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSlingers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSlingers.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinSlingers.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinSlingers.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinSlingers",
@@ -572,8 +572,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinFlamers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinFlamers.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinFlamers.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinFlamers.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinFlamers",
@@ -633,8 +633,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinMonstrosity.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinMonstrosity.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinMonstrosity.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinMonstrosity.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinMonstrosity",
@@ -684,8 +684,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinAlphas.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinAlphas.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinAlphas.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinAlphas.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinBrutes",
@@ -745,8 +745,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatSwarms.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatSwarms.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatSwarms.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatSwarms.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratSwarms",
@@ -796,8 +796,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/DoomBell.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/DoomBell.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/DoomBell.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/DoomBell.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "doomBell",
@@ -1035,8 +1035,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinWarlock.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinWarlock.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinWarlock.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinWarlock.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinWarlock",
@@ -1283,8 +1283,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinChieftain.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinChieftain.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinChieftain.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinChieftain.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinChieftain",
@@ -1523,8 +1523,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinInfiltrator.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinInfiltrator.png",
+      "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinInfiltrator.png",
+      "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinInfiltrator.png",
       "rawSource": {
         "catalogueFile": "RatkinClans.cat",
         "catalogueId": "ratkinInfiltrator",

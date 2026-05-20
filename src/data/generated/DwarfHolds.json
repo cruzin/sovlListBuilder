@@ -68,8 +68,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfWarriors.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfWarriors.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfWarriors",
@@ -223,8 +223,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfVeterans.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfVeterans.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfVeterans.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfVeterans.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfVeterans",
@@ -359,8 +359,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfMiners.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfMiners.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfMiners.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfMiners.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfMiners",
@@ -485,8 +485,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCrossbows.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCrossbows.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfCrossbows.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfCrossbows.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfCrossbows",
@@ -611,8 +611,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfHandguns.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfHandguns.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfHandguns.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfHandguns.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfHandguns",
@@ -771,8 +771,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfRangers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfRangers.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfRangers.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfRangers.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfRangers",
@@ -832,8 +832,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCannon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCannon.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfCannon.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfCannon.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfCannon",
@@ -893,8 +893,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBoltThrower.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBoltThrower.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfBoltThrower.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfBoltThrower.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfBoltThrower",
@@ -949,8 +949,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfStonethrower.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfStonethrower.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfStonethrower.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfStonethrower.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfStonethrower",
@@ -1080,8 +1080,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBerserkers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBerserkers.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfBerserkers.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfBerserkers.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfBerserkers",
@@ -1240,8 +1240,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DeepGuard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DeepGuard.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DeepGuard.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DeepGuard.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "deepGuard",
@@ -1296,8 +1296,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/InfernoCannon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/InfernoCannon.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/InfernoCannon.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/InfernoCannon.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "infernoCannon",
@@ -1352,8 +1352,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfFlyingMachine.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfFlyingMachine.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfFlyingMachine.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfFlyingMachine.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfFlyingMachine",
@@ -1596,8 +1596,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfForeman.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfForeman.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfForeman.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfForeman.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "foreman",
@@ -1857,8 +1857,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/RangerCaptain.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/RangerCaptain.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/RangerCaptain.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/RangerCaptain.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "rangerCaptain",
@@ -2108,8 +2108,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfEngineer.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfEngineer.png",
+      "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfEngineer.png",
+      "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfEngineer.png",
       "rawSource": {
         "catalogueFile": "DwarfHolds.cat",
         "catalogueId": "dwarfEngineer",

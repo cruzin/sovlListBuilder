@@ -118,8 +118,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonWarriors.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonWarriors.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "skeletons",
@@ -169,8 +169,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Zombies.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Zombies.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/Zombies.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/Zombies.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "zombies",
@@ -324,8 +324,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightGuard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightGuard.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/WightGuard.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/WightGuard.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "wights",
@@ -450,8 +450,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonSpear.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonSpear.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonSpear.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonSpear.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "skeletonSpear",
@@ -511,8 +511,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/UnearthedCatapult.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/UnearthedCatapult.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/UnearthedCatapult.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/UnearthedCatapult.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "unearthedCatapult",
@@ -637,8 +637,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonBowmen.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonBowmen.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonBowmen.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonBowmen.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "skeletonBowmen",
@@ -683,8 +683,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DireWolves.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DireWolves.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/DireWolves.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/DireWolves.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "wolves",
@@ -839,8 +839,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonKnights.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonKnights.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonKnights.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "skeletonKnights",
@@ -995,8 +995,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DreadKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DreadKnights.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/DreadKnights.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/DreadKnights.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "dreadKnights",
@@ -1046,8 +1046,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/FellBats.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/FellBats.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/FellBats.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/FellBats.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "bats",
@@ -1097,8 +1097,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/ZombieGiant.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/ZombieGiant.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/ZombieGiant.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/ZombieGiant.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "zombieGiant",
@@ -1158,8 +1158,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/BoneDragon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/BoneDragon.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/BoneDragon.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/BoneDragon.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "boneDragon",
@@ -1453,8 +1453,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightLord.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightLord.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/WightLord.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/WightLord.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "wightLord",
@@ -1809,8 +1809,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/VampireKnight.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/VampireKnight.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/VampireKnight.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/VampireKnight.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "vampireKnight",
@@ -2064,8 +2064,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Necromancer.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Necromancer.png",
+      "iconUrl": "generated/unit-assets/icons/DeadNations/Necromancer.png",
+      "imageUrl": "generated/unit-assets/images/DeadNations/Necromancer.png",
       "rawSource": {
         "catalogueFile": "DeadNations.cat",
         "catalogueId": "necromancer",

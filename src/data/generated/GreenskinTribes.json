@@ -137,8 +137,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcWarriors.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcWarriors.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "orcWarriors",
@@ -268,8 +268,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBrutes.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBrutes.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcBrutes.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcBrutes.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "orcBrutes",
@@ -389,8 +389,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinMob.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinMob.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinMob.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinMob.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinMob",
@@ -510,8 +510,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinSpearMob.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinSpearMob.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinSpearMob.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinSpearMob.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinSpears",
@@ -631,8 +631,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/BoarRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/BoarRiders.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/BoarRiders.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/BoarRiders.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "boarRiders",
@@ -762,8 +762,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinWolfRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinWolfRiders.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinWolfRiders.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinWolfRiders.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinWolf",
@@ -813,8 +813,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBoarChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBoarChariot.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcBoarChariot.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcBoarChariot.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "orcChariot",
@@ -934,8 +934,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShortbows.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShortbows.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinShortbows.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinShortbows.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinShortbows",
@@ -995,8 +995,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinBoltThrowers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinBoltThrowers.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinBoltThrowers.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinBoltThrowers.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinBoltThrowers",
@@ -1051,8 +1051,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinStonethrower.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinStonethrower.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinStonethrower.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinStonethrower.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinStonethrower",
@@ -1102,8 +1102,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Trolls.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Trolls.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Trolls.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/Trolls.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "trolls",
@@ -1153,8 +1153,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Giant.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Giant.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Giant.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/Giant.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "giant",
@@ -1204,8 +1204,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Wyvern.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Wyvern.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Wyvern.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/Wyvern.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "wyvern",
@@ -1270,8 +1270,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GiantSpider.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GiantSpider.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GiantSpider.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GiantSpider.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "giantSpider",
@@ -1538,8 +1538,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/WarChief.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/WarChief.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/WarChief.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/WarChief.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "warchief",
@@ -1776,8 +1776,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShaman.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShaman.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinShaman.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinShaman.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinShaman",
@@ -2055,8 +2055,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinKing.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinKing.png",
+      "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinKing.png",
+      "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinKing.png",
       "rawSource": {
         "catalogueFile": "GreenskinTribes.cat",
         "catalogueId": "goblinKing",

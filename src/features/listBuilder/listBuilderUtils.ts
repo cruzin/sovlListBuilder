@@ -57,6 +57,13 @@ export function formatPoints(points: number): string {
   return `${points} pts`
 }
 
+export function publicAssetUrl(url: string | undefined): string | undefined {
+  if (!url || /^https?:\/\//i.test(url)) {
+    return url
+  }
+  return `${import.meta.env.BASE_URL}${url}`
+}
+
 export function exportArmyList(faction: CatalogueFaction, items: ArmyListItem[]): string {
   const lines = [`${faction.name} Army List`, '']
   let total = 0

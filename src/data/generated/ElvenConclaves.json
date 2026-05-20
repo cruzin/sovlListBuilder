@@ -118,8 +118,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpears.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpears.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfSpears.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfSpears.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfSpears",
@@ -249,8 +249,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfCityGuard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfCityGuard.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfCityGuard.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfCityGuard.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "cityGuard",
@@ -414,8 +414,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/WeaponMasters.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/WeaponMasters.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/WeaponMasters.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/WeaponMasters.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "weaponMasters",
@@ -540,8 +540,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfArchers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfArchers.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfArchers.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfArchers.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfArchers",
@@ -681,8 +681,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfWatchers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfWatchers.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfWatchers.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfWatchers.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfWatchers",
@@ -742,8 +742,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfBoltThrower.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfBoltThrower.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfBoltThrower.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfBoltThrower.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfBoltThrower",
@@ -873,8 +873,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfLancers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfLancers.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfLancers.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfLancers.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfLancers",
@@ -1004,8 +1004,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfReavers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfReavers.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfReavers.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfReavers.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfReavers",
@@ -1065,8 +1065,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfChariot.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfChariot.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfChariot.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfChariot",
@@ -1116,8 +1116,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/GiantEagle.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/GiantEagle.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/GiantEagle.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/GiantEagle.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "giantEagle",
@@ -1277,8 +1277,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/DragonKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/DragonKnights.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/DragonKnights.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/DragonKnights.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "dragonKnights",
@@ -1333,8 +1333,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/AncientDragon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/AncientDragon.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/AncientDragon.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/AncientDragon.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "ancientDragon",
@@ -1384,8 +1384,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/Gryphon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/Gryphon.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/Gryphon.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/Gryphon.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "gryphonElf",
@@ -1671,8 +1671,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfNoble.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfNoble.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfNoble.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfNoble.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfNoble",
@@ -1934,8 +1934,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfMage.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfMage.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfMage.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfMage.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfMage",
@@ -2266,8 +2266,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpellsword.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpellsword.png",
+      "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfSpellsword.png",
+      "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfSpellsword.png",
       "rawSource": {
         "catalogueFile": "ElvenConclaves.cat",
         "catalogueId": "elfSpellsword",

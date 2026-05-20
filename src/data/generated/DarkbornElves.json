@@ -118,8 +118,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornSpears.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornSpears.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornSpears.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornSpears.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornSpears",
@@ -278,8 +278,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornDreadguard.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornDreadguard.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornDreadguard.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornDreadguard.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornDreadguard",
@@ -414,8 +414,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornWitches.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornWitches.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornWitches.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornWitches.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornWitches",
@@ -540,8 +540,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornCrossbows.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornCrossbows.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornCrossbows.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornCrossbows.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornCrossbows",
@@ -681,8 +681,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornShadows.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornShadows.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornShadows.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornShadows.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornShadows",
@@ -742,8 +742,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornBoltthrower.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornBoltthrower.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornBoltthrower.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornBoltthrower.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornBoltthrower",
@@ -893,8 +893,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/RaptorKnights.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/RaptorKnights.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/RaptorKnights.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/RaptorKnights.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "raptorKnights",
@@ -1024,8 +1024,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornRiders.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornRiders.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornRiders.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornRiders.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornRiders",
@@ -1085,8 +1085,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornChariot.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornChariot.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornChariot.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornChariot",
@@ -1141,8 +1141,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Hydra.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Hydra.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/Hydra.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/Hydra.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "hydra",
@@ -1192,8 +1192,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Harpies.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Harpies.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/Harpies.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/Harpies.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornHarpies",
@@ -1248,8 +1248,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/BlackDragon.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/BlackDragon.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/BlackDragon.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/BlackDragon.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "blackDragon",
@@ -1299,8 +1299,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkPegasus.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkPegasus.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkPegasus.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkPegasus.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkPegasus",
@@ -1581,8 +1581,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornNoble.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornNoble.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornNoble.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornNoble.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornNoble",
@@ -1853,8 +1853,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornPriestess.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornPriestess.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornPriestess.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornPriestess.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornPriestess",
@@ -2111,8 +2111,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornAssassin.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornAssassin.png",
+      "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornAssassin.png",
+      "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornAssassin.png",
       "rawSource": {
         "catalogueFile": "DarkbornElves.cat",
         "catalogueId": "darkbornAssassin",

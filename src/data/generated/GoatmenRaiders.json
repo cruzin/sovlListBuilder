@@ -123,8 +123,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/IbexWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/IbexWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/IbexWarriors.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/IbexWarriors.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "ibexWarriors",
@@ -268,8 +268,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmenWarriors.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmenWarriors.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmenWarriors.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmenWarriors.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "goatmenWarriors",
@@ -324,8 +324,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelPack.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelPack.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelPack.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelPack.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "mongrelPack",
@@ -380,8 +380,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSpear.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSpear.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelSpear.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelSpear.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "mongrelSpear",
@@ -436,8 +436,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/RaidingChariot.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/RaidingChariot.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/RaidingChariot.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/RaidingChariot.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "raidingChariot",
@@ -482,8 +482,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralHounds.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralHounds.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/FeralHounds.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/FeralHounds.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "feralHounds",
@@ -538,8 +538,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSkirmishers.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSkirmishers.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelSkirmishers.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelSkirmishers.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "mongrelSkirmishers",
@@ -712,8 +712,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Centaurs.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Centaurs.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Centaurs.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Centaurs.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "centaurs",
@@ -788,8 +788,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Minotaurs.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Minotaurs.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Minotaurs.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Minotaurs.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "minotaurs",
@@ -839,8 +839,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Harpies.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Harpies.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Harpies.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Harpies.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "harpies",
@@ -895,8 +895,8 @@
         }
       ],
       "optionGroups": [],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralGiant.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralGiant.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/FeralGiant.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/FeralGiant.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "feralGiant",
@@ -1147,8 +1147,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanShaman.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanShaman.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmanShaman.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmanShaman.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "goatmanShaman",
@@ -1394,8 +1394,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanLonghorn.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanLonghorn.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmanLonghorn.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmanLonghorn.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "goatmanLonghorn",
@@ -1623,8 +1623,8 @@
           ]
         }
       ],
-      "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MinotaurLord.png",
-      "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MinotaurLord.png",
+      "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MinotaurLord.png",
+      "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MinotaurLord.png",
       "rawSource": {
         "catalogueFile": "GoatmenRaiders.cat",
         "catalogueId": "minotaurLord",

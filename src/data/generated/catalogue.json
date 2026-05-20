@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T20:56:20.072Z",
+  "generatedAt": "2026-05-20T21:17:27.071Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -130,8 +130,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalVipers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalVipers.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalVipers.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalVipers.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "abyssalVipers",
@@ -261,8 +261,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Devilspawn.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Devilspawn.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Devilspawn.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/Devilspawn.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "devilSpawnDemons",
@@ -397,8 +397,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueWalkers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueWalkers.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueWalkers.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueWalkers.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "plagueWalkers",
@@ -453,8 +453,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Plaguelings.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Plaguelings.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Plaguelings.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/Plaguelings.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "plaguelings",
@@ -584,8 +584,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/FireDevils.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/FireDevils.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/FireDevils.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/FireDevils.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "fireDevils",
@@ -645,8 +645,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueFlies.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueFlies.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueFlies.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueFlies.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "plagueFlies",
@@ -776,8 +776,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalReapers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalReapers.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalReapers.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalReapers.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "abyssalReapers",
@@ -827,8 +827,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/DemonicHounds.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/DemonicHounds.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/DemonicHounds.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/DemonicHounds.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "demonicHounds",
@@ -958,8 +958,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/HellRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/HellRiders.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/HellRiders.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/HellRiders.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "hellRiders",
@@ -1054,8 +1054,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/PlagueHulk.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/PlagueHulk.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/PlagueHulk.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/PlagueHulk.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "plagueHulk",
@@ -1140,8 +1140,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/Archdevil.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/Archdevil.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/Archdevil.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/Archdevil.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "archDevilDemons",
@@ -1437,8 +1437,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalPrince.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalPrince.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalPrince.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalPrince.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "abyssalPrince",
@@ -1751,8 +1751,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalDemons/AbyssalHerald.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalDemons/AbyssalHerald.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalDemons/AbyssalHerald.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalDemons/AbyssalHerald.png",
           "rawSource": {
             "catalogueFile": "AbyssalDemons.cat",
             "catalogueId": "abyssalHerald",
@@ -1906,8 +1906,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenAxe.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenAxe.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenAxe.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenAxe.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "northmenAxe",
@@ -2078,8 +2078,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalWarriors.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalWarriors.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalWarriors",
@@ -2154,8 +2154,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/DragonSpawn.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/DragonSpawn.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/DragonSpawn.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/DragonSpawn.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "dragonSpawn",
@@ -2280,8 +2280,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenHorse.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenHorse.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenHorse.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenHorse.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "northmenHorse",
@@ -2431,8 +2431,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalKnights.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalKnights.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalKnights.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalKnights",
@@ -2477,8 +2477,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalHounds.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalHounds.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalHounds.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalHounds.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalHounds",
@@ -2533,8 +2533,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChariot.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalChariot.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalChariot.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalChariot",
@@ -2619,8 +2619,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Archdevil.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Archdevil.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Archdevil.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/Archdevil.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "archDevil",
@@ -2750,8 +2750,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Devilspawn.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Devilspawn.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Devilspawn.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/Devilspawn.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "devilSpawn",
@@ -2806,8 +2806,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/WarMammoth.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/WarMammoth.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/WarMammoth.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/WarMammoth.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "mammoth",
@@ -2862,8 +2862,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalDragon.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalDragon.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalDragon.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalDragon",
@@ -2913,8 +2913,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/Manticore.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/Manticore.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/Manticore.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/Manticore.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "manticore",
@@ -3195,8 +3195,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalChampion.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalChampion.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalChampion.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalChampion.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalChampion",
@@ -3468,8 +3468,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/AbyssalSorcerer.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/AbyssalSorcerer.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/AbyssalSorcerer.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/AbyssalSorcerer.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "abyssalSorcerer",
@@ -3734,8 +3734,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/AbyssalLegions/NorthmenPackleader.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/AbyssalLegions/NorthmenPackleader.png",
+          "iconUrl": "generated/unit-assets/icons/AbyssalLegions/NorthmenPackleader.png",
+          "imageUrl": "generated/unit-assets/images/AbyssalLegions/NorthmenPackleader.png",
           "rawSource": {
             "catalogueFile": "AbyssalLegions.cat",
             "catalogueId": "northmenPackleader",
@@ -3870,8 +3870,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornSpears.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornSpears.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornSpears.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornSpears.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornSpears",
@@ -4030,8 +4030,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornDreadguard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornDreadguard.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornDreadguard.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornDreadguard.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornDreadguard",
@@ -4166,8 +4166,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornWitches.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornWitches.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornWitches.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornWitches.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornWitches",
@@ -4292,8 +4292,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornCrossbows.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornCrossbows.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornCrossbows.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornCrossbows.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornCrossbows",
@@ -4433,8 +4433,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornShadows.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornShadows.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornShadows.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornShadows.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornShadows",
@@ -4494,8 +4494,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornBoltthrower.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornBoltthrower.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornBoltthrower.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornBoltthrower.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornBoltthrower",
@@ -4645,8 +4645,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/RaptorKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/RaptorKnights.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/RaptorKnights.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/RaptorKnights.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "raptorKnights",
@@ -4776,8 +4776,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornRiders.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornRiders.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornRiders.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornRiders",
@@ -4837,8 +4837,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornChariot.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornChariot.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornChariot.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornChariot",
@@ -4893,8 +4893,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Hydra.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Hydra.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/Hydra.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/Hydra.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "hydra",
@@ -4944,8 +4944,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/Harpies.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/Harpies.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/Harpies.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/Harpies.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornHarpies",
@@ -5000,8 +5000,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/BlackDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/BlackDragon.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/BlackDragon.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/BlackDragon.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "blackDragon",
@@ -5051,8 +5051,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkPegasus.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkPegasus.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkPegasus.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkPegasus.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkPegasus",
@@ -5333,8 +5333,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornNoble.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornNoble.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornNoble.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornNoble.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornNoble",
@@ -5605,8 +5605,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornPriestess.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornPriestess.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornPriestess.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornPriestess.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornPriestess",
@@ -5863,8 +5863,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DarkbornElves/DarkbornAssassin.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DarkbornElves/DarkbornAssassin.png",
+          "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornAssassin.png",
+          "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornAssassin.png",
           "rawSource": {
             "catalogueFile": "DarkbornElves.cat",
             "catalogueId": "darkbornAssassin",
@@ -5999,8 +5999,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonWarriors.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonWarriors.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "skeletons",
@@ -6050,8 +6050,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Zombies.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Zombies.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/Zombies.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/Zombies.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "zombies",
@@ -6205,8 +6205,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightGuard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightGuard.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/WightGuard.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/WightGuard.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "wights",
@@ -6331,8 +6331,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonSpear.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonSpear.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonSpear.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonSpear.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "skeletonSpear",
@@ -6392,8 +6392,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/UnearthedCatapult.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/UnearthedCatapult.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/UnearthedCatapult.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/UnearthedCatapult.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "unearthedCatapult",
@@ -6518,8 +6518,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonBowmen.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonBowmen.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonBowmen.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonBowmen.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "skeletonBowmen",
@@ -6564,8 +6564,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DireWolves.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DireWolves.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/DireWolves.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/DireWolves.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "wolves",
@@ -6720,8 +6720,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/SkeletonKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/SkeletonKnights.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/SkeletonKnights.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/SkeletonKnights.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "skeletonKnights",
@@ -6876,8 +6876,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/DreadKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/DreadKnights.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/DreadKnights.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/DreadKnights.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "dreadKnights",
@@ -6927,8 +6927,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/FellBats.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/FellBats.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/FellBats.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/FellBats.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "bats",
@@ -6978,8 +6978,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/ZombieGiant.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/ZombieGiant.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/ZombieGiant.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/ZombieGiant.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "zombieGiant",
@@ -7039,8 +7039,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/BoneDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/BoneDragon.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/BoneDragon.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/BoneDragon.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "boneDragon",
@@ -7334,8 +7334,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/WightLord.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/WightLord.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/WightLord.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/WightLord.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "wightLord",
@@ -7690,8 +7690,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/VampireKnight.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/VampireKnight.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/VampireKnight.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/VampireKnight.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "vampireKnight",
@@ -7945,8 +7945,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeadNations/Necromancer.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeadNations/Necromancer.png",
+          "iconUrl": "generated/unit-assets/icons/DeadNations/Necromancer.png",
+          "imageUrl": "generated/unit-assets/images/DeadNations/Necromancer.png",
           "rawSource": {
             "catalogueFile": "DeadNations.cat",
             "catalogueId": "necromancer",
@@ -8081,8 +8081,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodGuard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodGuard.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodGuard.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodGuard.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodGuard",
@@ -8212,8 +8212,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Dryads.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Dryads.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Dryads.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Dryads.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "dryads",
@@ -8348,8 +8348,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDancers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDancers.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodDancers.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodDancers.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "dancers",
@@ -8479,8 +8479,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodArchers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodArchers.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodArchers.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodArchers.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodArchers",
@@ -8625,8 +8625,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRangers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRangers.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodRangers.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodRangers.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodRangers",
@@ -8781,8 +8781,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodRiders.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodRiders.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodRiders.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodRiders",
@@ -8842,8 +8842,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodChariot.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodChariot.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodChariot.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodChariot",
@@ -8893,8 +8893,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/GiantEagle.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/GiantEagle.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/GiantEagle.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/GiantEagle.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "giantEagle",
@@ -9019,8 +9019,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/StagRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/StagRiders.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/StagRiders.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/StagRiders.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "stagRiders",
@@ -9075,8 +9075,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Treant.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Treant.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Treant.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Treant.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "treant",
@@ -9131,8 +9131,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/ForestDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/ForestDragon.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/ForestDragon.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/ForestDragon.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "forestDragon",
@@ -9182,8 +9182,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/Gryphon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/Gryphon.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/Gryphon.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/Gryphon.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "gryphonElf",
@@ -9474,8 +9474,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodNoble.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodNoble.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodNoble.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodNoble.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodLord",
@@ -9728,8 +9728,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/DeepwoodDruid.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/DeepwoodDruid.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/DeepwoodDruid.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/DeepwoodDruid.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "deepwoodDruid",
@@ -9919,8 +9919,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DeepwoodGuardians/TreantElder.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DeepwoodGuardians/TreantElder.png",
+          "iconUrl": "generated/unit-assets/icons/DeepwoodGuardians/TreantElder.png",
+          "imageUrl": "generated/unit-assets/images/DeepwoodGuardians/TreantElder.png",
           "rawSource": {
             "catalogueFile": "DeepwoodGuardians.cat",
             "catalogueId": "treantElder",
@@ -10005,8 +10005,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfWarriors.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfWarriors.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfWarriors",
@@ -10160,8 +10160,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfVeterans.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfVeterans.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfVeterans.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfVeterans.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfVeterans",
@@ -10296,8 +10296,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfMiners.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfMiners.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfMiners.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfMiners.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfMiners",
@@ -10422,8 +10422,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCrossbows.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCrossbows.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfCrossbows.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfCrossbows.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfCrossbows",
@@ -10548,8 +10548,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfHandguns.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfHandguns.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfHandguns.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfHandguns.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfHandguns",
@@ -10708,8 +10708,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfRangers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfRangers.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfRangers.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfRangers.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfRangers",
@@ -10769,8 +10769,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfCannon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfCannon.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfCannon.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfCannon.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfCannon",
@@ -10830,8 +10830,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBoltThrower.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBoltThrower.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfBoltThrower.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfBoltThrower.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfBoltThrower",
@@ -10886,8 +10886,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfStonethrower.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfStonethrower.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfStonethrower.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfStonethrower.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfStonethrower",
@@ -11017,8 +11017,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfBerserkers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfBerserkers.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfBerserkers.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfBerserkers.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfBerserkers",
@@ -11177,8 +11177,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DeepGuard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DeepGuard.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DeepGuard.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DeepGuard.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "deepGuard",
@@ -11233,8 +11233,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/InfernoCannon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/InfernoCannon.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/InfernoCannon.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/InfernoCannon.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "infernoCannon",
@@ -11289,8 +11289,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfFlyingMachine.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfFlyingMachine.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfFlyingMachine.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfFlyingMachine.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfFlyingMachine",
@@ -11533,8 +11533,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfForeman.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfForeman.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfForeman.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfForeman.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "foreman",
@@ -11794,8 +11794,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/RangerCaptain.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/RangerCaptain.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/RangerCaptain.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/RangerCaptain.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "rangerCaptain",
@@ -12045,8 +12045,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/DwarfHolds/DwarfEngineer.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/DwarfHolds/DwarfEngineer.png",
+          "iconUrl": "generated/unit-assets/icons/DwarfHolds/DwarfEngineer.png",
+          "imageUrl": "generated/unit-assets/images/DwarfHolds/DwarfEngineer.png",
           "rawSource": {
             "catalogueFile": "DwarfHolds.cat",
             "catalogueId": "dwarfEngineer",
@@ -12181,8 +12181,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpears.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpears.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfSpears.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfSpears.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfSpears",
@@ -12312,8 +12312,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfCityGuard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfCityGuard.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfCityGuard.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfCityGuard.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "cityGuard",
@@ -12477,8 +12477,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/WeaponMasters.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/WeaponMasters.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/WeaponMasters.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/WeaponMasters.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "weaponMasters",
@@ -12603,8 +12603,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfArchers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfArchers.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfArchers.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfArchers.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfArchers",
@@ -12744,8 +12744,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfWatchers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfWatchers.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfWatchers.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfWatchers.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfWatchers",
@@ -12805,8 +12805,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfBoltThrower.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfBoltThrower.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfBoltThrower.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfBoltThrower.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfBoltThrower",
@@ -12936,8 +12936,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfLancers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfLancers.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfLancers.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfLancers.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfLancers",
@@ -13067,8 +13067,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfReavers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfReavers.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfReavers.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfReavers.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfReavers",
@@ -13128,8 +13128,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfChariot.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfChariot.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfChariot.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfChariot",
@@ -13179,8 +13179,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/GiantEagle.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/GiantEagle.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/GiantEagle.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/GiantEagle.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "giantEagle",
@@ -13340,8 +13340,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/DragonKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/DragonKnights.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/DragonKnights.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/DragonKnights.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "dragonKnights",
@@ -13396,8 +13396,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/AncientDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/AncientDragon.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/AncientDragon.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/AncientDragon.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "ancientDragon",
@@ -13447,8 +13447,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/Gryphon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/Gryphon.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/Gryphon.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/Gryphon.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "gryphonElf",
@@ -13734,8 +13734,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfNoble.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfNoble.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfNoble.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfNoble.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfNoble",
@@ -13997,8 +13997,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfMage.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfMage.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfMage.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfMage.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfMage",
@@ -14329,8 +14329,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ElvenConclaves/ElfSpellsword.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ElvenConclaves/ElfSpellsword.png",
+          "iconUrl": "generated/unit-assets/icons/ElvenConclaves/ElfSpellsword.png",
+          "imageUrl": "generated/unit-assets/images/ElvenConclaves/ElfSpellsword.png",
           "rawSource": {
             "catalogueFile": "ElvenConclaves.cat",
             "catalogueId": "elfSpellsword",
@@ -14460,8 +14460,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSword.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSword.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialSword.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialSword.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialSword",
@@ -14616,8 +14616,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/FootKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/FootKnights.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/FootKnights.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/FootKnights.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "footKnights",
@@ -14737,8 +14737,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHalberd.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHalberd.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialHalberd.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialHalberd.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialHalberd",
@@ -14858,8 +14858,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialSpear.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialSpear.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialSpear.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialSpear.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialSpear",
@@ -15025,8 +15025,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialKnights.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialKnights.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialKnights.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialKnights",
@@ -15151,8 +15151,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialLightCavalry.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialLightCavalry.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialLightCavalry.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialLightCavalry.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialLightCavalry",
@@ -15272,8 +15272,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialArchers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialArchers.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialArchers.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialArchers.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialArchers",
@@ -15393,8 +15393,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCrossbowmen.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCrossbowmen.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialCrossbowmen.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialCrossbowmen.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialCrossbowmen",
@@ -15514,8 +15514,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialHandguns.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialHandguns.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialHandguns.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialHandguns.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialHandguns",
@@ -15575,8 +15575,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialCannon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialCannon.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialCannon.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialCannon.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialCannon",
@@ -15631,8 +15631,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialMortar.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialMortar.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialMortar.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialMortar.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialMortar",
@@ -15697,8 +15697,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDreadnought.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDreadnought.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialDreadnought.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialDreadnought.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialDreadnought",
@@ -15748,8 +15748,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Gryphon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Gryphon.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/Gryphon.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/Gryphon.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "gryphon",
@@ -15804,8 +15804,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialDragon.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialDragon.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialDragon.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialDragon.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialDragon",
@@ -16077,8 +16077,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/Captain.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/Captain.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/Captain.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/Captain.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "captain",
@@ -16343,8 +16343,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/KnightCommander.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/KnightCommander.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/KnightCommander.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/KnightCommander.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "knightCommander",
@@ -16581,8 +16581,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/EmpiresofMen/ImperialWizard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/EmpiresofMen/ImperialWizard.png",
+          "iconUrl": "generated/unit-assets/icons/EmpiresofMen/ImperialWizard.png",
+          "imageUrl": "generated/unit-assets/images/EmpiresofMen/ImperialWizard.png",
           "rawSource": {
             "catalogueFile": "EmpiresOfMen.cat",
             "catalogueId": "imperialWizard",
@@ -16722,8 +16722,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/IbexWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/IbexWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/IbexWarriors.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/IbexWarriors.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "ibexWarriors",
@@ -16867,8 +16867,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmenWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmenWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmenWarriors.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmenWarriors.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "goatmenWarriors",
@@ -16923,8 +16923,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelPack.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelPack.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelPack.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelPack.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "mongrelPack",
@@ -16979,8 +16979,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSpear.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSpear.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelSpear.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelSpear.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "mongrelSpear",
@@ -17035,8 +17035,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/RaidingChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/RaidingChariot.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/RaidingChariot.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/RaidingChariot.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "raidingChariot",
@@ -17081,8 +17081,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralHounds.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralHounds.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/FeralHounds.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/FeralHounds.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "feralHounds",
@@ -17137,8 +17137,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MongrelSkirmishers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MongrelSkirmishers.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MongrelSkirmishers.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MongrelSkirmishers.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "mongrelSkirmishers",
@@ -17311,8 +17311,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Centaurs.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Centaurs.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Centaurs.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Centaurs.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "centaurs",
@@ -17387,8 +17387,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Minotaurs.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Minotaurs.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Minotaurs.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Minotaurs.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "minotaurs",
@@ -17438,8 +17438,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/Harpies.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/Harpies.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/Harpies.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/Harpies.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "harpies",
@@ -17494,8 +17494,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/FeralGiant.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/FeralGiant.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/FeralGiant.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/FeralGiant.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "feralGiant",
@@ -17746,8 +17746,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanShaman.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanShaman.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmanShaman.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmanShaman.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "goatmanShaman",
@@ -17993,8 +17993,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/GoatmanLonghorn.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/GoatmanLonghorn.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/GoatmanLonghorn.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/GoatmanLonghorn.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "goatmanLonghorn",
@@ -18222,8 +18222,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GoatmenRaiders/MinotaurLord.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GoatmenRaiders/MinotaurLord.png",
+          "iconUrl": "generated/unit-assets/icons/GoatmenRaiders/MinotaurLord.png",
+          "imageUrl": "generated/unit-assets/images/GoatmenRaiders/MinotaurLord.png",
           "rawSource": {
             "catalogueFile": "GoatmenRaiders.cat",
             "catalogueId": "minotaurLord",
@@ -18377,8 +18377,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcWarriors.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcWarriors.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "orcWarriors",
@@ -18508,8 +18508,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBrutes.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBrutes.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcBrutes.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcBrutes.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "orcBrutes",
@@ -18629,8 +18629,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinMob.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinMob.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinMob.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinMob.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinMob",
@@ -18750,8 +18750,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinSpearMob.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinSpearMob.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinSpearMob.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinSpearMob.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinSpears",
@@ -18871,8 +18871,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/BoarRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/BoarRiders.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/BoarRiders.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/BoarRiders.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "boarRiders",
@@ -19002,8 +19002,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinWolfRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinWolfRiders.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinWolfRiders.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinWolfRiders.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinWolf",
@@ -19053,8 +19053,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/OrcBoarChariot.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/OrcBoarChariot.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/OrcBoarChariot.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/OrcBoarChariot.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "orcChariot",
@@ -19174,8 +19174,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShortbows.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShortbows.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinShortbows.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinShortbows.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinShortbows",
@@ -19235,8 +19235,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinBoltThrowers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinBoltThrowers.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinBoltThrowers.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinBoltThrowers.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinBoltThrowers",
@@ -19291,8 +19291,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinStonethrower.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinStonethrower.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinStonethrower.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinStonethrower.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinStonethrower",
@@ -19342,8 +19342,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Trolls.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Trolls.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Trolls.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/Trolls.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "trolls",
@@ -19393,8 +19393,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Giant.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Giant.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Giant.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/Giant.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "giant",
@@ -19444,8 +19444,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/Wyvern.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/Wyvern.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/Wyvern.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/Wyvern.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "wyvern",
@@ -19510,8 +19510,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GiantSpider.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GiantSpider.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GiantSpider.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GiantSpider.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "giantSpider",
@@ -19778,8 +19778,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/WarChief.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/WarChief.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/WarChief.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/WarChief.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "warchief",
@@ -20016,8 +20016,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinShaman.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinShaman.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinShaman.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinShaman.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinShaman",
@@ -20295,8 +20295,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/GreenskinTribes/GoblinKing.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/GreenskinTribes/GoblinKing.png",
+          "iconUrl": "generated/unit-assets/icons/GreenskinTribes/GoblinKing.png",
+          "imageUrl": "generated/unit-assets/images/GreenskinTribes/GoblinKing.png",
           "rawSource": {
             "catalogueFile": "GreenskinTribes.cat",
             "catalogueId": "goblinKing",
@@ -20426,8 +20426,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SwordMilitia.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SwordMilitia.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SwordMilitia.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SwordMilitia.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "swordMilitia",
@@ -20547,8 +20547,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/PeasantMob.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/PeasantMob.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/PeasantMob.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/PeasantMob.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "peasants",
@@ -20668,8 +20668,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/HalberdMilitia.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/HalberdMilitia.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/HalberdMilitia.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/HalberdMilitia.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "halberdMilitia",
@@ -20789,8 +20789,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SpearMilitia.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SpearMilitia.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SpearMilitia.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SpearMilitia.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "spearMilitia",
@@ -20920,8 +20920,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/KnightAspirants.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/KnightAspirants.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/KnightAspirants.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/KnightAspirants.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "knightAspirants",
@@ -20976,8 +20976,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/MountedHunters.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/MountedHunters.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/MountedHunters.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/MountedHunters.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "mountedHunters",
@@ -21112,8 +21112,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/SwornKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/SwornKnights.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/SwornKnights.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/SwornKnights.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "swornKnights",
@@ -21158,8 +21158,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/HuntingDogs.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/HuntingDogs.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/HuntingDogs.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/HuntingDogs.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "huntingDogs",
@@ -21219,8 +21219,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Hunters.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Hunters.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Hunters.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Hunters.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "hunters",
@@ -21275,8 +21275,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Trebuchet.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Trebuchet.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Trebuchet.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Trebuchet.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "trebuchet",
@@ -21396,8 +21396,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Longbowmen.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Longbowmen.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Longbowmen.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Longbowmen.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "longbowmen",
@@ -21537,8 +21537,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/KingsGuard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/KingsGuard.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/KingsGuard.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/KingsGuard.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "kingsGuard",
@@ -21668,8 +21668,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/PegasusKnights.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/PegasusKnights.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/PegasusKnights.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/PegasusKnights.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "pegasusKnights",
@@ -21719,8 +21719,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Hippogryph.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Hippogryph.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Hippogryph.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Hippogryph.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "hippogryph",
@@ -21770,8 +21770,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Pegasus.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Pegasus.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Pegasus.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Pegasus.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "pegasus",
@@ -21826,8 +21826,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Unicorn.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Unicorn.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Unicorn.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Unicorn.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "unicorn",
@@ -22067,8 +22067,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Maiden.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Maiden.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Maiden.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Maiden.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "maiden",
@@ -22381,8 +22381,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/KnightsofAvalon/Paladin.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/KnightsofAvalon/Paladin.png",
+          "iconUrl": "generated/unit-assets/icons/KnightsofAvalon/Paladin.png",
+          "imageUrl": "generated/unit-assets/images/KnightsofAvalon/Paladin.png",
           "rawSource": {
             "catalogueFile": "KnightsOfAvalon.cat",
             "catalogueId": "paladin",
@@ -22522,8 +22522,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLegionaries.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLegionaries.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinLegionaries.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinLegionaries.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinLegionaries",
@@ -22672,8 +22672,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinConscripts.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinConscripts.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinConscripts.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinConscripts.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinConscripts",
@@ -22738,8 +22738,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSkulkers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSkulkers.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinSkulkers.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinSkulkers.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinSkulkers",
@@ -22794,8 +22794,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinLongrifles.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinLongrifles.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinLongrifles.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinLongrifles.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinLongrifles",
@@ -22920,8 +22920,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinSlingers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinSlingers.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinSlingers.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinSlingers.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinSlingers",
@@ -22971,8 +22971,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinFlamers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinFlamers.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinFlamers.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinFlamers.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinFlamers",
@@ -23032,8 +23032,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinMonstrosity.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinMonstrosity.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinMonstrosity.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinMonstrosity.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinMonstrosity",
@@ -23083,8 +23083,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinAlphas.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinAlphas.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinAlphas.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinAlphas.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinBrutes",
@@ -23144,8 +23144,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatSwarms.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatSwarms.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatSwarms.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatSwarms.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratSwarms",
@@ -23195,8 +23195,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/DoomBell.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/DoomBell.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/DoomBell.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/DoomBell.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "doomBell",
@@ -23434,8 +23434,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinWarlock.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinWarlock.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinWarlock.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinWarlock.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinWarlock",
@@ -23682,8 +23682,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinChieftain.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinChieftain.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinChieftain.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinChieftain.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinChieftain",
@@ -23922,8 +23922,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/RatkinClans/RatkinInfiltrator.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/RatkinClans/RatkinInfiltrator.png",
+          "iconUrl": "generated/unit-assets/icons/RatkinClans/RatkinInfiltrator.png",
+          "imageUrl": "generated/unit-assets/images/RatkinClans/RatkinInfiltrator.png",
           "rawSource": {
             "catalogueFile": "RatkinClans.cat",
             "catalogueId": "ratkinInfiltrator",
@@ -24058,8 +24058,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianWarriors.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianWarriors.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianWarriors.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianWarriors.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "saurianWarriors",
@@ -24109,8 +24109,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/CrocoliskBruisers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/CrocoliskBruisers.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/CrocoliskBruisers.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/CrocoliskBruisers.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "crocoliskBruisers",
@@ -24240,8 +24240,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtBraves.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtBraves.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtBraves.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtBraves.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "newtBraves",
@@ -24366,8 +24366,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianSpear.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianSpear.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianSpear.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianSpear.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "saurianSpear",
@@ -24487,8 +24487,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/RaptorRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/RaptorRiders.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/RaptorRiders.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/RaptorRiders.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "raptorRiders",
@@ -24618,8 +24618,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/PterodactylRiders.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/PterodactylRiders.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/PterodactylRiders.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/PterodactylRiders.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "pterodactylRiders",
@@ -24749,8 +24749,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtSkirmishers.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtSkirmishers.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtSkirmishers.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtSkirmishers.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "newtSkirmishers",
@@ -24800,8 +24800,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Firelizard.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Firelizard.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Firelizard.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Firelizard.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "firelizard",
@@ -24856,8 +24856,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Triceratops.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Triceratops.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Triceratops.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Triceratops.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "triceratops",
@@ -24912,8 +24912,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/JungleSwarm.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/JungleSwarm.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/JungleSwarm.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/JungleSwarm.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "jungleSwarm",
@@ -24968,8 +24968,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Dreadmaw.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Dreadmaw.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Dreadmaw.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Dreadmaw.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "dreadmaw",
@@ -25024,8 +25024,8 @@
             }
           ],
           "optionGroups": [],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/Tyrannosaur.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/Tyrannosaur.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/Tyrannosaur.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/Tyrannosaur.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "tyrannosaur",
@@ -25242,8 +25242,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/NewtPriest.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/NewtPriest.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/NewtPriest.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/NewtPriest.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "newtPriest",
@@ -25503,8 +25503,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/SaurianWarlord.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/SaurianWarlord.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/SaurianWarlord.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/SaurianWarlord.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "saurianWarlord",
@@ -25780,8 +25780,8 @@
               ]
             }
           ],
-          "iconUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/icons/ReptilianKingdoms/AncientToad.png",
-          "imageUrl": "https://perwahl.github.io/SOVLRules/docs/FactionSource/images/ReptilianKingdoms/AncientToad.png",
+          "iconUrl": "generated/unit-assets/icons/ReptilianKingdoms/AncientToad.png",
+          "imageUrl": "generated/unit-assets/images/ReptilianKingdoms/AncientToad.png",
           "rawSource": {
             "catalogueFile": "ReptilianKingdoms.cat",
             "catalogueId": "ancientToad",
