@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T09:16:52.911Z",
+  "generatedAt": "2026-05-21T09:44:31.197Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -19,7 +19,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -1988,7 +1988,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -4190,7 +4190,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -6537,7 +6537,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -8832,7 +8832,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -11015,7 +11015,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -13366,7 +13366,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -15846,7 +15846,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -18328,7 +18328,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -20170,7 +20170,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -22473,7 +22473,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -24803,7 +24803,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",
@@ -26529,7 +26529,7 @@
               "id": "Commanders",
               "name": "Commanders",
               "min": 1,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Battle Line",

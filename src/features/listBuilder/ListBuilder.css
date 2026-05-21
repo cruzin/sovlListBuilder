@@ -137,10 +137,34 @@ button {
 
 .unit-list {
   display: grid;
-  gap: 8px;
+  gap: 12px;
   max-height: calc(100svh - 118px);
   overflow: auto;
   padding-right: 4px;
+}
+
+.unit-section {
+  display: grid;
+  gap: 8px;
+}
+
+.unit-section-heading {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  color: #7b7062;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.unit-section-heading::before,
+.unit-section-heading::after {
+  content: "";
+  height: 1px;
+  background: #d8d0c2;
 }
 
 .unit-row {

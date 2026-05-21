@@ -298,9 +298,15 @@ function applyForceCategoryOverrides(
     return categoryLimits
   }
 
-  return categoryLimits.map((limit) =>
-    limit.id === 'Battle Line' || limit.name === 'Battle Line' ? { ...limit, min: 2 } : limit,
-  )
+  return categoryLimits.map((limit) => {
+    if (limit.id === 'Battle Line' || limit.name === 'Battle Line') {
+      return { ...limit, min: 2 }
+    }
+    if (limit.id === 'Commanders' || limit.name === 'Commanders') {
+      return { ...limit, max: 2 }
+    }
+    return limit
+  })
 }
 
 function getBorderPatrolModelOverrides(
