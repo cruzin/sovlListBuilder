@@ -25,6 +25,12 @@ import {
 import './ListBuilder.css'
 
 const factions = catalogue.factions as CatalogueFaction[]
+const UNIT_SECTION_ORDER = ['Commanders', 'Battle Line', 'Ranged Support', 'Fast Attack']
+
+type UnitSection = {
+  label: string
+  units: CatalogueUnit[]
+}
 
 export function ListBuilder() {
   const defaultFactionId = factions[0]?.id ?? ''
@@ -56,6 +62,7 @@ export function ListBuilder() {
       }) ?? []
     )
   }, [category, faction, query])
+  const unitSections = useMemo(() => groupUnitsBySection(filteredUnits), [filteredUnits])
   const total = listTotal(faction, items)
   const limitWarnings = getArmyLimitWarnings(faction, items, force)
   const categoryUsage = getCategoryUsage(faction, items, force)
@@ -190,20 +197,27 @@ export function ListBuilder() {
 
         <div className="content-grid">
           <section className="unit-list" aria-label="Available units">
-            {filteredUnits.map((unit) => (
-              <button
-                className={unit.id === selectedUnit?.id ? 'unit-row selected' : 'unit-row'}
-                key={unit.id}
-                onClick={() => setSelectedUnitId(unit.id)}
-                type="button"
-              >
-                <img alt="" src={publicAssetUrl(unit.iconUrl)} />
-                <span>
-                  <strong>{unit.name}</strong>
-                  <small>{unit.rulesUnitType ?? unit.categories.join(', ')}</small>
-                </span>
-                <b>{formatPoints(unit.model?.pointsPerModel ?? 0)}</b>
-              </button>
+            {unitSections.map((section) => (
+              <div className="unit-section" key={section.label}>
+                <div className="unit-section-heading" aria-hidden="true">
+                  <span>{section.label}</span>
+                </div>
+                {section.units.map((unit) => (
+                  <button
+                    className={unit.id === selectedUnit?.id ? 'unit-row selected' : 'unit-row'}
+                    key={unit.id}
+                    onClick={() => setSelectedUnitId(unit.id)}
+                    type="button"
+                  >
+                    <img alt="" src={publicAssetUrl(unit.iconUrl)} />
+                    <span>
+                      <strong>{unit.name}</strong>
+                      <small>{unit.rulesUnitType ?? unit.categories.join(', ')}</small>
+                    </span>
+                    <b>{formatPoints(unit.model?.pointsPerModel ?? 0)}</b>
+                  </button>
+                ))}
+              </div>
             ))}
           </section>
 
@@ -293,6 +307,23 @@ export function ListBuilder() {
       </aside>
     </main>
   )
+}
+
+function groupUnitsBySection(units: CatalogueUnit[]): UnitSection[] {
+  const sections = new Map<string, CatalogueUnit[]>()
+  const getSectionLabel = (unit: CatalogueUnit) => {
+    const matchedCategory = UNIT_SECTION_ORDER.find((section) => unit.categories.includes(section))
+    return matchedCategory ?? 'Other'
+  }
+
+  for (const unit of units) {
+    const label = getSectionLabel(unit)
+    sections.set(label, [...(sections.get(label) ?? []), unit])
+  }
+
+  return [...UNIT_SECTION_ORDER, 'Other']
+    .map((label) => ({ label, units: sections.get(label) ?? [] }))
+    .filter((section) => section.units.length > 0)
 }
 
 function UnitDetails({
