@@ -282,7 +282,7 @@ function buildForceFormats(
       id: preset.id,
       name: preset.name,
       pointLimit: preset.pointLimit,
-      categoryLimits: catalogueForce?.categoryLimits ?? fallbackLimits,
+      categoryLimits: applyForceCategoryOverrides(preset.id, catalogueForce?.categoryLimits ?? fallbackLimits),
       modelOverrides: borderPatrolOverrides && borderPatrolOverrides.length > 0 ? borderPatrolOverrides : undefined,
       source: catalogueForce ? 'catalogue' : 'derived',
       derivedFrom: catalogueForce ? undefined : catalogueForces[0]?.name,
@@ -290,10 +290,30 @@ function buildForceFormats(
   })
 }
 
-function getBorderPatrolModelOverrides(factionName: string, units: CatalogueUnit[]): NonNullable<CatalogueFaction['forces'][number]['modelOverrides']> {
+function applyForceCategoryOverrides(
+  forceId: string,
+  categoryLimits: CatalogueFaction['forces'][number]['categoryLimits'],
+): CatalogueFaction['forces'][number]['categoryLimits'] {
+  if (forceId !== 'border-patrol') {
+    return categoryLimits
+  }
+
+  return categoryLimits.map((limit) =>
+    limit.id === 'Battle Line' || limit.name === 'Battle Line' ? { ...limit, min: 2 } : limit,
+  )
+}
+
+function getBorderPatrolModelOverrides(
+  factionName: string,
+  units: CatalogueUnit[],
+): NonNullable<CatalogueFaction['forces'][number]['modelOverrides']> {
   const overridesByFaction: Record<string, Record<string, number>> = {
+    'Abyssal Demons': {
+      'Demonic Hounds': 8,
+    },
     'Abyssal Legions': {
       'Northmen Axe': 15,
+      'Abyssal Hounds': 8,
     },
     'Darkborn Elves': {
       'Darkborn Spears': 12,
@@ -305,6 +325,9 @@ function getBorderPatrolModelOverrides(factionName: string, units: CatalogueUnit
     'Elven Conclaves': {
       'Elf Spears': 12,
     },
+    'Dead Nations': {
+      'Dire Wolves': 8,
+    },
     'Empires of Men': {
       'Imperial Sword': 15,
       'Imperial Spear': 15,
@@ -314,16 +337,19 @@ function getBorderPatrolModelOverrides(factionName: string, units: CatalogueUnit
       'Goatmen Warriors': 12,
       'Mongrel Pack': 15,
       'Mongrel Spear': 15,
+      'Feral Hounds': 8,
     },
     'Greenskin Tribes': {
       'Goblin Mob': 18,
       'Goblin Spear Mob': 18,
+      'Goblin Wolf Riders': 8,
     },
     'Knights of Avalon': {
       'Sword Militia': 15,
       'Spear Militia': 15,
       'Halberd Militia': 15,
       'Peasant Mob': 18,
+      'Hunting Dogs': 8,
     },
     'Ratkin Clans': {
       'Ratkin Conscripts': 15,

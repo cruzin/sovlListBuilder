@@ -17,7 +17,7 @@
         {
           "id": "Battle Line",
           "name": "Battle Line",
-          "min": 1,
+          "min": 2,
           "max": 3
         },
         {
@@ -37,6 +37,13 @@
           "name": "Abyssal Terrors",
           "min": 0,
           "max": 1
+        }
+      ],
+      "modelOverrides": [
+        {
+          "unitId": "demonicHounds",
+          "minCount": 8,
+          "defaultCount": 8
         }
       ],
       "source": "derived",
