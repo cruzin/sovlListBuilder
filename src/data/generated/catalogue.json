@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T21:51:01.129Z",
+  "generatedAt": "2026-05-21T09:16:52.911Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -24,7 +24,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -44,6 +44,13 @@
               "name": "Abyssal Terrors",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "demonicHounds",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -1986,7 +1993,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -2013,6 +2020,11 @@
               "unitId": "northmenAxe",
               "minCount": 15,
               "defaultCount": 15
+            },
+            {
+              "unitId": "abyssalHounds",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -4183,7 +4195,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -6530,7 +6542,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -6550,6 +6562,13 @@
               "name": "Abominations",
               "min": 0,
               "max": 1
+            }
+          ],
+          "modelOverrides": [
+            {
+              "unitId": "wolves",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -8818,7 +8837,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -11001,7 +11020,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -13352,7 +13371,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -15832,7 +15851,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -18314,7 +18333,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -18345,6 +18364,11 @@
               "unitId": "mongrelSpear",
               "minCount": 15,
               "defaultCount": 15
+            },
+            {
+              "unitId": "feralHounds",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -20151,7 +20175,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -20183,6 +20207,11 @@
               "unitId": "goblinSpears",
               "minCount": 18,
               "defaultCount": 18
+            },
+            {
+              "unitId": "goblinWolf",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -22449,7 +22478,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -22491,6 +22520,11 @@
               "unitId": "spearMilitia",
               "minCount": 15,
               "defaultCount": 15
+            },
+            {
+              "unitId": "huntingDogs",
+              "minCount": 8,
+              "defaultCount": 8
             }
           ],
           "source": "derived",
@@ -24774,7 +24808,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {
@@ -26500,7 +26534,7 @@
             {
               "id": "Battle Line",
               "name": "Battle Line",
-              "min": 1,
+              "min": 2,
               "max": 3
             },
             {

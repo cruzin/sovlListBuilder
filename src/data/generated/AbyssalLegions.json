@@ -17,7 +17,7 @@
         {
           "id": "Battle Line",
           "name": "Battle Line",
-          "min": 1,
+          "min": 2,
           "max": 3
         },
         {
@@ -44,6 +44,11 @@
           "unitId": "northmenAxe",
           "minCount": 15,
           "defaultCount": 15
+        },
+        {
+          "unitId": "abyssalHounds",
+          "minCount": 8,
+          "defaultCount": 8
         }
       ],
       "source": "derived",

@@ -17,7 +17,7 @@
         {
           "id": "Battle Line",
           "name": "Battle Line",
-          "min": 1,
+          "min": 2,
           "max": 3
         },
         {
@@ -49,6 +49,11 @@
           "unitId": "goblinSpears",
           "minCount": 18,
           "defaultCount": 18
+        },
+        {
+          "unitId": "goblinWolf",
+          "minCount": 8,
+          "defaultCount": 8
         }
       ],
       "source": "derived",

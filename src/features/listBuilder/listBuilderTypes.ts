@@ -10,6 +10,8 @@ export type ArmyListItem = {
   unitId: string
   count: number
   selectedOptions: SelectedOption[]
+  retinueForItemId?: string
+  retinueGroupId?: string
 }
 
 export type SavedArmyList = {

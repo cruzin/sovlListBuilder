@@ -35,9 +35,14 @@ export function getDefaultCount(unit: CatalogueUnit, force?: ForceFormat): numbe
   return model?.defaultCount ?? model?.minCount ?? 1
 }
 
-export function clampModelCount(unit: CatalogueUnit, value: number, force?: ForceFormat): number {
+export function clampModelCount(
+  unit: CatalogueUnit,
+  value: number,
+  force?: ForceFormat,
+  minCountOverride?: number,
+): number {
   const model = getEffectiveModel(unit, force)
-  const min = model?.minCount ?? 1
+  const min = minCountOverride ?? model?.minCount ?? 1
   const max = model?.maxCount ?? 99
   return Math.min(max, Math.max(min, value))
 }
@@ -66,6 +71,17 @@ export function getDefaultSelectedOptions(unit: CatalogueUnit): SelectedOption[]
 
 export function getUnitById(faction: CatalogueFaction | undefined, unitId: string): CatalogueUnit | undefined {
   return faction?.units.find((unit) => unit.id === unitId)
+}
+
+export function getUnitByOptionTarget(
+  faction: CatalogueFaction | undefined,
+  targetId: string | undefined,
+  optionName?: string,
+): CatalogueUnit | undefined {
+  if (!faction || !targetId) {
+    return undefined
+  }
+  return faction.units.find((unit) => unit.id === targetId) ?? faction.units.find((unit) => unit.name === optionName)
 }
 
 export function getForceById(faction: CatalogueFaction | undefined, forceId: string): ForceFormat | undefined {
@@ -188,6 +204,47 @@ export function getArmyLimitWarnings(
   return warnings
 }
 
+export function getRetinueSelection(
+  unit: CatalogueUnit,
+  item: ArmyListItem,
+): CatalogueUnit['optionGroups'][number] | undefined {
+  return unit.optionGroups.find(
+    (group) => /retinue/i.test(group.name) && item.selectedOptions.some((selected) => selected.groupId === group.id),
+  )
+}
+
+export function getSelectedRetinueUnit(
+  faction: CatalogueFaction | undefined,
+  commander: CatalogueUnit,
+  item: ArmyListItem,
+): CatalogueUnit | undefined {
+  const retinueGroup = getRetinueSelection(commander, item)
+  const selectedOption = item.selectedOptions.find((selected) => selected.groupId === retinueGroup?.id)
+  const option = retinueGroup?.options.find((candidate) => candidate.id === selectedOption?.optionId)
+  return getUnitByOptionTarget(faction, option?.targetId, option?.name)
+}
+
+export function getRetinueCount(unit: CatalogueUnit, force?: ForceFormat): number {
+  const defaultCount = getDefaultCount(unit, force)
+  const isSingleModelUnit = defaultCount <= 1 || (unit.model?.maxCount !== undefined && unit.model.maxCount <= 1)
+  return isSingleModelUnit ? defaultCount : Math.max(1, defaultCount - 1)
+}
+
+export function makeRetinueListItem(
+  unit: CatalogueUnit,
+  commanderItem: ArmyListItem,
+  retinueGroupId: string,
+  force?: ForceFormat,
+): ArmyListItem {
+  return {
+    ...makeListItem(unit, force),
+    id: `${commanderItem.id}-retinue`,
+    count: getRetinueCount(unit, force),
+    retinueForItemId: commanderItem.id,
+    retinueGroupId,
+  }
+}
+
 export function getAddUnitBlockReason(
   faction: CatalogueFaction | undefined,
   items: ArmyListItem[],
@@ -202,21 +259,42 @@ export function getAddUnitBlockReason(
     return `${unit.name} is limited to ${unit.maxSelections}.`
   }
 
-  const nextUnitCost =
-    getUnitBaseCost(unit, getDefaultCount(unit, force)) + getSelectedOptionCost(unit, getDefaultSelectedOptions(unit))
-  const nextTotal = listTotal(faction, items) + nextUnitCost
+  const previewItem: ArmyListItem = {
+    id: 'preview',
+    unitId: unit.id,
+    count: getDefaultCount(unit, force),
+    selectedOptions: getDefaultSelectedOptions(unit),
+  }
+  const retinueGroup = getRetinueSelection(unit, previewItem)
+  const retinueUnit = getSelectedRetinueUnit(faction, unit, previewItem)
+  const retinueItem =
+    retinueGroup && retinueUnit ? makeRetinueListItem(retinueUnit, previewItem, retinueGroup.id, force) : undefined
+  const nextTotal =
+    listTotal(faction, items) +
+    getListItemCost(unit, previewItem) +
+    (retinueUnit && retinueItem ? getListItemCost(retinueUnit, retinueItem) : 0)
   if (force.pointLimit !== undefined && nextTotal > force.pointLimit) {
     return `Adding this would exceed ${force.name}'s ${formatPoints(force.pointLimit)} cap.`
   }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
+  const addedUnits = [unit, ...(retinueUnit ? [retinueUnit] : [])]
   const blockedCategory = force.categoryLimits.find((limit) => {
-    const matches = unit.categoryIds.includes(limit.id) || unit.categories.includes(limit.name)
-    return matches && limit.max !== undefined && (categoryUsage.get(limit.id) ?? 0) >= limit.max
+    const addedCount = addedUnits.filter(
+      (addedUnit) => addedUnit.categoryIds.includes(limit.id) || addedUnit.categories.includes(limit.name),
+    ).length
+    return limit.max !== undefined && addedCount > 0 && (categoryUsage.get(limit.id) ?? 0) + addedCount > limit.max
   })
 
   if (blockedCategory) {
     return `${blockedCategory.name} is limited to ${blockedCategory.max}.`
+  }
+
+  if (
+    retinueUnit?.maxSelections !== undefined &&
+    getUnitSelectionCount(items, retinueUnit.id) >= retinueUnit.maxSelections
+  ) {
+    return `${retinueUnit.name} is limited to ${retinueUnit.maxSelections}.`
   }
 
   return undefined

@@ -13,9 +13,13 @@ import {
   getEffectiveModel,
   getForceById,
   getListItemCost,
+  getRetinueCount,
+  getRetinueSelection,
+  getSelectedRetinueUnit,
   getUnitById,
   listTotal,
   makeListItem,
+  makeRetinueListItem,
   publicAssetUrl,
 } from './listBuilderUtils'
 import './ListBuilder.css'
@@ -68,7 +72,8 @@ export function ListBuilder() {
         if (!unit) {
           return item
         }
-        const count = clampModelCount(unit, item.count, force)
+        const minCountOverride = item.retinueForItemId ? getRetinueCount(unit, force) : undefined
+        const count = clampModelCount(unit, item.count, force, minCountOverride)
         if (count === item.count) {
           return item
         }
@@ -89,11 +94,35 @@ export function ListBuilder() {
   }
 
   function addUnit(unit: CatalogueUnit) {
-    setItems((current) => [...current, makeListItem(unit, force)])
+    const nextItem = makeListItem(unit, force)
+    const retinueGroup = getRetinueSelection(unit, nextItem)
+    const retinueUnit = getSelectedRetinueUnit(faction, unit, nextItem)
+    const retinueItem =
+      retinueGroup && retinueUnit ? makeRetinueListItem(retinueUnit, nextItem, retinueGroup.id, force) : undefined
+    setItems((current) => [...current, nextItem, ...(retinueItem ? [retinueItem] : [])])
   }
 
   function updateItem(nextItem: ArmyListItem) {
-    setItems((current) => current.map((item) => (item.id === nextItem.id ? nextItem : item)))
+    setItems((current) => {
+      const unit = getUnitById(faction, nextItem.unitId)
+      const retinueGroup = unit ? getRetinueSelection(unit, nextItem) : undefined
+      const retinueUnit = unit ? getSelectedRetinueUnit(faction, unit, nextItem) : undefined
+      const retinueItem =
+        retinueGroup && retinueUnit ? makeRetinueListItem(retinueUnit, nextItem, retinueGroup.id, force) : undefined
+      const withoutOldRetinue = current.filter((item) => item.retinueForItemId !== nextItem.id)
+      const updated = withoutOldRetinue.map((item) => (item.id === nextItem.id ? nextItem : item))
+      if (!retinueItem) {
+        return updated
+      }
+      const commanderIndex = updated.findIndex((item) => item.id === nextItem.id)
+      return [...updated.slice(0, commanderIndex + 1), retinueItem, ...updated.slice(commanderIndex + 1)]
+    })
+  }
+
+  function removeItem(itemToRemove: ArmyListItem) {
+    setItems((current) =>
+      current.filter((item) => item.id !== itemToRemove.id && item.retinueForItemId !== itemToRemove.id),
+    )
   }
 
   async function copyExport() {
@@ -254,7 +283,7 @@ export function ListBuilder() {
                 item={item}
                 key={item.id}
                 onChange={updateItem}
-                onRemove={() => setItems((current) => current.filter((candidate) => candidate.id !== item.id))}
+                onRemove={() => removeItem(item)}
                 force={force}
                 unit={unit}
               />
@@ -348,6 +377,7 @@ function ArmyListCard({
   unit: CatalogueUnit
 }) {
   const cost = getListItemCost(unit, item)
+  const retinueMinCount = item.retinueForItemId ? getRetinueCount(unit, force) : undefined
 
   return (
     <article className="army-card">
@@ -355,7 +385,10 @@ function ArmyListCard({
         <img alt="" src={publicAssetUrl(unit.iconUrl)} />
         <div>
           <strong>{unit.name}</strong>
-          <small>{formatPoints(cost)}</small>
+          <small>
+            {item.retinueForItemId ? 'Retinue - ' : ''}
+            {formatPoints(cost)}
+          </small>
         </div>
         <button aria-label={`Remove ${unit.name}`} onClick={onRemove} type="button">
           X
@@ -366,8 +399,13 @@ function ArmyListCard({
         <span>Models</span>
         <input
           max={unit.model?.maxCount ?? 99}
-          min={getEffectiveModel(unit, force)?.minCount ?? 1}
-          onChange={(event) => onChange({ ...item, count: clampModelCount(unit, Number(event.target.value), force) })}
+          min={retinueMinCount ?? getEffectiveModel(unit, force)?.minCount ?? 1}
+          onChange={(event) =>
+            onChange({
+              ...item,
+              count: clampModelCount(unit, Number(event.target.value), force, retinueMinCount),
+            })
+          }
           type="number"
           value={item.count}
         />
