@@ -427,6 +427,11 @@ button {
   gap: 8px;
 }
 
+.army-actions .folder-button {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
 .limit-summary {
   display: flex;
   flex-wrap: wrap;
