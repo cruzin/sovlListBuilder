@@ -28,6 +28,8 @@ import './ListBuilder.css'
 
 const factions = catalogue.factions as CatalogueFaction[]
 const UNIT_SECTION_ORDER = ['Commanders', 'Battle Line', 'Ranged Support', 'Fast Attack']
+const SOVL_LISTS_PATH = '%USERPROFILE%\\AppData\\LocalLow\\DalenStudios\\SOVL\\lists'
+const SOVL_LISTS_FILE_URL = 'file:///%USERPROFILE%/AppData/LocalLow/DalenStudios/SOVL/lists'
 
 type UnitSection = {
   label: string
@@ -45,6 +47,7 @@ export function ListBuilder() {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
   const [copyState, setCopyState] = useState<'idle' | 'copied'>('idle')
+  const [folderState, setFolderState] = useState<'idle' | 'copied'>('idle')
 
   const selectedUnit = faction?.units.find((unit) => unit.id === selectedUnitId) ?? faction?.units[0]
   const categories = useMemo(() => {
@@ -143,6 +146,13 @@ export function ListBuilder() {
     await navigator.clipboard.writeText(exportArmyList(faction, items, force))
     setCopyState('copied')
     window.setTimeout(() => setCopyState('idle'), 1600)
+  }
+
+  async function openSovlListFolder() {
+    window.open(SOVL_LISTS_FILE_URL, '_blank', 'noopener,noreferrer')
+    await navigator.clipboard.writeText(SOVL_LISTS_PATH)
+    setFolderState('copied')
+    window.setTimeout(() => setFolderState('idle'), 1600)
   }
 
   return (
@@ -299,6 +309,9 @@ export function ListBuilder() {
         <div className="army-actions">
           <button onClick={save} type="button">
             Save
+          </button>
+          <button className="folder-button" onClick={openSovlListFolder} type="button">
+            {folderState === 'copied' ? 'Path copied' : 'SOVL list folder'}
           </button>
           <button onClick={clear} type="button">
             Clear
