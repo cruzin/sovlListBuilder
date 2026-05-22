@@ -30,7 +30,6 @@ import './ListBuilder.css'
 const factions = catalogue.factions as CatalogueFaction[]
 const UNIT_SECTION_ORDER = ['Commanders', 'Battle Line', 'Ranged Support', 'Fast Attack']
 const SOVL_LISTS_PATH = '%USERPROFILE%\\AppData\\LocalLow\\DalenStudios\\SOVL\\lists'
-const SOVL_LISTS_FILE_URL = 'file:///%USERPROFILE%/AppData/LocalLow/DalenStudios/SOVL/lists'
 
 type UnitSection = {
   label: string
@@ -150,8 +149,7 @@ export function ListBuilder() {
     window.setTimeout(() => setCopyState('idle'), 1600)
   }
 
-  async function openSovlListFolder() {
-    window.open(SOVL_LISTS_FILE_URL, '_blank', 'noopener,noreferrer')
+  async function copySovlListFolderPath() {
     await navigator.clipboard.writeText(SOVL_LISTS_PATH)
     setFolderState('copied')
     window.setTimeout(() => setFolderState('idle'), 1600)
@@ -341,7 +339,7 @@ export function ListBuilder() {
           <button disabled={items.length === 0} onClick={copyExport} type="button">
             {copyState === 'copied' ? 'Copied' : 'Copy'}
           </button>
-          <button className="folder-button" onClick={openSovlListFolder} type="button">
+          <button className="folder-button" onClick={copySovlListFolderPath} type="button">
             {folderState === 'copied' ? 'Path copied' : 'SOVL list folder'}
           </button>
         </div>
