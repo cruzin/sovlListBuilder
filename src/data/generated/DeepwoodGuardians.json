@@ -1893,42 +1893,12 @@
           ]
         },
         {
-          "id": "72bf72642e62bb345a62a11a25610672",
-          "name": "Spells",
+          "id": "72bf72642e62bb345a62a11a25610672-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "regrowth",
+          "max": 1,
+          "defaultOptionId": "arcaneWeb",
           "options": [
-            {
-              "id": "fa2aab10946ef244cb5736b7182fbd1f",
-              "name": "Regrowth",
-              "targetId": "regrowth",
-              "rule": {
-                "id": "regrowth",
-                "name": "Regrowth",
-                "text": "Restore D3 wounds to a Forest Spirit unit."
-              }
-            },
-            {
-              "id": "5ac48e04ddd20bf4ab908dec3314dcbf",
-              "name": "Wildform",
-              "targetId": "wildform",
-              "rule": {
-                "id": "wildform",
-                "name": "Wildform",
-                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
-              }
-            },
-            {
-              "id": "1acf94cefcbd4704592bfb76ce45e42a",
-              "name": "Divine Favour",
-              "targetId": "divineFavour",
-              "rule": {
-                "id": "divineFavour",
-                "name": "Divine Favour",
-                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-              }
-            },
             {
               "id": "5c9d8d1b8d3e8214685ec8e27b3fa9d9",
               "name": "Arcane Web",
@@ -1957,6 +1927,45 @@
                 "id": "radiantShield",
                 "name": "Radiant Shield",
                 "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "fa2aab10946ef244cb5736b7182fbd1f",
+              "name": "Regrowth",
+              "targetId": "regrowth",
+              "rule": {
+                "id": "regrowth",
+                "name": "Regrowth",
+                "text": "Restore D3 wounds to a Forest Spirit unit."
+              }
+            }
+          ]
+        },
+        {
+          "id": "72bf72642e62bb345a62a11a25610672-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "wildform",
+          "options": [
+            {
+              "id": "5ac48e04ddd20bf4ab908dec3314dcbf",
+              "name": "Wildform",
+              "targetId": "wildform",
+              "rule": {
+                "id": "wildform",
+                "name": "Wildform",
+                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+              }
+            },
+            {
+              "id": "1acf94cefcbd4704592bfb76ce45e42a",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
               }
             },
             {

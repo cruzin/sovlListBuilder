@@ -1863,10 +1863,39 @@
           ]
         },
         {
-          "id": "28cc5189cb297164d80beb031d6bd0c3",
-          "name": "Spells",
+          "id": "28cc5189cb297164d80beb031d6bd0c3-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
+          "defaultOptionId": "radiantShield",
+          "options": [
+            {
+              "id": "12abfa1f17c195644a1c2861ce1fd705",
+              "name": "Radiant Shield",
+              "targetId": "radiantShield",
+              "rule": {
+                "id": "radiantShield",
+                "name": "Radiant Shield",
+                "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "7fd5b11b22fa30c42a2596cdcd118aff",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "28cc5189cb297164d80beb031d6bd0c3-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
           "defaultOptionId": "divineFavour",
           "options": [
             {
@@ -1877,16 +1906,6 @@
                 "id": "divineFavour",
                 "name": "Divine Favour",
                 "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-              }
-            },
-            {
-              "id": "12abfa1f17c195644a1c2861ce1fd705",
-              "name": "Radiant Shield",
-              "targetId": "radiantShield",
-              "rule": {
-                "id": "radiantShield",
-                "name": "Radiant Shield",
-                "text": "Target unit rerolls failed damage saves for one turn."
               }
             },
             {
@@ -1907,16 +1926,6 @@
                 "id": "shroud",
                 "name": "Shroud",
                 "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
-              }
-            },
-            {
-              "id": "7fd5b11b22fa30c42a2596cdcd118aff",
-              "name": "Arcane Web",
-              "targetId": "arcaneWeb",
-              "rule": {
-                "id": "arcaneWeb",
-                "name": "Arcane Web",
-                "text": "Reduce target units movement speed to 0 for one turn."
               }
             }
           ]
@@ -2137,22 +2146,12 @@
           ]
         },
         {
-          "id": "03ae40f9cbd7ae24998d39c701c7d1af",
-          "name": "Spells",
+          "id": "03ae40f9cbd7ae24998d39c701c7d1af-cantrip",
+          "name": "Cantrip",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "holyBlade",
+          "max": 1,
+          "defaultOptionId": "divineFavour",
           "options": [
-            {
-              "id": "aed1fb8cb7784544298a6ce76cb6a24a",
-              "name": "Holy Blade",
-              "targetId": "holyBlade",
-              "rule": {
-                "id": "holyBlade",
-                "name": "Holy Blade",
-                "text": "Caster has +1 Power and deals double wounds against Monsters this turn."
-              }
-            },
             {
               "id": "5796743eaebd3ae42955c225e3a906ed",
               "name": "Divine Favour",
@@ -2171,6 +2170,16 @@
                 "id": "shroud",
                 "name": "Shroud",
                 "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
+            },
+            {
+              "id": "aed1fb8cb7784544298a6ce76cb6a24a",
+              "name": "Holy Blade",
+              "targetId": "holyBlade",
+              "rule": {
+                "id": "holyBlade",
+                "name": "Holy Blade",
+                "text": "Caster has +1 Power and deals double wounds against Monsters this turn."
               }
             }
           ]

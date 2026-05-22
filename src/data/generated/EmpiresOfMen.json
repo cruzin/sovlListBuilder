@@ -2322,10 +2322,10 @@
           ]
         },
         {
-          "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad",
-          "name": "Spells",
+          "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
           "defaultOptionId": "fireball",
           "options": [
             {
@@ -2338,6 +2338,35 @@
                 "text": "D6 Power 5 hits. Range 30."
               }
             },
+            {
+              "id": "b21f5661295f2a24e8ed66cbbe6b2050",
+              "name": "Radiant Shield",
+              "targetId": "radiantShield",
+              "rule": {
+                "id": "radiantShield",
+                "name": "Radiant Shield",
+                "text": "Target unit rerolls failed damage saves for one turn."
+              }
+            },
+            {
+              "id": "b4f1e5e8b6b142b46a2d7a60c8bfd2e4",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "frostWard",
+          "options": [
             {
               "id": "0c2320c6af98713459b7e821227406db",
               "name": "Frost Ward",
@@ -2366,26 +2395,6 @@
                 "id": "shadowBolt",
                 "name": "Shadow Bolt",
                 "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
-            {
-              "id": "b21f5661295f2a24e8ed66cbbe6b2050",
-              "name": "Radiant Shield",
-              "targetId": "radiantShield",
-              "rule": {
-                "id": "radiantShield",
-                "name": "Radiant Shield",
-                "text": "Target unit rerolls failed damage saves for one turn."
-              }
-            },
-            {
-              "id": "b4f1e5e8b6b142b46a2d7a60c8bfd2e4",
-              "name": "Hex Of Ruin",
-              "targetId": "hexOfRuin",
-              "rule": {
-                "id": "hexOfRuin",
-                "name": "Hex Of Ruin",
-                "text": "Target unit has -2 Defense for one turn."
               }
             }
           ]

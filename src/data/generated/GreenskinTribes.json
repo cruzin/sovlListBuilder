@@ -1861,10 +1861,10 @@
           ]
         },
         {
-          "id": "d6acca64f378811419721835513b796b",
-          "name": "Spells",
+          "id": "d6acca64f378811419721835513b796b-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
           "defaultOptionId": "primalFury",
           "options": [
             {
@@ -1888,16 +1888,6 @@
               }
             },
             {
-              "id": "1ae4225f29433624aab6a12479163ec3",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
-            {
               "id": "7257dbddd90673a48942a30d29a440d4",
               "name": "Hex Of Ruin",
               "targetId": "hexOfRuin",
@@ -1905,6 +1895,25 @@
                 "id": "hexOfRuin",
                 "name": "Hex Of Ruin",
                 "text": "Target unit has -2 Defense for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "d6acca64f378811419721835513b796b-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "shadowBolt",
+          "options": [
+            {
+              "id": "1ae4225f29433624aab6a12479163ec3",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
               }
             },
             {

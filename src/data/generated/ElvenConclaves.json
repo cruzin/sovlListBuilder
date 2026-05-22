@@ -2049,32 +2049,12 @@
           ]
         },
         {
-          "id": "0c0d4120c6c2e6943bda1e62d3617760",
-          "name": "Spells",
+          "id": "0c0d4120c6c2e6943bda1e62d3617760-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "divineFavour",
+          "max": 1,
+          "defaultOptionId": "fireball",
           "options": [
-            {
-              "id": "cdbef34e28d1547469ebe0e6db78c5d7",
-              "name": "Divine Favour",
-              "targetId": "divineFavour",
-              "rule": {
-                "id": "divineFavour",
-                "name": "Divine Favour",
-                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-              }
-            },
-            {
-              "id": "a5ed0387125103545ae2c4b22cdb63bd",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
             {
               "id": "e7996a0653b44784d8922a9d5c2e930d",
               "name": "Fireball",
@@ -2106,16 +2086,6 @@
               }
             },
             {
-              "id": "6404c4e507b751b4a8500d4990905ae9",
-              "name": "Frost Ward",
-              "targetId": "frostWard",
-              "rule": {
-                "id": "frostWard",
-                "name": "Frost Ward",
-                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-              }
-            },
-            {
               "id": "118e6149bd9e2fc43a6b9dec97332f86",
               "name": "Reality Rift",
               "targetId": "realityRift",
@@ -2123,6 +2093,45 @@
                 "id": "realityRift",
                 "name": "Reality Rift",
                 "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+              }
+            }
+          ]
+        },
+        {
+          "id": "0c0d4120c6c2e6943bda1e62d3617760-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "divineFavour",
+          "options": [
+            {
+              "id": "cdbef34e28d1547469ebe0e6db78c5d7",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "a5ed0387125103545ae2c4b22cdb63bd",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "6404c4e507b751b4a8500d4990905ae9",
+              "name": "Frost Ward",
+              "targetId": "frostWard",
+              "rule": {
+                "id": "frostWard",
+                "name": "Frost Ward",
+                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
               }
             }
           ]
@@ -2424,10 +2433,10 @@
           ]
         },
         {
-          "id": "748a63b472e026a46ba7ef2b5b4174c4",
-          "name": "Spells",
+          "id": "748a63b472e026a46ba7ef2b5b4174c4-cantrip",
+          "name": "Cantrip",
           "min": 1,
-          "max": 2,
+          "max": 1,
           "defaultOptionId": "fieryBlades",
           "options": [
             {

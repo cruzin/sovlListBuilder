@@ -23,6 +23,28 @@ const ARMY_SIZE_PRESETS = [
   { id: 'battalion', name: 'Battalion', pointLimit: 1000 },
   { id: 'legion', name: 'Legion', pointLimit: 1500 },
 ]
+const SPELL_NAMES = new Set([
+  'arcane web',
+  'fireball',
+  'hex of ruin',
+  'primal fury',
+  'radiant shield',
+  'reanimate',
+  'reality rift',
+  'thousand mouths',
+])
+const CANTRIP_NAMES = new Set([
+  'blood frenzy',
+  'divine favour',
+  'fiery blades',
+  'frost ward',
+  'plague',
+  'raise dead',
+  'shadow bolt',
+  'shroud',
+  'wildform',
+])
+const HALF_CASTER_NAMES = new Set(['wight lord', 'elf spellsword', 'paladin'])
 
 export async function parseCatalogueDirectory(
   catalogueDir: string,
@@ -148,10 +170,10 @@ function parseUnit(
   const rules = directRuleLinks
     .map((link) => resolveRule(link, sharedRules))
     .filter((rule): rule is CatalogueRule => Boolean(rule))
-  const optionGroups = childrenNamed(firstChild(entry, 'selectionEntryGroups'), 'selectionEntryGroup').map((group) =>
-    parseOptionGroup(group, sharedRules),
-  )
   const unitName = entry.attributes.name ?? entry.attributes.id ?? 'Unknown unit'
+  const optionGroups = childrenNamed(firstChild(entry, 'selectionEntryGroups'), 'selectionEntryGroup').flatMap((group) =>
+    parseOptionGroup(group, sharedRules, unitName),
+  )
   const asset = unitAssets?.get(unitAssetKey(factionName, unitName))
 
   if (!entry.attributes.id) {
@@ -403,28 +425,80 @@ function extractStats(modelEntry: XmlNode): UnitStats {
   return stats
 }
 
-function parseOptionGroup(group: XmlNode, sharedRules: SharedIndex): UnitOptionGroup {
+function parseOptionGroup(group: XmlNode, sharedRules: SharedIndex, unitName: string): UnitOptionGroup[] {
   const constraints = childrenNamed(firstChild(group, 'constraints'), 'constraint')
   const minConstraint = constraints.find((constraint) => constraint.attributes.type === 'min')
   const maxConstraint = constraints.find((constraint) => constraint.attributes.type === 'max')
-
-  return {
+  const options = childrenNamed(firstChild(group, 'entryLinks'), 'entryLink').map((link) => {
+    const rule = resolveRule(link, sharedRules)
+    return {
+      id: link.attributes.id ?? link.attributes.targetId ?? link.attributes.name ?? 'unknown-option',
+      name: link.attributes.name ?? rule?.name ?? 'Unknown option',
+      targetId: link.attributes.targetId,
+      points: extractModifierPoints(link),
+      rule,
+    }
+  })
+  const optionGroup = {
     id: group.attributes.id ?? group.attributes.name ?? 'unknown-option-group',
     name: group.attributes.name ?? 'Options',
     min: parseNumber(minConstraint?.attributes.value),
     max: parseNumber(maxConstraint?.attributes.value),
     defaultOptionId: group.attributes.defaultSelectionEntryId || undefined,
-    options: childrenNamed(firstChild(group, 'entryLinks'), 'entryLink').map((link) => {
-      const rule = resolveRule(link, sharedRules)
-      return {
-        id: link.attributes.id ?? link.attributes.targetId ?? link.attributes.name ?? 'unknown-option',
-        name: link.attributes.name ?? rule?.name ?? 'Unknown option',
-        targetId: link.attributes.targetId,
-        points: extractModifierPoints(link),
-        rule,
-      }
-    }),
+    options,
   }
+
+  if (optionGroup.name !== 'Spells') {
+    return [optionGroup]
+  }
+
+  return splitSpellOptionGroup(optionGroup, unitName)
+}
+
+function splitSpellOptionGroup(group: UnitOptionGroup, unitName: string): UnitOptionGroup[] {
+  const isHalfCaster = HALF_CASTER_NAMES.has(unitName.toLowerCase())
+  const spellOptions = group.options.filter((option) => SPELL_NAMES.has(normalizeSpellName(option.name)))
+  const cantripOptions = group.options.filter((option) => CANTRIP_NAMES.has(normalizeSpellName(option.name)))
+  const unknownOptions = group.options.filter(
+    (option) => !SPELL_NAMES.has(normalizeSpellName(option.name)) && !CANTRIP_NAMES.has(normalizeSpellName(option.name)),
+  )
+  const groups: UnitOptionGroup[] = []
+
+  const availableSpells = isHalfCaster ? [] : [...spellOptions, ...unknownOptions]
+  if (availableSpells.length > 0) {
+    groups.push({
+      ...group,
+      id: `${group.id}-spell`,
+      name: 'Spell',
+      min: 1,
+      max: 1,
+      defaultOptionId: availableSpells[0]?.targetId ?? availableSpells[0]?.id,
+      options: availableSpells,
+    })
+  }
+
+  const availableCantrips = isHalfCaster ? [...cantripOptions, ...unknownOptions] : cantripOptions
+  if (availableCantrips.length > 0) {
+    groups.push({
+      ...group,
+      id: `${group.id}-cantrip`,
+      name: 'Cantrip',
+      min: 1,
+      max: 1,
+      defaultOptionId: availableCantrips[0]?.targetId ?? availableCantrips[0]?.id,
+      options: availableCantrips,
+    })
+  }
+
+  if (groups.length === 0 && group.options.length > 0) {
+    return [{ ...group, name: isHalfCaster ? 'Cantrip' : 'Spell', min: 1, max: 1 }]
+  }
+
+  return groups
+}
+
+function normalizeSpellName(name: string): string {
+  return name.toLowerCase().replace(/\s+/g, ' ').trim()
 }
 
 function resolveRule(link: XmlNode, sharedRules: SharedIndex): CatalogueRule | undefined {

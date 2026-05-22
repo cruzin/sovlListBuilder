@@ -1206,10 +1206,10 @@
       ],
       "optionGroups": [
         {
-          "id": "a20864db1d9a70c4788b39a1a4162ee0",
-          "name": "Spells",
+          "id": "a20864db1d9a70c4788b39a1a4162ee0-cantrip",
+          "name": "Cantrip",
           "min": 1,
-          "max": 0,
+          "max": 1,
           "defaultOptionId": "plague",
           "options": [
             {
@@ -1380,10 +1380,39 @@
       ],
       "optionGroups": [
         {
-          "id": "c564ca22404adf64fb1cc1eb203aaeeb",
-          "name": "Spells",
+          "id": "c564ca22404adf64fb1cc1eb203aaeeb-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
+          "defaultOptionId": "arcaneWeb",
+          "options": [
+            {
+              "id": "bb8564fc11ab260419cef4a2f8966230",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "8a77d6cf68d6ce849a8e4ad475b769b1",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "c564ca22404adf64fb1cc1eb203aaeeb-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
           "defaultOptionId": "shadowBolt",
           "options": [
             {
@@ -1397,16 +1426,6 @@
               }
             },
             {
-              "id": "bb8564fc11ab260419cef4a2f8966230",
-              "name": "Arcane Web",
-              "targetId": "arcaneWeb",
-              "rule": {
-                "id": "arcaneWeb",
-                "name": "Arcane Web",
-                "text": "Reduce target units movement speed to 0 for one turn."
-              }
-            },
-            {
               "id": "7b0d8403eb6e2fa44a33ea50ef913414",
               "name": "Frost Ward",
               "targetId": "frostWard",
@@ -1414,16 +1433,6 @@
                 "id": "frostWard",
                 "name": "Frost Ward",
                 "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-              }
-            },
-            {
-              "id": "8a77d6cf68d6ce849a8e4ad475b769b1",
-              "name": "Hex Of Ruin",
-              "targetId": "hexOfRuin",
-              "rule": {
-                "id": "hexOfRuin",
-                "name": "Hex Of Ruin",
-                "text": "Target unit has -2 Defense for one turn."
               }
             },
             {

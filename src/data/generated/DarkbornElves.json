@@ -1990,10 +1990,49 @@
           ]
         },
         {
-          "id": "96e1d9f8e9bfc8c48a8f5913c017928c",
-          "name": "Spells",
+          "id": "96e1d9f8e9bfc8c48a8f5913c017928c-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
+          "defaultOptionId": "arcaneWeb",
+          "options": [
+            {
+              "id": "d5f6cdc8585000945b377c959de1e87d",
+              "name": "Arcane Web",
+              "targetId": "arcaneWeb",
+              "rule": {
+                "id": "arcaneWeb",
+                "name": "Arcane Web",
+                "text": "Reduce target units movement speed to 0 for one turn."
+              }
+            },
+            {
+              "id": "8c2315fb924215f45a6057f965da143a",
+              "name": "Hex Of Ruin",
+              "targetId": "hexOfRuin",
+              "rule": {
+                "id": "hexOfRuin",
+                "name": "Hex Of Ruin",
+                "text": "Target unit has -2 Defense for one turn."
+              }
+            },
+            {
+              "id": "cdcb195214ac78044beb78166157cea0",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
+              "rule": {
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+              }
+            }
+          ]
+        },
+        {
+          "id": "96e1d9f8e9bfc8c48a8f5913c017928c-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
           "defaultOptionId": "shadowBolt",
           "options": [
             {
@@ -2007,16 +2046,6 @@
               }
             },
             {
-              "id": "d5f6cdc8585000945b377c959de1e87d",
-              "name": "Arcane Web",
-              "targetId": "arcaneWeb",
-              "rule": {
-                "id": "arcaneWeb",
-                "name": "Arcane Web",
-                "text": "Reduce target units movement speed to 0 for one turn."
-              }
-            },
-            {
               "id": "b309f79b03dd1414f8b8cba531828f0a",
               "name": "Frost Ward",
               "targetId": "frostWard",
@@ -2024,16 +2053,6 @@
                 "id": "frostWard",
                 "name": "Frost Ward",
                 "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-              }
-            },
-            {
-              "id": "8c2315fb924215f45a6057f965da143a",
-              "name": "Hex Of Ruin",
-              "targetId": "hexOfRuin",
-              "rule": {
-                "id": "hexOfRuin",
-                "name": "Hex Of Ruin",
-                "text": "Target unit has -2 Defense for one turn."
               }
             },
             {
@@ -2054,16 +2073,6 @@
                 "id": "bloodFrenzy",
                 "name": "Blood Frenzy",
                 "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
-              }
-            },
-            {
-              "id": "cdcb195214ac78044beb78166157cea0",
-              "name": "Reality Rift",
-              "targetId": "realityRift",
-              "rule": {
-                "id": "realityRift",
-                "name": "Reality Rift",
-                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             }
           ]
