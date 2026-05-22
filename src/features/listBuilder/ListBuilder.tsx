@@ -6,6 +6,7 @@ import { useLocalArmyList } from './useLocalArmyList'
 import {
   clampModelCount,
   exportArmyList,
+  formatCount,
   formatPoints,
   getAddUnitBlockReason,
   getArmyLimitWarnings,
@@ -13,6 +14,7 @@ import {
   getEffectiveModel,
   getForceById,
   getListItemCost,
+  getOverallUnitCount,
   getRetinueCount,
   getRetinueSelection,
   getSelectedRetinueUnit,
@@ -64,6 +66,7 @@ export function ListBuilder() {
   }, [category, faction, query])
   const unitSections = useMemo(() => groupUnitsBySection(filteredUnits), [filteredUnits])
   const total = listTotal(faction, items)
+  const unitCount = getOverallUnitCount(items)
   const limitWarnings = getArmyLimitWarnings(faction, items, force)
   const categoryUsage = getCategoryUsage(faction, items, force)
 
@@ -243,8 +246,13 @@ export function ListBuilder() {
                 {force.name} limit: {formatPoints(force.pointLimit)}
               </p>
             )}
+            {force?.unitLimit !== undefined && (
+              <p className={unitCount > force.unitLimit ? 'limit-note over' : 'limit-note'}>
+                Units: {unitCount}/{force.unitLimit}
+              </p>
+            )}
           </div>
-          <span>{items.length} units</span>
+          <span>{unitCount} units</span>
         </div>
 
         {force && (
@@ -255,9 +263,9 @@ export function ListBuilder() {
               const isUnder = limit.min !== undefined && current < limit.min
               return (
                 <span className={isOver || isUnder ? 'limit-chip warning' : 'limit-chip'} key={limit.id}>
-                  {limit.name}: {current}
-                  {limit.max !== undefined ? `/${limit.max}` : ''}
-                  {limit.min !== undefined && limit.min > 0 ? ` min ${limit.min}` : ''}
+                  {limit.name}: {formatCount(current)}
+                  {limit.max !== undefined ? `/${formatCount(limit.max)}` : ''}
+                  {limit.min !== undefined && limit.min > 0 ? ` min ${formatCount(limit.min)}` : ''}
                 </span>
               )
             })}

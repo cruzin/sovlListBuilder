@@ -83,6 +83,7 @@ export type ForceFormat = {
   id: string
   name: string
   pointLimit?: number
+  unitLimit?: number
   categoryLimits: ForceCategoryLimit[]
   modelOverrides?: ForceModelOverride[]
   source?: 'catalogue' | 'derived'

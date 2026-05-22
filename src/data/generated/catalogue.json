@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T09:44:31.197Z",
+  "generatedAt": "2026-05-22T09:03:40.714Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -14,6 +14,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -1983,6 +1984,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -4185,6 +4187,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -6532,6 +6535,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -8827,6 +8831,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -11010,6 +11015,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -13361,6 +13367,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -15841,6 +15848,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -18323,6 +18331,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -20165,6 +20174,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -22468,6 +22478,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -24798,6 +24809,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
@@ -26524,6 +26536,7 @@
           "id": "border-patrol",
           "name": "Border Patrol",
           "pointLimit": 650,
+          "unitLimit": 7,
           "categoryLimits": [
             {
               "id": "Commanders",
