@@ -92,6 +92,10 @@ export function formatPoints(points: number): string {
   return `${points} pts`
 }
 
+export function formatCount(count: number): string {
+  return Number.isInteger(count) ? String(count) : count.toFixed(1)
+}
+
 export function publicAssetUrl(url: string | undefined): string | undefined {
   if (!url || /^https?:\/\//i.test(url)) {
     return url
@@ -143,6 +147,10 @@ export function getUnitSelectionCount(items: ArmyListItem[], unitId: string): nu
   return items.filter((item) => item.unitId === unitId).length
 }
 
+export function getOverallUnitCount(items: ArmyListItem[]): number {
+  return items.filter((item) => !item.retinueForItemId).length
+}
+
 export function getCategoryUsage(
   faction: CatalogueFaction | undefined,
   items: ArmyListItem[],
@@ -160,12 +168,28 @@ export function getCategoryUsage(
     }
     for (const limit of force.categoryLimits) {
       if (unit.categoryIds.includes(limit.id) || unit.categories.includes(limit.name)) {
-        usage.set(limit.id, (usage.get(limit.id) ?? 0) + 1)
+        usage.set(limit.id, (usage.get(limit.id) ?? 0) + getCategoryLimitWeight(unit, limit.name))
       }
     }
   }
 
   return usage
+}
+
+export function getCategoryLimitWeight(unit: CatalogueUnit, categoryName: string): number {
+  if (!isFastLimitCategory(categoryName)) {
+    return 1
+  }
+  return isHalfFastLimitUnit(unit) ? 0.5 : 1
+}
+
+function isFastLimitCategory(categoryName: string): boolean {
+  return /fast attack|raiders/i.test(categoryName)
+}
+
+function isHalfFastLimitUnit(unit: CatalogueUnit): boolean {
+  const searchable = `${unit.name} ${unit.stats.modelType ?? ''}`
+  return /bat|dog|hound|wolf|wolves|chariot/i.test(searchable)
 }
 
 export function getArmyLimitWarnings(
@@ -182,15 +206,20 @@ export function getArmyLimitWarnings(
   if (force.pointLimit !== undefined && total > force.pointLimit) {
     warnings.push(`List is ${formatPoints(total - force.pointLimit)} over the ${force.name} limit.`)
   }
+  const unitCount = getOverallUnitCount(items)
+  if (force.unitLimit !== undefined && unitCount > force.unitLimit) {
+    warnings.push(`List has ${unitCount} units; maximum is ${force.unitLimit}.`)
+  }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
   for (const limit of force.categoryLimits) {
     const current = categoryUsage.get(limit.id) ?? 0
     if (limit.min !== undefined && current < limit.min) {
-      warnings.push(`${limit.name} needs ${limit.min - current} more selection${limit.min - current === 1 ? '' : 's'}.`)
+      const needed = limit.min - current
+      warnings.push(`${limit.name} needs ${formatCount(needed)} more selection${needed === 1 ? '' : 's'}.`)
     }
     if (limit.max !== undefined && current > limit.max) {
-      warnings.push(`${limit.name} has ${current}; maximum is ${limit.max}.`)
+      warnings.push(`${limit.name} has ${formatCount(current)}; maximum is ${formatCount(limit.max)}.`)
     }
   }
 
@@ -276,13 +305,17 @@ export function getAddUnitBlockReason(
   if (force.pointLimit !== undefined && nextTotal > force.pointLimit) {
     return `Adding this would exceed ${force.name}'s ${formatPoints(force.pointLimit)} cap.`
   }
+  if (force.unitLimit !== undefined && getOverallUnitCount(items) + 1 > force.unitLimit) {
+    return `${force.name} is limited to ${force.unitLimit} units.`
+  }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
   const addedUnits = [unit, ...(retinueUnit ? [retinueUnit] : [])]
   const blockedCategory = force.categoryLimits.find((limit) => {
-    const addedCount = addedUnits.filter(
-      (addedUnit) => addedUnit.categoryIds.includes(limit.id) || addedUnit.categories.includes(limit.name),
-    ).length
+    const addedCount = addedUnits.reduce((total, addedUnit) => {
+      const matches = addedUnit.categoryIds.includes(limit.id) || addedUnit.categories.includes(limit.name)
+      return total + (matches ? getCategoryLimitWeight(addedUnit, limit.name) : 0)
+    }, 0)
     return limit.max !== undefined && addedCount > 0 && (categoryUsage.get(limit.id) ?? 0) + addedCount > limit.max
   })
 

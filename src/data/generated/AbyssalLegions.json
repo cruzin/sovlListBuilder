@@ -7,6 +7,7 @@
       "id": "border-patrol",
       "name": "Border Patrol",
       "pointLimit": 650,
+      "unitLimit": 7,
       "categoryLimits": [
         {
           "id": "Commanders",

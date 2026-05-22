@@ -18,7 +18,7 @@ const POINTS_TYPE_ID = '268a-a403-0d9c-50ac'
 type SharedIndex = Map<string, CatalogueRule>
 
 const ARMY_SIZE_PRESETS = [
-  { id: 'border-patrol', name: 'Border Patrol', pointLimit: 650 },
+  { id: 'border-patrol', name: 'Border Patrol', pointLimit: 650, unitLimit: 7 },
   { id: 'warband', name: 'Warband', pointLimit: 500 },
   { id: 'battalion', name: 'Battalion', pointLimit: 1000 },
   { id: 'legion', name: 'Legion', pointLimit: 1500 },
@@ -282,6 +282,7 @@ function buildForceFormats(
       id: preset.id,
       name: preset.name,
       pointLimit: preset.pointLimit,
+      unitLimit: preset.unitLimit,
       categoryLimits: applyForceCategoryOverrides(preset.id, catalogueForce?.categoryLimits ?? fallbackLimits),
       modelOverrides: borderPatrolOverrides && borderPatrolOverrides.length > 0 ? borderPatrolOverrides : undefined,
       source: catalogueForce ? 'catalogue' : 'derived',
