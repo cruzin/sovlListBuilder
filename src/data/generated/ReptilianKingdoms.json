@@ -1361,22 +1361,12 @@
           ]
         },
         {
-          "id": "b0514cd3f5ab5954792f84c313126be3",
-          "name": "Spells",
+          "id": "b0514cd3f5ab5954792f84c313126be3-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "divineFavour",
+          "max": 1,
+          "defaultOptionId": "arcaneWeb",
           "options": [
-            {
-              "id": "b2fdba606eef12845b31e62d550ff226",
-              "name": "Divine Favour",
-              "targetId": "divineFavour",
-              "rule": {
-                "id": "divineFavour",
-                "name": "Divine Favour",
-                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-              }
-            },
             {
               "id": "a7b01acc2a77042469e3a32f883e6c7d",
               "name": "Arcane Web",
@@ -1415,6 +1405,25 @@
                 "id": "fireball",
                 "name": "Fireball",
                 "text": "D6 Power 5 hits. Range 30."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0514cd3f5ab5954792f84c313126be3-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "divineFavour",
+          "options": [
+            {
+              "id": "b2fdba606eef12845b31e62d550ff226",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
               }
             },
             {
@@ -1845,10 +1854,10 @@
           ]
         },
         {
-          "id": "4aff9f80935af6e4e94663c606221238",
-          "name": "Spells",
+          "id": "4aff9f80935af6e4e94663c606221238-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
+          "max": 1,
           "defaultOptionId": "radiantShield",
           "options": [
             {
@@ -1859,16 +1868,6 @@
                 "id": "radiantShield",
                 "name": "Radiant Shield",
                 "text": "Target unit rerolls failed damage saves for one turn."
-              }
-            },
-            {
-              "id": "a1879f60b6f758d4ca37fd19c9afaf84",
-              "name": "Divine Favour",
-              "targetId": "divineFavour",
-              "rule": {
-                "id": "divineFavour",
-                "name": "Divine Favour",
-                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
               }
             },
             {
@@ -1902,26 +1901,6 @@
               }
             },
             {
-              "id": "c13716ae779203a43a8bc7977eef1162",
-              "name": "Frost Ward",
-              "targetId": "frostWard",
-              "rule": {
-                "id": "frostWard",
-                "name": "Frost Ward",
-                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-              }
-            },
-            {
-              "id": "37458859ae8003648af3343c8843df37",
-              "name": "Fiery Blades",
-              "targetId": "fieryBlades",
-              "rule": {
-                "id": "fieryBlades",
-                "name": "Fiery Blades",
-                "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
-              }
-            },
-            {
               "id": "d50bc1b7caf673c4ba7b3e8f76890979",
               "name": "Reality Rift",
               "targetId": "realityRift",
@@ -1939,6 +1918,45 @@
                 "id": "hexOfRuin",
                 "name": "Hex Of Ruin",
                 "text": "Target unit has -2 Defense for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "4aff9f80935af6e4e94663c606221238-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "divineFavour",
+          "options": [
+            {
+              "id": "a1879f60b6f758d4ca37fd19c9afaf84",
+              "name": "Divine Favour",
+              "targetId": "divineFavour",
+              "rule": {
+                "id": "divineFavour",
+                "name": "Divine Favour",
+                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+              }
+            },
+            {
+              "id": "c13716ae779203a43a8bc7977eef1162",
+              "name": "Frost Ward",
+              "targetId": "frostWard",
+              "rule": {
+                "id": "frostWard",
+                "name": "Frost Ward",
+                "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
+              }
+            },
+            {
+              "id": "37458859ae8003648af3343c8843df37",
+              "name": "Fiery Blades",
+              "targetId": "fieryBlades",
+              "rule": {
+                "id": "fieryBlades",
+                "name": "Fiery Blades",
+                "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
               }
             },
             {

@@ -1827,22 +1827,12 @@
           ]
         },
         {
-          "id": "ffaaae5bbe27a934690dd19ecbb4ee39",
-          "name": "Spells",
+          "id": "ffaaae5bbe27a934690dd19ecbb4ee39-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "shadowBolt",
+          "max": 1,
+          "defaultOptionId": "fireball",
           "options": [
-            {
-              "id": "6258efa13456b3449956dd856f5c60fb",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
             {
               "id": "3d64314b9b8319e498fe6213bb82dea6",
               "name": "Fireball",
@@ -1874,6 +1864,35 @@
               }
             },
             {
+              "id": "e2149c87e9ee4144aa8c8e14d167b579",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
+              "rule": {
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ffaaae5bbe27a934690dd19ecbb4ee39-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "shadowBolt",
+          "options": [
+            {
+              "id": "6258efa13456b3449956dd856f5c60fb",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
               "id": "e81f1c6305a31bc43bcb24b78531c947",
               "name": "Shroud",
               "targetId": "shroud",
@@ -1891,16 +1910,6 @@
                 "id": "bloodFrenzy",
                 "name": "Blood Frenzy",
                 "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
-              }
-            },
-            {
-              "id": "e2149c87e9ee4144aa8c8e14d167b579",
-              "name": "Reality Rift",
-              "targetId": "realityRift",
-              "rule": {
-                "id": "realityRift",
-                "name": "Reality Rift",
-                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             },
             {

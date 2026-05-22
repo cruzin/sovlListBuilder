@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T09:03:40.714Z",
+  "generatedAt": "2026-05-22T09:47:37.860Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -1213,10 +1213,10 @@
           ],
           "optionGroups": [
             {
-              "id": "a20864db1d9a70c4788b39a1a4162ee0",
-              "name": "Spells",
+              "id": "a20864db1d9a70c4788b39a1a4162ee0-cantrip",
+              "name": "Cantrip",
               "min": 1,
-              "max": 0,
+              "max": 1,
               "defaultOptionId": "plague",
               "options": [
                 {
@@ -1387,10 +1387,39 @@
           ],
           "optionGroups": [
             {
-              "id": "c564ca22404adf64fb1cc1eb203aaeeb",
-              "name": "Spells",
+              "id": "c564ca22404adf64fb1cc1eb203aaeeb-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
+              "defaultOptionId": "arcaneWeb",
+              "options": [
+                {
+                  "id": "bb8564fc11ab260419cef4a2f8966230",
+                  "name": "Arcane Web",
+                  "targetId": "arcaneWeb",
+                  "rule": {
+                    "id": "arcaneWeb",
+                    "name": "Arcane Web",
+                    "text": "Reduce target units movement speed to 0 for one turn."
+                  }
+                },
+                {
+                  "id": "8a77d6cf68d6ce849a8e4ad475b769b1",
+                  "name": "Hex Of Ruin",
+                  "targetId": "hexOfRuin",
+                  "rule": {
+                    "id": "hexOfRuin",
+                    "name": "Hex Of Ruin",
+                    "text": "Target unit has -2 Defense for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c564ca22404adf64fb1cc1eb203aaeeb-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
               "defaultOptionId": "shadowBolt",
               "options": [
                 {
@@ -1404,16 +1433,6 @@
                   }
                 },
                 {
-                  "id": "bb8564fc11ab260419cef4a2f8966230",
-                  "name": "Arcane Web",
-                  "targetId": "arcaneWeb",
-                  "rule": {
-                    "id": "arcaneWeb",
-                    "name": "Arcane Web",
-                    "text": "Reduce target units movement speed to 0 for one turn."
-                  }
-                },
-                {
                   "id": "7b0d8403eb6e2fa44a33ea50ef913414",
                   "name": "Frost Ward",
                   "targetId": "frostWard",
@@ -1421,16 +1440,6 @@
                     "id": "frostWard",
                     "name": "Frost Ward",
                     "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-                  }
-                },
-                {
-                  "id": "8a77d6cf68d6ce849a8e4ad475b769b1",
-                  "name": "Hex Of Ruin",
-                  "targetId": "hexOfRuin",
-                  "rule": {
-                    "id": "hexOfRuin",
-                    "name": "Hex Of Ruin",
-                    "text": "Target unit has -2 Defense for one turn."
                   }
                 },
                 {
@@ -3804,22 +3813,12 @@
               ]
             },
             {
-              "id": "ffaaae5bbe27a934690dd19ecbb4ee39",
-              "name": "Spells",
+              "id": "ffaaae5bbe27a934690dd19ecbb4ee39-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "shadowBolt",
+              "max": 1,
+              "defaultOptionId": "fireball",
               "options": [
-                {
-                  "id": "6258efa13456b3449956dd856f5c60fb",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
                 {
                   "id": "3d64314b9b8319e498fe6213bb82dea6",
                   "name": "Fireball",
@@ -3851,6 +3850,35 @@
                   }
                 },
                 {
+                  "id": "e2149c87e9ee4144aa8c8e14d167b579",
+                  "name": "Reality Rift",
+                  "targetId": "realityRift",
+                  "rule": {
+                    "id": "realityRift",
+                    "name": "Reality Rift",
+                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ffaaae5bbe27a934690dd19ecbb4ee39-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "shadowBolt",
+              "options": [
+                {
+                  "id": "6258efa13456b3449956dd856f5c60fb",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
+                  }
+                },
+                {
                   "id": "e81f1c6305a31bc43bcb24b78531c947",
                   "name": "Shroud",
                   "targetId": "shroud",
@@ -3868,16 +3896,6 @@
                     "id": "bloodFrenzy",
                     "name": "Blood Frenzy",
                     "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
-                  }
-                },
-                {
-                  "id": "e2149c87e9ee4144aa8c8e14d167b579",
-                  "name": "Reality Rift",
-                  "targetId": "realityRift",
-                  "rule": {
-                    "id": "realityRift",
-                    "name": "Reality Rift",
-                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 },
                 {
@@ -6170,10 +6188,49 @@
               ]
             },
             {
-              "id": "96e1d9f8e9bfc8c48a8f5913c017928c",
-              "name": "Spells",
+              "id": "96e1d9f8e9bfc8c48a8f5913c017928c-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
+              "defaultOptionId": "arcaneWeb",
+              "options": [
+                {
+                  "id": "d5f6cdc8585000945b377c959de1e87d",
+                  "name": "Arcane Web",
+                  "targetId": "arcaneWeb",
+                  "rule": {
+                    "id": "arcaneWeb",
+                    "name": "Arcane Web",
+                    "text": "Reduce target units movement speed to 0 for one turn."
+                  }
+                },
+                {
+                  "id": "8c2315fb924215f45a6057f965da143a",
+                  "name": "Hex Of Ruin",
+                  "targetId": "hexOfRuin",
+                  "rule": {
+                    "id": "hexOfRuin",
+                    "name": "Hex Of Ruin",
+                    "text": "Target unit has -2 Defense for one turn."
+                  }
+                },
+                {
+                  "id": "cdcb195214ac78044beb78166157cea0",
+                  "name": "Reality Rift",
+                  "targetId": "realityRift",
+                  "rule": {
+                    "id": "realityRift",
+                    "name": "Reality Rift",
+                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "96e1d9f8e9bfc8c48a8f5913c017928c-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
               "defaultOptionId": "shadowBolt",
               "options": [
                 {
@@ -6187,16 +6244,6 @@
                   }
                 },
                 {
-                  "id": "d5f6cdc8585000945b377c959de1e87d",
-                  "name": "Arcane Web",
-                  "targetId": "arcaneWeb",
-                  "rule": {
-                    "id": "arcaneWeb",
-                    "name": "Arcane Web",
-                    "text": "Reduce target units movement speed to 0 for one turn."
-                  }
-                },
-                {
                   "id": "b309f79b03dd1414f8b8cba531828f0a",
                   "name": "Frost Ward",
                   "targetId": "frostWard",
@@ -6204,16 +6251,6 @@
                     "id": "frostWard",
                     "name": "Frost Ward",
                     "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-                  }
-                },
-                {
-                  "id": "8c2315fb924215f45a6057f965da143a",
-                  "name": "Hex Of Ruin",
-                  "targetId": "hexOfRuin",
-                  "rule": {
-                    "id": "hexOfRuin",
-                    "name": "Hex Of Ruin",
-                    "text": "Target unit has -2 Defense for one turn."
                   }
                 },
                 {
@@ -6234,16 +6271,6 @@
                     "id": "bloodFrenzy",
                     "name": "Blood Frenzy",
                     "text": "Target unit loses D3 wounds and gains +1 Attack this turn."
-                  }
-                },
-                {
-                  "id": "cdcb195214ac78044beb78166157cea0",
-                  "name": "Reality Rift",
-                  "targetId": "realityRift",
-                  "rule": {
-                    "id": "realityRift",
-                    "name": "Reality Rift",
-                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 }
               ]
@@ -8170,8 +8197,8 @@
               ]
             },
             {
-              "id": "e01a99339c822304b9670dd59ed4ccbb",
-              "name": "Spells",
+              "id": "e01a99339c822304b9670dd59ed4ccbb-cantrip",
+              "name": "Cantrip",
               "min": 1,
               "max": 1,
               "defaultOptionId": "unholyVigour",
@@ -8469,22 +8496,12 @@
               ]
             },
             {
-              "id": "62bb9db80610d28438aa63b265e909db",
-              "name": "Spells",
+              "id": "62bb9db80610d28438aa63b265e909db-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "shadowBolt",
+              "max": 1,
+              "defaultOptionId": "hexOfRuin",
               "options": [
-                {
-                  "id": "fe8748e303ca5084d991c825010e1306",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
                 {
                   "id": "6576bb28ea7706547800ff6562ff3666",
                   "name": "Hex Of Ruin",
@@ -8506,13 +8523,13 @@
                   }
                 },
                 {
-                  "id": "f779c09c1a91298419de9d711f55a7bb",
-                  "name": "Shroud",
-                  "targetId": "shroud",
+                  "id": "153fe7ced05f60e44b4f000bdea6e043",
+                  "name": "Reality Rift",
+                  "targetId": "realityRift",
                   "rule": {
-                    "id": "shroud",
-                    "name": "Shroud",
-                    "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                    "id": "realityRift",
+                    "name": "Reality Rift",
+                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 },
                 {
@@ -8524,6 +8541,35 @@
                     "name": "Unholy Vigour",
                     "text": "Increase the move speed of target Reanimated unit by 3 until its next combat."
                   }
+                }
+              ]
+            },
+            {
+              "id": "62bb9db80610d28438aa63b265e909db-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "shadowBolt",
+              "options": [
+                {
+                  "id": "fe8748e303ca5084d991c825010e1306",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
+                  }
+                },
+                {
+                  "id": "f779c09c1a91298419de9d711f55a7bb",
+                  "name": "Shroud",
+                  "targetId": "shroud",
+                  "rule": {
+                    "id": "shroud",
+                    "name": "Shroud",
+                    "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                  }
                 },
                 {
                   "id": "6f914eef1fbdafb4595cadc41b559322",
@@ -8533,16 +8579,6 @@
                     "id": "plague",
                     "name": "Plague",
                     "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
-                  }
-                },
-                {
-                  "id": "153fe7ced05f60e44b4f000bdea6e043",
-                  "name": "Reality Rift",
-                  "targetId": "realityRift",
-                  "rule": {
-                    "id": "realityRift",
-                    "name": "Reality Rift",
-                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 }
               ]
@@ -8717,22 +8753,12 @@
               ]
             },
             {
-              "id": "47316e21467d89e4cb3d46d5af1bf79a",
-              "name": "Spells",
+              "id": "47316e21467d89e4cb3d46d5af1bf79a-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "raiseDead",
+              "max": 1,
+              "defaultOptionId": "reanimate",
               "options": [
-                {
-                  "id": "2ac2e923547fd7443845b8a5c89ee31a",
-                  "name": "Raise Dead",
-                  "targetId": "raiseDead",
-                  "rule": {
-                    "id": "raiseDead",
-                    "name": "Raise Dead",
-                    "text": "Raise D3+3 models on a Zombie or Skeleton Warrior, Spear or Archer unit."
-                  }
-                },
                 {
                   "id": "07001855e50a87d4caf208d82369bb8c",
                   "name": "Reanimate",
@@ -8741,16 +8767,6 @@
                     "id": "reanimate",
                     "name": "Reanimate",
                     "text": "Restore D3+1 wounds to a Reanimated unit."
-                  }
-                },
-                {
-                  "id": "dc19e6a446f38f340ae4f0af6657920b",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
                   }
                 },
                 {
@@ -8764,13 +8780,13 @@
                   }
                 },
                 {
-                  "id": "5dda3f5078dcb914a909359e66dbf805",
-                  "name": "Shroud",
-                  "targetId": "shroud",
+                  "id": "24baf4a593441f145851267024d7451b",
+                  "name": "Reality Rift",
+                  "targetId": "realityRift",
                   "rule": {
-                    "id": "shroud",
-                    "name": "Shroud",
-                    "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                    "id": "realityRift",
+                    "name": "Reality Rift",
+                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 },
                 {
@@ -8782,6 +8798,45 @@
                     "name": "Unholy Vigour",
                     "text": "Increase the move speed of target Reanimated unit by 3 until its next combat."
                   }
+                }
+              ]
+            },
+            {
+              "id": "47316e21467d89e4cb3d46d5af1bf79a-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "raiseDead",
+              "options": [
+                {
+                  "id": "2ac2e923547fd7443845b8a5c89ee31a",
+                  "name": "Raise Dead",
+                  "targetId": "raiseDead",
+                  "rule": {
+                    "id": "raiseDead",
+                    "name": "Raise Dead",
+                    "text": "Raise D3+3 models on a Zombie or Skeleton Warrior, Spear or Archer unit."
+                  }
+                },
+                {
+                  "id": "dc19e6a446f38f340ae4f0af6657920b",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
+                  }
+                },
+                {
+                  "id": "5dda3f5078dcb914a909359e66dbf805",
+                  "name": "Shroud",
+                  "targetId": "shroud",
+                  "rule": {
+                    "id": "shroud",
+                    "name": "Shroud",
+                    "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                  }
                 },
                 {
                   "id": "ef94b965a492b944cb07b4723499b1d8",
@@ -8791,16 +8846,6 @@
                     "id": "plague",
                     "name": "Plague",
                     "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
-                  }
-                },
-                {
-                  "id": "24baf4a593441f145851267024d7451b",
-                  "name": "Reality Rift",
-                  "targetId": "realityRift",
-                  "rule": {
-                    "id": "realityRift",
-                    "name": "Reality Rift",
-                    "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
                   }
                 }
               ]
@@ -10717,42 +10762,12 @@
               ]
             },
             {
-              "id": "72bf72642e62bb345a62a11a25610672",
-              "name": "Spells",
+              "id": "72bf72642e62bb345a62a11a25610672-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "regrowth",
+              "max": 1,
+              "defaultOptionId": "arcaneWeb",
               "options": [
-                {
-                  "id": "fa2aab10946ef244cb5736b7182fbd1f",
-                  "name": "Regrowth",
-                  "targetId": "regrowth",
-                  "rule": {
-                    "id": "regrowth",
-                    "name": "Regrowth",
-                    "text": "Restore D3 wounds to a Forest Spirit unit."
-                  }
-                },
-                {
-                  "id": "5ac48e04ddd20bf4ab908dec3314dcbf",
-                  "name": "Wildform",
-                  "targetId": "wildform",
-                  "rule": {
-                    "id": "wildform",
-                    "name": "Wildform",
-                    "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
-                  }
-                },
-                {
-                  "id": "1acf94cefcbd4704592bfb76ce45e42a",
-                  "name": "Divine Favour",
-                  "targetId": "divineFavour",
-                  "rule": {
-                    "id": "divineFavour",
-                    "name": "Divine Favour",
-                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-                  }
-                },
                 {
                   "id": "5c9d8d1b8d3e8214685ec8e27b3fa9d9",
                   "name": "Arcane Web",
@@ -10781,6 +10796,45 @@
                     "id": "radiantShield",
                     "name": "Radiant Shield",
                     "text": "Target unit rerolls failed damage saves for one turn."
+                  }
+                },
+                {
+                  "id": "fa2aab10946ef244cb5736b7182fbd1f",
+                  "name": "Regrowth",
+                  "targetId": "regrowth",
+                  "rule": {
+                    "id": "regrowth",
+                    "name": "Regrowth",
+                    "text": "Restore D3 wounds to a Forest Spirit unit."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "72bf72642e62bb345a62a11a25610672-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "wildform",
+              "options": [
+                {
+                  "id": "5ac48e04ddd20bf4ab908dec3314dcbf",
+                  "name": "Wildform",
+                  "targetId": "wildform",
+                  "rule": {
+                    "id": "wildform",
+                    "name": "Wildform",
+                    "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+                  }
+                },
+                {
+                  "id": "1acf94cefcbd4704592bfb76ce45e42a",
+                  "name": "Divine Favour",
+                  "targetId": "divineFavour",
+                  "rule": {
+                    "id": "divineFavour",
+                    "name": "Divine Favour",
+                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
                   }
                 },
                 {
@@ -15409,32 +15463,12 @@
               ]
             },
             {
-              "id": "0c0d4120c6c2e6943bda1e62d3617760",
-              "name": "Spells",
+              "id": "0c0d4120c6c2e6943bda1e62d3617760-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "divineFavour",
+              "max": 1,
+              "defaultOptionId": "fireball",
               "options": [
-                {
-                  "id": "cdbef34e28d1547469ebe0e6db78c5d7",
-                  "name": "Divine Favour",
-                  "targetId": "divineFavour",
-                  "rule": {
-                    "id": "divineFavour",
-                    "name": "Divine Favour",
-                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-                  }
-                },
-                {
-                  "id": "a5ed0387125103545ae2c4b22cdb63bd",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
                 {
                   "id": "e7996a0653b44784d8922a9d5c2e930d",
                   "name": "Fireball",
@@ -15466,16 +15500,6 @@
                   }
                 },
                 {
-                  "id": "6404c4e507b751b4a8500d4990905ae9",
-                  "name": "Frost Ward",
-                  "targetId": "frostWard",
-                  "rule": {
-                    "id": "frostWard",
-                    "name": "Frost Ward",
-                    "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-                  }
-                },
-                {
                   "id": "118e6149bd9e2fc43a6b9dec97332f86",
                   "name": "Reality Rift",
                   "targetId": "realityRift",
@@ -15483,6 +15507,45 @@
                     "id": "realityRift",
                     "name": "Reality Rift",
                     "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "0c0d4120c6c2e6943bda1e62d3617760-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "divineFavour",
+              "options": [
+                {
+                  "id": "cdbef34e28d1547469ebe0e6db78c5d7",
+                  "name": "Divine Favour",
+                  "targetId": "divineFavour",
+                  "rule": {
+                    "id": "divineFavour",
+                    "name": "Divine Favour",
+                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+                  }
+                },
+                {
+                  "id": "a5ed0387125103545ae2c4b22cdb63bd",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
+                  }
+                },
+                {
+                  "id": "6404c4e507b751b4a8500d4990905ae9",
+                  "name": "Frost Ward",
+                  "targetId": "frostWard",
+                  "rule": {
+                    "id": "frostWard",
+                    "name": "Frost Ward",
+                    "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
                   }
                 }
               ]
@@ -15784,10 +15847,10 @@
               ]
             },
             {
-              "id": "748a63b472e026a46ba7ef2b5b4174c4",
-              "name": "Spells",
+              "id": "748a63b472e026a46ba7ef2b5b4174c4-cantrip",
+              "name": "Cantrip",
               "min": 1,
-              "max": 2,
+              "max": 1,
               "defaultOptionId": "fieryBlades",
               "options": [
                 {
@@ -18163,10 +18226,10 @@
               ]
             },
             {
-              "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad",
-              "name": "Spells",
+              "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
               "defaultOptionId": "fireball",
               "options": [
                 {
@@ -18179,6 +18242,35 @@
                     "text": "D6 Power 5 hits. Range 30."
                   }
                 },
+                {
+                  "id": "b21f5661295f2a24e8ed66cbbe6b2050",
+                  "name": "Radiant Shield",
+                  "targetId": "radiantShield",
+                  "rule": {
+                    "id": "radiantShield",
+                    "name": "Radiant Shield",
+                    "text": "Target unit rerolls failed damage saves for one turn."
+                  }
+                },
+                {
+                  "id": "b4f1e5e8b6b142b46a2d7a60c8bfd2e4",
+                  "name": "Hex Of Ruin",
+                  "targetId": "hexOfRuin",
+                  "rule": {
+                    "id": "hexOfRuin",
+                    "name": "Hex Of Ruin",
+                    "text": "Target unit has -2 Defense for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c9a9ba9edc8e9ae4594c1e48b618e3ad-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "frostWard",
+              "options": [
                 {
                   "id": "0c2320c6af98713459b7e821227406db",
                   "name": "Frost Ward",
@@ -18207,26 +18299,6 @@
                     "id": "shadowBolt",
                     "name": "Shadow Bolt",
                     "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
-                {
-                  "id": "b21f5661295f2a24e8ed66cbbe6b2050",
-                  "name": "Radiant Shield",
-                  "targetId": "radiantShield",
-                  "rule": {
-                    "id": "radiantShield",
-                    "name": "Radiant Shield",
-                    "text": "Target unit rerolls failed damage saves for one turn."
-                  }
-                },
-                {
-                  "id": "b4f1e5e8b6b142b46a2d7a60c8bfd2e4",
-                  "name": "Hex Of Ruin",
-                  "targetId": "hexOfRuin",
-                  "rule": {
-                    "id": "hexOfRuin",
-                    "name": "Hex Of Ruin",
-                    "text": "Target unit has -2 Defense for one turn."
                   }
                 }
               ]
@@ -19588,32 +19660,12 @@
               ]
             },
             {
-              "id": "db23b16f895c7ec48ba08d089f713f5d",
-              "name": "Spells",
+              "id": "db23b16f895c7ec48ba08d089f713f5d-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "wildform",
+              "max": 1,
+              "defaultOptionId": "thousandMouths",
               "options": [
-                {
-                  "id": "3904501364d9a8b4f855554cdb35ae20",
-                  "name": "Wildform",
-                  "targetId": "wildform",
-                  "rule": {
-                    "id": "wildform",
-                    "name": "Wildform",
-                    "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
-                  }
-                },
-                {
-                  "id": "0d9c562fd590e4844825c1dae0745990",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
                 {
                   "id": "a8b28d37d8ecafe4b9b4938a6757c1b7",
                   "name": "Thousand Mouths",
@@ -19642,6 +19694,35 @@
                     "id": "primalFury",
                     "name": "Primal Fury",
                     "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "db23b16f895c7ec48ba08d089f713f5d-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "wildform",
+              "options": [
+                {
+                  "id": "3904501364d9a8b4f855554cdb35ae20",
+                  "name": "Wildform",
+                  "targetId": "wildform",
+                  "rule": {
+                    "id": "wildform",
+                    "name": "Wildform",
+                    "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+                  }
+                },
+                {
+                  "id": "0d9c562fd590e4844825c1dae0745990",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
                   }
                 },
                 {
@@ -22028,10 +22109,10 @@
               ]
             },
             {
-              "id": "d6acca64f378811419721835513b796b",
-              "name": "Spells",
+              "id": "d6acca64f378811419721835513b796b-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
               "defaultOptionId": "primalFury",
               "options": [
                 {
@@ -22055,16 +22136,6 @@
                   }
                 },
                 {
-                  "id": "1ae4225f29433624aab6a12479163ec3",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
-                  }
-                },
-                {
                   "id": "7257dbddd90673a48942a30d29a440d4",
                   "name": "Hex Of Ruin",
                   "targetId": "hexOfRuin",
@@ -22072,6 +22143,25 @@
                     "id": "hexOfRuin",
                     "name": "Hex Of Ruin",
                     "text": "Target unit has -2 Defense for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "d6acca64f378811419721835513b796b-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "shadowBolt",
+              "options": [
+                {
+                  "id": "1ae4225f29433624aab6a12479163ec3",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
                   }
                 },
                 {
@@ -24334,10 +24424,39 @@
               ]
             },
             {
-              "id": "28cc5189cb297164d80beb031d6bd0c3",
-              "name": "Spells",
+              "id": "28cc5189cb297164d80beb031d6bd0c3-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
+              "defaultOptionId": "radiantShield",
+              "options": [
+                {
+                  "id": "12abfa1f17c195644a1c2861ce1fd705",
+                  "name": "Radiant Shield",
+                  "targetId": "radiantShield",
+                  "rule": {
+                    "id": "radiantShield",
+                    "name": "Radiant Shield",
+                    "text": "Target unit rerolls failed damage saves for one turn."
+                  }
+                },
+                {
+                  "id": "7fd5b11b22fa30c42a2596cdcd118aff",
+                  "name": "Arcane Web",
+                  "targetId": "arcaneWeb",
+                  "rule": {
+                    "id": "arcaneWeb",
+                    "name": "Arcane Web",
+                    "text": "Reduce target units movement speed to 0 for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "28cc5189cb297164d80beb031d6bd0c3-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
               "defaultOptionId": "divineFavour",
               "options": [
                 {
@@ -24348,16 +24467,6 @@
                     "id": "divineFavour",
                     "name": "Divine Favour",
                     "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-                  }
-                },
-                {
-                  "id": "12abfa1f17c195644a1c2861ce1fd705",
-                  "name": "Radiant Shield",
-                  "targetId": "radiantShield",
-                  "rule": {
-                    "id": "radiantShield",
-                    "name": "Radiant Shield",
-                    "text": "Target unit rerolls failed damage saves for one turn."
                   }
                 },
                 {
@@ -24378,16 +24487,6 @@
                     "id": "shroud",
                     "name": "Shroud",
                     "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
-                  }
-                },
-                {
-                  "id": "7fd5b11b22fa30c42a2596cdcd118aff",
-                  "name": "Arcane Web",
-                  "targetId": "arcaneWeb",
-                  "rule": {
-                    "id": "arcaneWeb",
-                    "name": "Arcane Web",
-                    "text": "Reduce target units movement speed to 0 for one turn."
                   }
                 }
               ]
@@ -24608,22 +24707,12 @@
               ]
             },
             {
-              "id": "03ae40f9cbd7ae24998d39c701c7d1af",
-              "name": "Spells",
+              "id": "03ae40f9cbd7ae24998d39c701c7d1af-cantrip",
+              "name": "Cantrip",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "holyBlade",
+              "max": 1,
+              "defaultOptionId": "divineFavour",
               "options": [
-                {
-                  "id": "aed1fb8cb7784544298a6ce76cb6a24a",
-                  "name": "Holy Blade",
-                  "targetId": "holyBlade",
-                  "rule": {
-                    "id": "holyBlade",
-                    "name": "Holy Blade",
-                    "text": "Caster has +1 Power and deals double wounds against Monsters this turn."
-                  }
-                },
                 {
                   "id": "5796743eaebd3ae42955c225e3a906ed",
                   "name": "Divine Favour",
@@ -24642,6 +24731,16 @@
                     "id": "shroud",
                     "name": "Shroud",
                     "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                  }
+                },
+                {
+                  "id": "aed1fb8cb7784544298a6ce76cb6a24a",
+                  "name": "Holy Blade",
+                  "targetId": "holyBlade",
+                  "rule": {
+                    "id": "holyBlade",
+                    "name": "Holy Blade",
+                    "text": "Caster has +1 Power and deals double wounds against Monsters this turn."
                   }
                 }
               ]
@@ -25938,10 +26037,10 @@
               ]
             },
             {
-              "id": "2f4d6d1c472b3f940abdcafc8ce3caf7",
-              "name": "Spells",
+              "id": "2f4d6d1c472b3f940abdcafc8ce3caf7-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
               "defaultOptionId": "hexOfRuin",
               "options": [
                 {
@@ -25952,16 +26051,6 @@
                     "id": "hexOfRuin",
                     "name": "Hex Of Ruin",
                     "text": "Target unit has -2 Defense for one turn."
-                  }
-                },
-                {
-                  "id": "c7a0996da124d9d43abf2d513050a0e4",
-                  "name": "Shadow Bolt",
-                  "targetId": "shadowBolt",
-                  "rule": {
-                    "id": "shadowBolt",
-                    "name": "Shadow Bolt",
-                    "text": "3 x Power 3 hits. Range: 18."
                   }
                 },
                 {
@@ -25982,6 +26071,25 @@
                     "id": "primalFury",
                     "name": "Primal Fury",
                     "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "2f4d6d1c472b3f940abdcafc8ce3caf7-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "shadowBolt",
+              "options": [
+                {
+                  "id": "c7a0996da124d9d43abf2d513050a0e4",
+                  "name": "Shadow Bolt",
+                  "targetId": "shadowBolt",
+                  "rule": {
+                    "id": "shadowBolt",
+                    "name": "Shadow Bolt",
+                    "text": "3 x Power 3 hits. Range: 18."
                   }
                 },
                 {
@@ -27890,22 +27998,12 @@
               ]
             },
             {
-              "id": "b0514cd3f5ab5954792f84c313126be3",
-              "name": "Spells",
+              "id": "b0514cd3f5ab5954792f84c313126be3-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
-              "defaultOptionId": "divineFavour",
+              "max": 1,
+              "defaultOptionId": "arcaneWeb",
               "options": [
-                {
-                  "id": "b2fdba606eef12845b31e62d550ff226",
-                  "name": "Divine Favour",
-                  "targetId": "divineFavour",
-                  "rule": {
-                    "id": "divineFavour",
-                    "name": "Divine Favour",
-                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-                  }
-                },
                 {
                   "id": "a7b01acc2a77042469e3a32f883e6c7d",
                   "name": "Arcane Web",
@@ -27944,6 +28042,25 @@
                     "id": "fireball",
                     "name": "Fireball",
                     "text": "D6 Power 5 hits. Range 30."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b0514cd3f5ab5954792f84c313126be3-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "divineFavour",
+              "options": [
+                {
+                  "id": "b2fdba606eef12845b31e62d550ff226",
+                  "name": "Divine Favour",
+                  "targetId": "divineFavour",
+                  "rule": {
+                    "id": "divineFavour",
+                    "name": "Divine Favour",
+                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
                   }
                 },
                 {
@@ -28374,10 +28491,10 @@
               ]
             },
             {
-              "id": "4aff9f80935af6e4e94663c606221238",
-              "name": "Spells",
+              "id": "4aff9f80935af6e4e94663c606221238-spell",
+              "name": "Spell",
               "min": 1,
-              "max": 2,
+              "max": 1,
               "defaultOptionId": "radiantShield",
               "options": [
                 {
@@ -28388,16 +28505,6 @@
                     "id": "radiantShield",
                     "name": "Radiant Shield",
                     "text": "Target unit rerolls failed damage saves for one turn."
-                  }
-                },
-                {
-                  "id": "a1879f60b6f758d4ca37fd19c9afaf84",
-                  "name": "Divine Favour",
-                  "targetId": "divineFavour",
-                  "rule": {
-                    "id": "divineFavour",
-                    "name": "Divine Favour",
-                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
                   }
                 },
                 {
@@ -28431,26 +28538,6 @@
                   }
                 },
                 {
-                  "id": "c13716ae779203a43a8bc7977eef1162",
-                  "name": "Frost Ward",
-                  "targetId": "frostWard",
-                  "rule": {
-                    "id": "frostWard",
-                    "name": "Frost Ward",
-                    "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
-                  }
-                },
-                {
-                  "id": "37458859ae8003648af3343c8843df37",
-                  "name": "Fiery Blades",
-                  "targetId": "fieryBlades",
-                  "rule": {
-                    "id": "fieryBlades",
-                    "name": "Fiery Blades",
-                    "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
-                  }
-                },
-                {
                   "id": "d50bc1b7caf673c4ba7b3e8f76890979",
                   "name": "Reality Rift",
                   "targetId": "realityRift",
@@ -28468,6 +28555,45 @@
                     "id": "hexOfRuin",
                     "name": "Hex Of Ruin",
                     "text": "Target unit has -2 Defense for one turn."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "4aff9f80935af6e4e94663c606221238-cantrip",
+              "name": "Cantrip",
+              "min": 1,
+              "max": 1,
+              "defaultOptionId": "divineFavour",
+              "options": [
+                {
+                  "id": "a1879f60b6f758d4ca37fd19c9afaf84",
+                  "name": "Divine Favour",
+                  "targetId": "divineFavour",
+                  "rule": {
+                    "id": "divineFavour",
+                    "name": "Divine Favour",
+                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
+                  }
+                },
+                {
+                  "id": "c13716ae779203a43a8bc7977eef1162",
+                  "name": "Frost Ward",
+                  "targetId": "frostWard",
+                  "rule": {
+                    "id": "frostWard",
+                    "name": "Frost Ward",
+                    "text": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls."
+                  }
+                },
+                {
+                  "id": "37458859ae8003648af3343c8843df37",
+                  "name": "Fiery Blades",
+                  "targetId": "fieryBlades",
+                  "rule": {
+                    "id": "fieryBlades",
+                    "name": "Fiery Blades",
+                    "text": "Target unit gets +1 Power on their next Ranged or Close Combat Attack."
                   }
                 },
                 {

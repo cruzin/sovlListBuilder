@@ -1264,32 +1264,12 @@
           ]
         },
         {
-          "id": "db23b16f895c7ec48ba08d089f713f5d",
-          "name": "Spells",
+          "id": "db23b16f895c7ec48ba08d089f713f5d-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "wildform",
+          "max": 1,
+          "defaultOptionId": "thousandMouths",
           "options": [
-            {
-              "id": "3904501364d9a8b4f855554cdb35ae20",
-              "name": "Wildform",
-              "targetId": "wildform",
-              "rule": {
-                "id": "wildform",
-                "name": "Wildform",
-                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
-              }
-            },
-            {
-              "id": "0d9c562fd590e4844825c1dae0745990",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
             {
               "id": "a8b28d37d8ecafe4b9b4938a6757c1b7",
               "name": "Thousand Mouths",
@@ -1318,6 +1298,35 @@
                 "id": "primalFury",
                 "name": "Primal Fury",
                 "text": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn."
+              }
+            }
+          ]
+        },
+        {
+          "id": "db23b16f895c7ec48ba08d089f713f5d-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "wildform",
+          "options": [
+            {
+              "id": "3904501364d9a8b4f855554cdb35ae20",
+              "name": "Wildform",
+              "targetId": "wildform",
+              "rule": {
+                "id": "wildform",
+                "name": "Wildform",
+                "text": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn."
+              }
+            },
+            {
+              "id": "0d9c562fd590e4844825c1dae0745990",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
               }
             },
             {

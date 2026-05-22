@@ -1642,8 +1642,8 @@
           ]
         },
         {
-          "id": "e01a99339c822304b9670dd59ed4ccbb",
-          "name": "Spells",
+          "id": "e01a99339c822304b9670dd59ed4ccbb-cantrip",
+          "name": "Cantrip",
           "min": 1,
           "max": 1,
           "defaultOptionId": "unholyVigour",
@@ -1941,22 +1941,12 @@
           ]
         },
         {
-          "id": "62bb9db80610d28438aa63b265e909db",
-          "name": "Spells",
+          "id": "62bb9db80610d28438aa63b265e909db-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "shadowBolt",
+          "max": 1,
+          "defaultOptionId": "hexOfRuin",
           "options": [
-            {
-              "id": "fe8748e303ca5084d991c825010e1306",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
-              }
-            },
             {
               "id": "6576bb28ea7706547800ff6562ff3666",
               "name": "Hex Of Ruin",
@@ -1978,13 +1968,13 @@
               }
             },
             {
-              "id": "f779c09c1a91298419de9d711f55a7bb",
-              "name": "Shroud",
-              "targetId": "shroud",
+              "id": "153fe7ced05f60e44b4f000bdea6e043",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
               "rule": {
-                "id": "shroud",
-                "name": "Shroud",
-                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             },
             {
@@ -1996,6 +1986,35 @@
                 "name": "Unholy Vigour",
                 "text": "Increase the move speed of target Reanimated unit by 3 until its next combat."
               }
+            }
+          ]
+        },
+        {
+          "id": "62bb9db80610d28438aa63b265e909db-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "shadowBolt",
+          "options": [
+            {
+              "id": "fe8748e303ca5084d991c825010e1306",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "f779c09c1a91298419de9d711f55a7bb",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
             },
             {
               "id": "6f914eef1fbdafb4595cadc41b559322",
@@ -2005,16 +2024,6 @@
                 "id": "plague",
                 "name": "Plague",
                 "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
-              }
-            },
-            {
-              "id": "153fe7ced05f60e44b4f000bdea6e043",
-              "name": "Reality Rift",
-              "targetId": "realityRift",
-              "rule": {
-                "id": "realityRift",
-                "name": "Reality Rift",
-                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             }
           ]
@@ -2189,22 +2198,12 @@
           ]
         },
         {
-          "id": "47316e21467d89e4cb3d46d5af1bf79a",
-          "name": "Spells",
+          "id": "47316e21467d89e4cb3d46d5af1bf79a-spell",
+          "name": "Spell",
           "min": 1,
-          "max": 2,
-          "defaultOptionId": "raiseDead",
+          "max": 1,
+          "defaultOptionId": "reanimate",
           "options": [
-            {
-              "id": "2ac2e923547fd7443845b8a5c89ee31a",
-              "name": "Raise Dead",
-              "targetId": "raiseDead",
-              "rule": {
-                "id": "raiseDead",
-                "name": "Raise Dead",
-                "text": "Raise D3+3 models on a Zombie or Skeleton Warrior, Spear or Archer unit."
-              }
-            },
             {
               "id": "07001855e50a87d4caf208d82369bb8c",
               "name": "Reanimate",
@@ -2213,16 +2212,6 @@
                 "id": "reanimate",
                 "name": "Reanimate",
                 "text": "Restore D3+1 wounds to a Reanimated unit."
-              }
-            },
-            {
-              "id": "dc19e6a446f38f340ae4f0af6657920b",
-              "name": "Shadow Bolt",
-              "targetId": "shadowBolt",
-              "rule": {
-                "id": "shadowBolt",
-                "name": "Shadow Bolt",
-                "text": "3 x Power 3 hits. Range: 18."
               }
             },
             {
@@ -2236,13 +2225,13 @@
               }
             },
             {
-              "id": "5dda3f5078dcb914a909359e66dbf805",
-              "name": "Shroud",
-              "targetId": "shroud",
+              "id": "24baf4a593441f145851267024d7451b",
+              "name": "Reality Rift",
+              "targetId": "realityRift",
               "rule": {
-                "id": "shroud",
-                "name": "Shroud",
-                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+                "id": "realityRift",
+                "name": "Reality Rift",
+                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             },
             {
@@ -2254,6 +2243,45 @@
                 "name": "Unholy Vigour",
                 "text": "Increase the move speed of target Reanimated unit by 3 until its next combat."
               }
+            }
+          ]
+        },
+        {
+          "id": "47316e21467d89e4cb3d46d5af1bf79a-cantrip",
+          "name": "Cantrip",
+          "min": 1,
+          "max": 1,
+          "defaultOptionId": "raiseDead",
+          "options": [
+            {
+              "id": "2ac2e923547fd7443845b8a5c89ee31a",
+              "name": "Raise Dead",
+              "targetId": "raiseDead",
+              "rule": {
+                "id": "raiseDead",
+                "name": "Raise Dead",
+                "text": "Raise D3+3 models on a Zombie or Skeleton Warrior, Spear or Archer unit."
+              }
+            },
+            {
+              "id": "dc19e6a446f38f340ae4f0af6657920b",
+              "name": "Shadow Bolt",
+              "targetId": "shadowBolt",
+              "rule": {
+                "id": "shadowBolt",
+                "name": "Shadow Bolt",
+                "text": "3 x Power 3 hits. Range: 18."
+              }
+            },
+            {
+              "id": "5dda3f5078dcb914a909359e66dbf805",
+              "name": "Shroud",
+              "targetId": "shroud",
+              "rule": {
+                "id": "shroud",
+                "name": "Shroud",
+                "text": "Target unit counts as being in Cover against ranged attacks until it's next combat."
+              }
             },
             {
               "id": "ef94b965a492b944cb07b4723499b1d8",
@@ -2263,16 +2291,6 @@
                 "id": "plague",
                 "name": "Plague",
                 "text": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle."
-              }
-            },
-            {
-              "id": "24baf4a593441f145851267024d7451b",
-              "name": "Reality Rift",
-              "targetId": "realityRift",
-              "rule": {
-                "id": "realityRift",
-                "name": "Reality Rift",
-                "text": "Caster and retinue gains Flying and Move Speed 20 for one turn"
               }
             }
           ]
