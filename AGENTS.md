@@ -103,7 +103,7 @@ npm run deploy
 - Runtime point totals, model count clamping, unit limit warnings, category usage, and add-blocking logic live in `src/features/listBuilder/listBuilderUtils.ts`.
 - Fast category half-count logic for bats/dogs/wolves/chariots is in `getCategoryLimitWeight`, `isFastLimitCategory`, and `isHalfFastLimitUnit`.
 - Commander retinue/mount behavior is handled by `getRetinueSelection`, `getSelectedRetinueUnit`, `getRetinueCount`, and `makeRetinueListItem`.
-- Retinues/mounts should not count toward overall unit count or force category limits, but should still count toward unit-specific max limits such as a one-dragon cap.
+- Retinues/mounts should not count toward overall unit count or force category maximums. They should count toward category minimums, such as Border Patrol needing at least 2 Battle Line units, and should still count toward unit-specific max limits such as a one-dragon cap.
 
 ## Export Notes
 
