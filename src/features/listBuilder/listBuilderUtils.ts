@@ -379,6 +379,9 @@ export function getCategoryUsage(
   }
 
   for (const item of items) {
+    if (item.retinueForItemId) {
+      continue
+    }
     const unit = getUnitById(faction, item.unitId)
     if (!unit) {
       continue
@@ -527,12 +530,9 @@ export function getAddUnitBlockReason(
   }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
-  const addedUnits = [unit, ...(retinueUnit ? [retinueUnit] : [])]
   const blockedCategory = force.categoryLimits.find((limit) => {
-    const addedCount = addedUnits.reduce((total, addedUnit) => {
-      const matches = addedUnit.categoryIds.includes(limit.id) || addedUnit.categories.includes(limit.name)
-      return total + (matches ? getCategoryLimitWeight(addedUnit, limit.name) : 0)
-    }, 0)
+    const matches = unit.categoryIds.includes(limit.id) || unit.categories.includes(limit.name)
+    const addedCount = matches ? getCategoryLimitWeight(unit, limit.name) : 0
     return limit.max !== undefined && addedCount > 0 && (categoryUsage.get(limit.id) ?? 0) + addedCount > limit.max
   })
 
