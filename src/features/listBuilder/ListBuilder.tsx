@@ -40,6 +40,7 @@ export function ListBuilder() {
     useLocalArmyList(defaultFactionId)
   const faction = factions.find((item) => item.id === factionId) ?? factions[0]
   const force = getForceById(faction, forceId)
+  const [isFactionRailCollapsed, setIsFactionRailCollapsed] = useState(false)
   const [selectedUnitId, setSelectedUnitId] = useState(faction?.units[0]?.id ?? '')
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
@@ -145,11 +146,24 @@ export function ListBuilder() {
   }
 
   return (
-    <main className="app-shell">
+    <main className={isFactionRailCollapsed ? 'app-shell faction-rail-collapsed' : 'app-shell'}>
       <aside className="faction-rail" aria-label="Factions">
         <div className="brand-block">
-          <span className="eyebrow">SOVL</span>
-          <h1>List Builder</h1>
+          {!isFactionRailCollapsed && (
+            <div>
+              <span className="eyebrow">SOVL</span>
+              <h1>List Builder</h1>
+            </div>
+          )}
+          <button
+            aria-label={isFactionRailCollapsed ? 'Expand faction selector' : 'Collapse faction selector'}
+            className="rail-toggle"
+            onClick={() => setIsFactionRailCollapsed((current) => !current)}
+            title={isFactionRailCollapsed ? 'Expand factions' : 'Collapse factions'}
+            type="button"
+          >
+            {isFactionRailCollapsed ? '>' : '<'}
+          </button>
         </div>
         <div className="faction-list">
           {factions.map((item) => (
@@ -157,8 +171,10 @@ export function ListBuilder() {
               className={item.id === faction?.id ? 'faction-button active' : 'faction-button'}
               key={item.id}
               onClick={() => handleFactionChange(item.id)}
+              title={item.name}
               type="button"
             >
+              <img alt="" src={publicAssetUrl(getFactionIcon(item)?.iconUrl)} />
               <span>{item.name}</span>
               <strong>{item.units.length}</strong>
             </button>
@@ -315,6 +331,10 @@ export function ListBuilder() {
       </aside>
     </main>
   )
+}
+
+function getFactionIcon(faction: CatalogueFaction): CatalogueUnit | undefined {
+  return faction.units.find((unit) => unit.categories.includes('Commanders') && unit.iconUrl) ?? faction.units[0]
 }
 
 function groupUnitsBySection(units: CatalogueUnit[]): UnitSection[] {
