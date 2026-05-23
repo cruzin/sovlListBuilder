@@ -372,6 +372,7 @@ export function getCategoryUsage(
   faction: CatalogueFaction | undefined,
   items: ArmyListItem[],
   force: ForceFormat | undefined,
+  options: { countRetinues?: boolean } = {},
 ): Map<string, number> {
   const usage = new Map<string, number>()
   if (!faction || !force) {
@@ -379,7 +380,7 @@ export function getCategoryUsage(
   }
 
   for (const item of items) {
-    if (item.retinueForItemId) {
+    if (item.retinueForItemId && !options.countRetinues) {
       continue
     }
     const unit = getUnitById(faction, item.unitId)
@@ -432,14 +433,16 @@ export function getArmyLimitWarnings(
   }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
+  const categoryMinimumUsage = getCategoryUsage(faction, items, force, { countRetinues: true })
   for (const limit of force.categoryLimits) {
-    const current = categoryUsage.get(limit.id) ?? 0
-    if (limit.min !== undefined && current < limit.min) {
-      const needed = limit.min - current
+    const currentForMinimum = categoryMinimumUsage.get(limit.id) ?? 0
+    const currentForMaximum = categoryUsage.get(limit.id) ?? 0
+    if (limit.min !== undefined && currentForMinimum < limit.min) {
+      const needed = limit.min - currentForMinimum
       warnings.push(`${limit.name} needs ${formatCount(needed)} more selection${needed === 1 ? '' : 's'}.`)
     }
-    if (limit.max !== undefined && current > limit.max) {
-      warnings.push(`${limit.name} has ${formatCount(current)}; maximum is ${formatCount(limit.max)}.`)
+    if (limit.max !== undefined && currentForMaximum > limit.max) {
+      warnings.push(`${limit.name} has ${formatCount(currentForMaximum)}; maximum is ${formatCount(limit.max)}.`)
     }
   }
 

@@ -74,6 +74,7 @@ export function ListBuilder() {
   const unitCount = getOverallUnitCount(items)
   const limitWarnings = getArmyLimitWarnings(faction, items, force)
   const categoryUsage = getCategoryUsage(faction, items, force)
+  const categoryMinimumUsage = getCategoryUsage(faction, items, force, { countRetinues: true })
 
   useEffect(() => {
     if (!faction || !force) {
@@ -305,8 +306,9 @@ export function ListBuilder() {
           <div className="limit-summary" aria-label={`${force.name} limits`}>
             {force.categoryLimits.map((limit) => {
               const current = categoryUsage.get(limit.id) ?? 0
+              const currentForMinimum = categoryMinimumUsage.get(limit.id) ?? 0
               const isOver = limit.max !== undefined && current > limit.max
-              const isUnder = limit.min !== undefined && current < limit.min
+              const isUnder = limit.min !== undefined && currentForMinimum < limit.min
               return (
                 <span className={isOver || isUnder ? 'limit-chip warning' : 'limit-chip'} key={limit.id}>
                   {limit.name}: {formatCount(current)}
