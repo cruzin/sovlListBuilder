@@ -21,6 +21,7 @@ export type UnitOption = {
   name: string
   targetId?: string
   points?: number
+  pointsPerModel?: number
   rule?: CatalogueRule
 }
 
@@ -79,6 +80,11 @@ export type ForceModelOverride = {
   defaultCount?: number
 }
 
+export type ForceUnitLimit = {
+  unitId: string
+  max?: number
+}
+
 export type ForceFormat = {
   id: string
   name: string
@@ -86,6 +92,7 @@ export type ForceFormat = {
   unitLimit?: number
   categoryLimits: ForceCategoryLimit[]
   modelOverrides?: ForceModelOverride[]
+  unitLimits?: ForceUnitLimit[]
   source?: 'catalogue' | 'derived'
   derivedFrom?: string
 }

@@ -79,6 +79,11 @@ npm run preview
 npm run deploy
 ```
 
+## Temporary balance hotfixes
+
+Temporary balance overrides live in `scripts/applyTemporaryBalanceHotfixes.ts` and are applied from `scripts/generateData.ts` only for the known stale SOVLDataCatalogue source revision.
+
+Use this path for short-lived manual balance changes instead of hand-editing `src/data/generated`. When the upstream catalogue updates, the revision guard should stop applying the temporary overrides so freshly scraped/generated data wins.
 ## Current project map
 
 - `scripts/generateData.ts` is the entry point for generated frontend data.

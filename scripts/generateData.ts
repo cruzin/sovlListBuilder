@@ -6,6 +6,7 @@ import { ensureDataCatalogue } from './fetchDataCatalogue.ts'
 import { parseCatalogueDirectory } from './parseCatalogue.ts'
 import { assetKey, scrapeRulesSite } from './scrapeRulesSite.ts'
 import { downloadRulesAssets } from './downloadRulesAssets.ts'
+import { applyTemporaryBalanceHotfixes } from './applyTemporaryBalanceHotfixes.ts'
 
 const execFileAsync = promisify(execFile)
 
@@ -15,6 +16,7 @@ const rulesAssets = await scrapeRulesSite()
 const localRulesAssets = await downloadRulesAssets(rulesAssets.units)
 const localRulesAssetsByUnit = new Map(localRulesAssets.map((unit) => [assetKey(unit.factionName, unit.unitName), unit]))
 const catalogue = await parseCatalogueDirectory(catalogueDir, revision, localRulesAssetsByUnit)
+const appliedTemporaryBalanceHotfixes = applyTemporaryBalanceHotfixes(catalogue)
 const outputDir = path.join('src', 'data', 'generated')
 
 await mkdir(outputDir, { recursive: true })
@@ -36,6 +38,9 @@ const warnings = catalogue.warnings.concat(rulesAssets.warnings, factionWarnings
 console.log(
   `Generated ${catalogue.factions.length} factions, ${unitCount} units, and ${localRulesAssets.length} local unit asset records into ${outputDir}`,
 )
+if (appliedTemporaryBalanceHotfixes) {
+  console.warn('Applied temporary balance hotfixes; remove once upstream catalogue data includes these changes.')
+}
 if (warnings.length > 0) {
   console.warn(`Generated with ${warnings.length} warnings`)
   for (const warning of warnings.slice(0, 25)) {
