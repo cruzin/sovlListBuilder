@@ -21,6 +21,7 @@ export type UnitOption = {
   name: string
   targetId?: string
   points?: number
+  pointsPerModel?: number
   rule?: CatalogueRule
 }
 

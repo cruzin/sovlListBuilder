@@ -999,7 +999,7 @@
               "id": "144a9d9060459b84c82c98dc61c52ed6",
               "name": "Lance and Shield",
               "targetId": "lanceShield",
-              "points": 1,
+              "pointsPerModel": 1,
               "rule": {
                 "id": "lanceShield",
                 "name": "Lance and Shield",
@@ -1281,7 +1281,27 @@
           "text": "+1 Movement"
         }
       ],
-      "optionGroups": [],
+      "optionGroups": [
+        {
+          "id": "d97aa1a4edc1a7c4199d7e853a365d15-optional",
+          "name": "Optional Upgrade",
+          "min": 0,
+          "max": 1,
+          "options": [
+            {
+              "id": "d97aa1a4edc1a7c4199d7e853a365d15",
+              "name": "Bows",
+              "targetId": "chariotBows",
+              "pointsPerModel": 5,
+              "rule": {
+                "id": "chariotBows",
+                "name": "Bows",
+                "text": "Range: 20. 2x Power 3."
+              }
+            }
+          ]
+        }
+      ],
       "iconUrl": "generated/unit-assets/icons/DarkbornElves/DarkbornChariot.png",
       "imageUrl": "generated/unit-assets/images/DarkbornElves/DarkbornChariot.png",
       "rawSource": {
@@ -1636,7 +1656,7 @@
               "id": "cfd365f3d751ed748aea53f78c096156",
               "name": "Greatweapon",
               "targetId": "greatweapon",
-              "points": 5,
+              "pointsPerModel": 5,
               "rule": {
                 "id": "greatweapon",
                 "name": "Greatweapon",
@@ -1647,7 +1667,7 @@
               "id": "9684471f5d20446449a781a37852f831",
               "name": "Two Hand Weapons",
               "targetId": "2CCW",
-              "points": 5,
+              "pointsPerModel": 5,
               "rule": {
                 "id": "2CCW",
                 "name": "Two Hand Weapons",
@@ -1666,7 +1686,7 @@
               "id": "c1cfeb1f3e3b6454581dc8d27b9c2306",
               "name": "Vitality",
               "targetId": "vitality",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "vitality",
                 "name": "Vitality",
@@ -1677,7 +1697,7 @@
               "id": "caaae13d03ec95649acce1504d77f6a8",
               "name": "Unyielding",
               "targetId": "unyielding",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "unyielding",
                 "name": "Unyielding",
@@ -1688,7 +1708,7 @@
               "id": "3fa4d70acebc0654ca6670a15e964e7a",
               "name": "Command",
               "targetId": "command",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "command",
                 "name": "Command",
@@ -1699,7 +1719,7 @@
               "id": "afd50b0653f37ef499b310862da8f288",
               "name": "Prowess",
               "targetId": "prowess",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "prowess",
                 "name": "Prowess",
@@ -1710,7 +1730,7 @@
               "id": "31eaea225a88ace479160c3a0e59ab69",
               "name": "Unnatural Power",
               "targetId": "unaturalPower",
-              "points": 20,
+              "pointsPerModel": 20,
               "rule": {
                 "id": "unaturalPower",
                 "name": "Unnatural Power",
@@ -1721,7 +1741,7 @@
               "id": "216044faca805624997b48f6c8e71623",
               "name": "Potion of Power",
               "targetId": "potionOfPower",
-              "points": 25,
+              "pointsPerModel": 25,
               "rule": {
                 "id": "potionOfPower",
                 "name": "Potion of Power",
@@ -1740,7 +1760,7 @@
               "id": "57a43c5b097d2de4594549043ce64ef8",
               "name": "Cruelty",
               "targetId": "cruelty",
-              "points": 20,
+              "pointsPerModel": 20,
               "rule": {
                 "id": "cruelty",
                 "name": "Cruelty",
@@ -1751,7 +1771,7 @@
               "id": "b95b50378979cf648b469221c597d353",
               "name": "Flametongue",
               "targetId": "flametounge",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "flametounge",
                 "name": "Flametongue",
@@ -1762,7 +1782,7 @@
               "id": "a074652a06283164a9e9cbf5364fbf16",
               "name": "Relentless",
               "targetId": "relentless",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "relentless",
                 "name": "Relentless",
@@ -1773,7 +1793,7 @@
               "id": "570d7178144f6f243a5dab57b213802e",
               "name": "Heart Seeker",
               "targetId": "heartSeeker",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "heartSeeker",
                 "name": "Heart Seeker",
@@ -1784,7 +1804,7 @@
               "id": "2c44b77a50375bc4880aa512896ccc49",
               "name": "True Strike",
               "targetId": "trueStrike",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "trueStrike",
                 "name": "True Strike",
@@ -1925,7 +1945,7 @@
               "id": "0094f52eac15d3d4bbbcaa6ef95ff3de",
               "name": "Vitality",
               "targetId": "vitality",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "vitality",
                 "name": "Vitality",
@@ -1936,7 +1956,7 @@
               "id": "373e0e458a09ff849b3e7c89f42835f1",
               "name": "Unyielding",
               "targetId": "unyielding",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "unyielding",
                 "name": "Unyielding",
@@ -1947,7 +1967,7 @@
               "id": "e03eb1838e46737459144c895cec41fd",
               "name": "Command",
               "targetId": "command",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "command",
                 "name": "Command",
@@ -1958,7 +1978,7 @@
               "id": "7a809c5655028474ca26a272df958001",
               "name": "Prowess",
               "targetId": "prowess",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "prowess",
                 "name": "Prowess",
@@ -1969,7 +1989,7 @@
               "id": "e984ad91b4bbb18428ba3d4e6ea034c5",
               "name": "Unnatural Power",
               "targetId": "unaturalPower",
-              "points": 20,
+              "pointsPerModel": 20,
               "rule": {
                 "id": "unaturalPower",
                 "name": "Unnatural Power",
@@ -1980,7 +2000,7 @@
               "id": "f831f4fd9b089bd4f9c60cee3bede2cd",
               "name": "Potion of Power",
               "targetId": "potionOfPower",
-              "points": 25,
+              "pointsPerModel": 25,
               "rule": {
                 "id": "potionOfPower",
                 "name": "Potion of Power",
@@ -2211,7 +2231,7 @@
               "id": "bc05c8548ef0e9640a6f0a30d8fdb623",
               "name": "Vitality",
               "targetId": "vitality",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "vitality",
                 "name": "Vitality",
@@ -2222,7 +2242,7 @@
               "id": "382874268666c08498c5609efda29066",
               "name": "Unyielding",
               "targetId": "unyielding",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "unyielding",
                 "name": "Unyielding",
@@ -2233,7 +2253,7 @@
               "id": "c9e6ecff3af68724d8ca946f09be83c3",
               "name": "Command",
               "targetId": "command",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "command",
                 "name": "Command",
@@ -2244,7 +2264,7 @@
               "id": "dbefe1770fd9847468f65b8460140d5b",
               "name": "Prowess",
               "targetId": "prowess",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "prowess",
                 "name": "Prowess",
@@ -2255,7 +2275,7 @@
               "id": "ddb735c64c314e6459bce0a74c801746",
               "name": "Unnatural Power",
               "targetId": "unaturalPower",
-              "points": 20,
+              "pointsPerModel": 20,
               "rule": {
                 "id": "unaturalPower",
                 "name": "Unnatural Power",
@@ -2266,7 +2286,7 @@
               "id": "0d753646e20bdca45bd04f96044b463b",
               "name": "Potion of Power",
               "targetId": "potionOfPower",
-              "points": 25,
+              "pointsPerModel": 25,
               "rule": {
                 "id": "potionOfPower",
                 "name": "Potion of Power",
@@ -2285,7 +2305,7 @@
               "id": "edcf6cc3862686f4b95a06b6d85f8ba2",
               "name": "Cruelty",
               "targetId": "cruelty",
-              "points": 20,
+              "pointsPerModel": 20,
               "rule": {
                 "id": "cruelty",
                 "name": "Cruelty",
@@ -2296,7 +2316,7 @@
               "id": "19bca5e8b86ef024594e1238f3794e56",
               "name": "Flametongue",
               "targetId": "flametounge",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "flametounge",
                 "name": "Flametongue",
@@ -2307,7 +2327,7 @@
               "id": "328f83d376d525341927efb2f6d139b6",
               "name": "Relentless",
               "targetId": "relentless",
-              "points": 15,
+              "pointsPerModel": 15,
               "rule": {
                 "id": "relentless",
                 "name": "Relentless",
@@ -2318,7 +2338,7 @@
               "id": "5932d45395854064da651abd103614c9",
               "name": "Heart Seeker",
               "targetId": "heartSeeker",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "heartSeeker",
                 "name": "Heart Seeker",
@@ -2329,7 +2349,7 @@
               "id": "60b7381c7deba1f4bb00c58461127325",
               "name": "True Strike",
               "targetId": "trueStrike",
-              "points": 10,
+              "pointsPerModel": 10,
               "rule": {
                 "id": "trueStrike",
                 "name": "True Strike",

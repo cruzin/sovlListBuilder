@@ -171,9 +171,10 @@ function parseUnit(
     .map((link) => resolveRule(link, sharedRules))
     .filter((rule): rule is CatalogueRule => Boolean(rule))
   const unitName = entry.attributes.name ?? entry.attributes.id ?? 'Unknown unit'
-  const optionGroups = childrenNamed(firstChild(entry, 'selectionEntryGroups'), 'selectionEntryGroup').flatMap((group) =>
+  const groupedOptions = childrenNamed(firstChild(entry, 'selectionEntryGroups'), 'selectionEntryGroup').flatMap((group) =>
     parseOptionGroup(group, sharedRules, unitName),
   )
+  const optionGroups = [...groupedOptions, ...parseDirectOptionalUpgradeGroups(directRuleLinks, sharedRules)]
   const asset = unitAssets?.get(unitAssetKey(factionName, unitName))
 
   if (!entry.attributes.id) {
@@ -431,11 +432,12 @@ function parseOptionGroup(group: XmlNode, sharedRules: SharedIndex, unitName: st
   const maxConstraint = constraints.find((constraint) => constraint.attributes.type === 'max')
   const options = childrenNamed(firstChild(group, 'entryLinks'), 'entryLink').map((link) => {
     const rule = resolveRule(link, sharedRules)
+    const points = extractModifierPoints(link)
     return {
       id: link.attributes.id ?? link.attributes.targetId ?? link.attributes.name ?? 'unknown-option',
       name: link.attributes.name ?? rule?.name ?? 'Unknown option',
       targetId: link.attributes.targetId,
-      points: extractModifierPoints(link),
+      ...points,
       rule,
     }
   })
@@ -453,6 +455,44 @@ function parseOptionGroup(group: XmlNode, sharedRules: SharedIndex, unitName: st
   }
 
   return splitSpellOptionGroup(optionGroup, unitName)
+}
+
+function parseDirectOptionalUpgradeGroups(links: XmlNode[], sharedRules: SharedIndex): UnitOptionGroup[] {
+  return links
+    .filter((link) => isOptionalPaidDirectLink(link))
+    .map((link) => {
+      const rule = resolveRule(link, sharedRules)
+      return {
+        id: `${link.attributes.id ?? link.attributes.targetId ?? link.attributes.name ?? 'unknown-option'}-optional`,
+        name: 'Optional Upgrade',
+        min: 0,
+        max: 1,
+        options: [
+          {
+            id: link.attributes.id ?? link.attributes.targetId ?? link.attributes.name ?? 'unknown-option',
+            name: link.attributes.name ?? rule?.name ?? 'Unknown option',
+            targetId: link.attributes.targetId,
+            ...extractModifierPoints(link),
+            rule,
+          },
+        ],
+      }
+    })
+}
+
+function isOptionalPaidDirectLink(link: XmlNode): boolean {
+  const constraints = childrenNamed(firstChild(link, 'constraints'), 'constraint')
+  const min = constraints
+    .filter((constraint) => constraint.attributes.type === 'min')
+    .map((constraint) => parseNumber(constraint.attributes.value))
+    .find((value): value is number => value !== undefined)
+  const max = constraints
+    .filter((constraint) => constraint.attributes.type === 'max')
+    .map((constraint) => parseNumber(constraint.attributes.value))
+    .find((value): value is number => value !== undefined)
+  const points = extractModifierPoints(link)
+
+  return (min === undefined || min === 0) && max === 1 && (points.points !== undefined || points.pointsPerModel !== undefined)
 }
 
 function splitSpellOptionGroup(group: UnitOptionGroup, unitName: string): UnitOptionGroup[] {
@@ -528,11 +568,18 @@ function extractPoints(entry: XmlNode): number | undefined {
   return parseNumber(pointCost?.attributes.value)
 }
 
-function extractModifierPoints(entry: XmlNode): number | undefined {
+function extractModifierPoints(entry: XmlNode): { points?: number; pointsPerModel?: number } {
   const modifier = childrenNamed(firstChild(entry, 'modifiers'), 'modifier').find(
     (item) => item.attributes.field === POINTS_TYPE_ID,
   )
-  return parseNumber(modifier?.attributes.value)
+  const value = parseNumber(modifier?.attributes.value)
+  if (value === undefined) {
+    return {}
+  }
+  const repeatsPerModel = childrenNamed(firstChild(modifier, 'repeats'), 'repeat').some(
+    (repeat) => repeat.attributes.childId === 'model',
+  )
+  return repeatsPerModel ? { pointsPerModel: value } : { points: value }
 }
 
 function parseNumber(value: string | undefined): number | undefined {

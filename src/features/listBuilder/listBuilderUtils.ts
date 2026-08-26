@@ -5,16 +5,16 @@ export function getUnitBaseCost(unit: CatalogueUnit, count = unit.model?.default
   return (unit.model?.pointsPerModel ?? 0) * count
 }
 
-export function getSelectedOptionCost(unit: CatalogueUnit, selectedOptions: SelectedOption[]): number {
+export function getSelectedOptionCost(unit: CatalogueUnit, selectedOptions: SelectedOption[], count = 1): number {
   return selectedOptions.reduce((total, selected) => {
     const group = unit.optionGroups.find((item) => item.id === selected.groupId)
     const option = group?.options.find((item) => item.id === selected.optionId)
-    return total + (option?.points ?? 0)
+    return total + (option?.points ?? 0) + (option?.pointsPerModel ?? 0) * count
   }, 0)
 }
 
 export function getListItemCost(unit: CatalogueUnit, item: ArmyListItem): number {
-  return getUnitBaseCost(unit, item.count) + getSelectedOptionCost(unit, item.selectedOptions)
+  return getUnitBaseCost(unit, item.count) + getSelectedOptionCost(unit, item.selectedOptions, item.count)
 }
 
 export function getEffectiveModel(unit: CatalogueUnit, force?: ForceFormat): UnitModel | undefined {
@@ -92,6 +92,16 @@ export function formatPoints(points: number): string {
   return `${points} pts`
 }
 
+export function formatOptionCost(option: { points?: number; pointsPerModel?: number }): string {
+  if (option.pointsPerModel !== undefined && option.pointsPerModel !== 0) {
+    return ` (+${option.pointsPerModel}/model)`
+  }
+  if (option.points !== undefined && option.points !== 0) {
+    return ` (+${option.points})`
+  }
+  return ''
+}
+
 export function formatCount(count: number): string {
   return Number.isInteger(count) ? String(count) : count.toFixed(1)
 }
@@ -124,7 +134,7 @@ export function exportArmyList(faction: CatalogueFaction, items: ArmyListItem[],
       const group = unit.optionGroups.find((optionGroup) => optionGroup.id === selected.groupId)
       const option = group?.options.find((candidate) => candidate.id === selected.optionId)
       if (group && option) {
-        lines.push(`  ${group.name}: ${option.name}${option.points ? ` (+${option.points})` : ''}`)
+        lines.push(`  ${group.name}: ${option.name}${formatOptionCost(option)}`)
       }
     }
   }

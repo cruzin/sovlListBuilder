@@ -7,6 +7,7 @@ import {
   clampModelCount,
   exportArmyList,
   formatCount,
+  formatOptionCost,
   formatPoints,
   getAddUnitBlockReason,
   getArmyLimitWarnings,
@@ -506,7 +507,7 @@ function ArmyListCard({
             {group.options.map((option) => (
               <option key={option.id} value={option.id}>
                 {option.name}
-                {option.points ? ` (+${option.points})` : ''}
+                {formatOptionCost(option)}
               </option>
             ))}
           </select>

@@ -124,7 +124,18 @@ function setOptionPoints(
   for (const group of unit?.optionGroups ?? []) {
     for (const option of group.options) {
       if (option.targetId === targetId) {
-        option.points = points
+        if (points === 0) {
+          delete option.points
+          delete option.pointsPerModel
+          continue
+        }
+        if (option.pointsPerModel !== undefined) {
+          option.pointsPerModel = points
+          delete option.points
+        } else {
+          option.points = points
+          delete option.pointsPerModel
+        }
       }
     }
   }
