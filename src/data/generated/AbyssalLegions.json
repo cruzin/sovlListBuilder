@@ -1270,7 +1270,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 150
+        "pointsPerModel": 125
       },
       "stats": {
         "skill": "5",

@@ -68,7 +68,17 @@
         }
       ],
       "source": "derived",
-      "derivedFrom": "Warband"
+      "derivedFrom": "Warband",
+      "unitLimits": [
+        {
+          "unitId": "huntingDogs",
+          "max": 1
+        },
+        {
+          "unitId": "peasants",
+          "max": 1
+        }
+      ]
     },
     {
       "id": "warband",
@@ -106,7 +116,17 @@
           "max": 1
         }
       ],
-      "source": "catalogue"
+      "source": "catalogue",
+      "unitLimits": [
+        {
+          "unitId": "huntingDogs",
+          "max": 1
+        },
+        {
+          "unitId": "peasants",
+          "max": 1
+        }
+      ]
     },
     {
       "id": "battalion",
@@ -1332,7 +1352,7 @@
         "defaultCount": 6,
         "minCount": 5,
         "maxCount": 5,
-        "pointsPerModel": 25
+        "pointsPerModel": 28
       },
       "stats": {
         "skill": "5",
@@ -1721,7 +1741,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 35
+        "pointsPerModel": 45
       },
       "stats": {
         "skill": "4",
@@ -2152,16 +2172,6 @@
           "max": 1,
           "defaultOptionId": "divineFavour",
           "options": [
-            {
-              "id": "5796743eaebd3ae42955c225e3a906ed",
-              "name": "Divine Favour",
-              "targetId": "divineFavour",
-              "rule": {
-                "id": "divineFavour",
-                "name": "Divine Favour",
-                "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-              }
-            },
             {
               "id": "6f0417182c6d8254f9bed6087e00573a",
               "name": "Shroud",

@@ -147,6 +147,10 @@ export function getUnitSelectionCount(items: ArmyListItem[], unitId: string): nu
   return items.filter((item) => item.unitId === unitId).length
 }
 
+export function getUnitSelectionLimit(unit: CatalogueUnit, force?: ForceFormat): number | undefined {
+  return force?.unitLimits?.find((limit) => limit.unitId === unit.id)?.max ?? unit.maxSelections
+}
+
 export function getOverallUnitCount(items: ArmyListItem[]): number {
   return items.filter((item) => !item.retinueForItemId).length
 }
@@ -225,8 +229,9 @@ export function getArmyLimitWarnings(
 
   for (const unit of faction.units) {
     const current = getUnitSelectionCount(items, unit.id)
-    if (unit.maxSelections !== undefined && current > unit.maxSelections) {
-      warnings.push(`${unit.name} has ${current}; maximum is ${unit.maxSelections}.`)
+    const maxSelections = getUnitSelectionLimit(unit, force)
+    if (maxSelections !== undefined && current > maxSelections) {
+      warnings.push(`${unit.name} has ${current}; maximum is ${maxSelections}.`)
     }
   }
 
@@ -284,8 +289,9 @@ export function getAddUnitBlockReason(
     return undefined
   }
 
-  if (unit.maxSelections !== undefined && getUnitSelectionCount(items, unit.id) >= unit.maxSelections) {
-    return `${unit.name} is limited to ${unit.maxSelections}.`
+  const maxSelections = getUnitSelectionLimit(unit, force)
+  if (maxSelections !== undefined && getUnitSelectionCount(items, unit.id) >= maxSelections) {
+    return `${unit.name} is limited to ${maxSelections}.`
   }
 
   const previewItem: ArmyListItem = {
@@ -323,11 +329,13 @@ export function getAddUnitBlockReason(
     return `${blockedCategory.name} is limited to ${blockedCategory.max}.`
   }
 
+  const retinueMaxSelections = retinueUnit ? getUnitSelectionLimit(retinueUnit, force) : undefined
   if (
-    retinueUnit?.maxSelections !== undefined &&
-    getUnitSelectionCount(items, retinueUnit.id) >= retinueUnit.maxSelections
+    retinueUnit &&
+    retinueMaxSelections !== undefined &&
+    getUnitSelectionCount(items, retinueUnit.id) >= retinueMaxSelections
   ) {
-    return `${retinueUnit.name} is limited to ${retinueUnit.maxSelections}.`
+    return `${retinueUnit.name} is limited to ${retinueMaxSelections}.`
   }
 
   return undefined

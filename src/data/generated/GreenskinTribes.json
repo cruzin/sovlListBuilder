@@ -25,7 +25,7 @@
           "id": "Raiders",
           "name": "Raiders",
           "min": 0,
-          "max": 1
+          "max": 2
         },
         {
           "id": "Ranged Support",
@@ -195,7 +195,7 @@
         "defaultCount": 10,
         "minCount": 9,
         "maxCount": 24,
-        "pointsPerModel": 7
+        "pointsPerModel": 6
       },
       "stats": {
         "skill": "3",

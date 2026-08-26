@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T10:05:45.878Z",
+  "generatedAt": "2026-08-26T10:16:08.163Z",
   "source": {
     "repository": "https://github.com/Perwahl/SOVLDataCatalogue",
     "revision": "3ebcc16f28c37150a631fddda797c3779b5a925f"
@@ -219,7 +219,7 @@
             {
               "id": "giftOfTrickery",
               "name": "Gift Of Trickery",
-              "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+              "text": "Favoured by Trickery. Unit has Ambush Deployment, +1 Move Speed, and may flee from charges even if Fearless."
             }
           ],
           "optionGroups": [
@@ -879,7 +879,7 @@
             {
               "id": "giftOfTrickery",
               "name": "Gift Of Trickery",
-              "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+              "text": "Favoured by Trickery. Unit has Ambush Deployment, +1 Move Speed, and may flee from charges even if Fearless."
             },
             {
               "id": "demonic",
@@ -3256,7 +3256,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -4383,7 +4383,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 20,
-            "pointsPerModel": 8
+            "pointsPerModel": 7
           },
           "stats": {
             "skill": "4",
@@ -5091,7 +5091,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 65
+            "pointsPerModel": 50
           },
           "stats": {
             "skill": "4",
@@ -5309,7 +5309,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 18
+            "pointsPerModel": 17
           },
           "stats": {
             "skill": "4",
@@ -5568,7 +5568,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 18
+            "pointsPerModel": 12
           },
           "stats": {
             "skill": "3",
@@ -5622,7 +5622,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -7882,7 +7882,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -9047,7 +9047,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 20,
-            "pointsPerModel": 8
+            "pointsPerModel": 7
           },
           "stats": {
             "skill": "4",
@@ -9735,7 +9735,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 18
+            "pointsPerModel": 17
           },
           "stats": {
             "skill": "4",
@@ -10203,7 +10203,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -11252,7 +11252,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 24,
-            "pointsPerModel": 7
+            "pointsPerModel": 6
           },
           "stats": {
             "skill": "3",
@@ -12040,10 +12040,12 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Cannon",
           "categories": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "categoryIds": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "maxSelections": 1,
           "rulesUnitType": "War Machine",
@@ -12105,10 +12107,12 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Bolt Thrower",
           "categories": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "categoryIds": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "maxSelections": 1,
           "rulesUnitType": "War Machine",
@@ -12170,10 +12174,12 @@
           "factionId": "DwarfHolds",
           "name": "Dwarf Stonethrower",
           "categories": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "categoryIds": [
-            "Ranged Support"
+            "Ranged Support",
+            "Machines of War"
           ],
           "maxSelections": 1,
           "rulesUnitType": "War Machine",
@@ -12915,7 +12921,7 @@
             {
               "id": "marksmanRifle",
               "name": "Marksman Rifle",
-              "text": "Range 48. 2x Power 4."
+              "text": "1x shots. Re-rolls missed ranged Attack rolls."
             },
             {
               "id": "sturdy",
@@ -13575,7 +13581,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 20,
-            "pointsPerModel": 8
+            "pointsPerModel": 7
           },
           "stats": {
             "skill": "4",
@@ -13840,7 +13846,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 17,
-            "pointsPerModel": 11
+            "pointsPerModel": 10
           },
           "stats": {
             "skill": "5",
@@ -14283,7 +14289,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 60
+            "pointsPerModel": 50
           },
           "stats": {
             "skill": "4",
@@ -14481,7 +14487,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 17
+            "pointsPerModel": 16
           },
           "stats": {
             "skill": "4",
@@ -14900,7 +14906,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -15929,7 +15935,7 @@
               "id": "Fast Attack",
               "name": "Fast Attack",
               "min": 0,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Ranged Support",
@@ -16271,7 +16277,7 @@
                   "id": "8c71be6558644a244a4add423bb971d3",
                   "name": "Greatweapon",
                   "targetId": "greatweapon",
-                  "points": 1,
+                  "points": 0,
                   "rule": {
                     "id": "greatweapon",
                     "name": "Greatweapon",
@@ -16678,7 +16684,7 @@
                   "id": "901c48e2d45ecda4f8ef9fcaab4bbed3",
                   "name": "Greatweapon",
                   "targetId": "greatweapon",
-                  "points": 1,
+                  "points": 0,
                   "rule": {
                     "id": "greatweapon",
                     "name": "Greatweapon",
@@ -16689,7 +16695,7 @@
                   "id": "5d72f15efc68ce24a8ea6a8dde6651c4",
                   "name": "Lance and Shield",
                   "targetId": "lanceShield",
-                  "points": 2,
+                  "points": 1,
                   "rule": {
                     "id": "lanceShield",
                     "name": "Lance and Shield",
@@ -16802,7 +16808,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 19
+            "pointsPerModel": 18
           },
           "stats": {
             "skill": "3",
@@ -17291,10 +17297,12 @@
           "factionId": "EmpiresOfMen",
           "name": "Imperial Cannon",
           "categories": [
-            "Ranged Support"
+            "Ranged Support",
+            "Imperial Armory"
           ],
           "categoryIds": [
-            "Ranged Support"
+            "Ranged Support",
+            "Imperial Armory"
           ],
           "maxSelections": 1,
           "rulesUnitType": "War Machine",
@@ -17304,7 +17312,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 60
+            "pointsPerModel": 55
           },
           "stats": {
             "skill": "3",
@@ -17356,10 +17364,12 @@
           "factionId": "EmpiresOfMen",
           "name": "Imperial Mortar",
           "categories": [
-            "Ranged Support"
+            "Ranged Support",
+            "Imperial Armory"
           ],
           "categoryIds": [
-            "Ranged Support"
+            "Ranged Support",
+            "Imperial Armory"
           ],
           "maxSelections": 1,
           "rulesUnitType": "War Machine",
@@ -17369,7 +17379,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 55
+            "pointsPerModel": 50
           },
           "stats": {
             "skill": "3",
@@ -17552,7 +17562,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 150
+            "pointsPerModel": 125
           },
           "stats": {
             "skill": "5",
@@ -18706,7 +18716,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 24,
-            "pointsPerModel": 7
+            "pointsPerModel": 6
           },
           "stats": {
             "skill": "3",
@@ -19398,7 +19408,7 @@
             "defaultCount": 5,
             "minCount": 4,
             "maxCount": 9,
-            "pointsPerModel": 18
+            "pointsPerModel": 12
           },
           "stats": {
             "skill": "3",
@@ -20072,7 +20082,7 @@
                   "id": "3ce6fb5cd2fdf5e4e9a9cc32cef81e76",
                   "name": "Two Hand Weapons",
                   "targetId": "2CCW",
-                  "points": 5,
+                  "points": 0,
                   "rule": {
                     "id": "2CCW",
                     "name": "Two Hand Weapons",
@@ -20083,7 +20093,7 @@
                   "id": "36375c273f2b44249a482371c80fae1d",
                   "name": "Greatweapon",
                   "targetId": "greatweapon",
-                  "points": 5,
+                  "points": 0,
                   "rule": {
                     "id": "greatweapon",
                     "name": "Greatweapon",
@@ -20273,7 +20283,7 @@
               "id": "Raiders",
               "name": "Raiders",
               "min": 0,
-              "max": 1
+              "max": 2
             },
             {
               "id": "Ranged Support",
@@ -20443,7 +20453,7 @@
             "defaultCount": 10,
             "minCount": 9,
             "maxCount": 24,
-            "pointsPerModel": 7
+            "pointsPerModel": 6
           },
           "stats": {
             "skill": "3",
@@ -22629,7 +22639,17 @@
             }
           ],
           "source": "derived",
-          "derivedFrom": "Warband"
+          "derivedFrom": "Warband",
+          "unitLimits": [
+            {
+              "unitId": "huntingDogs",
+              "max": 1
+            },
+            {
+              "unitId": "peasants",
+              "max": 1
+            }
+          ]
         },
         {
           "id": "warband",
@@ -22667,7 +22687,17 @@
               "max": 1
             }
           ],
-          "source": "catalogue"
+          "source": "catalogue",
+          "unitLimits": [
+            {
+              "unitId": "huntingDogs",
+              "max": 1
+            },
+            {
+              "unitId": "peasants",
+              "max": 1
+            }
+          ]
         },
         {
           "id": "battalion",
@@ -23893,7 +23923,7 @@
             "defaultCount": 6,
             "minCount": 5,
             "maxCount": 5,
-            "pointsPerModel": 25
+            "pointsPerModel": 28
           },
           "stats": {
             "skill": "5",
@@ -24282,7 +24312,7 @@
             "defaultCount": 1,
             "minCount": 1,
             "maxCount": 1,
-            "pointsPerModel": 35
+            "pointsPerModel": 45
           },
           "stats": {
             "skill": "4",
@@ -24713,16 +24743,6 @@
               "max": 1,
               "defaultOptionId": "divineFavour",
               "options": [
-                {
-                  "id": "5796743eaebd3ae42955c225e3a906ed",
-                  "name": "Divine Favour",
-                  "targetId": "divineFavour",
-                  "rule": {
-                    "id": "divineFavour",
-                    "name": "Divine Favour",
-                    "text": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn."
-                  }
-                },
                 {
                   "id": "6f0417182c6d8254f9bed6087e00573a",
                   "name": "Shroud",
@@ -26996,8 +27016,8 @@
           "model": {
             "id": "433ecc57ba38ffd45a5ba3541b0f3937",
             "name": "Newt Braves",
-            "defaultCount": 15,
-            "minCount": 14,
+            "defaultCount": 18,
+            "minCount": 18,
             "maxCount": 23,
             "pointsPerModel": 4
           },
@@ -27662,7 +27682,7 @@
             "skill": "3",
             "power": "4",
             "defense": "4",
-            "attacks": "4",
+            "attacks": "3",
             "wounds": "5",
             "discipline": "7",
             "movement": "12",
@@ -28720,5 +28740,7 @@
       "warnings": []
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Temporary balance hotfixes applied for SOVLDataCatalogue revision 3ebcc16f28c37150a631fddda797c3779b5a925f"
+  ]
 }

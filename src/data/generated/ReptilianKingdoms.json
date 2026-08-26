@@ -359,8 +359,8 @@
       "model": {
         "id": "433ecc57ba38ffd45a5ba3541b0f3937",
         "name": "Newt Braves",
-        "defaultCount": 15,
-        "minCount": 14,
+        "defaultCount": 18,
+        "minCount": 18,
         "maxCount": 23,
         "pointsPerModel": 4
       },
@@ -1025,7 +1025,7 @@
         "skill": "3",
         "power": "4",
         "defense": "4",
-        "attacks": "4",
+        "attacks": "3",
         "wounds": "5",
         "discipline": "7",
         "movement": "12",

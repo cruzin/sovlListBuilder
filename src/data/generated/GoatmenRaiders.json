@@ -310,7 +310,7 @@
         "defaultCount": 10,
         "minCount": 9,
         "maxCount": 24,
-        "pointsPerModel": 7
+        "pointsPerModel": 6
       },
       "stats": {
         "skill": "3",
@@ -1002,7 +1002,7 @@
         "defaultCount": 5,
         "minCount": 4,
         "maxCount": 9,
-        "pointsPerModel": 18
+        "pointsPerModel": 12
       },
       "stats": {
         "skill": "3",
@@ -1676,7 +1676,7 @@
               "id": "3ce6fb5cd2fdf5e4e9a9cc32cef81e76",
               "name": "Two Hand Weapons",
               "targetId": "2CCW",
-              "points": 5,
+              "points": 0,
               "rule": {
                 "id": "2CCW",
                 "name": "Two Hand Weapons",
@@ -1687,7 +1687,7 @@
               "id": "36375c273f2b44249a482371c80fae1d",
               "name": "Greatweapon",
               "targetId": "greatweapon",
-              "points": 5,
+              "points": 0,
               "rule": {
                 "id": "greatweapon",
                 "name": "Greatweapon",

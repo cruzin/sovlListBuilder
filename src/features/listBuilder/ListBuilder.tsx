@@ -18,6 +18,7 @@ import {
   getRetinueCount,
   getRetinueSelection,
   getSelectedRetinueUnit,
+  getUnitSelectionLimit,
   getUnitById,
   listTotal,
   makeListItem,
@@ -379,6 +380,7 @@ function UnitDetails({
   onAdd: () => void
 }) {
   const effectiveModel = getEffectiveModel(unit, force)
+  const maxSelections = getUnitSelectionLimit(unit, force)
   const statEntries = [
     ['Move', unit.stats.movement],
     ['Skill', unit.stats.skill],
@@ -416,7 +418,7 @@ function UnitDetails({
           <span>{effectiveModel?.defaultCount ?? 1} models default</span>
           <span>{formatPoints(unit.model?.pointsPerModel ?? 0)} per model</span>
           {effectiveModel?.minCount !== undefined && <span>Min {effectiveModel.minCount}</span>}
-          {unit.maxSelections !== undefined && <span>Max {unit.maxSelections}</span>}
+          {maxSelections !== undefined && <span>Max {maxSelections}</span>}
           {unit.stats.baseSize && <span>{unit.stats.baseSize} base</span>}
         </div>
         {blockReason && <p className="add-note">{blockReason}</p>}

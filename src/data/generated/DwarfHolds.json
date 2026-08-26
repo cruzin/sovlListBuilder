@@ -190,7 +190,7 @@
         "defaultCount": 10,
         "minCount": 9,
         "maxCount": 24,
-        "pointsPerModel": 7
+        "pointsPerModel": 6
       },
       "stats": {
         "skill": "3",
@@ -978,10 +978,12 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Cannon",
       "categories": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "categoryIds": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "maxSelections": 1,
       "rulesUnitType": "War Machine",
@@ -1043,10 +1045,12 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Bolt Thrower",
       "categories": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "categoryIds": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "maxSelections": 1,
       "rulesUnitType": "War Machine",
@@ -1108,10 +1112,12 @@
       "factionId": "DwarfHolds",
       "name": "Dwarf Stonethrower",
       "categories": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "categoryIds": [
-        "Ranged Support"
+        "Ranged Support",
+        "Machines of War"
       ],
       "maxSelections": 1,
       "rulesUnitType": "War Machine",
@@ -1853,7 +1859,7 @@
         {
           "id": "marksmanRifle",
           "name": "Marksman Rifle",
-          "text": "Range 48. 2x Power 4."
+          "text": "1x shots. Re-rolls missed ranged Attack rolls."
         },
         {
           "id": "sturdy",

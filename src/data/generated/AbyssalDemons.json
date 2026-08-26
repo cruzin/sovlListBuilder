@@ -212,7 +212,7 @@
         {
           "id": "giftOfTrickery",
           "name": "Gift Of Trickery",
-          "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+          "text": "Favoured by Trickery. Unit has Ambush Deployment, +1 Move Speed, and may flee from charges even if Fearless."
         }
       ],
       "optionGroups": [
@@ -872,7 +872,7 @@
         {
           "id": "giftOfTrickery",
           "name": "Gift Of Trickery",
-          "text": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed"
+          "text": "Favoured by Trickery. Unit has Ambush Deployment, +1 Move Speed, and may flee from charges even if Fearless."
         },
         {
           "id": "demonic",

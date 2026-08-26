@@ -25,7 +25,7 @@
           "id": "Fast Attack",
           "name": "Fast Attack",
           "min": 0,
-          "max": 1
+          "max": 2
         },
         {
           "id": "Ranged Support",
@@ -367,7 +367,7 @@
               "id": "8c71be6558644a244a4add423bb971d3",
               "name": "Greatweapon",
               "targetId": "greatweapon",
-              "points": 1,
+              "points": 0,
               "rule": {
                 "id": "greatweapon",
                 "name": "Greatweapon",
@@ -774,7 +774,7 @@
               "id": "901c48e2d45ecda4f8ef9fcaab4bbed3",
               "name": "Greatweapon",
               "targetId": "greatweapon",
-              "points": 1,
+              "points": 0,
               "rule": {
                 "id": "greatweapon",
                 "name": "Greatweapon",
@@ -785,7 +785,7 @@
               "id": "5d72f15efc68ce24a8ea6a8dde6651c4",
               "name": "Lance and Shield",
               "targetId": "lanceShield",
-              "points": 2,
+              "points": 1,
               "rule": {
                 "id": "lanceShield",
                 "name": "Lance and Shield",
@@ -898,7 +898,7 @@
         "defaultCount": 5,
         "minCount": 4,
         "maxCount": 9,
-        "pointsPerModel": 19
+        "pointsPerModel": 18
       },
       "stats": {
         "skill": "3",
@@ -1387,10 +1387,12 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Cannon",
       "categories": [
-        "Ranged Support"
+        "Ranged Support",
+        "Imperial Armory"
       ],
       "categoryIds": [
-        "Ranged Support"
+        "Ranged Support",
+        "Imperial Armory"
       ],
       "maxSelections": 1,
       "rulesUnitType": "War Machine",
@@ -1400,7 +1402,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 60
+        "pointsPerModel": 55
       },
       "stats": {
         "skill": "3",
@@ -1452,10 +1454,12 @@
       "factionId": "EmpiresOfMen",
       "name": "Imperial Mortar",
       "categories": [
-        "Ranged Support"
+        "Ranged Support",
+        "Imperial Armory"
       ],
       "categoryIds": [
-        "Ranged Support"
+        "Ranged Support",
+        "Imperial Armory"
       ],
       "maxSelections": 1,
       "rulesUnitType": "War Machine",
@@ -1465,7 +1469,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 55
+        "pointsPerModel": 50
       },
       "stats": {
         "skill": "3",
@@ -1648,7 +1652,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 150
+        "pointsPerModel": 125
       },
       "stats": {
         "skill": "5",

@@ -161,7 +161,7 @@
         "defaultCount": 10,
         "minCount": 9,
         "maxCount": 20,
-        "pointsPerModel": 8
+        "pointsPerModel": 7
       },
       "stats": {
         "skill": "4",
@@ -426,7 +426,7 @@
         "defaultCount": 10,
         "minCount": 9,
         "maxCount": 17,
-        "pointsPerModel": 11
+        "pointsPerModel": 10
       },
       "stats": {
         "skill": "5",
@@ -869,7 +869,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 60
+        "pointsPerModel": 50
       },
       "stats": {
         "skill": "4",
@@ -1067,7 +1067,7 @@
         "defaultCount": 5,
         "minCount": 4,
         "maxCount": 9,
-        "pointsPerModel": 17
+        "pointsPerModel": 16
       },
       "stats": {
         "skill": "4",
@@ -1486,7 +1486,7 @@
         "defaultCount": 1,
         "minCount": 1,
         "maxCount": 1,
-        "pointsPerModel": 150
+        "pointsPerModel": 125
       },
       "stats": {
         "skill": "5",
