@@ -143,6 +143,223 @@ export function exportArmyList(faction: CatalogueFaction, items: ArmyListItem[],
   return lines.join('\n')
 }
 
+export function exportSovlListFile(faction: CatalogueFaction, items: ArmyListItem[], force?: ForceFormat): string {
+  const id = crypto.randomUUID()
+  const factionIndex = getFactionType(faction)
+  const sections = new Map<string, unknown[]>()
+
+  for (const limit of force?.categoryLimits ?? []) {
+    if (limit.name !== 'Commanders' && limit.name !== 'Battle Line') {
+      sections.set(limit.name, [])
+    }
+  }
+
+  const characters = {
+    sectionName: 'Commanders',
+    entries: items
+      .filter((item) => !item.retinueForItemId)
+      .map((item) => {
+        const unit = getUnitById(faction, item.unitId)
+        if (!unit?.categories.includes('Commanders')) {
+          return undefined
+        }
+        const retinue = items.find((candidate) => candidate.retinueForItemId === item.id)
+        const retinueUnit = retinue ? getUnitById(faction, retinue.unitId) : undefined
+        return makeSovlEntry(retinue ?? item, retinueUnit ?? unit, factionIndex, item, unit)
+      })
+      .filter((entry): entry is ReturnType<typeof makeSovlEntry> => Boolean(entry)),
+  }
+  const battleLine = {
+    sectionName: 'Battle Line',
+    entries: [] as unknown[],
+  }
+
+  for (const item of items) {
+    if (item.retinueForItemId) {
+      continue
+    }
+    const unit = getUnitById(faction, item.unitId)
+    if (!unit || unit.categories.includes('Commanders')) {
+      continue
+    }
+    const entry = makeSovlEntry(item, unit, factionIndex)
+    if (unit.categories.includes('Battle Line')) {
+      battleLine.entries.push(entry)
+      continue
+    }
+    const sectionName = unit.categories[0] ?? 'Other'
+    if (!sections.has(sectionName)) {
+      sections.set(sectionName, [])
+    }
+    sections.get(sectionName)?.push(entry)
+  }
+
+  return JSON.stringify({
+    listName: `${faction.name} ${force?.name ?? 'List'}`,
+    id,
+    factionType: factionIndex,
+    armySize: getArmySizeValue(force),
+    armyAppearance: getDefaultArmyAppearance(factionIndex),
+    armyIcon: 0,
+    characters,
+    battleLine,
+    armyListSections: Array.from(sections.entries()).map(([sectionName, entries]) => ({ sectionName, entries })),
+  })
+}
+
+function makeSovlEntry(
+  item: ArmyListItem,
+  unit: CatalogueUnit,
+  factionIndex: number,
+  commanderItem?: ArmyListItem,
+  commanderUnit?: CatalogueUnit,
+) {
+  const hasCharacter = Boolean(commanderItem && commanderUnit)
+  return {
+    count: item.count,
+    width: getSovlWidth(unit, item.count),
+    customWidthSet: false,
+    character:
+      hasCharacter && commanderItem && commanderUnit
+        ? makeSovlCharacter(commanderItem, commanderUnit, factionIndex)
+        : null,
+    hasCharacter,
+    deadCharacter: false,
+    unitID: unit.id,
+    flavourName: unit.name,
+    faction: factionIndex,
+    pattern: {
+      pattern: 0,
+      inverted: false,
+    },
+    propertySelections: getSovlPropertySelections(unit, item),
+    magicItems: getSovlMagicItems(unit, item),
+    spells: getSovlSpells(unit, item),
+    campaignUnitProgress: null,
+    altSkin: null,
+    firstName: null,
+    UnitSeed: getStableUnitSeed(item.id),
+  }
+}
+
+function makeSovlCharacter(item: ArmyListItem, unit: CatalogueUnit, factionIndex: number) {
+  return {
+    unitID: unit.id,
+    flavourName: unit.name,
+    faction: factionIndex,
+    pattern: {
+      pattern: 0,
+      inverted: false,
+    },
+    propertySelections: getSovlPropertySelections(unit, item),
+    magicItems: getSovlMagicItems(unit, item),
+    spells: getSovlSpells(unit, item),
+    campaignUnitProgress: null,
+    altSkin: '',
+    firstName: unit.name.split(' ')[0] ?? '',
+    UnitSeed: getStableUnitSeed(item.id),
+  }
+}
+
+function getSovlPropertySelections(unit: CatalogueUnit, item: ArmyListItem): string[] {
+  return item.selectedOptions
+    .map((selected) => {
+      const group = unit.optionGroups.find((candidate) => candidate.id === selected.groupId)
+      if (!group || /retinue|magic|spell|cantrip/i.test(group.name)) {
+        return undefined
+      }
+      return group.options.find((option) => option.id === selected.optionId)?.targetId
+    })
+    .filter((option): option is string => Boolean(option))
+}
+
+function getSovlMagicItems(unit: CatalogueUnit, item: ArmyListItem): string[] | null {
+  const magicItems = item.selectedOptions
+    .map((selected) => {
+      const group = unit.optionGroups.find((candidate) => candidate.id === selected.groupId)
+      if (!group || !/magic/i.test(group.name)) {
+        return undefined
+      }
+      return group.options.find((option) => option.id === selected.optionId)?.targetId
+    })
+    .filter((option): option is string => Boolean(option))
+
+  return magicItems.length > 0 ? magicItems : null
+}
+
+function getSovlSpells(unit: CatalogueUnit, item: ArmyListItem): string[] | null {
+  const spells = item.selectedOptions
+    .map((selected) => {
+      const group = unit.optionGroups.find((candidate) => candidate.id === selected.groupId)
+      if (!group || !/spell|cantrip/i.test(group.name)) {
+        return undefined
+      }
+      return group.options.find((option) => option.id === selected.optionId)?.targetId
+    })
+    .filter((option): option is string => Boolean(option))
+
+  return spells.length > 0 ? spells : null
+}
+
+function getFactionType(faction: CatalogueFaction): number {
+  return Math.max(0, faction.id === 'EmpiresOfMen' ? 1 : factionIdOrder.indexOf(faction.id))
+}
+
+const factionIdOrder = [
+  'AbyssalDemons',
+  'EmpiresOfMen',
+  'AbyssalLegions',
+  'DarkbornElves',
+  'DeadNations',
+  'DeepwoodGuardians',
+  'DwarfHolds',
+  'ElvenConclaves',
+  'GoatmenRaiders',
+  'GreenskinTribes',
+  'KnightsOfAvalon',
+  'RatkinClans',
+  'ReptilianKingdoms',
+]
+
+function getArmySizeValue(force: ForceFormat | undefined): number {
+  if (force?.id === 'border-patrol') {
+    return 4
+  }
+  if (force?.id === 'warband') {
+    return 0
+  }
+  if (force?.id === 'battalion') {
+    return 1
+  }
+  if (force?.id === 'legion') {
+    return 2
+  }
+  return 0
+}
+
+function getDefaultArmyAppearance(factionIndex: number) {
+  return {
+    primary: 3,
+    secondary: 31,
+    icon: factionIndex === 1 ? 49 : 0,
+  }
+}
+
+function getSovlWidth(unit: CatalogueUnit, count: number): number {
+  if (unit.model?.maxCount === 1 || count === 1) {
+    return 5
+  }
+  return Math.max(3, Math.min(7, Math.ceil(Math.sqrt(count)) + 1))
+}
+
+function getStableUnitSeed(value: string): number {
+  let hash = 0
+  for (const char of value) {
+    hash = (hash * 31 + char.charCodeAt(0)) % 10000
+  }
+  return hash
+}
+
 export function listTotal(faction: CatalogueFaction | undefined, items: ArmyListItem[]): number {
   if (!faction) {
     return 0
@@ -169,6 +386,7 @@ export function getCategoryUsage(
   faction: CatalogueFaction | undefined,
   items: ArmyListItem[],
   force: ForceFormat | undefined,
+  options: { countRetinues?: boolean } = {},
 ): Map<string, number> {
   const usage = new Map<string, number>()
   if (!faction || !force) {
@@ -176,6 +394,9 @@ export function getCategoryUsage(
   }
 
   for (const item of items) {
+    if (item.retinueForItemId && !options.countRetinues) {
+      continue
+    }
     const unit = getUnitById(faction, item.unitId)
     if (!unit) {
       continue
@@ -226,14 +447,16 @@ export function getArmyLimitWarnings(
   }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
+  const categoryMinimumUsage = getCategoryUsage(faction, items, force, { countRetinues: true })
   for (const limit of force.categoryLimits) {
-    const current = categoryUsage.get(limit.id) ?? 0
-    if (limit.min !== undefined && current < limit.min) {
-      const needed = limit.min - current
+    const currentForMinimum = categoryMinimumUsage.get(limit.id) ?? 0
+    const currentForMaximum = categoryUsage.get(limit.id) ?? 0
+    if (limit.min !== undefined && currentForMinimum < limit.min) {
+      const needed = limit.min - currentForMinimum
       warnings.push(`${limit.name} needs ${formatCount(needed)} more selection${needed === 1 ? '' : 's'}.`)
     }
-    if (limit.max !== undefined && current > limit.max) {
-      warnings.push(`${limit.name} has ${formatCount(current)}; maximum is ${formatCount(limit.max)}.`)
+    if (limit.max !== undefined && currentForMaximum > limit.max) {
+      warnings.push(`${limit.name} has ${formatCount(currentForMaximum)}; maximum is ${formatCount(limit.max)}.`)
     }
   }
 
@@ -326,12 +549,9 @@ export function getAddUnitBlockReason(
   }
 
   const categoryUsage = getCategoryUsage(faction, items, force)
-  const addedUnits = [unit, ...(retinueUnit ? [retinueUnit] : [])]
   const blockedCategory = force.categoryLimits.find((limit) => {
-    const addedCount = addedUnits.reduce((total, addedUnit) => {
-      const matches = addedUnit.categoryIds.includes(limit.id) || addedUnit.categories.includes(limit.name)
-      return total + (matches ? getCategoryLimitWeight(addedUnit, limit.name) : 0)
-    }, 0)
+    const matches = unit.categoryIds.includes(limit.id) || unit.categories.includes(limit.name)
+    const addedCount = matches ? getCategoryLimitWeight(unit, limit.name) : 0
     return limit.max !== undefined && addedCount > 0 && (categoryUsage.get(limit.id) ?? 0) + addedCount > limit.max
   })
 

@@ -6,6 +6,7 @@ import { useLocalArmyList } from './useLocalArmyList'
 import {
   clampModelCount,
   exportArmyList,
+  exportSovlListFile,
   formatCount,
   formatOptionCost,
   formatPoints,
@@ -31,7 +32,6 @@ import './ListBuilder.css'
 const factions = catalogue.factions as CatalogueFaction[]
 const UNIT_SECTION_ORDER = ['Commanders', 'Battle Line', 'Ranged Support', 'Fast Attack']
 const SOVL_LISTS_PATH = '%USERPROFILE%\\AppData\\LocalLow\\DalenStudios\\SOVL\\lists'
-const SOVL_LISTS_FILE_URL = 'file:///%USERPROFILE%/AppData/LocalLow/DalenStudios/SOVL/lists'
 
 type UnitSection = {
   label: string
@@ -49,6 +49,7 @@ export function ListBuilder() {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
   const [copyState, setCopyState] = useState<'idle' | 'copied'>('idle')
+  const [downloadState, setDownloadState] = useState<'idle' | 'downloaded'>('idle')
   const [folderState, setFolderState] = useState<'idle' | 'copied'>('idle')
 
   const selectedUnit = faction?.units.find((unit) => unit.id === selectedUnitId) ?? faction?.units[0]
@@ -75,6 +76,7 @@ export function ListBuilder() {
   const unitCount = getOverallUnitCount(items)
   const limitWarnings = getArmyLimitWarnings(faction, items, force)
   const categoryUsage = getCategoryUsage(faction, items, force)
+  const categoryMinimumUsage = getCategoryUsage(faction, items, force, { countRetinues: true })
 
   useEffect(() => {
     if (!faction || !force) {
@@ -150,11 +152,30 @@ export function ListBuilder() {
     window.setTimeout(() => setCopyState('idle'), 1600)
   }
 
-  async function openSovlListFolder() {
-    window.open(SOVL_LISTS_FILE_URL, '_blank', 'noopener,noreferrer')
+  async function copySovlListFolderPath() {
     await navigator.clipboard.writeText(SOVL_LISTS_PATH)
     setFolderState('copied')
     window.setTimeout(() => setFolderState('idle'), 1600)
+  }
+
+  function downloadSovlListFile() {
+    if (!faction || items.length === 0) {
+      return
+    }
+
+    const blob = new Blob([exportSovlListFile(faction, items, force)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.download = `${slugifyFilename(faction.name)}-${slugifyFilename(force?.id ?? 'list')}-${new Date()
+      .toISOString()
+      .slice(0, 10)}.json`
+    document.body.appendChild(link)
+    link.click()
+    link.remove()
+    URL.revokeObjectURL(url)
+    setDownloadState('downloaded')
+    window.setTimeout(() => setDownloadState('idle'), 1600)
   }
 
   return (
@@ -287,8 +308,9 @@ export function ListBuilder() {
           <div className="limit-summary" aria-label={`${force.name} limits`}>
             {force.categoryLimits.map((limit) => {
               const current = categoryUsage.get(limit.id) ?? 0
+              const currentForMinimum = categoryMinimumUsage.get(limit.id) ?? 0
               const isOver = limit.max !== undefined && current > limit.max
-              const isUnder = limit.min !== undefined && current < limit.min
+              const isUnder = limit.min !== undefined && currentForMinimum < limit.min
               return (
                 <span className={isOver || isUnder ? 'limit-chip warning' : 'limit-chip'} key={limit.id}>
                   {limit.name}: {formatCount(current)}
@@ -312,14 +334,17 @@ export function ListBuilder() {
           <button onClick={save} type="button">
             Save
           </button>
-          <button className="folder-button" onClick={openSovlListFolder} type="button">
-            {folderState === 'copied' ? 'Path copied' : 'SOVL list folder'}
+          <button disabled={items.length === 0} onClick={downloadSovlListFile} type="button">
+            {downloadState === 'downloaded' ? 'Downloaded' : 'Download file'}
           </button>
           <button onClick={clear} type="button">
             Clear
           </button>
           <button disabled={items.length === 0} onClick={copyExport} type="button">
             {copyState === 'copied' ? 'Copied' : 'Copy'}
+          </button>
+          <button className="folder-button" onClick={copySovlListFolderPath} type="button">
+            {folderState === 'copied' ? 'Path copied' : 'SOVL list folder'}
           </button>
         </div>
         {lastSavedAt && <p className="save-note">Saved {new Date(lastSavedAt).toLocaleString()}</p>}
@@ -367,6 +392,15 @@ function groupUnitsBySection(units: CatalogueUnit[]): UnitSection[] {
   return [...UNIT_SECTION_ORDER, 'Other']
     .map((label) => ({ label, units: sections.get(label) ?? [] }))
     .filter((section) => section.units.length > 0)
+}
+
+function slugifyFilename(value: string): string {
+  const slug = value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+  return slug || 'sovl-list'
 }
 
 function UnitDetails({
